@@ -1,0 +1,87 @@
+﻿l_russian:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
+
+ # Mini megastructures
+ NAME_ruined_observation_station_1:1 "Разрушенная Станция"
+ NAME_ruined_observation_station_2:1 "Заброшенная Станция"
+ NAME_ruined_observation_station_3:1 "Изношенная Станция"
+ NAME_ruined_observation_station_4:1 "Разгерметизированная Станция"
+ NAME_ruined_observation_station_5:1 "Ветхая Станция"
+ 
+ NAME_ruined_mining_facility_1:1 "Заброшенный Горнодобывающий Объект"
+ NAME_ruined_mining_facility_2:1 "Изношенный Буровой Комплекс"
+ NAME_ruined_mining_facility_3:1 "Покинутая База-Астероид"
+ NAME_ruined_mining_facility_4:1 "Комплекс Астероидной Добычи"
+ NAME_ruined_mining_facility_5:1 "Бывший Центр Космодобычи"
+ 
+ NAME_ruined_refinery_1:1 "Разрушенный Газомультипликатор"
+ NAME_ruined_refinery_2:1 "Изношенный Газомультипликатор"
+ NAME_ruined_refinery_3:1 "Ветхий Газомультипликатор"
+ NAME_ruined_refinery_4:1 "Заброшенный Газомультипликатор"
+ NAME_ruined_refinery_5:1 "Разгерметизированный Газомультипликатор"
+ 
+ NAME_ruined_silo_1:1 "Разрушенный Складской Комплекс"
+ NAME_ruined_silo_2:1 "Скрытый Складской Комплекс"
+ NAME_ruined_silo_3:1 "Разгерметизированный Складской Комплекс"
+ NAME_ruined_silo_4:1 "Ветхий Складской Комплекс"
+ NAME_ruined_silo_5:1 "Покинутый Складской Комплекс"
+
+ gpm_mega_shipyard_ruined_precursor:0 "Разрушенные Верфи Предтечей"
+ gpm_mega_shipyard_ruined_precursor_DESC:0 "Это разрушенный сборочный корабельный комплекс какой-то древней но продвинутой рассы, жившей в этой части галактики задолго до появления в ней нас."
+ gpm_mega_shipyard_ruined_precursor_MEGASTRUCTURE_DETAILS:0 "Эта $mega_shipyard_3$ знавала лучшие дни. Она больше не будет производить корабли без масштабного восстановления."
+ gpm_mega_shipyard_restored_precursor:0 "Восстановленные Верфи Предтечей"
+ gpm_mega_shipyard_restored_precursor_DESC:0 "Этот разрушенный сборочный, корабельный комплекс какой-то древней но продвинутой рассы, жившей в этой части галактики задолго до появления в ней нас, был восстановлен в меру наших возможностей."
+ 
+ gpm_refinery_ruined:1 "Разрушенный Газомультипликатор"
+ gpm_refinery_ruined_DESC:1 ""
+ gpm_refinery_ruined_MEGASTRUCTURE_DETAILS:1 "$gpm_refinery_ruined_DESC$"
+ 
+ gpm_refinery_restored:1 "Восстановленный Газомультипликатор"
+ gpm_refinery_restored_DESC:1 ""
+ 
+ gpm_mining_facility_ruined:1 "Заброшенный Горнодобывающий Комплекс"
+ gpm_mining_facility_ruined_DESC:1 ""
+ gpm_mining_facility_ruined_MEGASTRUCTURE_DETAILS:1 "$gpm_mining_facility_ruined_DESC$"
+ 
+ gpm_mining_facility_restored:1 "Восстановленный Горнодобывающий Комплекс"
+ gpm_mining_facility_restored_DESC:1 ""
+ 
+ 
+ gpm_observation_station_ruined:1 "Ветхий Комплекс"
+ gpm_observation_station_ruined_DESC:1 "На орбите этого мира вращается древняя разрушенная структура. Быть может это наблюдательный комплекс? Её обломки летают здесь повсюду."
+ gpm_observation_station_ruined_MEGASTRUCTURE_DETAILS:1 "$gpm_observation_station_ruined_DESC$"
+ 
+ gpm_observation_station_restored:1 "Восстановленный Наблюдательный Комплекс"
+ gpm_observation_station_restored_DESC:1 "На орбите этого мира вращается древняя разрушенная структура. По оборудованию внутри комплекса и количеству информационных кристаллов было определено его назначение. Похоже это наблюдательный комплекс, мы строим подобные над примитивными мирами для отслеживания развития низших расс. Комплекс был восстановлен, и теперь пора взглянуть на содержимое его архивов подробнее..."
+ 
+ gpm_silo_ruined:1 "Разрушенный Складской Комплекс"
+ gpm_silo_ruined_DESC:1 ""
+ gpm_silo_ruined_MEGASTRUCTURE_DETAILS:1 "$gpm_silo_ruined_DESC$"
+ 
+ gpm_silo_restored:1 "База Снабжения Дальнего Космоса"
+ gpm_silo_restored_DESC:1 ""
+
+ # exploration events
+ # Ruined Refinery
+ gpm_mega.1.name:1 "Гигантский Бак"
+ gpm_mega.1.desc:1 "Как только мы вошли в систему §Y[from.GetName]§! наши сенсоры зарегистрировали гигантский объект. Один громадный комплекс удерживается на орбите над газовым гигантом. На него стоило бы взглянуть поближе."
+
+ # Ruined Mining Facility
+ gpm_mega.2.name:1 "Минеральный Фонтан"
+ gpm_mega.2.desc:1 "Один из астероидов в системе §Y[from.GetName]§! испускает поток пыли с мелкими частицами. Похоже, что из него вылетают разные мелкофракционные минералы! Здесь определённо что-то происходит."
+
+ # Ruined Station
+ gpm_mega.3.name:1 "Мусорный Дом"
+ gpm_mega.3.desc:1 "Дальние сенсоры фиксируют необычную активность, исходящую из системы §Y[from.GetName]§! Очень большой искусственный комплекс, окруженный опасно-большим количеством обломков, вращается вокруг, казалось бы, ничем не примечательной планеты. Нам определённо стоит взглянуть поближе."
+
+ # Ruined Silo
+ gpm_mega.4.name:1 "Подпространственный Рупор"
+ gpm_mega.4.desc:1 "Как только мы вошли в систему §Y[from.GetName]§!, сразу же зазвучало несколько автоматических предупреждений. Кажется, что-то излучает очень сильные подпространственные сигналы. Сканеры обнаружили большую структуру на краю системы, которая, вероятно, является источником этих странных излучений."
