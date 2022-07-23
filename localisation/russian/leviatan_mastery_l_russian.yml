@@ -223,7 +223,7 @@
  dna_components:0 "ДНК"
  dna_components_DESC:0 "$dna_components$ Порождения Пустоты."
  
- tech_voidspawn_description: "Контент модификации: §H«The Great Voidspawn»§!"
+ tech_voidspawn_description: "-----\nКонтент модификации: §H«The Great Voidspawn»§!"
  
  tech_voidspawn:0 "Познание $dna_components$ $voidspawn_vanguard$а"
  tech_voidspawn_desc:0 "Наш вид, наконец-то, полностью постиг генетическую структуру $voidspawn_vanguard$а. Теперь мы могли бы, в теории конечно, породить подобную сущность.\n$tech_voidspawn_description$"
