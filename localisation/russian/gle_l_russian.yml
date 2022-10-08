@@ -774,144 +774,144 @@ gle_trait_direction_clerk_modifier_desc: "$gle_trait_direction_descs$"
 gle_trait_direction_colonist: "\n§YГубернатор§! получит §G+1§! опыта в месяц из каждой колонии сектора." #1 v
 gle_trait_direction_colonist_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_colonist_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_communal: "\n§Y$hyper_relay_plural$§! within sector have their wind up time reduced by §G-50%§!." #overlord dlc, #3 v
+gle_trait_direction_communal: "\nВ пределах сектора §Y$hyper_relay_plural$§! получают (wind up time reduced - может ускорение?) на §G-50%§!." #overlord dlc, #3 v
 gle_trait_direction_communal_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_communal_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_community: "\nEach system controlled by this sector increase our £unity£ §YMonthly $unity$§! by §G+0.25%§!." #controlled_systems, #5 v
+gle_trait_direction_community: "\nКаждая система подотчётная данному сектору повышает выработку £unity£ §Y$unity$ ежемесячно§! на §G+0.25%§!." #controlled_systems, #5 v
 gle_trait_direction_community_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_community_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_conformists: "\nIf a £pops£ §YPop§! has a opposite Ethic from ours, they gain §G+30%§! §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§!." #3 v
+gle_trait_direction_conformists: "\nВ случае если этика подконтрольного £pops£ §Yнаселения§! опозиционна нашей, население получает надбавку в виде: §G+30%§! §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§!." #3 v
 gle_trait_direction_conformists_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_conformists_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_coordinator: "\n£job_coordinator£ §Y$job_coordinator_plural$§! produces §G+1§! £unity£ §Y$unity$§!." #machine only, #4 o
+gle_trait_direction_coordinator: "\n£job_coordinator£ §Y$job_coordinator_plural$§! производят дополнительно §G+1§! £unity£ §Y$unity$§!." #machine only, #4 o
 gle_trait_direction_coordinator_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_coordinator_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_corvee: "\nEvery year, £pops£ §YPops§! have §Y10%§! chance to gain §G-33%§! §Y$MOD_POP_RESETTLEMENT_COST_MULT$§! for §Y20§! years." #pop_resettlement_cost_mult, #2 v
+gle_trait_direction_corvee: "\nЕжегодно, £pops£ §Yподконтрольное население§! получает §Y10%§! шанс на участие в программе субсидирования эммиграции - §G-33%§! §Y$MOD_POP_RESETTLEMENT_COST_MULT$§! на §Y20§! лет." #pop_resettlement_cost_mult, #2 v
 gle_trait_direction_corvee_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_corvee_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_council_seat: "\nGain a monthly £influence£ §Y$influence$§! at the beginning of the year." #4 v
+gle_trait_direction_council_seat: "\nЕжемесячно повышает £influence£ §Y$influence$§! до начала следующего года." #4 v
 gle_trait_direction_council_seat_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_council_seat_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_crystal_miner: "\n£job_crystal_miner£ §Y$job_crystal_miner_plural$§!, £job_gas_extractor£ §Y$job_gas_extractor_plural$§!, and £job_mote_harvester£ §Y$job_mote_harvester_plural$§! also produce §G+8§! £society_research£ §Y$society_research$§!." #5 o
+gle_trait_direction_crystal_miner: "\n£job_crystal_miner£ §Y$job_crystal_miner_plural$§!, £job_gas_extractor£ §Y$job_gas_extractor_plural$§!, and £job_mote_harvester£ §Y$job_mote_harvester_plural$§! проводят добавочное количество научных изысканий приобретая при этом §G+8§! £society_research£ §Y$society_research$§!." #5 o
 gle_trait_direction_crystal_miner_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_crystal_miner_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_crystal: "\nDistricts and Buildings have their upkeep of £rare_crystals£ §Y$rare_crystals$§! reduced by §G-50%§!." #4 o
+gle_trait_direction_crystal: "\nРайоны и строения меняют издержки своего производства в подкатегориях: £rare_crystals£ §Y$rare_crystals$§! на §G-50%§!." #4 o
 gle_trait_direction_crystal_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_crystal_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_culture_worker: "\n§G+1§! £job_culture_worker£ §Y$job_culture_worker$§! across the sector planets." #4 o
+gle_trait_direction_culture_worker: "\nНазначает дополнительно §G+1§! должность класса £job_culture_worker£ §Y$job_culture_worker$§! на каждую волость сектора." #4 o
 gle_trait_direction_culture_worker_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_culture_worker_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_cycle: "\nEvery year, sector planets have §Y20%§! chance to receive §G-20%§! job upkeep for a year." #planet_jobs_upkeep_mult, #4 v
+gle_trait_direction_cycle: "\nУчереждает §Hежегодное§! проведение конкурса, при котором каждая подотчётная сектору планета получает §Y20%§! шанс на получение субсидий на содержание своих рабочих мест от государства в размере §G20%§! от стоимости их содержания §Hна целый год§!." #planet_jobs_upkeep_mult, #4 v
 gle_trait_direction_cycle_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_cycle_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_dark_matter: "\nEach system in sector provides §G+2%§! §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! to sector colonies." #2 v
+gle_trait_direction_dark_matter: "\nКаждая подотчётная планета сектора предоставляет §G+2%§! §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! каждой подотчётной обитаемой планете." #2 v
 gle_trait_direction_dark_matter_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_dark_matter_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_death_priest: "\n§G+1§! £job_death_priest£ §Y$job_death_priest$§! across the sector planets." #spiritalist only, #3 o
+gle_trait_direction_death_priest: "\nНазначает дополнительно §G+1§! должность класса £job_death_priest£ §Y$job_death_priest$§! на каждую волость сектора." #spiritalist only, #3 o
 gle_trait_direction_death_priest_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_death_priest_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_decadent: "\n§G+20%§! §Y$mod_pop_cat_slave_happiness$§! across the sector." #slave only #pop_cat_slave_happiness, #2 o
+gle_trait_direction_decadent: "\nПредоставляет модификатор в §G+20%§! к уровню §Y$mod_pop_cat_slave_happiness$§! по всему подконтрольному сектору." #slave only #pop_cat_slave_happiness, #2 o
 gle_trait_direction_decadent_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_decadent_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_decryption: "\n§G-15%§! §Y[Root.CrimeOrDeviancy]§! when planet's £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! is above §Y75§!." #3 v
+gle_trait_direction_decryption: "\nПредоставляет модификатор в §G-15%§! к параметру §Y[Root.CrimeOrDeviancy]§! при превышении значения свойства £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! свыше §Y75§!." #3 v
 gle_trait_direction_decryption_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_decryption_modifier_desc: "$gle_trait_direction_descs$"
 gle_trait_direction_decryption_geth_modifier: "$gle_trait_direction_decryption_modifier$"
 gle_trait_direction_decryption_geth_modifier_desc: "$gle_trait_direction_decryption_geth_modifier$"
-gle_trait_direction_discovery: "\nEach §YResearch Stations§! in the sector gives §G+3§! £unity£ §Y$unity$§! every month." #4 v
+gle_trait_direction_discovery: "\nКаждая §YИсследовательска Станция§! сектора предоставляет бонус в §G+3§! £unity£ §Y$unity$§! ежемесячно." #4 v
 gle_trait_direction_discovery_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_discovery_modifier_desc: "$gle_trait_direction_descs$"
 gle_trait_direction_docile: "\n§G-5%§! §Y$MOD_EMPIRE_SIZE_POPS_MULT$§!." #4 o
 gle_trait_direction_docile_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_docile_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_domination: "\n§YGovernor§! gains §G+4§! experiences per month." #1 v
+gle_trait_direction_domination: "\n§YГубернатор§! проходит государственные курсы повышения квалификации и получает §G+4§! опыта ежемесячно." #1 v
 gle_trait_direction_domination_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_domination_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_drone: "\nIf planet's £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! is §Y75§! or more, §G-10%§! §Y$MOD_SPECIES_EMPIRE_SIZE_MULT$§!." #3 v
+gle_trait_direction_drone: "\nВ случае превышения £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! свыше §Y75§!, изменаяет §G-10%§! §Y$MOD_SPECIES_EMPIRE_SIZE_MULT$§!." #3 v
 gle_trait_direction_drone_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_drone_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_duelist: "\n§G+1§! £job_duelist£ §Y$job_duelist$§! Job across the sector." #4 o
+gle_trait_direction_duelist: "\nНазначает дополнительно §G+1§! должность класса £job_duelist£ §Y$job_duelist$§! на каждую волость сектора." #4 o
 gle_trait_direction_duelist_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_duelist_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_elite: "\nEach sector systems gives §YGovernor§! §G+0.2§! experience." #1 v
+gle_trait_direction_elite: "\nКаждая планета подконтрольного §YГубернатору§! сектора предоставляет ему дополнительную нагрузку и повышает уровень его опыта на §G+0.2§!." #1 v
 gle_trait_direction_elite_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_elite_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_embassy: "\n§G+5%§! Production from £job£ §YJobs§! when our §Y$DIPLOMACY_STANCE$§! is §Y$diplo_stance_cooperative$§! or §Y$diplo_stance_mercantile$§!." #2 v
+gle_trait_direction_embassy: "\nПовышает выработку продукции на §G+5%§! от £job£ §Yдолжностей§! при §Y$DIPLOMACY_STANCE$§! §Y$diplo_stance_cooperative$§! или §Y$diplo_stance_mercantile$§!." #2 v
 gle_trait_direction_embassy_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_embassy_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_embassy2: "\nEach year has §G10%§! of chance of increasing £job£ §YJobs Production§! by §G+33%§! for §Y12§! months." #4 v
+gle_trait_direction_embassy2: "\nЕжегодно получает §G10%§! шанс изменить £job£ §Yпродуктивность должностей§! на §G+33%§! в течении следующих §Y12§! месяцев." #4 v
 gle_trait_direction_embassy2_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_embassy2_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_encryption: "\nWhen colony's §Y[Root.CrimeOrDeviancy]§! is below zero, gain §G+5§! £stability£ §Y$MOD_PLANET_STABILITY_ADD$§!." #3 v
+gle_trait_direction_encryption: "\nВ случае упущения значения §Y[Root.CrimeOrDeviancy]§! на планете ниже нуля, изменяет £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! на §G+5§!." #3 v
 gle_trait_direction_encryption_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_encryption_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_energy: "\n§G+15%§! §YEnergy Production§! from £job£ §YJobs§!." #3 o
+gle_trait_direction_energy: "\nЛокально субсидирует целевую отрасль изменяя выработку §Yэнергии§! на §G+15%§! от £job£ §Yдолжностей§!." #3 o
 gle_trait_direction_energy_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_energy_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_energy2: "\nWhen country's monthly energy income is positive, §G+10%§! §YEnergy Production§! from £job£ §YJobs§!." #2 v
+gle_trait_direction_energy2: "\nКогда ежемесячный энергетический доход сектора положителен, локально субсидирует целевую отрасль изменяя выработку §Yэнергии§! на §G+10%§! от £job£ §Yдолжностей§!." #2 v
 gle_trait_direction_energy2_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_energy2_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_enforcer: "\nWhen planet's §Y[Root.CrimeOrDeviancy]§! is below zero, grant §G-25%§! §Y[Root.CrimeOrDeviancy]§!." #2 v
+gle_trait_direction_enforcer: "\nВ случае упущения значения §Y[Root.CrimeOrDeviancy]§! на планете ниже нуля, понижает на §G-25%§! §Y[Root.CrimeOrDeviancy]§!." #2 v
 gle_trait_direction_enforcer_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_enforcer_modifier_desc: "$gle_trait_direction_descs$"
 gle_trait_direction_enforcer_geth_modifier: "$gle_trait_direction_enforcer_modifier$"
 gle_trait_direction_enforcer_geth_modifier_desc: "$gle_trait_direction_enforcer_modifier_desc$"
-gle_trait_direction_engineer: "\nEvery colony §G+5§! £engineering_research£ §Y$engineering_research$§!." #3 o
+gle_trait_direction_engineer: "\nУчереждает локальные £engineering_research£ §Y$engineering_research$§! каждой волости, получая при этом бонус в §G+5§! с каждой волости в вышеуказанной отрасли." #3 o
 gle_trait_direction_engineer_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_engineer_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_entertainer: "\n§G+10§! £mod_planet_amenities_add£ §Y$MOD_PLANET_AMENITIES_ADD$§! on every colony." #3 o
+gle_trait_direction_entertainer: "\nУчереждает конкрусные мероприятия изменяя £mod_planet_amenities_add£ §Y$MOD_PLANET_AMENITIES_ADD$§! на значение §G+10§! для каждой подконтрольной волости." #3 o
 gle_trait_direction_entertainer_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_entertainer_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_envoy: "\nWhen planets' £pops£ Population is §Y10§! or less, §G+25%§! §Y$MOD_POP_GROWTH_SPEED$§! and §G+25%§! §Y$MOD_POP_ASSEMBLY_SPEED$§!." #2 v
+gle_trait_direction_envoy: "\nПри назкой £pops£ популяции населения, не превышающей значение §Y10§!, точечно субсидирует демографические льготы изменяя значения §Y$MOD_POP_GROWTH_SPEED$§! и §Y$MOD_POP_ASSEMBLY_SPEED$§! на §G+25%§!." #2 v
 gle_trait_direction_envoy_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_envoy_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_evaluator: "\n§G+1§! £job_evaluator£ §Y$job_evaluator$§! in sector planets." #4 o
+gle_trait_direction_evaluator: "\nУчереждает §G+1§! должность класса £job_evaluator£ §Y$job_evaluator$§! на каждой волости подконтрольного сектора." #4 o
 gle_trait_direction_evaluator_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_evaluator_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_executive: "\n§G+10%§! £trade_value£ §Y$TRADE_VALUE$§!." #2 o
+gle_trait_direction_executive: "\nТочечно оптимизирует логистические цепочки и мониторит ценовые котеровки тем самым повышая £trade_value£ §Y$TRADE_VALUE$§! на §G+10%§! каждой подконтрольной ему волости." #2 o
 gle_trait_direction_executive_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_executive_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_expansion: "\nColony with any §Y$pc_gas_giant$ planet§! in the system §G+5§! £unity£ §YMonthly $unity$§!." #2 v
+gle_trait_direction_expansion: "\nУчереждает медийную кампанию по консолидации общества вокруг проблем регазификации. В результате каждая волость с близлежащим космическим объектом класса §Y$pc_gas_giant$§! в пределах системы получает бонус §G+5§! £unity£ §Y$unity$§! ежемесячно." #2 v
 gle_trait_direction_expansion_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_expansion_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_expansionist: "\nEach planet in the sector grant us §G+10§! £energy£ §Y$energy$§! at the beginning of the year." #2 v
+gle_trait_direction_expansionist: "\nКаждую волость в подконтрольном секторе облагает данью в §G10§! единиц ресурса £energy£ §Y$energy$§! с обязательством выплаты онного к началу каждого года." #2 v
 gle_trait_direction_expansionist_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_expansionist_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_experience: "\n§YGovernor§! gains §G+25§! experiences by completing a planetary construction (District & Building)." #1 v
+gle_trait_direction_experience: "\nУчереждает §YГубернаторскую инфраструктурную программу§! обеспечивая получение §G+25§! опыта за каждое успешное завершение волостного инфраструктурного проекта такого как §Hпланировка районов§!, или же §Hлокальных строений§!." #1 v
 gle_trait_direction_experience_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_experience_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_farm: "\n§Y[Root.gle_FoodProducer]§! produces §G+1§! more £food£ §Y$food$§!." #4 o
+gle_trait_direction_farm: "\nУчереждает теплично-релаксационный комплект в §Y[Root.gle_FoodProducer]§! тем самым повышая производство комплексом ресурса класса £food£ §Y$food$§! на §G+1§!." #4 o
 gle_trait_direction_farm_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_farm_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_farm_planet_tooltip: "\n§YFarmer§! produces §G+1§! more £food£ §Y$food$§!."
-gle_trait_direction_farmer: "\nEvery colony also produces §G+10§! £food£ §Y$food$§!." #4 o
+gle_trait_direction_farm_planet_tooltip: "Привлекает инвесторов и учереждает агропромышленные трасты, снижая административные издержки и повышая выработку £food£ §Yагропродукции§!(§Y$food$§!) §Yфермерами§! на §G+1§!."
+gle_trait_direction_farmer: "\nУчереждает государственные административно-корпоративные сады, производящие превосходные овощи и фрукты в каждой волости сектора, изменяя тем самым выработку £food£ §Yагропродукции§! (§Y$food$§!) на §G+10§! без участия дополнительной рабочей силы или автономных комплексов." #4 o
 gle_trait_direction_farmer_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_farmer_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_favor: "\nIncrease §Y$MOD_PLANET_RESETTLEMENT_UNEMPLOYED_DESTINATION_MULT$§! of the sector by §G+100%§!." #MOD_PLANET_RESETTLEMENT_UNEMPLOYED_DESTINATION_MULT, #2 o
+gle_trait_direction_favor: "\nПовышает §Y$MOD_PLANET_RESETTLEMENT_UNEMPLOYED_DESTINATION_MULT$§! сектора на §G+100%§!." #MOD_PLANET_RESETTLEMENT_UNEMPLOYED_DESTINATION_MULT, #2 o
 gle_trait_direction_favor_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_favor_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_federation: "\n§G+8§! £unity£ §YMonthly $unity$§! to sector colonies when we are in any form of §YFederation§!." #2 v
+gle_trait_direction_federation: "\nУчереждает медийную пропаганду кооперации и её политических форм. В результате изменяет £unity£ §Y$unity$ ежемесячно§! на §G+8§! на каждую волость сектора в случае если государство состоит в этой самой §Yфедеративной кооперации§!." #2 v
 gle_trait_direction_federation_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_federation_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_fertile: "\n§Y£pops£ Pops§! have §G10%§! of chance to grow double when finishing growth or assemble." #3 v
+gle_trait_direction_fertile: "\n§Y£pops£ Население§! получает §G10%§! шанс получить короткий демографический взрыв, удвоив прирост после получения новой диаспоры или завершения очередной сборки." #3 v
 gle_trait_direction_fertile_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_fertile_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_fish: "\n§G+1§! £job_angler£ §Y$job_angler$§! across the colonies, regardless the planet type." #2 o
+gle_trait_direction_fish: "\nДобавляет §G+1§! должность типа £job_angler£ §Y$job_angler$§! для каждой волости, вне зависимости от её типа." #2 o
 gle_trait_direction_fish_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_fish_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_food: "\nEvery month has §G1%§! of chance to mulitply our currect £food£ §Y$food$§! by §G1.1§! times." #2 v
+gle_trait_direction_food: "\nПредоставляет §G1%§! шанс повысить производительность волости в категории £food£ §Y$food$§! на §G110%§! ежемесячно." #2 v
 gle_trait_direction_food_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_food_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_food2: "\n£pops£ Pops £food£ §Y$food$ Upkeep§! is reduced by §G-15%§!." #planet_pops_food_upkeep_mult, #3 o
+gle_trait_direction_food2: "\n£pops£ Население профессионально занятое в категории £food£ §Y$food$ снижает свои издержки§! на §G15%§!." #planet_pops_food_upkeep_mult, #3 o
 gle_trait_direction_food2_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_food2_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_galactic_empire: "\nEach leader in the country provides §G+0.2§! monthly experience for §YGovernor§!." #1 v
+gle_trait_direction_galactic_empire: "\nУчереждает государственный консультационный совет. В результате каждый видный представитель государственного аппарата предоставляет §G+0.2§! опыта §YГубернатору§! ежемесячно." #1 v
 gle_trait_direction_galactic_empire_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_galactic_empire_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_gas: "\nDistricts and Buildings have their upkeep of £exotic_gases£ §Y$exotic_gases$§! reduced by §G-50%§!." #4 o
+gle_trait_direction_gas: "\nРазнообразные городские районы и одиночные инфраструктурные комплексы, имеющие издержки проигзводства ксифицируемые как £exotic_gases£ §Y$exotic_gases$§! снижаю подобные на §G50%§!." #4 o
 gle_trait_direction_gas_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_gas_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_gas_extractor: "\n£job_crystal_miner£ §Y$job_crystal_miner_plural$§!, £job_gas_extractor£ §Y$job_gas_extractor_plural$§!, and £job_mote_harvester£ §Y$job_mote_harvester_plural$§! also produce §G+8§! £physics_research£ §Y$physics_research$§!." #5 o
+gle_trait_direction_gas_extractor: "\nФормирует выездные производственные лаборатории для обеспечения производственной безопастности, что в свою очередь привносит следущие бонусы : \n£job_crystal_miner£ §Y$job_crystal_miner_plural$§!, £job_gas_extractor£ §Y$job_gas_extractor_plural$§!, и £job_mote_harvester£ §Y$job_mote_harvester_plural$§! в дополнение начнут производить §G+8§! £physics_research£ §Y$physics_research$§!." #5 o
 gle_trait_direction_gas_extractor_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_gas_extractor_modifier_desc: "$gle_trait_direction_descs$"
 gle_trait_direction_gas_refiner: "\n£job_gas_refiner£ §Y[Root.Refiners]§! have their upkeep reduced by §G-25%§!." #4 o
