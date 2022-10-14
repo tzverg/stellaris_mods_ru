@@ -1,0 +1,194 @@
+﻿# l_english:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+l_russian:
+# l_braz_por:
+# l_simp_chinese:
+
+ ####################
+ ##   Occupation   ##
+ ####################
+
+ system_occupied_planet:0 "System Blockade"
+ system_occupied_planet_tooltip:0 "Due to the starbase of this system being occupied, we can no longer send or recieve resource shipments from this planet."
+
+ d_occupier_capital: "Territory §GWe§! Occupy"
+ d_occupier_capital_desc: "The territory we occupy can be both bountiful and draining."
+
+ d_occupied_capital: "Territory §REnemies§! Occupy"
+ d_occupied_capital_desc: "We no longer have access to the resources in the territory our enemies occupy. However, they also take on the burden of our people in those areas."
+
+ d_siege_capital: "Territory Being §RSieged§!"
+ d_siege_capital_desc: "We no longer have access to the resources of our besieged territory, nor can we provide for our people trapped there."
+
+ planet_occupation: "Occupation"
+ planet_occupied: "Occupied"
+ planet_siege: "Siege"
+
+ ### Modifiers
+
+ planet_siege_energy: "Energy Shortage"
+ planet_siege_energy_desc: "Due to the blockade in this sytem, this planet no longer has the Energy that it requires."
+ planet_siege_minerals: "Mineral Shortage"
+ planet_siege_minerals_desc: "Due to the blockade in this sytem, this planet no longer has the Minerals that it requires."
+ planet_siege_food: "Food Shortage"
+ planet_siege_food_desc: "Due to the blockade in this sytem, this planet no longer has the Food that it requires."
+ planet_siege_alloys: "Alloy Shortage"
+ planet_siege_alloys_desc: "Due to the blockade in this sytem, this planet no longer has the Alloys that it requires."
+ planet_siege_consumer_goods: "Consumer Goods Shortage"
+ planet_siege_consumer_goods_desc: "Due to the blockade in this sytem, this planet no longer has the Consumer Goods that it requires."
+ planet_siege_volatile_motes: "Volatile Mote Shortage"
+ planet_siege_volatile_motes_desc: "Due to the blockade in this sytem, this planet no longer has the Volatile Motes that it requires."
+ planet_siege_exotic_gases: "Exotic Gas Shortage"
+ planet_siege_exotic_gases_desc: "Due to the blockade in this sytem, this planet no longer has the Exotic Gases that it requires."
+ planet_siege_rare_crystals: "Rare Crystal Shortage"
+ planet_siege_rare_crystals_desc: "Due to the blockade in this sytem, this planet no longer has the Rare Crystals that it requires."
+ planet_siege_sr_living_metal: "Living Metal Shortage"
+ planet_siege_sr_living_metal_desc: "Due to the blockade in this sytem, this planet no longer has the Living Metal that it requires."
+ planet_siege_sr_zro: "Zro Shortage"
+ planet_siege_sr_zro_desc: "Due to the blockade in this sytem, this planet no longer has the Zro that it requires."
+ planet_siege_sr_dark_matter: "Dark Matter Shortage"
+ planet_siege_sr_dark_matter_desc: "Due to the blockade in this sytem, this planet no longer has the Dark Matter that it requires."
+ planet_siege_nanites: "Nanite Shortage"
+ planet_siege_nanites_desc: "Due to the blockade in this sytem, this planet no longer has the Nanites that it requires."
+
+
+ ### Decisions
+
+ stockpile_stats: "Stockpile: Cap - §Y[root.stockpile_total]§!, Available - §G[root.stockpile_space]§!\n\n£energy£ Energy: §G[root.stockpile_energy]§!\n£minerals£ Minerals: §G[root.stockpile_minerals]§!\n£food£ Food: §G[root.stockpile_food]§!\n£alloys£ Alloys: §G[root.stockpile_alloys]§!\n£consumer_goods£ Consumer Goods: §G[root.stockpile_consumer_goods]§!\n£volatile_motes£ Volatile Motes: §G[root.stockpile_volatile_motes]§!\n£exotic_gases£ Exotic Gases: §G[root.stockpile_exotic_gases]§!\n£rare_crystals£ Rare Crystals: §G[root.stockpile_rare_crystals]§!\n£sr_living_metal£ Living Metal: §G[root.sr_living_metal]§!\n£sr_zro£ Zro: §G[root.stockpile_sr_zro]§!\n£sr_dark_matter£ Dark Matter: §G[root.stockpile_sr_dark_matter]§!\n£nanites£ Nanites: §G[root.stockpile_nanites]§!\n\n"
+
+ decision_change_stockpile_start: " Open Stockpile"
+ decision_change_stockpile_start_effects_short: "Allows us to add or remove materials from our planetary stockpile."
+ decision_change_stockpile_start_desc: "Add or remove materials from our planetary stockpile.\n\n$stockpile_stats$"
+ decision_change_stockpile_close: " Close Stockpile"
+ decision_change_stockpile_close_effects_short: "Removes stockpile decisions."
+ decision_change_stockpile_close_desc: "$stockpile_stats$"
+
+ decision_change_stockpile_close_full: " Stockpile §RFull§! - Close"
+ decision_change_stockpile_close_full_effects_short: "Removes stockpile decisions."
+ decision_change_stockpile_close_full_desc: "Our stockpile is full.\n\n$stockpile_stats$"
+
+ decision_change_stockpile_energy_add: " Stockpile £energy£ Energy"
+ decision_change_stockpile_energy_add_effects_short: "Add §G250§! £energy£ Energy"
+ decision_change_stockpile_energy_add_desc: " §H[root.GetName]§! has §G[root.stockpile_energy]§! £energy£ in their stockpile."
+ decision_change_stockpile_energy_subtract: " Take £energy£ Energy"
+ decision_change_stockpile_energy_subtract_effects_short: "Take §R250§! £energy£ Energy"
+ decision_change_stockpile_energy_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_energy]§! £energy£ in their stockpile."
+
+ decision_change_stockpile_minerals_add: " Stockpile £minerals£ Minerals"
+ decision_change_stockpile_minerals_add_effects_short: "Add §G250§! £minerals£ Minerals"
+ decision_change_stockpile_minerals_add_desc: " §H[root.GetName]§! has §G[root.stockpile_minerals]§! £minerals£ in their stockpile."
+ decision_change_stockpile_minerals_subtract: " Take £minerals£ Minerals"
+ decision_change_stockpile_minerals_subtract_effects_short: "Take §R250§! £minerals£ Minerals"
+ decision_change_stockpile_minerals_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_minerals]§! £minerals£ in their stockpile."
+
+ decision_change_stockpile_food_add: " Stockpile £food£ Food"
+ decision_change_stockpile_food_add_effects_short: "Add §G250§! £food£ Food"
+ decision_change_stockpile_food_add_desc: " §H[root.GetName]§! has §G[root.stockpile_food]§! £food£ in their stockpile."
+ decision_change_stockpile_food_subtract: " Take £food£ Food"
+ decision_change_stockpile_food_subtract_effects_short: "Take §R250§! £food£ Food"
+ decision_change_stockpile_food_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_food]§! £food£ in their stockpile."
+
+ decision_change_stockpile_alloys_add: " Stockpile £alloys£ Alloys"
+ decision_change_stockpile_alloys_add_effects_short: "Add §G250§! £alloys£ Alloys"
+ decision_change_stockpile_alloys_add_desc: " §H[root.GetName]§! has §G[root.stockpile_alloys]§! £alloys£ in their stockpile."
+ decision_change_stockpile_alloys_subtract: " Take £alloys£ Alloys"
+ decision_change_stockpile_alloys_subtract_effects_short: "Take §R250§! £alloys£ Alloys"
+ decision_change_stockpile_alloys_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_alloys]§! £alloys£ in their stockpile."
+
+ decision_change_stockpile_consumer_goods_add: " Stockpile £consumer_goods£ Consumer Goods"
+ decision_change_stockpile_consumer_goods_add_effects_short: "Add §G250§! £consumer_goods£ Consumer Goods"
+ decision_change_stockpile_consumer_goods_add_desc: " §H[root.GetName]§! has §G[root.stockpile_consumer_goods]§! £consumer_goods£ in their stockpile."
+ decision_change_stockpile_consumer_goods_subtract: " Take £consumer_goods£ Consumer Goods"
+ decision_change_stockpile_consumer_goods_subtract_effects_short: "Take §R250§! £consumer_goods£ Consumer Goods"
+ decision_change_stockpile_consumer_goods_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_consumer_goods]§! £consumer_goods£ in their stockpile."
+
+ decision_change_stockpile_volatile_motes_add: " Stockpile £volatile_motes£ Volatile Motes"
+ decision_change_stockpile_volatile_motes_add_effects_short: "Add §G250§! £volatile_motes£ Volatile Motes"
+ decision_change_stockpile_volatile_motes_add_desc: " §H[root.GetName]§! has §G[root.stockpile_volatile_motes]§! £volatile_motes£ in their stockpile."
+ decision_change_stockpile_volatile_motes_subtract: " Take £volatile_motes£ Volatile Motes"
+ decision_change_stockpile_volatile_motes_subtract_effects_short: "Take §R250§! £volatile_motes£ Volatile Motes"
+ decision_change_stockpile_volatile_motes_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_volatile_motes]§! £volatile_motes£ in their stockpile."
+
+ decision_change_stockpile_exotic_gases_add: " Stockpile £exotic_gases£ Exotic Gases"
+ decision_change_stockpile_exotic_gases_add_effects_short: "Add §G250§! £exotic_gases£ Exotic Gases"
+ decision_change_stockpile_exotic_gases_add_desc: " §H[root.GetName]§! has §G[root.stockpile_exotic_gases]§! £exotic_gases£ in their stockpile."
+ decision_change_stockpile_exotic_gases_subtract: " Take £exotic_gases£ Exotic Gases"
+ decision_change_stockpile_exotic_gases_subtract_effects_short: "Take §R250§! £exotic_gases£ Exotic Gases"
+ decision_change_stockpile_exotic_gases_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_exotic_gases]§! £exotic_gases£ in their stockpile."
+
+ decision_change_stockpile_rare_crystals_add: " Stockpile £rare_crystals£ Rare Crystals"
+ decision_change_stockpile_rare_crystals_add_effects_short: "Add §G250§! £rare_crystals£ Rare Crystals"
+ decision_change_stockpile_rare_crystals_add_desc: " §H[root.GetName]§! has §G[root.stockpile_rare_crystals]§! £rare_crystals£ in their stockpile."
+ decision_change_stockpile_rare_crystals_subtract: " Take £rare_crystals£ Rare Crystals"
+ decision_change_stockpile_rare_crystals_subtract_effects_short: "Take §R250§! £rare_crystals£ Rare Crystals"
+ decision_change_stockpile_rare_crystals_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_rare_crystals]§! £rare_crystals£ in their stockpile."
+
+ decision_change_stockpile_sr_living_metal_add: " Stockpile £sr_living_metal£ Living Metal"
+ decision_change_stockpile_sr_living_metal_add_effects_short: "Add §G250§! £sr_living_metal£ Living Metal"
+ decision_change_stockpile_sr_living_metal_add_desc: " §H[root.GetName]§! has §G[root.stockpile_sr_living_metal]§! £sr_living_metal£ in their stockpile."
+ decision_change_stockpile_sr_living_metal_subtract: " Take £sr_living_metal£ Living Metal"
+ decision_change_stockpile_sr_living_metal_subtract_effects_short: "Take §R250§! £sr_living_metal£ Living Metal"
+ decision_change_stockpile_sr_living_metal_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_sr_living_metal]§! £sr_living_metal£ in their stockpile."
+
+ decision_change_stockpile_sr_zro_add: " Stockpile £sr_zro£ Zro"
+ decision_change_stockpile_sr_zro_add_effects_short: "Add §G250§! £sr_zro£ Zro"
+ decision_change_stockpile_sr_zro_add_desc: " §H[root.GetName]§! has §G[root.stockpile_sr_zro]§! £sr_zro£ in their stockpile."
+ decision_change_stockpile_sr_zro_subtract: " Take £sr_zro£ Zro"
+ decision_change_stockpile_sr_zro_subtract_effects_short: "Take §R250§! £sr_zro£ Zro"
+ decision_change_stockpile_sr_zro_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_sr_zro]§! £sr_zro£ in their stockpile."
+
+ decision_change_stockpile_sr_dark_matter_add: " Stockpile £sr_dark_matter£ Dark Matter"
+ decision_change_stockpile_sr_dark_matter_add_effects_short: "Add §G250§! £sr_dark_matter£ Dark Matter"
+ decision_change_stockpile_sr_dark_matter_add_desc: " §H[root.GetName]§! has §G[root.stockpile_sr_dark_matter]§! £sr_dark_matter£ in their stockpile."
+ decision_change_stockpile_sr_dark_matter_subtract: " Take £sr_dark_matter£ Dark Matter"
+ decision_change_stockpile_sr_dark_matter_subtract_effects_short: "Take §R250§! £sr_dark_matter£ Dark Matter"
+ decision_change_stockpile_sr_dark_matter_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_sr_dark_matter]§! £sr_dark_matter£ in their stockpile."
+
+ decision_change_stockpile_nanites_add: " Stockpile £nanites£ Nanites"
+ decision_change_stockpile_nanites_add_effects_short: "Add §G250§! £nanites£ Nanites"
+ decision_change_stockpile_nanites_add_desc: " §H[root.GetName]§! has §G[root.stockpile_nanites]§! £nanites£ in their stockpile."
+ decision_change_stockpile_nanites_subtract: " Take £nanites£ Nanites"
+ decision_change_stockpile_nanites_subtract_effects_short: "Take §R250§! £nanites£ Nanites"
+ decision_change_stockpile_nanites_subtract_desc: " §H[root.GetName]§! has §G[root.stockpile_nanites]§! £nanites£ in their stockpile."
+
+ # Tooltips
+ decision_stockpile_energy_fail: "You need at least §R250§! £energy£ Energy to add to the stockpile."
+ decision_stockpile_minerals_fail: "You need at least §R250§! £minerals£ Minerals to add to the stockpile."
+ decision_stockpile_food_fail: "You need at least §R250§! £food£ Food to add to the stockpile."
+ decision_stockpile_alloys_fail: "You need at least §R250§! £alloys£ Alloys to add to the stockpile."
+ decision_stockpile_consumer_goods_fail: "You need at least §R250§! £consumer_goods£ Consumer Goods to add to the stockpile."
+ decision_stockpile_volatile_motes_fail: "You need at least §R250§! £volatile_motes£ Volatile Motes to add to the stockpile."
+ decision_stockpile_exotic_gases_fail: "You need at least §R250§! £exotic_gases£ Exotic Gases to add to the stockpile."
+ decision_stockpile_rare_crystals_fail: "You need at least §R250§! £rare_crystals£ Rare Crystals to add to the stockpile."
+ decision_stockpile_sr_living_metal_fail: "You need at least §R250§! £sr_living_metal£ Living Metal to add to the stockpile."
+ decision_stockpile_sr_zro_fail: "You need at least §R250§! £sr_zro£ Zro to add to the stockpile."
+ decision_stockpile_sr_dark_matter_fail: "You need at least §R250§! £sr_dark_matter£ Dark Matter to add to the stockpile."
+ decision_stockpile_nanites_fail: "You need at least §R250§! £nanites£ Nanites to add to the stockpile."
+
+ ## Situations
+ situation_civstrife_occ_surrender: "§Y[Target.GetName]§! Considering Surrender"
+ situation_civstrife_occ_surrender_desc: "Lacking food and energy due to the ongoing siege, the authorities on §Y[Target.GetName]§! are considering surrender."
+
+ situation_civstrife_occ_surrender_monthly_change_tooltip: "§Y[Target.GetName]§! is considering surrender."
+ situation_civstrife_occ_surrender_type: "Planetary Siege"
+
+ planetary_surrender_1: "Considering Surrender"
+
+ situation_civstrife_occ_surrender_complete: "$situation_civstrife_occ_surrender_desc$"
+
+ occ_planet_surrendered_to: "Our Planet Surrenders"
+ occ_planet_surrendered_to_desc: "Struggling under a prolonged siege, the authorities on §Y$PLANET$§! have decided to surrender control of the planet to the §Y$COUNTRY$§! forces in the system."
+
+ occ_planet_surrender: "Enemy Planet Surrenders"
+ occ_planet_surrender_desc: "Due to our crippling siege, the authorities on §Y$PLANET$§! have given up their resistance and surrendered control of the planet to us."
+
+ approach_civstrife_occ_do_nothing: "Do Nothing"
+ approach_civstrife_occ_do_nothing_tooltip: "We will do nothing."
+
+ approach_civstrife_occ_prevent_surrender: "Smuggle In Supplies"
+ approach_civstrife_occ_prevent_surrender_tooltip: "We will begin smuggling supplies to §Y[target.GetName]§! so that §Bthey will not surrender.§! Due to the high likelihood that most of our shipments will be intercepted by the blockade, we will need to oversupply all of our shipments in order to ensure that enough supplies reach the planet. Additionally, we will need to compensate the smugglers well.\n\n"
+
+ smuggled_support: "Smuggling in Supplies"

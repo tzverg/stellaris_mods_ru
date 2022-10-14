@@ -69,7 +69,7 @@
 gle_trait_prefix: "Направление: "
 gle_trait_desc: "$gle_direction_window_desc$\n\n§EПолучив достаточно опыта, они могут приобрести §HСпособности§!, которые можно найти в меню §HПланетарных Решений§!.§!"
 
-gle.100.title: "§E[event_target:gle_leader.GetName]§!\nВ секторе под названием §H[event_target:gle_sector.GetName]§!"
+gle.100.title: "§E[event_target:gle_leader.GetName]§! - губернатор сектора §H[event_target:gle_sector.GetName]§!"
 gle.100.a: "Ладно"
 
 gle_window_title: "§EСпособности Губернатора§!"
@@ -647,9 +647,9 @@ gle_trait_upgrage_base_desc: ""
 
 #Abilities
 
-gle_decision: "Меню Способностей Губернатора"
-gle_decision_tooltip: "Обратитесь к окну $gle_window_title$, где вы сможете выбрать способности для текущего губернатора данного сектора."
-gle_decision_desc: ""
+gle_decision: "Планшет Способностей Губернатора"
+gle_decision_tooltip: "Предоставит возможность выбора новой §Yспособности§! для губернатора текущего сектора."
+gle_decision_desc: "Используйте данное решение для того чтобы выбрать новую §Yспособность§! для активного губернатора данного сектора космоса."
 
 #Direction Display
 
@@ -1169,23 +1169,23 @@ gle_trait_direction_telepath_modifier_desc: "$gle_trait_direction_descs$"
 gle_trait_direction_trade: "\nКаждый раз когда инопланетный корабль входит в любую систему сектора, подконтрольного губернатору, медийная компания рекламирует товары, которые производит империя владелец корабля нарушителя. Как результат государство получает §G+1§! £unity£ §Y$unity$§!." #4 v
 gle_trait_direction_trade_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_trade_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_trader: "\nEach time an alien ship enter any system of the sector, §G+1§! £energy£ §Y$energy$§!." #4 v
+gle_trait_direction_trader: "\nКаждый раз когда инопланетный корабль входит в любую систему сектора, подконтрольного губернатору, с кредитного счёта адмирала корабля специальной группой хакеров снимается такса за вход в размере §G+1§! £energy£ §Y$energy$§!." #4 v
 gle_trait_direction_trader_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_trader_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_transfer: "\nEach time an alien ship enter any system of the sector, §G+0.02§! £influence£ §Y$influence$§!." #4 v
+gle_trait_direction_transfer: "\nКаждый раз когда инопланетный корабль входит в любую систему сектора, подконтрольного губернатору, кораблю автоматически транслируется информационная брошюра о величии государства, владельца данного сектора галактики. Это позволяет получать §G+0.02§! £influence£ §Y$influence$§!." #4 v
 gle_trait_direction_transfer_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_transfer_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_transfer2: "\n§Y$MOD_SHIP_FRIENDLY_TERRITORY_EVASION_MULT$§! of this sector systems is increased by §G+15%§!." #ship_friendly_territory_evasion_mult #3 v
+gle_trait_direction_transfer2: "\nУчереждает повсеместную маркировку всех быстродвижущихся небесных тел на терристории каждой, принадлежащей сектору, системы, производит прогнозирование при помощи эвристических алгоритмов траекторий движения, после чего осуществляет трансляцию полученных данных на государственные суда по запросу управляющего офицерского состава. В результате суда получают §Y$MOD_SHIP_FRIENDLY_TERRITORY_EVASION_MULT$§! при нахождении в зоне ответственности губернатора сектора на §G+15%§!." #ship_friendly_territory_evasion_mult #3 v
 gle_trait_direction_transfer2_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_transfer2_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_transfer3: "\nEach time an alien ship enter any system of the sector, §G+0.5§! experience for §YGovernor§!." #1 v
+gle_trait_direction_transfer3: "\nКаждый раз когда инопланетный корабль входит в любую подконтрольную систему сектора, губернатор получает и детально изучает любую доступную о корабле информацию, включая предполагаемые мотивы неизвестного космического судна. Подобное любопытство позволяет §Yгубернатору§! получать  по §G+0.5§! единиц опыта." #1 v
 gle_trait_direction_transfer3_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_transfer3_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_translucer: "\n£job_translucer£ §Y[Root.Translucers]§! have their upkeep reduced by §G-25%§!." #3 o
+gle_trait_direction_translucer: "\nФормирует команды биоинженеров проектировщиков для оптимизации производства §Lкристаллов тельдара§!. В результате их усердной работе, £job_translucer£ §Y[Root.Translucers]§! меняют издержки своего производства на §G-25%§!." #3 o
 gle_trait_direction_translucer_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_translucer_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_translucer_planet_tooltip: "\n£job_translucer£ §Y$job_translucer$§! have their upkeep reduced by §G-25%§!."
-gle_trait_direction_truce: "\n§G+10§! £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! if we recently lose a War." #2 v
+gle_trait_direction_translucer_planet_tooltip: "\n£job_translucer£ §Y$job_translucer$§! меняют издержки своего производства на §G-25%§!."
+gle_trait_direction_truce: "\nФормирует ряд обращений к народным массам с целью пробудить в них запал реваншизма в отношении к бывшим противникам. Как следствие это ненадолго изменяет £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! на §G+10§! в каждой волости подконтрольного губернатору сектора в случае если наше государство недавно проиграло войну." #2 v
 gle_trait_direction_truce_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_truce_modifier_desc: "$gle_trait_direction_descs$"
 gle_trait_direction_truce2: "\n£gle_ability_adminstrator£"
@@ -1194,38 +1194,38 @@ gle_trait_direction_truce2_modifier_desc: "$gle_trait_direction_descs$"
 gle_trait_direction_trust: "\n£gle_ability_adminstrator£"
 gle_trait_direction_trust_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_trust_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_unknown: "\nIncrease §Y$MOD_PLANET_DECISION_ENACT_SPEED_MULT$§! by §G+25%§!." #planet_decision_enact_speed_mult #2 o
+gle_trait_direction_unknown: "\nУпрощает внутренний бюрократический аппарат своего сектора для ускоренного принятия важных политических решений всего государства. Подобная инициатива изменяет §Y$MOD_PLANET_DECISION_ENACT_SPEED_MULT$§! на §G+25%§!." #planet_decision_enact_speed_mult #2 o
 gle_trait_direction_unknown_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_unknown_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_unruly: "\nSector colonies produce §G+10%§! more £unity£ §Y$unity$§!." #3
+gle_trait_direction_unruly: "\nГубернатор учереждает дни национального единения, формирует социально значимые народные общины и проводит социально ориентированнные семинары. В результате каждая, подконтрольная сектору, волость изменяет производство £unity£ §Y$unity$§! на §G+10%§!." #3
 gle_trait_direction_unruly_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_unruly_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_unyielding: "\n§G+33%§! §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! in every colony." #army_defense_health_mult #2 o
+gle_trait_direction_unyielding: "\nБывший военные опыт губернатора позволил начинающему стратегу и мечтателю добраться до руля своей маленькой империи. Воплощая в жизнь все свои идеи, для получения потенциальной возможности реализации самых изощрённых оборонительных тактик и умопомрачительных стратегий обороны, губернатор изменяет эффективность ведения войны на поверхности каждой подконтрольной ему волости до §G+33%§!. В результате плодами по-армейски выверенной стратегии обороны могут пользоваться планетарные силы обороны. На §G+33%§! изменяет §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§!." #army_defense_health_mult #2 o
 gle_trait_direction_unyielding_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_unyielding_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_uplift: "\n§Y$mod_planet_jobs_upkeep_mult$§! is reduced by §G-10%§!." #planet_jobs_upkeep_mult #3 o
+gle_trait_direction_uplift: "\nГрамотно спроектированная программа социальных лифтов сектора позволяет существенно снизить издержки любого производства в любой, подконтрольной губернатору, волости государства. В результате §Y$mod_planet_jobs_upkeep_mult$§! изменяется на §G-10%§!." #planet_jobs_upkeep_mult #3 o
 gle_trait_direction_uplift_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_uplift_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_vassal: "\n§G+10§! £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! if we are a §YSubject§!." #2 v
+gle_trait_direction_vassal: "\nОбладая природной трусостью и нерешительностью, данный губернатор проецирует свои страхи на всю ветвь исполнительной власти в данном секторе. В результате это изменит £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! каждой, подконтрольной губернатору, волости на §G+10§! только в том случае, если мы являемся чьим-то §Yсубъектом§!." #2 v
 gle_trait_direction_vassal_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_vassal_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_versatility: "\n§Y$mod_planet_pops_robotics_upkeep_mult$§! is reduced by §G-10%§!." #planet_pops_robotics_upkeep_mult #2 o
+gle_trait_direction_versatility: "\nУправляющий модуль изобрёл новую систему архивирования и шифрования данных с последующей их передачей исполняющим единицам беспроводным способом. Подобный, в каком-то смысле, даже революционный метод мог бы изменить §Y$mod_planet_pops_robotics_upkeep_mult$§! на §G-10%§!." #planet_pops_robotics_upkeep_mult #2 o
 gle_trait_direction_versatility_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_versatility_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_volatile_motes: "\nDistricts and Buildings have their upkeep of £volatile_motes£ §Y$volatile_motes$§! reduced by §G-50%§!." #3 o
+gle_trait_direction_volatile_motes: "\n§LМикрорайоны§!, а так-же §LПланетарные Инфраструктурные Комплексы§! изменят издержки своей эксплуатации в категории £volatile_motes£ §Y$volatile_motes$§! на §G-50%§!." #3 o
 gle_trait_direction_volatile_motes_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_volatile_motes_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_war: "\n§Y$MOD_SHIP_ACCURACY_ADD$§! and §Y$MOD_SHIP_TRACKING_ADD$§! in Friendly Systems of the sector are increased by §G+10§!." #ship_friendly_territory_accuracy_add, ship_friendly_territory_tracking_add #3 v
+gle_trait_direction_war: "\nУчереждает повсеместную маркировку всех быстродвижущихся небесных тел на терристории каждой, принадлежащей сектору, системы и осуществляет трансляцию полученных данных на государственные суда по запросу управляющего офицерского состава. В результате чего §Y$MOD_SHIP_ACCURACY_ADD$§! и §Y$MOD_SHIP_TRACKING_ADD$§! в подконтрольных, непосредственно губернатору, воластях сектора изменится на §G+10§!." #ship_friendly_territory_accuracy_add, ship_friendly_territory_tracking_add #3 v
 gle_trait_direction_war_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_war_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_weight: "\nEach §Y$default_envoy$§! in §YGalactic Community§! increases sector's £job£ §YJobs Production§! by §G+3%§!." #num_envoys_to_galcom #4 v
+gle_trait_direction_weight: "\nОсуществление медийного вещания деятельности государственных посланников в галактическом сообществе. Каждый §Y$default_envoy$§! в §YGalactic Community§! изменяет производительность подконтрольного £job£ §Yтрудоустроенного народонаселения§! на §G+3%§!." #num_envoys_to_galcom #4 v
 gle_trait_direction_weight_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_weight_modifier_desc: "$gle_trait_direction_descs$"
-gle_trait_direction_worker: "\n§Y$WORKERS$§! required §G-20%§! less §Y$MOD_POP_HOUSING_USAGE_MULT$§!." #3 v
+gle_trait_direction_worker: "\nПрограмма реновации трущоб для каждой волости подконтрольного сектора позволит изменить на §G-20%§! §Y$MOD_POP_HOUSING_USAGE_MULT$§! для представителей класса §Y$WORKERS$§!." #3 v
 gle_trait_direction_worker_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_worker_modifier_desc: "$gle_trait_direction_descs$"
 gle_trait_direction_xeno_ward: "£gle_ability_adminstrator£"
-gle_trait_direction_zro: "\n§G+1§! £sr_zro£ §Y$sr_zro$§! per month." #2 v
+gle_trait_direction_zro: "\nФормирование аморальных социальных элементов под крышей государства и тщательное сокрытие причастности высшего руководства сектора к производству и распространению запрещённого препарата под наименованием §Y$sr_zro$§!. Позволяет производить §G+1§! £sr_zro£ §Y$sr_zro$§! в месяц." #2 v
 gle_trait_direction_zro_modifier: "$gle_trait_direction_blank_tooltip$"
 gle_trait_direction_zro_modifier_desc: "$gle_trait_direction_descs$"
 
@@ -1418,48 +1418,48 @@ gle_trait_direction_zro_title: "£gle_ability_zro£"
 
 
 
-gle.7.title: "Ability Available"
-gle.7.desc: "§H[event_target:gle_leader.GetName]§!, who [event_target:gle_leader.GetIsAre] governing §H[event_target:gle_sector.GetName]§! sector, [event_target:gle_leader.GetHasHave] enough experience and ready to master one of [event_target:gle_leader.GetHerHis] abilities."
-gle.7.a: "Access it."
-gle.7.b: "Later."
+gle.7.title: "Доступно Повышение"
+gle.7.desc: "§H[event_target:gle_leader.GetName]§! является губернатором сектора под названием §H[event_target:gle_sector.GetName]§!. [event_target:gle_leader.GetHerHisCap] практический опыт, а так-же непревзойдённые управленческие навыки достигли определённых высот и отныне [event_target:gle_leader.GetSheHe] может освоить новую для себя способность."
+gle.7.a: "[event_target:gle_leader.GetHerHis] достижения и впрямь впечатляют."
+gle.7.b: "Быть может мы вернёмся к этому немного позже."
 
-gle.250.window_title: "§EChoose an Ability§!"
-gle.250.title: "§H[event_target:gle_leader.GetName]§! can unlock [event_target:gle_leader.GetHerHis] ability. Select one of them below."
-gle.250.desc: ""
+gle.250.window_title: "§EВыбрать Новую Способность§!"
+gle.250.title: "§EВыбрать Новую Способность§!"
+gle.250.desc: "§H[event_target:gle_leader.GetName]§! может разблокировать новую способность. Вы могли бы посоветовать [event_target:gle_leader.GetHerHis] одну из перечисленных ниже."
 
-gle_gray_direction_name: "Contact Gray"
-gle_randomize_direction_name: "§Y50§! £influence£ Randomize Direction"
-gle_reset_abilities_name: "§Y75§! £influence£ Reset Abilities"
-gle_have_a_ability_first_tooltip: "§R£trigger_no£ We can only choose to do so by unlocking at least one ability first.§!"
-gle_contact_gray_only: "§GContact §YGray§! for Direction suggests in §YContacts§! menu, they will remember for taking it when governing.§!"
-gle_cannot_change_gray_ability: "§R£trigger_no£ Is not possible to chance Gray's abilities.§!"
+gle_gray_direction_name: "Связаться с Серым"
+gle_randomize_direction_name: "§Y50§! £influence£ Случайное Направление"
+gle_reset_abilities_name: "§Y75§! £influence£ Сбросить Способности"
+gle_have_a_ability_first_tooltip: "§R£trigger_no£ разблокируйте для начала хотя бы одну способность.§!"
+gle_contact_gray_only: "§GСвязаться с §YСерым§! для предложения направления через меню §YКонтактов§!, они будут помнить, что приняли его, когда будут править.§!"
+gle_cannot_change_gray_ability: "§R£trigger_no£ Не возможно изменить способности Серого.§!"
 
-gle.260.title: "Randomize Direction"
-gle.260.desc: "Are we sure to randomize §H[event_target:gle_leader.GetName]§!'s Direction?\n\nIt will cost us §Y50§! £influence£ §H$influence$§! to do that, and the new direction could be the same as before."
+gle.260.title: "Выбрать Направление Случайно"
+gle.260.desc: "Вы действительно уверены в необходимости случайным образом выбрать направление для губернатора по имени §H[event_target:gle_leader.GetName]§!?\n\nЭто будет стоить нам §Y50§! £influence£ §H$influence$§!, а так-же новое направление может быть тем же, что и прежнее, случайности не случайны, да-да."
 
-gle.270.title: "Reset Abilities"
-gle.270.desc: "Do you want to reset §H[event_target:gle_leader.GetName]§! all of [event_target:gle_leader.GetHerHis] abilities?\n\nIt will cost us §Y75§! £influence£ §H$influence$§! to perform, and [event_target:gle_leader.GetSheHe] will lost §R1§! §YSkill Level§! along with §Y5§! years of §RGoverning Penalty§!."
+gle.270.title: "Сбросить Способности"
+gle.270.desc: "Вы точно уверены в необходимости сбросить все способности §H[event_target:gle_leader.GetName]§!?\n\nЭто будет стоить нам §Y75§! £influence£ §H$influence$§!, и [event_target:gle_leader.GetSheHe] потеряет §R1§! §YУровень Навыка§! получив при этом §RГубернаторский Штраф§! на последующие §Y5§! лет."
 
-gle_trait_temp_reduced: "Governing Penalty"
-gle_trait_temp_reduced_desc: "The recent changes in abilities make this governor need time to adapt their new skills for the country."
+gle_trait_temp_reduced: "Губернаторский Штраф"
+gle_trait_temp_reduced_desc: "В связи с недавними курсами повышения квалификации и изменением способностей - этому губернатору необходимо время, чтобы адаптировать свои новые навыки для продолжения эффективного управления страной."
 
-gle.1000.enter: "Let's talk about your job, §H[event_target:gray_governor.GetName]§!."
-gle.1000.tooltip2: "§H[event_target:gray_governor.GetName]§! can nail the jobs even more if we suggest to them some bits of advice."
-gle.1000.tooltip: "§H[event_target:gray_governor.GetName]§! will remember for taking this."
-gle.1000.title: "Discussion"
-gle.1000.desc_first: "Oh, yes! Speaking of that...\n\nThe governing assignment is intense. I admit that many listed tasks were left behind. But man, whoever left these jobs behind should get cut! Look at this, Building permission of Hydroponics Farm on Betharian stones? Who permits those things?\n\nSeeing these things gave me a brief moment of consideration to create numerous of me to finish these routines. Still, it will be giddy like that movie of average clone armies of white spraying their energy weapons, and it won't be possible for me to... no, that's not...\n\nAnyway, I apologize for being off-topic. Having a hand at directions for me will be helpful, and I will do my best to manage all the tasks well! Where shall we head to?"
-gle.1000.desc1: "I can build an entire city in no time, all by myself!"
-gle.1000.desc2: "Is there something I can do?"
-gle.1000.desc3: "Ah yes, new 'appointment', just you and me on the lonely barren planet, strolling aimlessly with two of us hands shaking.\n\nJoke aside, what is it this time?"
-gle.1000.desc4: "If you mentioned about going to effortlessly swift my jobs, transforming myself back a second before I got scrapped by numerous scavengers, no thanks.\n\nI won't recall any memory of it and will never enjoy that autopsy report."
-gle.1000.desc5: "Give me a goal! I'll like to try new things!"
-gle.1000.desc6: "And what are we doing to do this time?"
-gle.1000.desc7: "Maybe some people in this galaxy adore me like I'm their 'wife' or something? That's right, imagine they are a species whose culture is to characterize another species as one of them, their wifey, more like everyone's wife.\n\nAnd they will be essentially proud of it. I won't say it's weird. It's just some rubbish things that came into my mind."
-gle.1000.desc8: "I heard you are the Chosen one, boss! So that means you are impressive and unbeatable, right?\n\nPerhaps one day you and I can have some friendly, one-on-one fight? Just make sure the battle place is somewhere isolated from people."
-gle.1000.desc9: "What will it be my new job this time?"
-gle.1000.desc10: "What can I do for you? Aside from reproduction ritual."
-gle.1000.desc11: "No worries, if you secretly want me to 'execute' the entire planet population in one stoop, they won't feel an itch!"
-gle.1000.desc12: "Speaking of city planning, maybe I can put more toll booths at every junction of the roads, sea, and air are also included! That way, taxes income will be sky-rocket high!\n\nI'm saying this not because these people refuse to utilize all the road lanes."
+gle.1000.enter: "Стоит поговорить о твоей работе, §H[event_target:gray_governor.GetName]§!."
+gle.1000.tooltip2: "§H[event_target:gray_governor.GetName]§! может еще больше увлечься работой, если мы предложим ему несколько советов."
+gle.1000.tooltip: "§H[event_target:gray_governor.GetName]§! будет помнить, что согласился с этим."
+gle.1000.title: "Обсуждение"
+gle.1000.desc_first: "Ох, да! Кстати об этом...\n\nРабота губернатора довольно утомительна. Стоит признать что многие поставленные мной задачи было выполнены криво, либо же провалены полностью. Но блин, те кто несёт за это отвественность должны быть сокращены! Вот посмотри-ка ...бла-бла... выдать разрешение на строительсво гидропонной фермы ... бла-бла, локация - сельево ущелье? Да там же россыпи Бетарианских камней, ну йопт! Кто верифицировал подобную дичь?\n\nВот не даром говорят: хочешь сделать что-то хорошо - сделай это сам. Но я же не могу себя клонировать чтобы заканчивать ВСЕ подобные рутинные дела. Тем не менее, это было бы феерично, примерно как в том фильме, где армия белых клонов пуляет мимо двух придурков со световыми мечами, в моём случае результат, как мне кажется, будет получше... а может и не будет...\n\nПофиг, Прошу прощения, немного отвлёкся. Ваша помощь в выборе приоритетного для меня направления была бы весьма кстати и я сделаю все возможное, чтобы достойно справиться со всеми поставленными задачами! Итак каков наш план?"
+gle.1000.desc1: "Я мог бы построить целый город в мгновение ока, почти в одиночку!"
+gle.1000.desc2: "Есть ли что-то, что я могу сделать?"
+gle.1000.desc3: "О да, новая 'встреча', только ты и я на одинокой бесплодной планете, бесцельно прогуливаемся взявшись за руки слегка тронутые старческим тремором.\n\nШутки в сторону, что на этот раз?"
+gle.1000.desc4: "Если вы скажете что собираетесь снова вещать мне о продуктивности моего труда, то мне бы очень хотелось надрать вам задницу, а знаете что - идите ка нахер... да...\n\nладно уж, простите меня, накипело просто."
+gle.1000.desc5: "Да мой хозяаин! Опяать рабооотать?"
+gle.1000.desc6: "Да чтож ты хочешь то снова, в смысле чем могу помочь господин?"
+gle.1000.desc7: "Может быть, некоторые создания в этой галактике обожают меня, как будто я их 'жена' или что-то в этом роде? Правильно, представьте, что они - вид, чья культура полигамна настолько, чтобы характеризовать даже другой вид только как объект вожделения, их супругу, если так вам понятнее, скорее даже шлюху.\n\nИ они будут по сути гордиться этим. Я бы не сказал что для меня это было бы слишком странным. Это просто какая-то херь, может у меня едет крыша, а когда у меня отпуск?"
+gle.1000.desc8: "Я слышал, что ты Избранный, насяльника! Это значит, что ты впечатляющий и непобедимый боец, верно?\n\nПожалуй, однажды мы с тобой сможем провести дружеский бой, спарринг, один на один? Только убедись, что место боя будет вдали от людей, а я, на крайняк, прихвачу с собой ружьё, идёт?"
+gle.1000.desc9: "Да ну йобан*й ты нах*р, чё ты д*ебался то?"
+gle.1000.desc10: "Что я могу сделать для вас, ну помимо традиционного ритуала мозгокомпостирования?"
+gle.1000.desc11: "Не беспокойтесь, если ваш адъютант возжелает 'казнить' все население сектора в один присест, они не почувствуют даже зуда!"
+gle.1000.desc12: "К слову о градостроительстве, могу ли я поставить больше пунктов пограничного досмотра на каждом уровне воздушного коридора планеты, морской магистрали, и куда же без наземных дорожных покрытий, а? В такм случае, налоговые поступления пробили бы мне чердак!\n\nЯ говорю это не потому, что эти люди отказываются использовать все доступные транспортные коридоры, а прост..."
 gle.1000.endtext: ""
 
 gle.1000.1: "$gle_trait_clerk_base$"
@@ -1504,15 +1504,15 @@ gle.1000.1: "$gle_trait_clerk_base$"
     gle.1000.40: "$gle_trait_translucer_base$"
     gle.1000.41: "$gle_trait_crystal_miner_base$"
     
-gle.1000.response: "No problem, boss! I can do that."
-gle.1000.1.response: "Ah, classic seven days a week, full time job with no holidays... Not sure why you want me for that, but okay!"
-gle.1000.2.response: "I'll like to give some of my nanites for research, but please don't overdo it!\n\nIt's like tickling my own body."
-gle.1000.3.response: "An apple a day keeps the doctor away from apple... that will do!"
-gle.1000.4.response: "Not a problem, gold rush for everyone!"
-gle.1000.5.response: "The spice must flow... yeah, that will do it!"
-gle.1000.6.response: "Farms, right? I'll do my best not to build any of them on the "§HParticular Stone§!".\n\nYou know what I mean."
-gle.1000.7.response: "I'm doing my part!"
-gle.1000.8.response: "I admit, religion is never something I'm familar with"
-gle.1000.9.response: "I'm still learning about all of the fishy puns, please don't laugh about it."
-gle.1000.10.response: "Time to summon perals out of nowhere."
-gle.1000.11.response: "That's how mafia wo-... I mean, I can do that."
+gle.1000.response: "Без проблем, насяльника! Моя сделать это мог бы."
+gle.1000.1.response: "Агаа... классические семь дней в неделю, таак... работа полный рабочий день без выходных... Нахрена тогда мне здесь работать? меня же за такое просто грохнут, не проще ли сразу это, бомбардировками, а?"
+gle.1000.2.response: "Я бы хотел пожертвовать часть своих нанитов в научных целях, но, пожалуйста, без фанатизму!\n\nЭто как постоянно насиловать собственный мозг."
+gle.1000.3.response: "Яблоко, весь день держите доктора подальше от яблока... замётано!"
+gle.1000.4.response: "Хмм.. да ваще без проблем, золотая лихорадка для всех!"
+gle.1000.5.response: "Пряности должны поступать исправно... дыааа, хахахах, это точно нам поможет. А мы как Харконены? а... ладно..."
+gle.1000.6.response: "Фермы йопт? Я сделаю все возможное, чтобы не построить ни одной из них на поле §HБетарианских Камней§!.\n\nНу вы в куре о чём я."
+gle.1000.7.response: "Жизнь за Нэр'Зула!"
+gle.1000.8.response: "Признаюсь, религия - это не то, чем бы мне хотелось заниматься, я прожжёный атеист."
+gle.1000.9.response: "Я все еще изучаю все рыбные каламбуры, давайте ка не станем надо мной смеяться."
+gle.1000.10.response: "Время призвать жемчуг прямиком из бездны, не расстроить бы Дагона..."
+gle.1000.11.response: "Вот как в мафии... Я имею в виду, ночь наступает - просыпается мафия..."
