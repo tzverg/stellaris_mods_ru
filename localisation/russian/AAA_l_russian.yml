@@ -38,7 +38,7 @@
  SHIELD_DOWN_TERRAFORMING_THREAT: "Мы это сделали! Щит отключён. Планета, однако, оказалась безжизненной пустошью. Если постараться, то ее можно было бы терраформировать."
  SHIELD_DOWN_BARREN: "Мы это сделали! Щит отключён. Планета, однако, оказалась безжизненной пустошью. По всей видимости, она была изолирована 5 миллионов лет назад, пока мы не отключили его."
  SHIELD_DOWN_SHATTERED: "Мы это сделали! Щит отключён. Однако планета, по-видимому, представляет собой разрушенные остатки мира, который использовался империей примерно 5 миллионов лет назад."
- SHIELD_DOWN_TERRAFORMING: "Мы это сделали! Щит отключён. Планета, однако, оказалась безжизненной пустошью. Если постараться, то ее можно было бы терраформировать."# new shield down messages
+ SHIELD_DOWN_TERRAFORMING: "Мы это сделали! Щит отключён. Планета, однако, оказалась безжизненной пустошью. Если постараться, то ее можно было бы терраформировать."
 # new shield down messages
  AAA.2.desc: "Мы сделали это! Щит теперь отключён!"
  AAA.2.a: "Однако оказалось, что планета представляет собой бесплодную пустошь."
@@ -961,26 +961,26 @@
  ################################
  
  ANCIENT_SHIELD_CAT: "Ослабевающий щит"
- TAKE_DOWN_ANCIENT_SHIELD: "Избавтесь от разрушающегося щита."
- TAKE_DOWN_ANCIENT_SHIELD_DESC: "Избавтесь от разрушающегося щита."
- ANCIENT_SHIELDED_PLANET_PROJECT_DESC: "[This.GetName]'s shield appears to be deteriorating. We could try to bring it down."
+ TAKE_DOWN_ANCIENT_SHIELD: "Избавьтесь от разрушающегося щита."
+ TAKE_DOWN_ANCIENT_SHIELD_DESC: "Избавьтесь от разрушающегося щита."
+ ANCIENT_SHIELDED_PLANET_PROJECT_DESC: "Щит на планетарном объекте [This.GetName], похоже, §Rсбоит§!. Мы можем попытаться §Rотключить§! его."
  AAA.51.desc: "Мы это сделали! Щит отключён!"
- AAA.51.a: "Планета внизу, по-видимому, [FromFrom.GetAAnPlanetClass] [FromFrom.GetClassName]."
+ AAA.51.a: "Планета внизу, по-видимому, представлена классом §Y[FromFrom.GetClassName]§!."
  AAA.51.b: "Планета, однако, оказалась разрушенными остатками бывшей планеты."
- AAA.51.c: "Экипаж корабля [Root.GetName] также обнаружил нечто необычное на поверхности планеты и подготовил проект по его раскопкам."
+ AAA.51.c: "Экипаж корабля §W[Root.GetName]§! также обнаружил нечто необычное на поверхности планеты и подготовил проект по его раскопкам."
  AAA.51.d: "Большая часть инфраструктуры предыдущих владельцев, похоже, находилась долгое время в изоляции."
  AAA.51.e: "Однако не похоже, что планету невозможно спасти, и теоретически мы могли бы восстановить ее при неплохих инвестициях."
  AAA_surviving_infrastructure: "Сохранившаяся инфраструктура"
  AAA_surviving_infrastructure_desc: "Многие здания бывших жителей все еще нетронуты, что сокращает расходы на наши собственные проекты."
 
  # Shielded systems
- AAA_SHIELDED_SYSTEM_PROJECT_NAME: "Ruined System"
- AAA_SHIELDED_SYSTEM_PROJECT_DESC: "The [From.GetName] system appears to be the remains of a system-wide catastophy, with all planets having been either destroyed beyond recognition or encased in a sort of impenetrable barrier."
- AAA_TAKE_THEM_DOWN: "Try to take down the shields"
- AAA_TAKE_THEM_DOWN_TOOLTIP: "We will unveil the secrets of this system"
- AAA_LEAVE_THEM: "Leave the shielded planets alone"
- AAA_LEAVE_THEM_TOOLTIP: "Whatever happened there, it must have happened for a reason"
- AAA_has_shielded_planet: "§YShielded planet(s) present in the system.§!"
+ AAA_SHIELDED_SYSTEM_PROJECT_NAME: "Разрушенная Cистема"
+ AAA_SHIELDED_SYSTEM_PROJECT_DESC: "Система [From.GetName], по-видимому, является результатом катастрофы системных масштабов, все планеты были либо разрушены до неузнаваемости, либо заключены в некий , на то время, непроницаемый барьер."
+ AAA_TAKE_THEM_DOWN: "Попытайтесь обойти щиты"
+ AAA_TAKE_THEM_DOWN_TOOLTIP: "Мы раскроем секреты этой системы"
+ AAA_LEAVE_THEM: "Оставьте экранированные планеты в покое"
+ AAA_LEAVE_THEM_TOOLTIP: "Что бы там ни случилось, всё это было неспроста..."
+ AAA_has_shielded_planet: "§YЭкранированная(ые) планета(ы) присутствует(ют) в системе.§!"
 
  # destination
  NAME_DESTINATION_STAR: "Артерн"
@@ -2131,7 +2131,7 @@
  AAA_enclave.102.e: "Мы хотим создать национальный музей"
  AAA_enclave.102.e.opinion: "Требуется чтобы отношения с анклавом §YАрхивариусов§! было:\n£opinion£ +50"
  AAA_enclave.102.f: "§YРасскажите нам больше§! о вашей группе."
- AAA_enclave.102.f.reply: "Неужели вы хотите услышать историю об искателях историй? Чтож, ладно ... [event_target:AAA_museum_enclave_country.GetName] состоит из нескольких станций, населенных археологами, построенных в прошлые века. Все давно забыли кто был основателем, в том числе и мы сами, это было черезвычайно давно вы даже не представляете насколько.\n\nПо сей день мы прочесываем галактику в поисках любых историй, недостойных забвения.\n\nЕсли вы хотите получить любую информацию об истории нашей галактики, мы готовы предоставить ее вам за определенную плату. Обслуживание станций не халявное, знаете-ли..."
+ AAA_enclave.102.f.reply: "Неужели вы хотите услышать историю об искателях историй? Чтож, ладно ... \nСообщество §Y[event_target:AAA_museum_enclave_country.GetName]§! состоит из нескольких станций, населенных археологами, построенных в прошлые века. Все давно забыли кто был основателем, в том числе и мы сами, это было черезвычайно давно вы даже не представляете насколько.\n\nПо сей день мы прочесываем галактику в поисках любых историй, недостойных забвения.\n\nЕсли вы хотите получить любую информацию об истории нашей галактики, мы готовы предоставить ее вам за определенную плату. Обслуживание станций не халявное, знаете-ли..."
  
  # Buy artifacts
  AAA_enclave.103a.desc: "Мы не любим расставаться с нашими артефактами, хотя выгодное предложение могло бы смягчить эту проблему."
@@ -2258,16 +2258,16 @@
  AAA_enclave.131.a.reply: "Thank you!\n\nWe have transfered a large amount of energy credits to you."
  
  # Yuht
- AAA_enclave.135.name: "The Yuht Empire"
- AAA_enclave.135.desc: "Name: The Yuht Empire\n\nTime of Activity: 6 to 4 million standard years ago\n\n"
- AAA_enclave.135.a: "Tell us more about them"
- AAA_enclave.135.a.reply: "The Yuht?\nImagine being born into an empty universe, forever alone. Terrifying indeed.\n\nTheir approach to interstellar travel, however, is one of the most interresting in the history of the galaxy.\n\nWhile most empires discover the hyperlane network early on, the Yuht never seemed to make this breakthrough.\n\nOne of our theories are that hyperlanes simply did not exist at the time of the Yuht, only forming a short time before their demise, although this is only speculation."
- AAA_enclave.135.b: "We wish to share the secrets of the Yuht"
- AAA_enclave.135.d: "We wish to buy a Yuht artifact"
- AAA_enclave.135.d.reply: "We can see that you have much more use for these artifacts than we have, and it will be delivered to your capital shortly."
- AAA_enclave.136.desc: "You have obtained information about the Yuht Empire that we do not, yet, have?"
- AAA_enclave.136.a: "Share the secrets"
- AAA_enclave.136.a.reply: "Thank you!\n\nWe have transfered a large amount of energy credits to you."
+ AAA_enclave.135.name: "Империя Юутов"
+ AAA_enclave.135.desc: "Наименование: §YИмперия Юутов§!\n\nПериод Активности: от §Y6§! до §Y4§! миллионов унифицированных лет назад\n\n"
+ AAA_enclave.135.a: "Расскажите нам о них подробнее"
+ AAA_enclave.135.a.reply: "О Юутах? Хм.. чтож, представьте себе рождение в пустой вселенной, вечное одиночество. Их подход к межзвездным путешествиям, однако, является одним из самых интересных в истории галактики.\n\nВ то время как большинство империй открывают §Lсеть гиперкоридоров§!, §YЮуты§! так и не смогли совершить этот прорыв.\n\nОдна из наших теорий гласит, что §Lсеть гиперкоридоров§! просто не существовала во времена расцвета §YИмперии Юутов§!, сформировавшись лишь за некоторое время до их гибели. Есть ещё §Wтеория§! что §Yсети пробивали именно они§!, хотя это всего лишь предположения возможно истина где-то рядом."
+ AAA_enclave.135.b: "Мы хотим поделиться секретами Юутов"
+ AAA_enclave.135.d: "Мы желаем приобрести артефакт Юутов"
+ AAA_enclave.135.d.reply: "Мы видим, что гораздо больше пользы от этих артефактов будет в том случае, если они окажуться у вас. Потому в ближайшее время они будут доставлены в одну из ваших орбиталей."
+ AAA_enclave.136.desc: "Вы получили информацию об §YИмперии Юутов§!, которой у нас еще нет?"
+ AAA_enclave.136.a: "Поделитесь секретами"
+ AAA_enclave.136.a.reply: "Спасибо!\n\nМы передали вам большое количество энергетических кредитов."
  
  # First League
  AAA_enclave.140.name: "The First League"
