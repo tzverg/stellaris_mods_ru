@@ -1,0 +1,17 @@
+﻿l_russian:
+
+ CSS_BB_CARRIER_core_components:0					"$CSS_SC_CONTROL$"
+ CSS_CC_EXPLOSIVE_core_components:0					"$CSS_LRM_GUIDE$"
+ CSS_CC_DEFENDER_core_components:0					"$CSS_TRACKER$"
+ CSS_CO_ASSAULT_core_components:0					"$CSS_ASSAULT$"
+ CSS_BB_MONITOR_core_components:0					"$CSS_BASTION$"
+ CSS_CC_CARRIER_core_components:0					"$CSS_LIGHTWEIGHT_HULL$"
+ CSS_BB_INTERDICTOR_core_components:0				"$CSS_INTERDICTOR$"
+ CSS_JG_WARFLOWER_core_components:0					"$CSS_WARFLOWER_CORE_1$"
+ CSS_CC_GUARDIAN_core_components:0					"$CSS_LATTICE_HULL$"
+ CSS_TI_REJUVENATOR_core_components:0				"$CSS_REJUVENATION$"
+ CSS_DD_SNIPER_core_components:0					"$CSS_SPINAL$"
+ CSS_DD_TORPEDO_core_components:0					"$CSS_AUTOLOADER$"
+ CSS_CC_DRONE_core_components:0						"$CSS_DRONE_LINK$"
+ CSS_JG_DREADNOUGHT_core_components:0				"$CSS_EXT_MATRIX$"
+ CSS_CO_SWARMLING_core_components:0					"$CSS_SWARMLING_BRAIN_1$"

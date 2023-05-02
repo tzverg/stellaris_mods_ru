@@ -1,0 +1,100 @@
+﻿l_russian:
+
+ tech_CSS_CO_build_speed:0 "$tech_corvette_build_speed$$tech_CSS_tech$"
+ tech_CSS_CO_build_speed_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_CO_hull_1:0 "$tech_corvette_hull_1$$tech_CSS_tech$"
+ tech_CSS_CO_hull_1_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_CO_hull_2:0 "$tech_corvette_hull_2$$tech_CSS_tech$"
+ tech_CSS_CO_hull_2_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_DD_build_speed:0 "$tech_destroyer_build_speed$$tech_CSS_tech$"
+ tech_CSS_DD_build_speed_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_DD_hull_1:0 "$tech_destroyer_hull_1$$tech_CSS_tech$"
+ tech_CSS_DD_hull_1_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_DD_hull_2:0 "$tech_destroyer_hull_2$$tech_CSS_tech$"
+ tech_CSS_DD_hull_2_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_CC_build_speed:0 "$tech_cruiser_build_speed$$tech_CSS_tech$"
+ tech_CSS_CC_build_speed_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_CC_hull_1:0 "$tech_cruiser_hull_1$$tech_CSS_tech$"
+ tech_CSS_CC_hull_1_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_CC_hull_2:0 "$tech_cruiser_hull_2$$tech_CSS_tech$"
+ tech_CSS_CC_hull_2_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_BB_build_speed:0 "$tech_battleship_build_speed$$tech_CSS_tech$"
+ tech_CSS_BB_build_speed_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_BB_hull_1:0 "$tech_battleship_hull_1$$tech_CSS_tech$"
+ tech_CSS_BB_hull_1_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_BB_hull_2:0 "$tech_battleship_hull_2$$tech_CSS_tech$"
+ tech_CSS_BB_hull_2_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_TI_hull_1:0 "$tech_titan_hull_1$$tech_CSS_tech$"
+ tech_CSS_TI_hull_1_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_CSS_TI_hull_2:0 "$tech_titan_hull_2$$tech_CSS_tech$"
+ tech_CSS_TI_hull_2_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_missiles_1_CSS:0 "$tech_missiles_1$$tech_CSS_tech$"
+ tech_missiles_1_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_missiles_2_CSS:0 "$tech_missiles_2$$tech_CSS_tech$"
+ tech_missiles_2_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_missiles_3_CSS:0 "$tech_missiles_3$$tech_CSS_tech$"
+ tech_missiles_3_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_missiles_4_CSS:0 "$tech_missiles_4$$tech_CSS_tech$"
+ tech_missiles_4_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_missiles_5_CSS:0 "$tech_missiles_5$$tech_CSS_tech$"
+ tech_missiles_5_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_swarmer_missiles_1_CSS:0 "$tech_swarmer_missiles_1$$tech_CSS_tech$"
+ tech_swarmer_missiles_1_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_swarmer_missiles_2_CSS:0 "$tech_swarmer_missiles_2$$tech_CSS_tech$"
+ tech_swarmer_missiles_2_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_torpedoes_1_CSS:0 "$tech_torpedoes_1$$tech_CSS_tech$"
+ tech_torpedoes_1_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_torpedoes_2_CSS:0 "$tech_torpedoes_2$$tech_CSS_tech$"
+ tech_torpedoes_2_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_torpedoes_3_CSS:0 "$tech_torpedoes_3$$tech_CSS_tech$"
+ tech_torpedoes_3_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_strike_craft_1_CSS:0 "$tech_strike_craft_1$$tech_CSS_tech$"
+ tech_strike_craft_1_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_strike_craft_2_CSS:0 "$tech_strike_craft_2$$tech_CSS_tech$"
+ tech_strike_craft_2_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ tech_strike_craft_3_CSS:0 "$tech_strike_craft_3$$tech_CSS_tech$"
+ tech_strike_craft_3_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ esc_tech_missiles_6_CSS:0 "$esc_tech_missiles_6$$tech_CSS_tech$"
+ esc_tech_missiles_6_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ esc_tech_missiles_7_CSS:0 "$esc_tech_missiles_7$$tech_CSS_tech$"
+ esc_tech_missiles_7_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ esc_tech_torpedoes_4_CSS:0 "$esc_tech_torpedoes_4$$tech_CSS_tech$"
+ esc_tech_torpedoes_4_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ esc_tech_torpedoes_5_CSS:0 "$esc_tech_torpedoes_5$$tech_CSS_tech$"
+ esc_tech_torpedoes_5_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ esc_tech_swarmer_missiles_3_CSS:0 "$esc_tech_swarmer_missiles_3$$tech_CSS_tech$"
+ esc_tech_swarmer_missiles_3_CSS_desc:0 "$tech_CSS_dummy_desc$"
+
+ esc_tech_swarmer_missiles_4_CSS:0 "$esc_tech_swarmer_missiles_4$$tech_CSS_tech$"
+ esc_tech_swarmer_missiles_4_CSS_desc:0 "$tech_CSS_dummy_desc$"
