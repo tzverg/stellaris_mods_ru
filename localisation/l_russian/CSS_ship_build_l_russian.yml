@@ -1,12 +1,12 @@
 ﻿l_russian:
 
  CSS_JG_WARFLOWER_BUILD_0_MEGASTRUCTURE_DETAILS:1		"§Y$CSS_JG_WARFLOWER$§! это массивная крепость, предназначенная для звездной обороны и стратегической атаки."
- CSS_JG_WARFLOWER_BUILD_0_CONSTRUCTION_INFO_DELAYED:4	"$CSS_JG_WARFLOWER$ §Rне может§! быть построен на верфи звездной базы из-за своих огромных размеров, но §Gможет§! быть построен строительным кораблем на орбите планеты или звезды."
+ CSS_JG_WARFLOWER_BUILD_0_CONSTRUCTION_INFO_DELAYED:4	"$CSS_JG_WARFLOWER$ §Rне может§! быть построен на верфи звездной базы из-за своих огромных размеров, но §Gможет§! быть построен строительным кораблем на орбите планеты или звезды (исключительно в единственном экземпляре)."
  
  CSS_JG_WARFLOWER_BUILD_0:0								"Остов §Y$CSS_JG_WARFLOWER$§!"
  CSS_JG_WARFLOWER_BUILD_0_DESC:0						"Этот объект послужит фундаментом для будущего строительства платформы §Y$CSS_JG_WARFLOWER$§!"
  CSS_JG_WARFLOWER_BUILD_1:0								"Активация §Y$CSS_JG_WARFLOWER$§!"
- CSS_JG_WARFLOWER_BUILD_1_DESC:0						"Финальный этап ввода в эксплуатацию платформы §Y$CSS_JG_WARFLOWER$§! немедленно разрешить ему принимать участие в космических баталиях."
+ CSS_JG_WARFLOWER_BUILD_1_DESC:0						"Финальный этап ввода в эксплуатацию платформы §Y$CSS_JG_WARFLOWER$§!. После окончания немедленно активирует все орудийные установки, что позволит ему сразу принимать участие в космических баталиях."
 
  only_one_warflower:1									"$TRIGGER_FAIL$Уже имеет платформу §Y$CSS_JG_WARFLOWER$§!. У вас может быть только одна платформа класса §Y$CSS_JG_WARFLOWER$§!"
  other_warflower_under_construction:1					"$TRIGGER_FAIL$Платформа §Y$CSS_JG_WARFLOWER$§! уже строится в другом месте. У вас может быть только одна платформа класса §Y$CSS_JG_WARFLOWER$§!"

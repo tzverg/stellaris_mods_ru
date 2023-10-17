@@ -1,0 +1,7 @@
+﻿l_russian:
+
+ TECH_UNLOCK_CSS_COMPONENT:0 	"$TECH_UNLOCK_COMPONENT_LINE$ "
+ TECH_UNLOCK_CSS_SHIP:0			"§HРазблокирует подкласс корабля:§! "
+ 
+ tech_CSS_tech:0				" [ Технологии CSS ]"
+ tech_CSS_dummy_desc:0			"Эта технология пренадлежит к глобальному проекту под аббревиатурой CSS."

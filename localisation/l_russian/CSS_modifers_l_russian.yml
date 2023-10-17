@@ -1,0 +1,12 @@
+﻿l_russian:
+
+ modifier_ship_build_speed:0							"Скорость Сборки"
+ modifier_ship_hull:0									"Корпус"
+ 
+ mod_CSSms_SHIP_LRM_GUIDE_other_weapon_damage_mult:0	"Урон от оружия, за исключением оружия 'взрывного' типа"
+ mod_CSSms_SHIP_LRM_GUIDE_other_weapon_fire_rate_mult:0	"Скорострельность, за исключением оружия 'взрывного' типа"
+ 
+ CSS_COUNTRY_FLAG_TITLE:0								" Условия удовлетворены"
+ CSS_COUNTRY_FLAG_PRE:0									"Теперь технологические условия для "
+ CSS_COUNTRY_FLAG_POST:0								" технологические условия удовлетворены. Если вы соответствуете необходимым технологическим требованиям, вы получите возможность проведения необходимых исследований."
+ 

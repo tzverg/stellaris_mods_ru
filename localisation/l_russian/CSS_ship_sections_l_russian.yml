@@ -1,0 +1,60 @@
+﻿l_russian:
+
+ CSS_BB_CARRIER_BOW_H1_L2:0				"(1H-2L) Носовая Палуба 'Гнездо'"
+ CSS_BB_CARRIER_MID_H2_NONE:0 			"(2H) Бортовая Палуба 'Гнездо'"
+ CSS_BB_CARRIER_STERN_H2_A2:0			"(2H-2A) Кормовая Палуба 'Гнездо'"
+ 
+ CSS_CC_EXPLOSIVE_BOW_M1S2_M4:0			"(1M-2S) Носовая Палуба 'Подрывник'"
+ CSS_CC_EXPLOSIVE_MID_M2S4_M4:0			"(2M-4S) Бортовая Палуба 'Подрывник'"
+ CSS_CC_EXPLOSIVE_STERN_S2_A2:0			"(2S-2A) Кормовая Палуба 'Подрывник'"
+ 
+ CSS_CC_DEFENDER_BOW_P2_M5:0			"(2P-5M) Носовая Палуба 'Защитник'"
+ CSS_CC_DEFENDER_MID_P3_M5:0			"(3P-5M) Бортовая Палуба 'Защитник'"
+ CSS_CC_DEFENDER_STERN_P2_A2:0			"(2P-2A) Кормовая Палуба 'Защитник'"
+ 
+ CSS_CO_ASSAULT_MID_M1S2_S5A1:0			"(1M-2S) Палуба 'Дебошир'"
+
+ CSS_BB_MONTIOR_Xt1_L3:0				"(1Xt-3L) Палуба 'Бомбардир'"
+ 
+ CSS_CC_CARRIER_BOW_H1_M2:0				"(1H-2M) Носовая Палуба 'Насест'"
+ CSS_CC_CARRIER_MID_H1_NONE:0			"(1H) Бортовая Палуба 'Насест'"
+ CSS_CC_CARRIER_STERN_H1_A1:0			"(1H-1A) Кормовая Палуба 'Насест'"
+ 
+ CSS_BB_INTERDICTOR_BOW_H1_L2:0			"(1H-2L) Носовая Палуба 'Исказитель'"
+ CSS_BB_INTERDICTOR_MID_NONE_L2:0		"(2L) Бортовая Палуба 'Исказитель'"
+ CSS_BB_INTERDICTOR_STERN_H2_A2:0		"(2H-2A) Кормовая Палуба 'Исказитель'"
+ 
+ CSS_CC_GUARDIAN_BOW_P2_L3:0			"(2P-3L) Носовая Палуба 'Страж'"
+ CSS_CC_GUARDIAN_MID_S2_L3:0			"(2S-3L) Бортовая Палуба 'Страж'"
+ CSS_CC_GUARDIAN_STERN_NONE_A2:0		"(2A) Кормовая Палуба 'Страж'"
+ 
+ CSS_JG_WARFLOWER_CORE:0				"Боевой Лотос: Ядро"
+ CSS_JG_WARFLOWER_L4:0					"Боевой Лотос: (4L) Тяжёлая Палуба"
+ CSS_JG_WARFLOWER_X2:0					"Боевой Лотос: (2X) Сверхтяжёлая Палуба"
+ CSS_JG_WARFLOWER_G8:0					"Боевой Лотос: (8G) Торпедная Палуба"
+ CSS_JG_WARFLOWER_H4:0					"Боевой Лотос: (4H) Авиационная Палуба"
+ CSS_JG_WARFLOWER_P8:0					"Боевой Лотос: (8P) Палуба ПМО"
+ 
+ CSS_TI_REJUVENATOR_BOW_NONE_L6:0		"(6L) Носовая Палуба 'Жизнедар'"
+ CSS_TI_REJUVENATOR_MID_H4P4_L6:0		"(4H-4P-6L) Бортовая Палуба 'Жизнедар'"
+ CSS_TI_REJUVENATOR_STERN_H2_A2:0		"(2H-2A) Кормовая Палуба 'Жизнедар'"
+ 
+ CSS_DD_SNIPER_BOW_X1_S4:0				"(1X-4S) Носовая Палуба 'Дальнобой'"
+ CSS_DD_SNIPER_STERN_NONE_NONE:0		"() Кормовая Палуба 'Дальнобой'"
+ 
+ CSS_DD_TORPEDO_BOW_G1_S6:0				"(1G-6S) Носовая Палуба 'Торпеда'"
+ CSS_DD_TORPEDO_STERN_G2_A1:0			"(2G-1A) Кормовая Палуба 'Торпеда'"
+ 
+ CSS_CC_DRONE_BOW_H1_M4:0				"(1H-4M) Носовая Палуба 'Рельсодрон'"
+ CSS_CC_DRONE_STERN_NONE_A2:0			"(2A) Кормовая Палуба 'Рельсодрон'"
+ 
+ CORE_CSS_JG_DREADNOUGHT_SECTION:0 		"Палуба 'Голиаф'"
+ 
+ CSS_CO_SWARMLING_MID_S1_S1:0			"(1S-1S) Бортовая Палуба 'Роевик'"
+ 
+ CSS_BB_BROADSIDER_BOW_M4_L3:0			"(4M-3L) Носовая Палуба 'Многоствол'"
+ CSS_BB_BROADSIDER_MID_M6_L3:0			"(6M-3L) Бортовая Палуба 'Многоствол'"
+ CSS_BB_BROADSIDER_STERN_M4_A2:0		"(4M-2A) Кормовая Палуба 'Многоствол'"
+ 
+ CSS_DD_DIMENSIONER_BOW_P1_S3:0			"(4M-3L) Носовая Палуба 'Стабилизатор'"
+ CSS_DD_DIMENSIONER_STERN_NONE_NONE:0	"() Кормовая Палуба 'Исказитель Размера'"

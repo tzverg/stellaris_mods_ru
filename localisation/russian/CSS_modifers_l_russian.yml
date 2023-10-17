@@ -1,8 +1,0 @@
-﻿l_russian:
-
- modifier_ship_build_speed:0									          "Скорость Сборки"
- modifier_ship_hull:0											              "Корпус"
- 
- mod_CSSms_SHIP_LRM_GUIDE_other_weapon_damage_mult:0		"Урон от оружия, за исключением оружия 'взрывного' типа"
- mod_CSSms_SHIP_LRM_GUIDE_other_weapon_fire_rate_mult:0	"Скорострельность, за исключением оружия 'взрывного' типа"
- 
