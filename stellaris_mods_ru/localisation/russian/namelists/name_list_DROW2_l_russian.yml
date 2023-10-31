@@ -1,0 +1,66 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Elves of Stellaris (remote_file_id="915432220")
+ #
+ # [localisation/russian/namelist]
+ #  - name_list_DROW1_l_russian.yml
+ #  - name_list_DROW2_l_russian.yml
+ #  - name_list_DROW3_l_russian.yml
+ #  - name_list_ELVEN1_l_russian.yml
+ #  - name_list_ELVEN2_l_russian.yml
+ #  - name_list_ELVEN3_l_russian.yml
+ #  - name_list_ELVEN4_l_russian.yml
+ #  - name_list_ELVEN5_l_russian.yml
+ #  - name_list_ELVEN6_l_russian.yml
+ #  - name_list_ELVEN7_l_russian.yml
+ #
+ # [localisation/russian]
+ #  - Drow_accident_events_l_russian.yml
+ #  - Drow_l_russian.yml
+ #  - Elven_l_russian.yml
+ #  - Lunari_l_russian.yml
+ #  - eos_nebulae_l_russian.yml
+ #
+ ####################################
+
+  ####################
+  ## DROW2 - DUNMER ##
+  ####################
+
+  EOS_NAMELIST_DROW2_FLEET_NAMED1: "Ambarys' Battalion"
+  EOS_NAMELIST_DROW2_FLEET_NAMED2: "Gnisis Task Force"
+  EOS_NAMELIST_DROW2_FLEET_NAMED3: "Redoran Armada"
+  EOS_NAMELIST_DROW2_FLEET_NAMED4: "Hlaalu Flotilla"
+  EOS_NAMELIST_DROW2_FLEET_NAMED5: "Jenassa's Hunters"
+  EOS_NAMELIST_DROW2_FLEET_NAMED6: "Lady Brelyna's Host"
+  EOS_NAMELIST_DROW2_FLEET_NAMED7: "Lady Ildari's Host"
+  EOS_NAMELIST_DROW2_FLEET_NAMED8: "Lord Neloth's Host"
+  EOS_NAMELIST_DROW2_FLEET_NAMED9: "Telvanni Armada"
+  EOS_NAMELIST_DROW2_FLEET_NAMED10: "Tel Branora Armada"
+  EOS_NAMELIST_DROW2_FLEET_NAMED11: "Tel Mora Armada"
+  EOS_NAMELIST_DROW2_FLEET_NAMED12: "Tel Mythrin Host"
+  EOS_NAMELIST_DROW2_FLEET_NAMED13: "Valen's Cavalcade"
+
+  EOS_NAMELIST_DROW2_FLEET_ORD: "$O$ Suj'tong"
+
+  EOS_NAMELIST_DROW2_ARMY_MACHINE_DEFENSE_ORD:   "$O$ Golem Division"
+  EOS_NAMELIST_DROW2_ARMY_MACHINE_ASSUALT1_ORD:  "$O$ Warmech Division"
+  EOS_NAMELIST_DROW2_ARMY_MACHINE_ASSUALT2_ORD:  "$O$ Warmech Division"
+  EOS_NAMELIST_DROW2_ARMY_MACHINE_ASSUALT3_ORD:  "$O$ Warmech Division"
+  EOS_NAMELIST_DROW2_ARMY_DEFENSE_ORD:           "$O$ Defense Brigade"
+  EOS_NAMELIST_DROW2_ARMY_ASSAULT_ORD:           "$O$ Attack Division"
+  EOS_NAMELIST_DROW2_ARMY_SLAVE_ORD:             "$O$ N'wah Division"
+  EOS_NAMELIST_DROW2_ARMY_CLONE_ORD:             "$O$ Clone Force"
+  EOS_NAMELIST_DROW2_ARMY_UNDEAD_ORD:            "$O$ Undeath Brigade"
+  EOS_NAMELIST_DROW2_ARMY_ROBOTIC_ORD:           "$O$ Robot Corps"
+  EOS_NAMELIST_DROW2_ARMY_ROBOTIC_DEFENSE_ORD:   "$O$ Robot Defenders"
+  EOS_NAMELIST_DROW2_ARMY_PSIONIC_ORD:           "$O$ Psionic Battalion"
+  EOS_NAMELIST_DROW2_ARMY_XENO_ORD:              "$O$ Genetic Rampage"
+  EOS_NAMELIST_DROW2_ARMY_GENE_ORD:              "$O$ Enhanced Division"
+  EOS_NAMELIST_DROW2_ARMY_OCCUPATION_ORD:        "$O$ Peacekeeper Division"
+  EOS_NAMELIST_DROW2_ARMY_ROBOT_OCCUPATION_ORD:  "$O$ Robotic Peacekeepers"
+  EOS_NAMELIST_DROW2_ARMY_PRIMITIVE_ORD:         "$O$ Tribal Band"
+  EOS_NAMELIST_DROW2_ARMY_INDUSTRIAL_ORD:        "$O$ Armored Infantry"
+  EOS_NAMELIST_DROW2_ARMY_POSTATOMIC_ORD:        "$O$ Mechanized Division"

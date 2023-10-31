@@ -1,0 +1,74 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Elves of Stellaris (remote_file_id="915432220")
+ #
+ # [localisation/russian/namelist]
+ #  - name_list_DROW1_l_russian.yml
+ #  - name_list_DROW2_l_russian.yml
+ #  - name_list_DROW3_l_russian.yml
+ #  - name_list_ELVEN1_l_russian.yml
+ #  - name_list_ELVEN2_l_russian.yml
+ #  - name_list_ELVEN3_l_russian.yml
+ #  - name_list_ELVEN4_l_russian.yml
+ #  - name_list_ELVEN5_l_russian.yml
+ #  - name_list_ELVEN6_l_russian.yml
+ #  - name_list_ELVEN7_l_russian.yml
+ #
+ # [localisation/russian]
+ #  - Drow_accident_events_l_russian.yml
+ #  - Drow_l_russian.yml
+ #  - Elven_l_russian.yml
+ #  - Lunari_l_russian.yml
+ #  - eos_nebulae_l_russian.yml
+ #
+ ####################################
+ 
+  #   "12345678 9ABCDEFH"
+  ###################
+  ## ELVEN7 - WILD ##
+  ###################
+
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED1: "Marissa's Host"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED2: "Shilarra's Host"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED3: "Talindra's Host"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED4: "Host of Cameron"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED5: "Host of Halamar"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED6: "Host of Marikoth"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED7: "Aerthyr Task Force"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED8: "Colarta Task Force"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED9: "Melithyr Task Force"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED10: "Numenthor Armada"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED11: "Shertas Armada"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED12: "Melithas Armada"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED13: "Fleet of Aercar"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED14: "Fleet of Hosarta"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED15: "Olaestum Immortals"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED16: "Torserin Immortals"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED17: "Baernlond Immortals"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED18: "Warriors of Amonlond"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED19: "Neldorcoa Warriors"
+  EOS_NAMELIST_ELVEN7_FLEET_NAMED20: "Sherathrad Warriors"
+
+  EOS_NAMELIST_ELVEN7_FLEET_ORD: "$O$ Defenders"
+
+  EOS_NAMELIST_ELVEN7_ARMY_MACHINE_DEFENSE_ORD:   "$O$ Ground Shield"
+  EOS_NAMELIST_ELVEN7_ARMY_MACHINE_ASSUALT1_ORD:  "$O$ War Guild"
+  EOS_NAMELIST_ELVEN7_ARMY_MACHINE_ASSUALT2_ORD:  "$O$ War Guild"
+  EOS_NAMELIST_ELVEN7_ARMY_MACHINE_ASSUALT3_ORD:  "$O$ War Guild"
+  EOS_NAMELIST_ELVEN7_ARMY_DEFENSE_ORD:           "$O$ Planetary Guard"
+  EOS_NAMELIST_ELVEN7_ARMY_ASSAULT_ORD:           "$O$ Expeditionary Knights"
+  EOS_NAMELIST_ELVEN7_ARMY_SLAVE_ORD:             "$O$ Expeditionary Volunteers"
+  EOS_NAMELIST_ELVEN7_ARMY_CLONE_ORD:             "$O$ Clone Knights"
+  EOS_NAMELIST_ELVEN7_ARMY_UNDEAD_ORD:            "$O$ Dread Warriors"
+  EOS_NAMELIST_ELVEN7_ARMY_ROBOTIC_ORD:           "$O$ Machine Division"
+  EOS_NAMELIST_ELVEN7_ARMY_ROBOTIC_DEFENSE_ORD:   "$O$ Machine Defenders"
+  EOS_NAMELIST_ELVEN7_ARMY_PSIONIC_ORD:           "$O$ Enlightened Knights"
+  EOS_NAMELIST_ELVEN7_ARMY_XENO_ORD:              "$O$ Creatures of Ulunn"
+  EOS_NAMELIST_ELVEN7_ARMY_GENE_ORD:              "$O$ Perfected Knights"
+  EOS_NAMELIST_ELVEN7_ARMY_OCCUPATION_ORD:        "$O$ Occupation Knights"
+  EOS_NAMELIST_ELVEN7_ARMY_ROBOT_OCCUPATION_ORD:  "$O$ Machine Occupiers"
+  EOS_NAMELIST_ELVEN7_ARMY_PRIMITIVE_ORD:         "$O$ Tribal Warband"
+  EOS_NAMELIST_ELVEN7_ARMY_INDUSTRIAL_ORD:        "$O$ Armored Division"
+  EOS_NAMELIST_ELVEN7_ARMY_POSTATOMIC_ORD:        "$O$ Mechanized Warband"

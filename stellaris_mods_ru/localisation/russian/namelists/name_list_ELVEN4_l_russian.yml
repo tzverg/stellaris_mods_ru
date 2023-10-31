@@ -1,0 +1,52 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Elves of Stellaris (remote_file_id="915432220")
+ #
+ # [localisation/russian/namelist]
+ #  - name_list_DROW1_l_russian.yml
+ #  - name_list_DROW2_l_russian.yml
+ #  - name_list_DROW3_l_russian.yml
+ #  - name_list_ELVEN1_l_russian.yml
+ #  - name_list_ELVEN2_l_russian.yml
+ #  - name_list_ELVEN3_l_russian.yml
+ #  - name_list_ELVEN4_l_russian.yml
+ #  - name_list_ELVEN5_l_russian.yml
+ #  - name_list_ELVEN6_l_russian.yml
+ #  - name_list_ELVEN7_l_russian.yml
+ #
+ # [localisation/russian]
+ #  - Drow_accident_events_l_russian.yml
+ #  - Drow_l_russian.yml
+ #  - Elven_l_russian.yml
+ #  - Lunari_l_russian.yml
+ #  - eos_nebulae_l_russian.yml
+ #
+ ####################################
+
+  #####################
+  ## ELVEN4 - AENARI ##
+  #####################
+
+  EOS_NAMELIST_ELVEN4_FLEET_ORD: "$O$ Rissuis"
+
+  EOS_NAMELIST_ELVEN4_ARMY_MACHINE_DEFENSE_ORD:   "$O$ Toncpan Ciriioní"
+  EOS_NAMELIST_ELVEN4_ARMY_MACHINE_ASSUALT1_ORD:  "$O$ Toncpan Seretirucotí"
+  EOS_NAMELIST_ELVEN4_ARMY_MACHINE_ASSUALT2_ORD:  "$O$ Toncpan Seretirucotí"
+  EOS_NAMELIST_ELVEN4_ARMY_MACHINE_ASSUALT3_ORD:  "$O$ Toncpan Seretirucotí"
+  EOS_NAMELIST_ELVEN4_ARMY_DEFENSE_ORD:           "$O$ Toncpan Dessindí"
+  EOS_NAMELIST_ELVEN4_ARMY_ASSAULT_ORD:           "$O$ Toncpan Ellirí"
+  EOS_NAMELIST_ELVEN4_ARMY_SLAVE_ORD:             "$O$ Toncpan Tenapí"
+  EOS_NAMELIST_ELVEN4_ARMY_CLONE_ORD:             "$O$ Toncpan Seirí"
+  EOS_NAMELIST_ELVEN4_ARMY_UNDEAD_ORD:            "$O$ Toncpan Atognoní"
+  EOS_NAMELIST_ELVEN4_ARMY_ROBOTIC_ORD:           "$O$ Toncpan Nedeirí"
+  EOS_NAMELIST_ELVEN4_ARMY_ROBOTIC_DEFENSE_ORD:   "$O$ Toncpan Ciriioní"
+  EOS_NAMELIST_ELVEN4_ARMY_PSIONIC_ORD:           "$O$ Toncpan Alirelí"
+  EOS_NAMELIST_ELVEN4_ARMY_XENO_ORD:              "$O$ Toncpan Laxscí"
+  EOS_NAMELIST_ELVEN4_ARMY_GENE_ORD:              "$O$ Toncpan Escerí"
+  EOS_NAMELIST_ELVEN4_ARMY_OCCUPATION_ORD:        "$O$ Toncpan Alotetí"
+  EOS_NAMELIST_ELVEN4_ARMY_ROBOT_OCCUPATION_ORD:  "$O$ Toncpan Alotetí"
+  EOS_NAMELIST_ELVEN4_ARMY_PRIMITIVE_ORD:         "Toncpan Anacuratemuní $O$"
+  EOS_NAMELIST_ELVEN4_ARMY_INDUSTRIAL_ORD:        "Toncpan Cossoní $O$"
+  EOS_NAMELIST_ELVEN4_ARMY_POSTATOMIC_ORD:        "Toncpan Ancatoí $O$"

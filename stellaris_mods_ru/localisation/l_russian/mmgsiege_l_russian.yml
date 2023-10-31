@@ -1,4 +1,14 @@
 ﻿l_russian:
+
+ ####################################
+ #
+ # Under Siege (remote_file_id="2786268200")
+ #
+ # [l_russian]
+ #  - mmgsiege_l_russian.yml
+ #
+ ####################################
+ 
  mmgsiege_under_siege: "Нехватка Местных Ресурсов"
  mmgsiege_under_siege_desc: "[This.MmgsiegeStatus]" # DO NOT TRANSLATE
 

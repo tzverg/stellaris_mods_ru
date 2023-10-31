@@ -1,7 +1,0 @@
-﻿l_russian:
-
- CSS_event_tech_ship_unlock.NEWSHIP:0			"§H[researcher_pop.GetSpeciesAdj]ие§! [Root.GetScientistPlural] теперь черпают идеи из традиционных корабельных конструкций для их модернизации."
- CSS_event_tech_ship_unlock.NEWSHIP.name:0		"Новый дизайн корабля"
-
- CSS_event_tech_ship_unlock.RESEARCH:0			"Получен вариант исследования:"
- 

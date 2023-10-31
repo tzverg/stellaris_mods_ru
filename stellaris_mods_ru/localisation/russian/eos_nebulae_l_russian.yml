@@ -1,0 +1,33 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Elves of Stellaris (remote_file_id="915432220")
+ #
+ # [localisation/russian/namelist]
+ #  - name_list_DROW1_l_russian.yml
+ #  - name_list_DROW2_l_russian.yml
+ #  - name_list_DROW3_l_russian.yml
+ #  - name_list_ELVEN1_l_russian.yml
+ #  - name_list_ELVEN2_l_russian.yml
+ #  - name_list_ELVEN3_l_russian.yml
+ #  - name_list_ELVEN4_l_russian.yml
+ #  - name_list_ELVEN5_l_russian.yml
+ #  - name_list_ELVEN6_l_russian.yml
+ #  - name_list_ELVEN7_l_russian.yml
+ #
+ # [localisation/russian]
+ #  - Drow_accident_events_l_russian.yml
+ #  - Drow_l_russian.yml
+ #  - Elven_l_russian.yml
+ #  - Lunari_l_russian.yml
+ #  - eos_nebulae_l_russian.yml
+ #
+ ####################################
+
+ ELVEN_Coiled_Serpent: "Планетарная туманность «Свернувшаяся змея»"
+ ELVEN_Dark_Web: "Планетарная туманность «Темная паутина»"
+ ELVEN_Fractured_Rainbow: "Планетарная туманность «Расколотая радуга»"
+ ELVEN_Dragon_Refuge: "Приют дракона"
+ ELVEN_Shattered_Rose: "Расколотая роза"
+ ELVEN_Frozen_Shard: "Планетарная туманность «Застывший осколок»"

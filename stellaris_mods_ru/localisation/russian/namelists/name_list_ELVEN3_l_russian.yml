@@ -1,0 +1,53 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Elves of Stellaris (remote_file_id="915432220")
+ #
+ # [localisation/russian/namelist]
+ #  - name_list_DROW1_l_russian.yml
+ #  - name_list_DROW2_l_russian.yml
+ #  - name_list_DROW3_l_russian.yml
+ #  - name_list_ELVEN1_l_russian.yml
+ #  - name_list_ELVEN2_l_russian.yml
+ #  - name_list_ELVEN3_l_russian.yml
+ #  - name_list_ELVEN4_l_russian.yml
+ #  - name_list_ELVEN5_l_russian.yml
+ #  - name_list_ELVEN6_l_russian.yml
+ #  - name_list_ELVEN7_l_russian.yml
+ #
+ # [localisation/russian]
+ #  - Drow_accident_events_l_russian.yml
+ #  - Drow_l_russian.yml
+ #  - Elven_l_russian.yml
+ #  - Lunari_l_russian.yml
+ #  - eos_nebulae_l_russian.yml
+ #
+ ####################################
+ 
+  #   "12345678 9ABCDEFH"
+  #######################
+  ## ELVEN3 - MOON ELF ##
+  #######################
+
+  EOS_NAMELIST_ELVEN3_FLEET_ORD: "$O$ Caemesh Lýn"
+
+  EOS_NAMELIST_ELVEN3_ARMY_MACHINE_DEFENSE_ORD:   "$O$ Mai'rén Daireldén"
+  EOS_NAMELIST_ELVEN3_ARMY_MACHINE_ASSUALT1_ORD:  "$O$ Shaíth Mai'rén"
+  EOS_NAMELIST_ELVEN3_ARMY_MACHINE_ASSUALT2_ORD:  "$O$ Shaíth Mai'rén"
+  EOS_NAMELIST_ELVEN3_ARMY_MACHINE_ASSUALT3_ORD:  "$O$ Shaíth Mai'rén"
+  EOS_NAMELIST_ELVEN3_ARMY_DEFENSE_ORD:           "$O$ Mai'rén Laên"
+  EOS_NAMELIST_ELVEN3_ARMY_ASSAULT_ORD:           "$O$ Mai'rén Renáe"
+  EOS_NAMELIST_ELVEN3_ARMY_SLAVE_ORD:             "$O$ Camnaéth'aes Qui'rén"
+  EOS_NAMELIST_ELVEN3_ARMY_CLONE_ORD:             "$O$ Rah'thul Mai'rén"
+  EOS_NAMELIST_ELVEN3_ARMY_UNDEAD_ORD:            "$O$ Arcenám Mai'rén"
+  EOS_NAMELIST_ELVEN3_ARMY_ROBOTIC_ORD:           "$O$ Veth Mai'rén"
+  EOS_NAMELIST_ELVEN3_ARMY_ROBOTIC_DEFENSE_ORD:   "$O$ Mai'rén Dairelden"
+  EOS_NAMELIST_ELVEN3_ARMY_PSIONIC_ORD:           "$O$ Mai'ren Arcaén"
+  EOS_NAMELIST_ELVEN3_ARMY_XENO_ORD:              "$O$ Sathas Qui'rén"
+  EOS_NAMELIST_ELVEN3_ARMY_GENE_ORD:              "$O$ Mai'rén Sylênn"
+  EOS_NAMELIST_ELVEN3_ARMY_OCCUPATION_ORD:        "$O$ Saemirán Mai'ren"
+  EOS_NAMELIST_ELVEN3_ARMY_ROBOT_OCCUPATION_ORD:  "$O$ Mai'rén Daireldén"
+  EOS_NAMELIST_ELVEN3_ARMY_PRIMITIVE_ORD:         "Qui'rén Channemén $O$"
+  EOS_NAMELIST_ELVEN3_ARMY_INDUSTRIAL_ORD:        "Qui'rén Arcirán $O$"
+  EOS_NAMELIST_ELVEN3_ARMY_POSTATOMIC_ORD:        "Qui'rén Nanderán $O$"

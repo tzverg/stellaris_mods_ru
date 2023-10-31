@@ -1,0 +1,64 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Elves of Stellaris (remote_file_id="915432220")
+ #
+ # [localisation/russian/namelist]
+ #  - name_list_DROW1_l_russian.yml
+ #  - name_list_DROW2_l_russian.yml
+ #  - name_list_DROW3_l_russian.yml
+ #  - name_list_ELVEN1_l_russian.yml
+ #  - name_list_ELVEN2_l_russian.yml
+ #  - name_list_ELVEN3_l_russian.yml
+ #  - name_list_ELVEN4_l_russian.yml
+ #  - name_list_ELVEN5_l_russian.yml
+ #  - name_list_ELVEN6_l_russian.yml
+ #  - name_list_ELVEN7_l_russian.yml
+ #
+ # [localisation/russian]
+ #  - Drow_accident_events_l_russian.yml
+ #  - Drow_l_russian.yml
+ #  - Elven_l_russian.yml
+ #  - Lunari_l_russian.yml
+ #  - eos_nebulae_l_russian.yml
+ #
+ ####################################
+
+  #######################
+  ## DROW1 - ILYTHIIRI ##
+  #######################
+
+  EOS_NAMELIST_DROW1_FLEET_NAMED1: "Fashka Imlar"
+  EOS_NAMELIST_DROW1_FLEET_NAMED2: "Fashka Eirior"
+  EOS_NAMELIST_DROW1_FLEET_NAMED3: "Fashka Valsharess"
+  EOS_NAMELIST_DROW1_FLEET_NAMED4: "Fashka Yathtallar"
+  EOS_NAMELIST_DROW1_FLEET_NAMED5: "Fashka Qu'essan"
+  EOS_NAMELIST_DROW1_FLEET_NAMED6: "Fashka Delmah"
+  EOS_NAMELIST_DROW1_FLEET_NAMED7: "Fashka Serisen"
+  EOS_NAMELIST_DROW1_FLEET_NAMED8: "Fashka Drakta"
+  EOS_NAMELIST_DROW1_FLEET_NAMED9: "Fashka Dalninin"
+  EOS_NAMELIST_DROW1_FLEET_NAMED10: "Fashka Marala"
+  EOS_NAMELIST_DROW1_FLEET_NAMED11: "Fashka d'Issan"
+
+  EOS_NAMELIST_DROW1_FLEET_ORD: "$O$ Dalharil Fashka"
+
+  EOS_NAMELIST_DROW1_ARMY_MACHINE_DEFENSE_ORD:   "$O$ Zhentua Kyorl"
+  EOS_NAMELIST_DROW1_ARMY_MACHINE_ASSUALT1_ORD:  "$O$ Zhentua d'Aron"
+  EOS_NAMELIST_DROW1_ARMY_MACHINE_ASSUALT2_ORD:  "$O$ Zhentua d'Aron"
+  EOS_NAMELIST_DROW1_ARMY_MACHINE_ASSUALT3_ORD:  "$O$ Zhentua d'Aron"
+  EOS_NAMELIST_DROW1_ARMY_DEFENSE_ORD:           "$O$ Delmah Kyorl"
+  EOS_NAMELIST_DROW1_ARMY_ASSAULT_ORD:           "$O$ Z'hindul Hosse"
+  EOS_NAMELIST_DROW1_ARMY_SLAVE_ORD:             "$O$ Rothe Hosse"
+  EOS_NAMELIST_DROW1_ARMY_CLONE_ORD:             "$O$ Toha Hosse"
+  EOS_NAMELIST_DROW1_ARMY_UNDEAD_ORD:            "$O$ Naut-elghinyrr"
+  EOS_NAMELIST_DROW1_ARMY_ROBOTIC_ORD:           "$O$ Vantua Hosse"
+  EOS_NAMELIST_DROW1_ARMY_ROBOTIC_DEFENSE_ORD:   "$O$ Vantua Kyorl"
+  EOS_NAMELIST_DROW1_ARMY_PSIONIC_ORD:           "$O$ M'elzar d'Aron"
+  EOS_NAMELIST_DROW1_ARMY_XENO_ORD:              "$O$ Phindar d'Aron"
+  EOS_NAMELIST_DROW1_ARMY_GENE_ORD:              "$O$ Karandras d'Aron"
+  EOS_NAMELIST_DROW1_ARMY_OCCUPATION_ORD:        "$O$ Kyorl Plinn"
+  EOS_NAMELIST_DROW1_ARMY_ROBOT_OCCUPATION_ORD:  "$O$ Vantua Plinn"
+  EOS_NAMELIST_DROW1_ARMY_PRIMITIVE_ORD:         "$O$ Tribal Band"
+  EOS_NAMELIST_DROW1_ARMY_INDUSTRIAL_ORD:        "$O$ Armored Infantry"
+  EOS_NAMELIST_DROW1_ARMY_POSTATOMIC_ORD:        "$O$ Mechanized Division"

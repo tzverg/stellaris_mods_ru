@@ -1,0 +1,21 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Nanite Machines & Distant Stars Overhaul (remote_file_id="3038822132")
+ #
+ # [russian]
+ #  - dso_l_russian.yml
+ #  - harvest_world_events_l_russian.yml
+ #  - nanite_ecosystem_events_l_russian.yml
+ #
+ # [replace]
+ #  - dso_override_l_russian.yml
+ #
+ ####################################
+ 
+ l_cluster_chain_title: "L-скопление"
+ l_cluster_chain_desc: "[DSO_lcluster_project_loc]" #NT!
+ clues: "Знания об L-вратах"
+ clue: "Знание об L-вратах"
+ add_lcluster_clue: "Получено $clue$: §G+1§!"

@@ -1,0 +1,73 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Elves of Stellaris (remote_file_id="915432220")
+ #
+ # [localisation/russian/namelist]
+ #  - name_list_DROW1_l_russian.yml
+ #  - name_list_DROW2_l_russian.yml
+ #  - name_list_DROW3_l_russian.yml
+ #  - name_list_ELVEN1_l_russian.yml
+ #  - name_list_ELVEN2_l_russian.yml
+ #  - name_list_ELVEN3_l_russian.yml
+ #  - name_list_ELVEN4_l_russian.yml
+ #  - name_list_ELVEN5_l_russian.yml
+ #  - name_list_ELVEN6_l_russian.yml
+ #  - name_list_ELVEN7_l_russian.yml
+ #
+ # [localisation/russian]
+ #  - Drow_accident_events_l_russian.yml
+ #  - Drow_l_russian.yml
+ #  - Elven_l_russian.yml
+ #  - Lunari_l_russian.yml
+ #  - eos_nebulae_l_russian.yml
+ #
+ ####################################
+
+  #####################
+  ## ELVEN1 - AYLEID ##
+  #####################
+
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED1: "Elandora's Host"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED2: "Aniel's Host"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED3: "Candariel's Host"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED4: "Host of Casthyr"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED5: "Host of Faenir"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED6: "Host of Indaryn"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED7: "Arpenia Task Force"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED8: "Gador Task Force"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED9: "Agea Task Force"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED10: "Senalana Armada"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED11: "Ninendava Armada"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED12: "Tatharsel Armada"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED13: "Abagarlas Armada"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED14: "Warriors of Salas En"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED15: "Warriors of the Vale"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED16: "Sirith Immortals"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED17: "Warriors of Laeloria"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED18: "Fleet of Lindai"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED19: "Moranda Armada"
+  EOS_NAMELIST_ELVEN1_FLEET_NAMED20: "Vahtacen Immortals"
+
+  EOS_NAMELIST_ELVEN1_FLEET_ORD: "$O$ Grand Armada"
+
+  EOS_NAMELIST_ELVEN1_ARMY_MACHINE_DEFENSE_ORD:   "$O$ Rurohim-Hame"
+  EOS_NAMELIST_ELVEN1_ARMY_MACHINE_ASSUALT1_ORD:  "$O$ Rurohim-Tarn"
+  EOS_NAMELIST_ELVEN1_ARMY_MACHINE_ASSUALT2_ORD:  "$O$ Rurohim-Tarn"
+  EOS_NAMELIST_ELVEN1_ARMY_MACHINE_ASSUALT3_ORD:  "$O$ Rurohim-Tarn"
+  EOS_NAMELIST_ELVEN1_ARMY_DEFENSE_ORD:           "$O$ Mator-Hame"
+  EOS_NAMELIST_ELVEN1_ARMY_ASSAULT_ORD:           "$O$ Mator-Tarn"
+  EOS_NAMELIST_ELVEN1_ARMY_SLAVE_ORD:             "$O$ Mator-Buro"
+  EOS_NAMELIST_ELVEN1_ARMY_CLONE_ORD:             "$O$ Mator-Ganon"
+  EOS_NAMELIST_ELVEN1_ARMY_UNDEAD_ORD:            "$O$ Nagapelina"
+  EOS_NAMELIST_ELVEN1_ARMY_ROBOTIC_ORD:           "$O$ Rurohim-Tarn"
+  EOS_NAMELIST_ELVEN1_ARMY_ROBOTIC_DEFENSE_ORD:   "$O$ Rurohim-Hame"
+  EOS_NAMELIST_ELVEN1_ARMY_PSIONIC_ORD:           "$O$ Istrin-Tarn"
+  EOS_NAMELIST_ELVEN1_ARMY_XENO_ORD:              "$O$ Balarag-Tarn"
+  EOS_NAMELIST_ELVEN1_ARMY_GENE_ORD:              "$O$ Felgandra-Tarn"
+  EOS_NAMELIST_ELVEN1_ARMY_OCCUPATION_ORD:        "$O$ Mator-Esga"
+  EOS_NAMELIST_ELVEN1_ARMY_ROBOT_OCCUPATION_ORD:  "$O$ Rorohim-Esga"
+  EOS_NAMELIST_ELVEN1_ARMY_PRIMITIVE_ORD:         "$C$ Tribal Army"
+  EOS_NAMELIST_ELVEN1_ARMY_INDUSTRIAL_ORD:        "$C$ Industrial Army"
+  EOS_NAMELIST_ELVEN1_ARMY_POSTATOMIC_ORD:        "$C$ Mechanized Army"

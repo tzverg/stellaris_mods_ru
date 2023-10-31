@@ -1,0 +1,68 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Elves of Stellaris (remote_file_id="915432220")
+ #
+ # [localisation/russian/namelist]
+ #  - name_list_DROW1_l_russian.yml
+ #  - name_list_DROW2_l_russian.yml
+ #  - name_list_DROW3_l_russian.yml
+ #  - name_list_ELVEN1_l_russian.yml
+ #  - name_list_ELVEN2_l_russian.yml
+ #  - name_list_ELVEN3_l_russian.yml
+ #  - name_list_ELVEN4_l_russian.yml
+ #  - name_list_ELVEN5_l_russian.yml
+ #  - name_list_ELVEN6_l_russian.yml
+ #  - name_list_ELVEN7_l_russian.yml
+ #
+ # [localisation/russian]
+ #  - Drow_accident_events_l_russian.yml
+ #  - Drow_l_russian.yml
+ #  - Elven_l_russian.yml
+ #  - Lunari_l_russian.yml
+ #  - eos_nebulae_l_russian.yml
+ #
+ ####################################
+
+  #####################
+  ## ELVEN5 - ALTMER ##
+  #####################
+
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED1: "Ancano's Regulars"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED2: "Calcelmo's Column"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED3: "Elenwen's Host"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED4: "Endarie's Column"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED5: "Aldmeri Flotilla"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED6: "Alinor Armada"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED7: "Arannelya's Host"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED8: "Sarandel's Argosy"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED9: "Sinoriel's Host"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED10: "Naarifin's Host"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED11: "Silvanir's Cavalcade"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED12: "Ondolemar's Advance"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED13: "Palonirya's Advance"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED14: "Sinderion's Convoy"
+  EOS_NAMELIST_ELVEN5_FLEET_NAMED15: "Taarie's Cavalcade"
+
+  EOS_NAMELIST_ELVEN5_FLEET_ORD: "$O$ Great Armada"
+
+  EOS_NAMELIST_ELVEN5_ARMY_MACHINE_DEFENSE_ORD:   "$O$ Golem Division"
+  EOS_NAMELIST_ELVEN5_ARMY_MACHINE_ASSUALT1_ORD:  "$O$ Warmech Division"
+  EOS_NAMELIST_ELVEN5_ARMY_MACHINE_ASSUALT2_ORD:  "$O$ Warmech Division"
+  EOS_NAMELIST_ELVEN5_ARMY_MACHINE_ASSUALT3_ORD:  "$O$ Warmech Division"
+  EOS_NAMELIST_ELVEN5_ARMY_DEFENSE_ORD:           "$O$ Defense Brigade"
+  EOS_NAMELIST_ELVEN5_ARMY_ASSAULT_ORD:           "$O$ Attack Division"
+  EOS_NAMELIST_ELVEN5_ARMY_SLAVE_ORD:             "$O$ Indentured Contingent"
+  EOS_NAMELIST_ELVEN5_ARMY_CLONE_ORD:             "$O$ Clone Force"
+  EOS_NAMELIST_ELVEN5_ARMY_UNDEAD_ORD:            "$O$ Undeath Brigade"
+  EOS_NAMELIST_ELVEN5_ARMY_ROBOTIC_ORD:           "$O$ Robot Corps"
+  EOS_NAMELIST_ELVEN5_ARMY_ROBOTIC_DEFENSE_ORD:   "$O$ Robot Defenders"
+  EOS_NAMELIST_ELVEN5_ARMY_PSIONIC_ORD:           "$O$ Psionic Battalion"
+  EOS_NAMELIST_ELVEN5_ARMY_XENO_ORD:              "$O$ Genetic Rampage"
+  EOS_NAMELIST_ELVEN5_ARMY_GENE_ORD:              "$O$ Enhanced Division"
+  EOS_NAMELIST_ELVEN5_ARMY_OCCUPATION_ORD:        "$O$ Peacekeeper Division"
+  EOS_NAMELIST_ELVEN5_ARMY_ROBOT_OCCUPATION_ORD:  "$O$ Robotic Peacekeepers"
+  EOS_NAMELIST_ELVEN5_ARMY_PRIMITIVE_ORD:         "$O$ Tribal Army"
+  EOS_NAMELIST_ELVEN5_ARMY_INDUSTRIAL_ORD:        "$O$ Armored Division"
+  EOS_NAMELIST_ELVEN5_ARMY_POSTATOMIC_ORD:        "$O$ Mechanized Army"

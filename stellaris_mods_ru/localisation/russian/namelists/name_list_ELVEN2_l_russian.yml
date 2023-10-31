@@ -1,0 +1,73 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Elves of Stellaris (remote_file_id="915432220")
+ #
+ # [localisation/russian/namelist]
+ #  - name_list_DROW1_l_russian.yml
+ #  - name_list_DROW2_l_russian.yml
+ #  - name_list_DROW3_l_russian.yml
+ #  - name_list_ELVEN1_l_russian.yml
+ #  - name_list_ELVEN2_l_russian.yml
+ #  - name_list_ELVEN3_l_russian.yml
+ #  - name_list_ELVEN4_l_russian.yml
+ #  - name_list_ELVEN5_l_russian.yml
+ #  - name_list_ELVEN6_l_russian.yml
+ #  - name_list_ELVEN7_l_russian.yml
+ #
+ # [localisation/russian]
+ #  - Drow_accident_events_l_russian.yml
+ #  - Drow_l_russian.yml
+ #  - Elven_l_russian.yml
+ #  - Lunari_l_russian.yml
+ #  - eos_nebulae_l_russian.yml
+ #
+ ####################################
+
+  #####################
+  ## ELVEN2 - ELDALI ##
+  #####################
+
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED1: "Aica Alqualonde"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED2: "Atiel Alqualonde"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED3: "Altohtar Cirya"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED4: "Elempilin Cirya"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED5: "Elion Alqua"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED6: "Elwen Alqua"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED7: "Halador Alqua"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED8: "Ixaldor Alqua"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED9: "Lalariel Alqua"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED10: "Lango Cirya"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED11: "Langoril Cirya"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED12: "Macil Cirya"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED13: "Maltanamba Cirya"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED14: "Naltanis Alqua"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED15: "Nasserosse Cirya"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED16: "Ostonde Alqua"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED17: "Sercenasse Alqua"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED18: "Silmacil Cirya"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED19: "Yarehte Cirya"
+  EOS_NAMELIST_ELVEN2_FLEET_NAMED20: "Yarlango Cirya"
+
+  EOS_NAMELIST_ELVEN2_FLEET_ORD: "$O$ Cirya"
+
+  EOS_NAMELIST_ELVEN2_ARMY_MACHINE_DEFENSE_ORD:   "$O$ Turma"
+  EOS_NAMELIST_ELVEN2_ARMY_MACHINE_ASSUALT1_ORD:  "$O$ Roquenar"
+  EOS_NAMELIST_ELVEN2_ARMY_MACHINE_ASSUALT2_ORD:  "$O$ Roquenar"
+  EOS_NAMELIST_ELVEN2_ARMY_MACHINE_ASSUALT3_ORD:  "$O$ Roquenar"
+  EOS_NAMELIST_ELVEN2_ARMY_DEFENSE_ORD:           "$O$ Endore-Varwe"
+  EOS_NAMELIST_ELVEN2_ARMY_ASSAULT_ORD:           "$O$ Elenion-Ohtar"
+  EOS_NAMELIST_ELVEN2_ARMY_SLAVE_ORD:             "$O$ Arandur-Ohtar"
+  EOS_NAMELIST_ELVEN2_ARMY_CLONE_ORD:             "$O$ Noldoya Ohtar"
+  EOS_NAMELIST_ELVEN2_ARMY_UNDEAD_ORD:            "$O$ Gyrth-i-guinar"
+  EOS_NAMELIST_ELVEN2_ARMY_ROBOTIC_ORD:           "$O$ Nambadur-Ohtar"
+  EOS_NAMELIST_ELVEN2_ARMY_ROBOTIC_DEFENSE_ORD:   "$O$ Nambadur-Varwe"
+  EOS_NAMELIST_ELVEN2_ARMY_PSIONIC_ORD:           "$O$ Istari-Ohtar"
+  EOS_NAMELIST_ELVEN2_ARMY_XENO_ORD:              "$O$ Anguloce-Ohtar"
+  EOS_NAMELIST_ELVEN2_ARMY_GENE_ORD:              "$O$ Roquen-Ohtar"
+  EOS_NAMELIST_ELVEN2_ARMY_OCCUPATION_ORD:        "$O$ Elenion-Maethor"
+  EOS_NAMELIST_ELVEN2_ARMY_ROBOT_OCCUPATION_ORD:  "$O$ Mirilwe-Maethor"
+  EOS_NAMELIST_ELVEN2_ARMY_PRIMITIVE_ORD:         "$C$ Varwe"
+  EOS_NAMELIST_ELVEN2_ARMY_INDUSTRIAL_ORD:        "$C$ Ohtar"
+  EOS_NAMELIST_ELVEN2_ARMY_POSTATOMIC_ORD:        "$C$ Roquen"
