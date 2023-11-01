@@ -17,21 +17,21 @@
  xte_extravagant_desc_text: "Показаны только минимальное и максимальное значения, так как эффекты этой черты многоуровневые."
  xte_metallurgist_upkeep: "содежание металлургов £job_foundry£ $job_foundry$" # Scripted Loc don't work in concepts
  xte_megastructure_build_cap_add: "Вместимость Мегаструктур" # See above
- xte_thermic_symbiote_dry: "§EНа тёплых§! £planet£ §YПланетах§!:"
- xte_thermic_symbiote_cold: "§EНа холодных§! £planet£ §YПланетах§!:"
+ xte_thermic_symbiote_dry: "§Eна тёплых§! £planet£ §Yпланетах§!:"
+ xte_thermic_symbiote_cold: "§Eна холодных§! £planet£ §Yпланетах§!:"
 
  ######################
  # UNIVERSAL CONCEPTS #
  ######################
- concept_xte_mod: "Ксенология"
+ concept_xte_mod: "XTEU"
  concept_xte_mod_added: "\n§LДобавлено: ['concept_xte_mod']§!"
  concept_xte_mod_desc: "Этот контент был добавлен с помощью §BXenology : Traits Expansion Unofficial - Biological Module§! (XTEU).\n\nXTEU - неофициальное продолжение замечательной модификации от автора §HDevious'§! Xenology"
  xte_councilor_trait_efficiency_notification_species: "Влияет на ['concept_xte_councilor_trait_efficiency']"
  xte_councilor_trait_efficiency_notification: "$t$$xte_councilor_trait_efficiency_notification_species$"
  concept_xte_councilor_trait_efficiency: "Эффективность Свойств Советника"
- concept_xte_councilor_trait_efficiency_desc: "- Эффекты от свойств советника (£council£), добавленных с помощью ['concept_xte_mod'], снизятся в зависимости от числа других советников с тем же свойством.\n- Подсказки §Rне обновляются§! для лидеров, не являющихся советниками.\n\n['concept_xte_councilor_trait_math_breakdown']"
+ concept_xte_councilor_trait_efficiency_desc: "- Эффекты от свойств советника (£council£), добавленных с помощью ['concept_xte_mod'], снизятся в зависимости от числа других советников, обладающих таким-же свойством.\n- Подсказки §Rне обновляются§! для лидеров, не являющихся советниками.\n\n['concept_xte_councilor_trait_math_breakdown']"
  concept_xte_councilor_trait_math_breakdown: "Формула Эффективности"
- concept_xte_councilor_trait_math_breakdown_desc: "Процент эффективности = ($@xte_anti_stack_base_value$ / §Yмаксимум§!($@xte_anti_stack_base_value$, §MX§! + §GY§!))\n\n§MX§! = Количество советников с тем же свойством\n§GY§! = ($@xte_anti_stack_base_value$ - 1)\nЭто уравнение может измениться, если у вас установлен §PМодуль масштабирования§!."
+ concept_xte_councilor_trait_math_breakdown_desc: "Процент Эффективности (%) = ($@xte_anti_stack_base_value$ / §Yмаксимум§! ( $@xte_anti_stack_base_value$, §MX§! + §GY§!))\n\n§MX§! = Количество советников с таким-же свойством\n§GY§! = ($@xte_anti_stack_base_value$ - 1)\nДанное уравнение может измениться, если у вас установлен §PМодуль масштабирования§!."
 
  concept_xte_leader_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
  concept_xte_leader_trait_ancestral_knowledge_desc: "§L$xte_ancestral_knowledge_desc_text$§!\n\n- ['concept_xte_ancestral_knowledge_ruler']\n- ['concept_xte_ancestral_knowledge_governor']\n- ['concept_xte_ancestral_knowledge_admiral']\n- ['concept_xte_ancestral_knowledge_general']\n- ['concept_xte_ancestral_knowledge_scientist']"
