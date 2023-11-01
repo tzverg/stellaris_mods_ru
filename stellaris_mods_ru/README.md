@@ -8,7 +8,7 @@ mod russifications for personal use
 - [3.9.3] Titan Tactical Sections (ручной)
 - [3.*.*] Before The Light - STL (ручной)
 - [3.9.*] Wild Space 3 Patched (ручной)
-- [3.9.3] More Insults (ручной, свободный)
+- [3.7.*] More Insults (ручной, свободный)
 - [3.9.3] Slower Exploration and Expansion (ручной)
 - [3.9.3] Under Siege (ручной)
 - [3.5.*] Planetary Perfection (ручной, свободный)
