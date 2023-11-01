@@ -1,0 +1,25 @@
+﻿l_default:
+
+ ####################################
+ #
+ # Dyson Swarm (remote_file_id="1624127196")
+ #
+ # [localisation/russian]
+ #  - dyson_swarm_l_russian.yml
+ #
+ # [localisation_synced]
+ #  - synced_local_dyson_swarm.yml
+ #
+ ####################################
+
+NAME_dyson_swarm_administration: "Администрация Роя Дайсона"
+NAME_refuge: "Убежище"
+NAME_evacuation_point: "Точка Эвакуации"
+NAME_ruined_swarm: "Разрушенный Рой Дайсона"
+NAME_repaired_ruined_swarm: "Отремонтированный Рой Дайсона"
+
+NAME_corperate_headquarters: "Отдел Корпоративных Центров"
+NAME_hostages: "Отдел Клиенской Дислокации"
+NAME_dyson_native_shadow_ops: "Отдел Теневых Операций"
+NAME_Dyson_corp_war: "День Независимости"
+DYSON_HOSTAGES_NAME: "Нации [THIS.GetName]"

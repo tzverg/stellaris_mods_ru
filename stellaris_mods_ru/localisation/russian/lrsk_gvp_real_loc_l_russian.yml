@@ -1,0 +1,19 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Government Variety Pack (remote_file_id="2806903835")
+ #
+ # [localisation/russian]
+ #  - lrsk_gvp_l_russian.yml
+ #  - lrsk_gvp_real_loc_l_russian.yml
+ #
+ ####################################
+
+ # This file contains unchanging localization "patterns" but actual localization is in flux!
+ lrskAoftheB: "$1$ $2$"			# This gives something like "Kingdom Humans" but unsure how to improve.
+ lrskKindSuff: "$1$ $2$чество"	# This seems more like "Kingdom Humankind" which isn't great.
+ lrskAdjacent: "$1$ $2$"
+ lrskBornSuff: "$1$борн $2$ $3$"
+ lrskConcat: "$1$$2$"
+ lrskPMCSF: "$1$-Сила $2$ $3$$4$"

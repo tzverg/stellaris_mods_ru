@@ -1,17 +1,80 @@
 ﻿l_russian:
-expansion_increase: "Ограничитель Экспансии I"
-expansion_increase2: "Ограничитель Экспансии II"
-expansion_increase3: "Ограничитель Экспансии III"
-expansion_increase4: "Ограничитель Экспансии IV"
-expansion_increase5: "Ограничитель Экспансии V"
-expansion_increase6: "Ограничитель Экспансии VI"
-expansion_increase7: "Ограничитель Экспансии VII"
-expansion_increase8: "Ограничитель Экспансии VIII"
 
-rh_expansion.1.name: "Меню Экспансии"
-rh_expansion.1.desc: "Это меню позволяет вам выбрать, включать или нет §Gмодификатор затрат влияния§! на постройку звездной базы по мере увеличения размера вашей империи для каждой империи в галактике, с целью замедлить экспансию более крупных империй, превышающих размер максимума. Модификаторы будут §Rудваиваться§! за каждые §H100§! единиц размера империи после достижения максимального размера в §H100§! (§Y25%§! будет составлять .25 при §H100§! и .50 при §H200§!). Увеличение происходит только до §H300§!, где применяется §Rмаксимальный модификатор§!."
-rh_expansion.1.a: "Установить 25%"
-rh_expansion.1.b: "Установить 50%"
-rh_expansion.1.c: "Установить 75%"
-rh_expansion.1.d: "Установить 100%"
-rh_expansion.1.e: "Отключить"
+ ####################################
+ #
+ # Slower Exploration and Expansion (remote_file_id="2966023846")
+ #
+ # [localisation]
+ #  - rh_expansion_l_russian.yml
+ #
+ ####################################
+
+ edict_rh_expansion_menu: "Меню Настроек Экспансии"
+
+ expansion_increase_low1: "Слабый Ограничитель Экспансии I"
+ expansion_increase_low2: "Слабый Ограничитель Экспансии II"
+ expansion_increase_low3: "Слабый Ограничитель Экспансии III"
+ expansion_increase_low4: "Слабый Ограничитель Экспансии IV"
+ expansion_increase_med1: "Средний Ограничитель Экспансии I"
+ expansion_increase_med2: "Средний Ограничитель Экспансии II"
+ expansion_increase_med3: "Средний Ограничитель Экспансии III"
+ expansion_increase_med4: "Средний Ограничитель Экспансии IV"
+ expansion_increase_high1: "Сильный Ограничитель Экспансии I"
+ expansion_increase_high2: "Сильный Ограничитель Экспансии II"
+ expansion_increase_high3: "Сильный Ограничитель Экспансии III"
+ expansion_increase_high4: "Сильный Ограничитель Экспансии IV"
+ low_base_expansion: "Слабое Ограничение Экспансии"
+ medium_base_expansion: "Среднее Ограничение Экспансии"
+ high_base_expansion: "Сильное Ограничение Экспансии"
+
+ rh_expansion.1.name: "Меню Настроек Вида Экспансии"
+ rh_expansion.1.desc: "С помощью этого меню можно выбрать, как будут добавляться модификаторы, замедляющие экспансию.\n\n§GРазмер империи§! увеличивает силу модификатора за каждые 75 очков размера империи вплоть до 300.\n\n§YПодконтрольные Системы§! увеличивают силу модификатора за каждые 10 принадлежащих систем."
+ rh_expansion.1.a: "§GРазмер Империи§!"
+ rh_expansion.1.b: "§YПодконтрольные Системы§!"
+ rh_expansion.1.c: "§RОтключить всё§!"
+ rh_expansion.1.d: "Назад в Главное Меню"
+
+ rh_expansion.2.name: "Меню Настроек Замедления Экспансии"
+ rh_expansion.2.desc: "С помощью этого меню можно выбрать величину модификаторов замедления для экспансии. При смене величины модификатора, изменения вступят в силу в следующую 5-летку."
+ rh_expansion.2.a: "§GНизкое§!"
+ rh_expansion.2.b: "§YСреднее§!"
+ rh_expansion.2.c: "§RВысокое§!"
+
+ rh_expansion.6.name: "Меню Настроек Базовой Скорости Экспансии"
+ rh_expansion.6.desc: "В этом меню задается базовая стоимость экспансии"
+ rh_expansion.6.a: "§GНизкая§!"
+ rh_expansion.6.b: "§YСредняя§!"
+ rh_expansion.6.c: "§PВысокая§!"
+ rh_expansion.6.d: "§RОтключить всё§!"
+ rh_expansion.6.e: "Назад в Главное Меню"
+
+ rh_expansion.7.name: "Экспериментальное Меню Настроек"
+ rh_expansion.7.desc: "Это меню содержит экспериментальные функции. Попробуйте использовать исключительно его, оставив значения остальных меню по-умолчанию."
+ rh_expansion.7.a: "Экспериментальная Экспансия (§Rневозможно отключить после активации§!)"
+ rh_expansion.7.b: "Назад в Главное Меню"
+
+ rh_expansion.1000.name: "Меню Настроек Экспансии"
+ rh_expansion.1000.desc: "Это главное меню, которое используется для перехода к разным настройкам экспансии"
+ rh_expansion.1000.a: "Меню Настроек Экспансии"
+ rh_expansion.1000.b: "Меню Наследования Настроек Экспансии"
+ rh_expansion.1000.c: "Экспериментальное Меню Настроек"
+ rh.expansion.1000.d: "Выход"
+
+ tech_outpost_expansion1: "Оптимизированная Экспансия I"
+ tech_outpost_expansion1_desc: ""
+ tech_outpost_expansion2: "Оптимизированная Экспансия II"
+ tech_outpost_expansion2_desc: ""
+ tech_outpost_expansion3: "Оптимизированная Экспансия III"
+ tech_outpost_expansion3_desc: ""
+ tech_outpost_expansion4: "Оптимизированная Экспансия IV"
+ tech_outpost_expansion4_desc: ""
+ tech_outpost_expansion5: "Оптимизированная Экспансия V"
+ tech_outpost_expansion5_desc: ""
+ tech_improved_exploration1: "Оптимизированное Изучение I"
+ tech_improved_exploration1_desc: ""
+ tech_improved_exploration2: "Оптимизированное Изучение II"
+ tech_improved_exploration2_desc: ""
+ tech_improved_exploration3: "Оптимизированное Изучение III"
+ tech_improved_exploration3_desc: ""
+ tech_improved_exploration4: "Оптимизированное Изучение IV"
+ tech_improved_exploration4_desc: ""

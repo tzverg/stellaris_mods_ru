@@ -1,0 +1,169 @@
+﻿l_russian:
+
+ ####################################
+ #
+ # Xenology : Traits Expansion Unofficial - Biological Module (remote_file_id="2774388842")
+ #
+ # [localisation/russian]
+ #  - xenology_concepts_l_russian.yml
+ #  - xenology_traits_l_russian.yml
+ #
+ ####################################
+
+ # Stuff for translating?
+ xte_ancestral_knowledge_desc_text: "Эффект этого признака зависит от его роли в вашей империи."
+ xte_dmg_to_endgame_crises: "Урон, наносимый фракциям кризиса:"
+ xte_obstinate_title: "Случайная черта, связанная с этикой"
+ xte_extravagant_desc_text: "Показаны только минимальное и максимальное значения, так как эффекты этой черты многоуровневые."
+ xte_metallurgist_upkeep: "содежание металлургов £job_foundry£ $job_foundry$" # Scripted Loc don't work in concepts
+ xte_megastructure_build_cap_add: "Вместимость Мегаструктур" # See above
+ xte_thermic_symbiote_dry: "§EНа тёплых§! £planet£ §YПланетах§!:"
+ xte_thermic_symbiote_cold: "§EНа холодных§! £planet£ §YПланетах§!:"
+
+ ######################
+ # UNIVERSAL CONCEPTS #
+ ######################
+ concept_xte_mod: "Ксенология"
+ concept_xte_mod_added: "\n§LДобавлено: ['concept_xte_mod']§!"
+ concept_xte_mod_desc: "Этот контент был добавлен с помощью §BXenology : Traits Expansion Unofficial - Biological Module§! (XTEU).\n\nXTEU - неофициальное продолжение замечательной модификации от автора §HDevious'§! Xenology"
+ xte_councilor_trait_efficiency_notification_species: "Влияет на ['concept_xte_councilor_trait_efficiency']"
+ xte_councilor_trait_efficiency_notification: "$t$$xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_councilor_trait_efficiency: "Эффективность Свойств Советника"
+ concept_xte_councilor_trait_efficiency_desc: "- Эффекты от свойств советника (£council£), добавленных с помощью ['concept_xte_mod'], снизятся в зависимости от числа других советников с тем же свойством.\n- Подсказки §Rне обновляются§! для лидеров, не являющихся советниками.\n\n['concept_xte_councilor_trait_math_breakdown']"
+ concept_xte_councilor_trait_math_breakdown: "Формула Эффективности"
+ concept_xte_councilor_trait_math_breakdown_desc: "Процент эффективности = ($@xte_anti_stack_base_value$ / §Yмаксимум§!($@xte_anti_stack_base_value$, §MX§! + §GY§!))\n\n§MX§! = Количество советников с тем же свойством\n§GY§! = ($@xte_anti_stack_base_value$ - 1)\nЭто уравнение может измениться, если у вас установлен §PМодуль масштабирования§!."
+
+ concept_xte_leader_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ concept_xte_leader_trait_ancestral_knowledge_desc: "§L$xte_ancestral_knowledge_desc_text$§!\n\n- ['concept_xte_ancestral_knowledge_ruler']\n- ['concept_xte_ancestral_knowledge_governor']\n- ['concept_xte_ancestral_knowledge_admiral']\n- ['concept_xte_ancestral_knowledge_general']\n- ['concept_xte_ancestral_knowledge_scientist']"
+ concept_xte_ancestral_knowledge_ruler: "$ruler_plural$"
+ concept_xte_ancestral_knowledge_ruler_desc: "$THIS_LEADER_TXT$:\n- $MOD_LEADER_TRAIT_SELECTION_OPTIONS_ADD$: §G+1§!\n- $mod_negative_traits_leader$: §G-1§!\n\n$EMPIRE_EFFECTS_TXT$:\n- $MOD_COUNCILOR_SKILL_ADD$: §G+1§!"
+ concept_xte_ancestral_knowledge_governor: "$governor_plural$"
+ concept_xte_ancestral_knowledge_governor_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_produces_mult$: §G+4%§!\n- $MOD_EMPIRE_SIZE_POPS_MULT$: §G-4%§!\n- $PLANET_CRIME_TITLE$: §G-6§!\n"
+ concept_xte_ancestral_knowledge_admiral: "$admiral_plural$"
+ concept_xte_ancestral_knowledge_admiral_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_SHIP_FIRE_RATE_MULT$: §G+6%§!\n- $MOD_SHIP_DISENGAGE_OPPORTUNITIES_ADD$: §G+0.4§!\n"
+ concept_xte_ancestral_knowledge_general: "$general_plural$"
+ concept_xte_ancestral_knowledge_general_desc: "$ARMY_EFFECTS_TXT$:\n- $MOD_ARMY_DAMAGE_MULT$: §G+10%§!\n"
+ concept_xte_ancestral_knowledge_scientist: "$scientist_plural$"
+ concept_xte_ancestral_knowledge_scientist_desc: "$SCIENCE_SHIP_EFFECTS_TXT$:\n- $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+20%§!\n- $MOD_SHIP_ARCHAEOLOGICAL_SITE_CLUES_ADD$: §G+2§!\n"
+
+ ######################
+ # COUNCILOR CONCEPTS #
+ ######################
+ concept_xte_leader_trait_valiant: "$xte_leader_trait_valiant$"
+ concept_xte_leader_trait_valiant_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_COUNTRY_DEFENSIVE_WAR_INFLUENCE_GAIN_ADD$: §G+0.5§!\n- $MOD_STARBASE_DEFENSIVE_WAR_SHIP_BUILD_SPEED_MULT$: §G+25%§!\n- $MOD_COUNTRY_WAR_EXHAUSTION_MULT$: §G-10%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_pertinacious: "$xte_leader_trait_pertinacious$"
+ concept_xte_leader_trait_pertinacious_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_SHIP_WEAPON_DAMAGE$: §G+10%§!\n- $xte_dmg_to_endgame_crises$ §G+33%§!\n- $MOD_POP_HAPPINESS$: §R-10%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_arcanist: "$xte_leader_trait_arcanist$"
+ concept_xte_leader_trait_arcanist_desc: "$EMPIRE_EFFECTS_TXT$:\n- $mod_country_sr_dark_matter_produces_mult$: §G+33%§!\n- $mod_country_sr_living_metal_produces_mult$: §G+33%§!\n- $mod_country_sr_zro_produces_mult$: §G+33%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_life_weaver: "$xte_leader_trait_life_weaver$"
+ concept_xte_leader_trait_life_weaver_desc: "$EMPIRE_EFFECTS_TXT$:\n- $mod_BIOLOGICAL_species_trait_points_add$: §G+1.03§!\n- $mod_LITHOID_species_trait_points_add$: §G+1.03§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_life_crafter: "$xte_leader_trait_life_crafter$"
+ concept_xte_leader_trait_life_crafter_desc: "$EMPIRE_EFFECTS_TXT$:\n- $mod_ROBOT_species_trait_points_add$: §G+1.03§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_land_of_the_free: "$xte_leader_trait_land_of_the_free$"
+ concept_xte_leader_trait_land_of_the_free_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_COUNTRY_TRADE_ATTRACTIVENESS$: §G+15%§!\n- $MOD_POP_ETHICS_SHIFT_SPEED$: §G+100%§!\n- $mod_planet_jobs_slave_produces_mult$: §R-25%§!\n- $PLANET_CRIME_TITLE$: §R+25%§!\n- $mod_pop_factions_produces_mult$: §G+20%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_lawbringer: "$xte_leader_trait_lawbringer$"
+ concept_xte_leader_trait_lawbringer_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_PIRACY_GROWTH_MULT$: §G-15%§!\n- $MOD_COUNTRY_LOCAL_TRADE_PROTECTION_ADD$: §G+10§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_regal: "$xte_leader_trait_regal$"
+ concept_xte_leader_trait_regal_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_LEADER_COUNCILOR_EXP_GAIN$: §G+25%§!\n- $MOD_COUNCIL_AGENDA_PROGRESS_SPEED$: §G+15%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_skyborne_architect: "$xte_leader_trait_skyborne_architect$"
+ concept_xte_leader_trait_skyborne_architect_desc: "$EMPIRE_EFFECTS_TXT$:\n- $xte_megastructure_build_cap_add$: §G+1.03§!\n- $MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$: §G+33%§!\n- $mod_shipsize_titan_build_speed_mult$: §G+33%§!\n- $mod_shipsize_colossus_build_speed_mult$: §G+33%§!\n- $mod_shipsize_juggernaut_build_speed_mult$: §G+33%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_polymath: "$xte_leader_trait_polymath$"
+ concept_xte_leader_trait_polymath_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$: §G+1.03§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_enlightened: "$xte_leader_trait_enlightened$"
+ concept_xte_leader_trait_enlightened_desc: "$EMPIRE_EFFECTS_TXT$:\n- $mod_pop_factions_produces_mult$: §G+50%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_maladroit: "$xte_leader_trait_maladroit$"
+ concept_xte_leader_trait_maladroit_desc: "$EMPIRE_EFFECTS_TXT$:\n- $mod_station_gatherers_volatile_motes_produces_mult$: §R-20%§!\n- $mod_station_gatherers_exotic_gases_produces_mult$: §R-20%§!\n- $mod_station_gatherers_rare_crystals_produces_mult$: §R-20%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_obstinate_list: "$xte_obstinate_title$"
+ concept_xte_obstinate_list_desc: "- ['concept_xte_leader_trait_domineering']\n- ['concept_xte_leader_trait_indulgent']\n- ['concept_xte_leader_trait_spineless']\n- ['concept_xte_leader_trait_hateful']\n- ['concept_xte_leader_trait_peacemonger']\n- ['concept_xte_leader_trait_warmonger']\n- ['concept_xte_leader_trait_cynical']\n- ['concept_xte_leader_trait_superstitious']"
+ concept_xte_leader_trait_domineering: "$xte_leader_trait_domineering$"
+ concept_xte_leader_trait_domineering_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_POP_HAPPINESS$: §R-5%§!\n- $MOD_COUNTRY_LEADER_POOL_SIZE$: §R-1§!\n- $mod_pop_ethic_egalitarian_attraction_mult$: §G+50%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_indulgent: "$xte_leader_trait_indulgent$"
+ concept_xte_leader_trait_indulgent_desc: "$EMPIRE_EFFECTS_TXT$:\n- $PLANET_CRIME_TITLE$: §R+20§!\n- $MOD_PIRACY_GROWTH_MULT$: §R+20%§!\n- $mod_pop_ethic_authoritarian_attraction_mult$: §G+50%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_spineless: "$xte_leader_trait_spineless$"
+ concept_xte_leader_trait_spineless_desc: "$EMPIRE_EFFECTS_TXT$:\n- $mod_country_base_influence_produces_add$: §R-1§!\n- $MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$: §R+10%§!\n- $mod_pop_ethic_xenophobe_attraction_mult$: §G+50%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_hateful: "$xte_leader_trait_hateful$"
+ concept_xte_leader_trait_hateful_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_COUNTRY_TRADE_FEE$: §R+10%§!\n- $MOD_COUNTRY_TRUST_GROWTH$: §R-25%§!\n- $mod_diplomacy_upkeep_mult$: §R+25%§!\n- $mod_pop_ethic_xenophile_attraction_mult$: §G+50%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_peacemonger: "$xte_leader_trait_peacemonger$"
+ concept_xte_leader_trait_peacemonger_desc: "$EMPIRE_EFFECTS_TXT$:\n- $mod_country_alloys_produces_mult$: §R-10%§!\n- $MOD_COUNTRY_NAVAL_CAP_MULT$: §R-15%§!\n- $mod_pop_ethic_militarist_attraction_mult$: §G+50%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_warmonger: "$xte_leader_trait_warmonger$"
+ concept_xte_leader_trait_warmonger_desc: "$EMPIRE_EFFECTS_TXT$:\n-- $mod_country_consumer_goods_produces_mult$: §R-10%§!\n- $MOD_COUNTRY_BORDER_FRICTION_MULT$: §R+100%§!\n- $mod_pop_ethic_pacifist_attraction_mult$: §G+50%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_cynical: "$xte_leader_trait_cynical$"
+ concept_xte_leader_trait_cynical_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$: §R-5%§!\n- $MOD_SHIP_ARCHAEOLOGICAL_SITE_EXCAVATION_SPEED_MULT$: §R-50%§!\n- $mod_pop_ethic_spiritualist_attraction_mult$: §G+50%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_superstitious: "$xte_leader_trait_superstitious$"
+ concept_xte_leader_trait_superstitious_desc: "$EMPIRE_EFFECTS_TXT$:\n- $mod_country_unity_produces_mult$: §R-15%§!\n- $mod_pop_ethic_materialist_attraction_mult$: §G+50%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_extravagant: "$xte_leader_trait_extravagant$"
+ concept_xte_leader_trait_extravagant_desc: "§L$xte_extravagant_desc_text$§!\n\n$EMPIRE_EFFECTS_TXT$:\n- $MOD_TRADE_VALUE_MULT$: §R-10%§! <-> §R-25%§!\n- $MOD_POP_HAPPINESS$: §R-10%§! <-> §R-25%§!\n- $mod_leaders_unity_upkeep_mult$: §R+0%§! <-> §R+15%§!\n- $xte_councilor_trait_efficiency_notification_species$"
+
+ #####################
+ # GOVERNOR CONCEPTS #
+ #####################
+ concept_xte_governor_trait_naturalist: "$xte_governor_trait_naturalist$"
+ concept_xte_governor_trait_naturalist_desc: "$PLANET_EFFECTS_TXT$:\n- $MOD_POP_ENVIRONMENT_TOLERANCE$: §G+5%§!\n- $mod_planet_pops_upkeep_mult$: §G-5%§!"
+ concept_xte_governor_trait_machinist: "$xte_governor_trait_machinist$"
+ concept_xte_governor_trait_machinist_desc: "$PLANET_EFFECTS_TXT$:\n- $MOD_PLANET_POP_ASSEMBLY_MULT$: §G+10%§!\n- $mod_planet_pops_robotics_upkeep_mult$: §G-5%§!\n- $mod_planet_jobs_robotic_produces_mult$: §G+5%§!"
+ concept_xte_governor_trait_fanatic_thermopile: "$xte_governor_trait_fanatic_thermopile$"
+ concept_xte_governor_trait_fanatic_thermopile_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_buildings_cost_mult$ §R+20%§!\n- $mod_planet_districts_cost_mult$ §R+20%§!\n- $mod_planet_buildings_energy_upkeep_mult$ §G-33%§!\n- $mod_planet_districts_energy_upkeep_mult$ §G-33%§!"
+ concept_xte_governor_trait_reliable: "$xte_governor_trait_reliable$"
+ concept_xte_governor_trait_reliable_desc: "$PLANET_EFFECTS_TXT$:\n- $MOD_POP_GROWTH_SPEED$: §G+5%§!\n\n$TRIGGER_FAIL$§I$LITHOID$§! $empire_upper$\n$t$- $mod_planet_jobs_food_produces_mult$: §G+5%§!\n\n$TRIGGER_PASS$§I$LITHOID$§! $empire_upper$\n$t$- $mod_planet_jobs_minerals_produces_mult$: §G+3.3%§!"
+ concept_xte_governor_trait_sheriff: "$xte_governor_trait_sheriff$"
+ concept_xte_governor_trait_sheriff_desc: "$PLANET_EFFECTS_TXT$:\n- $PLANET_CRIME_TITLE$: §G-10§!\n- $MOD_PLANET_STABILITY_ADD$: §G+5§!"
+ concept_xte_governor_trait_efficient: "$xte_governor_trait_efficient$"
+ concept_xte_governor_trait_efficient_desc: "$PLANET_EFFECTS_TXT$:\n- $MOD_TRADE_VALUE_MULT$: §G+10%§!"
+ concept_xte_governor_trait_diligent: "$xte_governor_trait_diligent$"
+ concept_xte_governor_trait_diligent_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_unity_produces_mult$: §G+10%§!"
+ concept_xte_governor_trait_forge_master: "$xte_governor_trait_forge_master$"
+ concept_xte_governor_trait_forge_master_desc: "$PLANET_EFFECTS_TXT$:\n- $xte_metallurgist_upkeep$: §G-5%§!\n- $mod_planet_jobs_engineering_research_produces_mult$: §G+5%§!"
+ concept_xte_governor_trait_patron_of_the_arts: "$xte_governor_trait_patron_of_the_arts$"
+ concept_xte_governor_trait_patron_of_the_arts_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_unity_produces_mult$: §G+5%§!\n- $MOD_PLANET_AMENITIES_MULT$: §G+5%§!"
+ concept_xte_governor_trait_inattentive: "$xte_governor_trait_inattentive$"
+ concept_xte_governor_trait_inattentive_desc: "$PLANET_EFFECTS_TXT$:\n- $MOD_POP_AMENITIES_USAGE_ADD$: §R+1§!"
+
+ ####################
+ # ADMIRAL CONCEPTS #
+ ####################
+ concept_xte_admiral_trait_paladin: "$xte_admiral_trait_paladin$"
+ concept_xte_admiral_trait_paladin_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_SHIP_HOME_TERRITORY_FIRE_RATE_MULT$: §G+15%§!\n- $MOD_SHIP_HULL_REGEN_ADD_PERC$: §G+20%§!\n- $MOD_SHIP_ARMOR_REGEN_ADD_PERC$: §G+20%§!"
+ concept_xte_admiral_trait_opportunistic: "$xte_admiral_trait_opportunistic$"
+ concept_xte_admiral_trait_opportunistic_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_SHIP_EVASION_MULT$: §G+15%§!\n- $mod_damage_vs_country_type_fallen_empire_mult$: §G+33%§!\n- $mod_damage_vs_country_type_awakened_fallen_empire_mult$: §G+33%§!\n- $mod_damage_vs_country_type_gate_builders_mult$: §G+33%§!\n- $mod_damage_vs_country_type_guardian_mult$: §G+33%§!"
+ concept_xte_admiral_trait_inspired_thermal_engineer: "$xte_admiral_trait_inspired_thermal_engineer$"
+ concept_xte_admiral_trait_inspired_thermal_engineer_desc: "$FLEET_EFFECTS_TXT$:\n- $mod_weapon_type_energy_weapon_fire_rate_mult$: §G+10%§!\n- $MOD_SHIP_SHIELD_REGEN_ADD_STATIC$: §G+25§!$dlc_requirement_string$ §I$FIRST_CONTACT_TITLE$§!\n- $MOD_SHIP_CLOAKING_STRENGTH_ADD$: §G+1§!"
+ concept_xte_admiral_trait_gendarme: "$xte_admiral_trait_gendarme$"
+ concept_xte_admiral_trait_gendarme_desc: "$FLEET_EFFECTS_TXT$:\n- $mod_damage_vs_country_type_pirate_mult$: §G+25%§!\n- $mod_damage_vs_country_type_dormant_marauders_mult$: §G+25%§!\n- $mod_damage_vs_country_type_awakened_marauders_mult$: §G+25%§!\n- $mod_damage_vs_country_type_ruined_marauders_mult$: §G+25%§!\n- $mod_damage_vs_country_type_marauder_raiders_mult$: §G+25%§!\n"
+ concept_xte_admiral_trait_underdog: "$xte_admiral_trait_underdog$"
+ concept_xte_admiral_trait_underdog_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_FORCE_DISPARITY_FIRE_RATE_MULT$: §G+15%§!"
+ concept_xte_admiral_trait_carrier_commander: "$xte_admiral_trait_carrier_commander$"
+ concept_xte_admiral_trait_carrier_commander_desc: "$FLEET_EFFECTS_TXT$:\n- $mod_weapon_type_strike_craft_weapon_damage_mult$: §G+10%§!\n- $mod_weapon_type_point_defense_weapon_damage_mult$: §G+10%§!"
+ concept_xte_admiral_trait_computing_expert: "$xte_admiral_trait_computing_expert$"
+ concept_xte_admiral_trait_computing_expert_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_SHIP_WEAPON_RANGE_MULT$: §G+10%§!\n- $MOD_SHIP_ACCURACY_MULT$: §G+2.5%§!"
+ concept_xte_admiral_trait_propulsion_expert: "$xte_admiral_trait_propulsion_expert$"
+ concept_xte_admiral_trait_propulsion_expert_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_SHIP_SPEED_MULT$: §G+10%§!"
+ concept_xte_admiral_trait_gunnery_expert: "$xte_admiral_trait_gunnery_expert$"
+ concept_xte_admiral_trait_gunnery_expert_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_SHIP_WEAPON_DAMAGE$: §G+5%§!"
+ concept_xte_admiral_trait_arrogant: "$xte_admiral_trait_arrogant$"
+ concept_xte_admiral_trait_arrogant_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_SHIP_DISENGAGE_CHANCE_MULT$: §R-15%§!\n- $MOD_SHIP_EMERGENCY_FTL_MIN_DAYS_MULT$: §R+25%§!"
+ concept_xte_admiral_trait_inert: "$xte_admiral_trait_inert$"
+ concept_xte_admiral_trait_inert_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_SHIP_EVASION_MULT$: §R-10%§!"
+
+ ####################
+ # GENERAL CONCEPTS #
+ ####################
+ concept_xte_general_trait_forecaster: "$xte_general_trait_forecaster$"
+ concept_xte_general_trait_forecaster_desc: "$ARMY_EFFECTS_TXT$:\n- $MOD_ARMY_EXPERIENCE_GAIN_MULT$: §G+25%§!\n- $MOD_ARMY_DAMAGE_MULT$: §G+15%§!\n- $MOD_ARMY_COLLATERAL_DAMAGE_MULT$: §G-15%§!"
+ concept_xte_general_trait_thermic_symbiote: "$xte_general_trait_thermic_symbiote$"
+ concept_xte_general_trait_thermic_symbiote_desc: "$ARMY_EFFECTS_TXT$ $xte_thermic_symbiote_dry$\n- $MOD_ARMY_DAMAGE_MULT$: §G+30%§!\n- $MOD_ARMY_MORALE$: §G+30%§!\n\n$ARMY_EFFECTS_TXT$ $xte_thermic_symbiote_cold$\n- $MOD_ARMY_DAMAGE_MULT$: §R-30%§!\n- $MOD_ARMY_MORALE$: §R-30%§!"
+ concept_xte_general_trait_battle_mounts: "$xte_general_trait_battle_mounts$"
+ concept_xte_general_trait_battle_mounts_desc: "$ARMY_EFFECTS_TXT$:\n- $MOD_ARMY_MORALE_DAMAGE_MULT$: §G+10%§!\n- $MOD_ARMY_HEALTH$: §G+10%§!\n- $MOD_ARMY_COLLATERAL_DAMAGE_MULT$: §R+10%§!"
+ concept_xte_general_trait_cavalier: "$xte_general_trait_cavalier$"
+ concept_xte_general_trait_cavalier_desc: "$ARMY_EFFECTS_TXT$:\n- $MOD_ARMY_DISENGAGE_CHANCE_MULT$: §R-20%§!\n"
+
+ ######################
+ # SCIENTIST CONCEPTS #
+ ######################
+ concept_xte_scientist_trait_pioneer: "$xte_scientist_trait_pioneer$"
+ concept_xte_scientist_trait_pioneer_desc: "$SCIENCE_SHIP_EFFECTS_TXT$:\n- $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §R-35%§!\n- $MOD_SHIP_ANOMALY_GENERATION_CHANCE_MULT$: §G+25%§!"
+ concept_xte_scientist_trait_enzyme_curator: "$xte_scientist_trait_enzyme_curator$"
+ concept_xte_scientist_trait_enzyme_curator_desc: "$ASSIST_RESEARCH_EFFECTS_TXT$:\n- $mod_planet_jobs_produces_mult$: §G+0.33%§!\n- $MOD_POP_HAPPINESS$: §G+10%§!"
+ concept_xte_scientist_trait_pathfinder: "$xte_scientist_trait_pathfinder$"
+ concept_xte_scientist_trait_pathfinder_desc: "$SCIENCE_SHIP_EFFECTS_TXT$:\n- $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G-25%§!\n- $MOD_SHIP_ANOMALY_GENERATION_CHANCE_MULT$: §G+25%§!"
+ concept_xte_scientist_trait_fastidious: "$xte_scientist_trait_fastidious$"
+ concept_xte_scientist_trait_fastidious_desc: "$SCIENCE_SHIP_EFFECTS_TXT$:\n- $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §R-15%§!\n- $MOD_SHIP_ANOMALY_RESEARCH_SPEED$: §R-33%§!\n- $MOD_SHIP_ARCHAEOLOGICAL_SITE_EXCAVATION_SPEED_MULT$: §R-33%§!"

@@ -2,21 +2,23 @@
 mod russifications for personal use
 
 Перечень русифицированных модов в репозитории:
-- Espionage Extended (small fixes and coloring)
-- Xenology : Traits Expansion Unofficial - Biological Module
-- [3.9.3] Titan Tactical Sections (handwrited)
-- Wild Space 3 Patched
-- [3.9.3] More Insults (handwrited free interpretation)
-- Slower Exploration and Expansion[3.8]
-- [3.9.3] Under Siege (handwrited)
-- Planetary Perfection
-- Occupied Resources
-- More Civics
-- Cross Border Trade
-- The Great Voidspawn
-- Living Metal event for Dragon Origin
-- Dyson Swarm (old fixes, need refactoring)
-- AA's Starbase Overhaul (old version, need refactoring)
-- [3.9.3] Nanite Machines & Distant Stars Overhaul (solving color issues)
-- [3.9.3] Legendary Worlds (solving color issues)
-- [3.9.3] Elves of Stellaris (actualizing)
+
+- [3.8.*] Espionage Extended (актуализация и раскраска)
+- [3.9.*] Xenology : Traits Expansion Unofficial - Biological Module (актуализация)
+- [3.9.3] Titan Tactical Sections (ручной)
+- [3.*.*] Before The Light - STL (ручной)
+- [3.9.*] Wild Space 3 Patched (ручной)
+- [3.9.3] More Insults (ручной, свободный)
+- [3.9.3] Slower Exploration and Expansion (ручной)
+- [3.9.3] Under Siege (ручной)
+- [3.5.*] Planetary Perfection (ручной, свободный)
+- [3.5.*] Occupied Resources (ручной, свободный)
+- [3.9.3] Cross Border Trade (ручной)
+- [3.6.*] The Great Voidspawn (ручной)
+- [3.4.3] Living Metal event for Dragon Origin (ручной)
+- [3.4.*] Dyson Swarm (ручной)
+- [3.4.*] AA's Starbase Overhaul (ручной)
+- [3.9.3] Nanite Machines & Distant Stars Overhaul (исправление)
+- [3.9.3] Legendary Worlds (исправление)
+- [3.9.3] Elves of Stellaris (актуализация)
+- [3.9.*] Government Variety Pack (в работе)

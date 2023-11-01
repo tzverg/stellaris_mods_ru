@@ -10,6 +10,15 @@ l_russian:
 #l_simp_chinese:
 #l_spanish:
 
+ ####################################
+ #
+ # Government Variety Pack (remote_file_id="2806903835")
+ #
+ # [localisation/russian]
+ #  - lrsk_gvp_l_russian.yml
+ #  - lrsk_gvp_real_loc_l_russian.yml
+ #
+ ####################################
 
  ####################################
  # Civics
@@ -82,7 +91,7 @@ l_russian:
  lrsk_gov_var_civic_workers_councils: "Совет Трудящихся"
  lrsk_gov_var_civic_workers_councils_desc: "Профсоюзы, рабочие места и кооперативы являются жизненно важной частью гражданского общества и неотъемлемой частью правительства."
  #civic_tooltip_lrsk_gov_var_civic_workers_councils_effects:0 "£political_power£ §YPolitical Power§! of $WORKERS$ and $SPECIALISTS$ increased by §Y50%§! and §Y12.5%§! respectively (assuming §YDecent Conditions§! living standards, will vary by species rights settings).\n\n"
- 
+
  lrsk_gvp_workers_councils_councilor: "Председатель Совета Трудящихся"
  lrsk_gvp_workers_councils_councilor_female: "Председательница Совета Трудящихся"
  lrsk_gvp_workers_councils_councilor_desc: "§L$TITLE$§! возглавляет специальный профсоюзный комитет по нуждам трудящихся. Большинство профсоюзов и других организаций трудящихся имеют свои собственные внутренние практики взаимопомощи, и обмен передовым опытом при его расширении позволяет правительству лучше поддерживать весь рабочий класс в трудные времена."
@@ -198,7 +207,7 @@ l_russian:
  lrsk_gov_var_civic_tooltip_not_xenophile_or_not_militarist: "Абсолютно не имеет этик §YКсенофилия§! и §YМилитаризм§! представленных в форме партий"
  lrsk_gov_var_civic_tooltip_not_egalitarian_pacifist: "Абсолютно не имеет этик §YПацифизм§! и §YЭгалитаризм§! представленных в форме партий"
 
- ## Test Civics (values should never appear to players) 
+ ## Test Civics (values should never appear to players)
  lrsk_gov_var_civic_test_1:0 "Test Civic 1"
  lrsk_gov_var_civic_test_1_desc:0 "§RERROR§!: You should not be seeing this, please alert mod author."
  lrsk_gov_var_civic_test_2:0 "Test Civic 2"
@@ -429,7 +438,7 @@ l_russian:
 
  LRSK_ADV_CIV_TECHTYPE_CIVIC_COMMON:0 "In the philosophical-ideological dispute over the value of knowledge,"
  LRSK_ADV_CIV_TECHTYPE_CIVIC_EFF1:0 "Start with the§Y"
- LRSK_ADV_CIV_TECHTYPE_CIVIC_EFF2:0 "§!technology." 
+ LRSK_ADV_CIV_TECHTYPE_CIVIC_EFF2:0 "§!technology."
 
  lrsk_adv_civ_civic_shapers:0 "Shapers"
  lrsk_adv_civ_civic_shapers_desc:0 "$LRSK_ADV_CIV_TECHTYPE_CIVIC_COMMON$ this society ultimately decided that it is life itself that matters most to living beings, and its careful cultivation is the highest purpose of knowledge."
@@ -485,7 +494,7 @@ l_russian:
  lrsk_gov_var_origin_for_discovery:0 "For Discovery"
  lrsk_gov_var_origin_for_discovery_desc:0 "This civilization $LRSK_GOV_VAR_FOR_DISCOVERY_DESC_COMMON$"
  lrsk_gov_var_origin_tooltip_for_discovery_effects:0 "$LRSK_GOV_VAR_FOR_DISCOVERY_EFFECTS_COMMON$-Start with §HThe Federation§! tradition unlocked."
- 
+
  lrsk_gov_var_origin_for_discovery_mi:0 "Diplomatic Directive: Discover"
  lrsk_gov_var_origin_for_discovery_mi_desc:0 "This machine intelligence $LRSK_GOV_VAR_FOR_DISCOVERY_DESC_COMMON$"
  lrsk_gov_var_origin_tooltip_for_discovery_mi_effects:0 "$LRSK_GOV_VAR_FOR_DISCOVERY_EFFECTS_COMMON$-Start with the §HUniversal Compatibility§! tradition unlocked."
@@ -495,51 +504,51 @@ l_russian:
  lrsk_gov_var_origin_for_discovery_mi_npc:0 "$lrsk_gov_var_origin_for_discovery_mi$"
  lrsk_gov_var_origin_for_discovery_mi_npc_desc:0 "$lrsk_gov_var_origin_for_discovery_mi_desc$"
  lrsk_gov_var_origin_tooltip_for_discovery_npc_effects:0 "-Starts as a member of a §HResearch Cooperative§! federation with two additional members."
- 
+
  LRSK_GOV_VAR_START_SCREEN_FOR_DISCOVERY:0 "Decades ago, when our first crude sublight probes visited the star systems neighboring our own, we discovered the presence of two distinct alien civilizations. Despite the radical differences in our physical forms, it quickly became apparent that we had more things in common than not. Like us, they were also dedicated to the pursuit of knowledge and exploration.\n\nA bond was formed between our three civilizations, which eventually led to the birth of a federation - we would combine our intellects, and when we were ready to spread out into the cosmos, share our discoveries and the knowledge we would gain."
- 
- #Tradeways: Start in trade league. 
+
+ #Tradeways: Start in trade league.
  LRSK_GOV_VAR_TRADEWAYS_DESC_COMMON:0 "established early contact and exchange with its immediate alien neighbors. Finding that they shared an interest in their mutual material enrichment, they decided to enter an interstellar trade compact to enjoy the diverse fruits of their industry."
 
  lrsk_gov_var_origin_tradeways:0 "Tradeways"
  lrsk_gov_var_origin_tradeways_desc:0 "This civilization $LRSK_GOV_VAR_TRADEWAYS_DESC_COMMON$"
  lrsk_gov_var_origin_tooltip_tradeways_effects:0 "-Start as the leader of a §HTrade League§! federation with two additional members.\n-Members will occupy any Guaranteed Habitable Worlds slots near your home system.\n-Start with §HThe Federation§! tradition unlocked."
- 
+
  lrsk_gov_var_origin_tradeways_mc:0 "$lrsk_gov_var_origin_tradeways$, Inc."
  lrsk_gov_var_origin_tradeways_mc_desc:0 "This global megacorporation $LRSK_GOV_VAR_TRADEWAYS_DESC_COMMON$"
  lrsk_gov_var_origin_tooltip_tradeways_mc_effects:0 "$lrsk_gov_var_origin_tooltip_tradeways_effects$"
- 
+
  lrsk_gov_var_origin_tradeways_npc:0 "$lrsk_gov_var_origin_tradeways$"
  lrsk_gov_var_origin_tradeways_npc_desc:0 "$lrsk_gov_var_origin_tradeways_desc$"
  lrsk_gov_var_origin_tooltip_tradeways_npc_effects:0 "-Starts as a member of a §HTrade League§! federation with two additional members."
- 
+
  lrsk_gov_var_origin_tradeways_mc_npc:0 "$lrsk_gov_var_origin_tradeways_mc$"
  lrsk_gov_var_origin_tradeways_mc_npc_desc:0 "$lrsk_gov_var_origin_tradeways_mc_desc$"
- 
+
  LRSK_GOV_VAR_START_SCREEN_TRADEWAYS:0 "Decades ago, when our first crude sublight probes visited the star systems neighboring our own, we discovered the presence of two distinct alien civilizations. Despite the radical differences in our physiology, it quickly became apparent that we had more things in common than not. Like us, they were also dedicated to the pursuit of profit and material abundance.\n\nA bond was formed between our three civilizations, which eventually led to the birth of a federation - we would exchange the fruits of our labors, and when we were ready to spread out into the cosmos, profit jointly from the riches we would find."
- 
- #### Grand Alliance: Start in martial alliance. 
+
+ #### Grand Alliance: Start in martial alliance.
 
  lrsk_gov_var_origin_grand_alliance:0 "Grand Alliance"
  lrsk_gov_var_origin_grand_alliance_desc:0 "This civilization established early contact with its immediate alien neighbors. Finding each other to be strong believers in the need for military excellence in a potentially dangerous universe, they entered a defensive coalition for mutual security. And potentially joint conquest."
- lrsk_gov_var_origin_tooltip_grand_alliance_effects:0 "-Start as the leader of a §HMartial Alliance§! federation with two additional members.\n-Members will occupy any Guaranteed Habitable Worlds slots near your home system.\n-Start with §HThe Federation§! tradition unlocked." 
- 
+ lrsk_gov_var_origin_tooltip_grand_alliance_effects:0 "-Start as the leader of a §HMartial Alliance§! federation with two additional members.\n-Members will occupy any Guaranteed Habitable Worlds slots near your home system.\n-Start with §HThe Federation§! tradition unlocked."
+
  lrsk_gov_var_origin_grand_alliance_npc:0 "$lrsk_gov_var_origin_grand_alliance$"
  lrsk_gov_var_origin_grand_alliance_npc_desc:0 "$lrsk_gov_var_origin_grand_alliance_desc$"
  lrsk_gov_var_origin_tooltip_grand_alliance_npc_effects:0 "-Starts as a member of a §HMartial Alliance§! federation with two additional members."
- 
+
  LRSK_GOV_VAR_START_SCREEN_GRAND_ALLIANCE:0 "Decades ago, when our first crude sublight probes visited the star systems neighboring our own, we discovered the presence of two distinct alien civilizations. Despite the radical differences in our physiology, it quickly became apparent that we had more things in common than not. Like us, they were also dedicated to military excellence and glory.\n\nA bond was formed between our three civilizations, which eventually led to the birth of a federation - we would be allies bound for mutual defense, and when we were ready to spread out into the cosmos, face whatever threats arose there as a strong united front."
- 
+
  #### Convened by Providence: Start in a holy covenant.
 
  lrsk_gvp_origin_convened_providence:0 "Convened by Providence"
  lrsk_gvp_origin_convened_providence_desc:0 "This civilization established early contact with its immediate alien neighbors. Finding each other to all be peoples of strong (though varied) faith, they made a sacred pact to seek the divine together."
- lrsk_gvp_origin_convened_providence_effects:0 "-Start as the leader of a §HHoly Covenant§! federation with two additional members.\n-Members will occupy any Guaranteed Habitable Worlds slots near your home system.\n-Start with §HThe Federation§! tradition unlocked." 
- 
+ lrsk_gvp_origin_convened_providence_effects:0 "-Start as the leader of a §HHoly Covenant§! federation with two additional members.\n-Members will occupy any Guaranteed Habitable Worlds slots near your home system.\n-Start with §HThe Federation§! tradition unlocked."
+
  lrsk_gvp_origin_convened_providence_npc:0 "$lrsk_gvp_origin_convened_providence$"
  lrsk_gvp_origin_convened_providence_npc_desc:0 "$lrsk_gvp_origin_convened_providence_desc$"
  lrsk_gvp_origin_convened_providence_npc_effects:0 "-Starts as a member of a §HHoly Covenant§! federation with two additional members."
- 
+
  LRSK_GOV_VAR_START_SCREEN_CONVENED_PROVIDENCE:0 "Decades ago, when our first crude sublight probes visited the star systems neighboring our own, we discovered the presence of two distinct alien civilizations. Despite the radical differences in our physiology, it quickly became apparent that we had more things in common than not. Like us, they were spiritual seekers, attuned to the energy of the divine.\n\nA bond was formed between our three civilizations, which eventually led to the birth of a federation - as the forces of the divine world itself had blessed us by raising us together, we would honor the gods together."
 
  #### Uplift: Start as a protectorate of an advanced start empire, who are benefactors that uplifted you. Able to take uplift traits.
@@ -556,7 +565,7 @@ l_russian:
  LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_PRE:0 "- Start as the overlord of §Hthree special subject empires of your species§!"
  LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_MID:0 "\n- These subjects will occupy any Guaranteed Habitable Worlds slots near your home system"
  LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_POST:0 "\n- Unique colony interaction events culminating in the evolution of the system into new forms.\n- §RWARNING:§! This origin §Pcannot be guaranteed to work properly§! if you choose a mod-added planet type for your homeworld."
- 
+
  lrsk_gov_var_origin_sublight_empire:0 "Sublight Empire"
  lrsk_gov_var_origin_sublight_empire_desc:0 "$LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_DESC$ Once they discovered it, they shared it with their sublight colonies with enough strings attached to keep those offshoots under their thumbs... for now."
  lrsk_gov_var_origin_tooltip_sublight_empire_effects:0 "$LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_PRE$, which will provide you with §Gresources via taxes§! although you will not be able to integrate them.$LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_MID$ and will eventually break from from your FTL monopoly.$LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_POST$"
@@ -571,7 +580,7 @@ l_russian:
  lrsk_gov_var_origin_sublight_commonwealth_desc:0 "$LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_DESC$ Once they discovered it, they shared it with their sublight colonies on the condition of their entering an interstellar commonwealth of worlds that, in theory, works for the benefit of all members, but tends to give most decision-making power to the homeworld."
  lrsk_gov_var_origin_tooltip_sublight_commonwealth_effects:0 "$LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_PRE$. You will not be able to integrate them, but as the respected leader of their combined efforts, §Gyou gain Influence and Unity§! from the arrangement.$LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_MID$.$LRSK_GOV_VAR_ORIGIN_SUBLIGHT_COMMON_POST$"
 
- LRSK_GOV_VAR_START_SCREEN_SUBLIGHT_COMMONWEALTH:0 "$LRSK_GOV_VAR_START_SCREEN_SUBLIGHT_COMMON_TEXT$ Regardless, while for the good of our whole species we needed to claim some central control, we have welcomed the colonies into a new commonwealth of worlds in which we all may prosper." 
+ LRSK_GOV_VAR_START_SCREEN_SUBLIGHT_COMMONWEALTH:0 "$LRSK_GOV_VAR_START_SCREEN_SUBLIGHT_COMMON_TEXT$ Regardless, while for the good of our whole species we needed to claim some central control, we have welcomed the colonies into a new commonwealth of worlds in which we all may prosper."
 
  # Generic NPC text
  lrsk_gov_var_origin_sublight_empire_npc:0 "Sublight Colony"
@@ -606,96 +615,96 @@ l_russian:
  ####################################
  # Concepts
  ####################################
- 
+
  #LRSK_MUST_BE_OVERLORD:0 "Empire must at least one §Ysubject§!."
  #LRSK_EMPIRE_CONDITION_WARN:0 "\n\n§RWARNING: Not meeting this condition won't prevent you from selecting this councilor, only from filling the role with a leader!§!"
 
  concept_lrsk_gvp_religious_job: "Духовные Должности"
  concept_lrsk_gvp_religious_job_adjective: "Духовных Должностей"
  concept_lrsk_gvp_religious_job_desc: "Модификаторы, связанные с так называемыми 'религиозными' или 'духовными' профессиями, описываются игрой исключительно для профессии типа 'священник', но они влияют на целый класс профессий, так или иначе связанных с религией и духовными практиками. Сюда входят ['concept_lrsk_gvp_hedge_preachers'] и ['concept_lrsk_gvp_pastors']."
- 
+
  concept_lrsk_gvp_wild_cult: "Дикая Секта"
  concept_lrsk_gvp_wild_cults: "Дикие Секты"
  concept_lrsk_gvp_wild_cult_adjective: "Дикой Секты"
  concept_lrsk_gvp_wild_cult_desc: "Новые религиозные движения, случайно возникающие в колониях, принадлежащих государствам с гражданскими моделями §Y$lrsk_gov_var_civic_direct_revelation$§!.\n\nСуществует десять видов, каждый из которых имеет §L10%§! шанс появиться при порождении $concept_lrsk_gvp_wild_cult_adjective$. Новые религиозные течения имеют, в основном, благоприятные эффекты, могут изменять привлекательность этики, и каждая из них добавит задание £job_lrsk_gov_var_job_hedge_preacher£ ['concept_lrsk_gvp_hedge_preacher']."
- 
+
  concept_lrsk_gvp_special_subjects: "Специализированные Субъекты"
  concept_lrsk_gvp_special_subject: "Специализированный Субъект"
  concept_lrsk_gvp_special_subjects_desc: "Новые пресеты субъектов и/или условия соглашений с различными полезными эффектами, доступные для государств с определёнными гражданскими моделями, добавленными модом §HGovernment Variety Pack§! Они отличаются от 'специализированных' субъектов, добавленных §YDLC Overlord§!."
- 
+
  concept_lrsk_gvp_planetmind_buildings: "Комплекс Планетарного Разума"
  concept_lrsk_gvp_planetmind_buildings_desc: "Этото комплекс зданий, представляющий '$LRSK_DESC_PLANETMIND_NAME$'. Он повышает уровень £amenities_no_happiness£ §Y$PLANET_AMENITIES_TITLE$§! одновременно увеличивая £crime£ §Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§!. Комплес так-же добавляет следующие должности: £job_lrsk_gov_var_job_planetmind_overseer£ ['concept_lrsk_gvp_planetmind_overseers']."
- 
+
  concept_lrsk_gvp_hedge_preachers: "$job_lrsk_gov_var_job_hedge_preacher_plural$"
  concept_lrsk_gvp_hedge_preacher: "$job_lrsk_gov_var_job_hedge_preacher$"
  concept_lrsk_gvp_hedge_preachers_desc: "$job_lrsk_gov_var_job_hedge_preacher_effect_desc$\n\n§L$job_lrsk_gov_var_job_hedge_preacher_desc$§!"
- 
+
  concept_lrsk_gvp_pastors: "$job_lrsk_gov_var_job_pastor_plural$"
  concept_lrsk_gvp_pastor: "$job_lrsk_gov_var_job_pastor$"
  concept_lrsk_gvp_pastors_desc: "$job_lrsk_gov_var_job_pastor_effect_desc$\n\n§L$job_lrsk_gov_var_job_pastor_desc$§!"
- 
+
  concept_lrsk_gvp_otherworld_guides:0 "$job_lrsk_gov_var_job_otherworld_guide_plural$"
  concept_lrsk_gvp_otherworld_guide:0 "$job_lrsk_gov_var_job_otherworld_guide$"
  concept_lrsk_gvp_otherworld_guides_desc:0 "$job_lrsk_gov_var_job_otherworld_guide_effect_desc$\n\n§L$job_lrsk_gov_var_job_otherworld_guide_desc$§!"
- 
+
  concept_lrsk_gvp_citscholars:0 "$job_lrsk_gvp_job_citscholar_plural$"
  concept_lrsk_gvp_citscholar:0 "$job_lrsk_gvp_job_citscholar$"
  concept_lrsk_gvp_citscholars_desc:0 "$job_lrsk_gvp_job_citscholar_effect_desc$\n\n§L$job_lrsk_gvp_job_citscholar_desc$§!"
- 
+
  concept_lrsk_gvp_regional_coordinators:0 "$job_lrsk_gov_var_job_regional_coordinator_plural$"
  concept_lrsk_gvp_regional_coordinator:0 "$job_lrsk_gov_var_job_regional_coordinator$"
  concept_lrsk_gvp_regional_coordinators_desc:0 "$job_lrsk_gov_var_job_regional_coordinator_effect_desc$\n\n§L$job_lrsk_gov_var_job_regional_coordinator_desc$§!"
- 
+
  concept_lrsk_gvp_planetmind_overseers: "$job_lrsk_gov_var_job_planetmind_overseer_plural$"
  concept_lrsk_gvp_planetmind_overseer: "$job_lrsk_gov_var_job_planetmind_overseer$"
  concept_lrsk_gvp_planetmind_overseers_desc: "$job_lrsk_gov_var_job_planetmind_overseer_effect_desc$\n\n§L$job_lrsk_gov_var_job_planetmind_overseer_desc$§!"
- 
+
  concept_lrsk_gvp_functionaries:0 "$job_lrsk_gov_var_job_functionary_plural$"
  concept_lrsk_gvp_functionary:0 "$job_lrsk_gov_var_job_functionary$"
  concept_lrsk_gvp_functionaries_desc:0 "$job_lrsk_gov_var_job_functionary_effect_desc$\n\n§L$job_lrsk_gov_var_job_functionary_desc$§!"
- 
+
  concept_lrsk_gvp_infoguides:0 "$job_lrsk_gov_var_job_infoguide_plural$"
  concept_lrsk_gvp_infoguide:0 "$job_lrsk_gov_var_job_infoguide$"
  concept_lrsk_gvp_infoguides_desc:0 "$job_lrsk_gov_var_job_infoguide_effect_desc$\n\n§L$job_lrsk_gov_var_job_infoguide_desc$§!"
- 
+
  concept_lrsk_gvp_gofers:0 "$job_lrsk_gov_var_job_gofer_plural$"
  concept_lrsk_gvp_gofer:0 "$job_lrsk_gov_var_job_gofer$"
  concept_lrsk_gvp_gofers_desc:0 "$job_lrsk_gov_var_job_gofer_effect_desc$\n\n§L$job_lrsk_gov_var_job_gofer_desc$§!"
- 
+
  concept_lrsk_gvp_offworld_workers:0 "$job_lrsk_gov_var_job_offworld_worker_plural$"
  concept_lrsk_gvp_offworld_worker:0 "$job_lrsk_gov_var_job_offworld_worker$"
  concept_lrsk_gvp_offworld_workers_desc:0 "$job_lrsk_gov_var_job_offworld_worker_effect_desc$\n\n§L$job_lrsk_gov_var_job_offworld_worker_desc$§!"
- 
+
  concept_lrsk_gvp_investigators:0 "$job_lrsk_gov_var_job_investigator_plural$"
  concept_lrsk_gvp_investigator:0 "$job_lrsk_gov_var_job_investigator$"
  concept_lrsk_gvp_investigators_desc:0 "$job_lrsk_gov_var_job_investigator_effect_desc$\n\n§L$job_lrsk_gov_var_job_investigator_desc$§!"
- 
+
  concept_lrsk_gvp_suppressors:0 "$job_lrsk_gov_var_job_suppressor_plural$"
  concept_lrsk_gvp_suppressor:0 "$job_lrsk_gov_var_job_suppressor$"
  concept_lrsk_gvp_suppressors_desc:0 "$job_lrsk_gov_var_job_suppressor_effect_desc$\n\n§L$job_lrsk_gov_var_job_suppressor_desc$§!"
- 
+
  concept_lrsk_gvp_knights: "$job_lrsk_gov_var_job_knight_plural$"
  concept_lrsk_gvp_knight: "$job_lrsk_gov_var_job_knight$"
  concept_lrsk_gvp_knights_desc: "$job_lrsk_gov_var_job_knight_effect_desc$\n\n§L$job_lrsk_gov_var_job_knight_desc$§!"
- 
+
  concept_decision_lrsk_gvp_work_allocation_plan: "$decision_lrsk_gvp_work_allocation_plan$"
  concept_decision_lrsk_gvp_work_allocation_plan_desc: "$lrsk_gvp_statmod_work_plan_effects_common$\n\n§L$decision_lrsk_gvp_work_allocation_plan_desc$§!"
- 
+
  concept_decision_lrsk_gvp_rra:0 "$decision_lrsk_gov_var_rra$"
  concept_decision_lrsk_gvp_rra_desc:0 "$decision_lrsk_gov_var_rra_effects$\n\n§L$decision_lrsk_gov_var_rra_desc$§!"
- 
+
  concept_edict_lrsk_gvp_citschol: "$edict_lrsk_gvp_citschol$"
  concept_edict_lrsk_gvp_citschol_desc: "$edict_lrsk_gvp_citschol_effects_common$\n\n§L$edict_lrsk_gvp_citschol_desc$§!"
- 
+
  concept_policy_lrsk_gvp_colfief_policy: "$policy_lrsk_gvp_colfief_policy$"
  concept_policy_lrsk_gvp_colfief_policy_desc: "$LRSK_GVP_COLFIEF_POLICY_EFFECT_COMMON$ Существует, так-же, возможность ограничить данную возможность.\n\n§L$policy_lrsk_gvp_colfief_policy_desc$§!"
- 
+
  concept_trait_lrsk_gvp_natural_esper:0 "$lrsk_gov_var_trait_natural_esper$"
  concept_trait_lrsk_gvp_natural_esper_desc:0 "§G+2.5%§! £unity£ §Y$unity$§! and £science£ §YResearch§! from pops with this trait.\n\n$lrsk_gov_var_trait_natural_esper_desc$"
- 
+
  concept_leader_trait_lrsk_gvp_esper:0 "$lrsk_gvp_leader_trait_esper$"
  concept_leader_trait_lrsk_gvp_esper_desc:0 "Exact effects depend on the leader type, but are toned-down versions of the benefits provided by the §Y$leader_trait_psionic$§! leader trait."
- 
+
  concept_deposit_lrsk_gvp_shroud_pockets:0 "$d_lrsk_gov_var_shroud_pockets$"
  concept_deposit_lrsk_gvp_shroud_pockets_desc:0 "Adds £job_lrsk_gov_var_job_otherworld_guide£ ['concept_lrsk_gvp_otherworld_guides'].\n\n§L$d_lrsk_gov_var_shroud_pockets_desc$§!"
 
@@ -754,7 +763,7 @@ l_russian:
 
  lrsk_gov_var_gov_merchant_republic:0 "Merchant Republic"
  lrsk_gov_var_gov_merchant_republic_desc:0 "$LRSK_GOV_VAR_MERCH_COMMON$ As a result, a old form of government - a republic in which power inheres to the wealthiest and therefore worthiest business leaders - has maintained relevance into the interstellar era."
- 
+
  LRSK_GOV_VAR_RT_SERENE_DOG:0 "Serene Dog" # woof...
  LRSK_GOV_VAR_RT_SERENE_DOGE:0 "$LRSK_GOV_VAR_RT_SERENE_DOG$e"
  LRSK_GOV_VAR_RT_SERENE_DOGARESSA:0 "$LRSK_GOV_VAR_RT_SERENE_DOG$aressa"
@@ -836,7 +845,7 @@ l_russian:
  LRSK_GOV_VAR_RT_CHIEF_ENFORCER_FEMALE:0 "$LRSK_GOV_VAR_RT_CHIEF_ENFORCER$"
 
  LRSK_GOV_VAR_START_SCREEN_P2_PROCRACK:0 "Our first governments were weak and ineffective. Crime flourished to the point where the criminal underworld was large enough to develop its own formal and informal rules to handle conflicts over turf. The most vicious and conniving of these exploited the niche this created, becoming the indispensable 'court of crime' that all other syndicates applied to for protection of their operations. In a final act of consolidation, the old governments, existing in name only by now, were abolished and the syndicate emerged as the de facto ruling body of our homeworld."
- 
+
  ####################################
  ### Science-y
 
@@ -863,7 +872,7 @@ l_russian:
  LRSK_GOV_VAR_RT_FACULTY_DIRECTOR_FEMALE:0 "$LRSK_GOV_VAR_RT_FACULTY_DIRECTOR$"
 
  LRSK_GOV_VAR_START_SCREEN_P2_SCHOLASTIC_COMMONWEALTH:0 "Our intellectual advancement as a species was hampered by our political and economic systems. The former sought to bend our minds' efforts to partisan interests and the military. The latter only cared about marginal advancements for a quick improvement in the bottom line. The desire of our people to know more, to do more, could not be hampered by this pettiness of vision forever, though. Our most daring and successful intellectuals - scientists, scholars, inventors - combined their efforts to teach and persuade the people, and then ran for office on a platform of dramatic governmental reform. Now knowledge and creativity in many fields is the index of political power and our whole society's resources can be put to the task of innovation, discovery, new interpretations."
- 
+
  ####################################
  ### Socialistic
 
@@ -903,7 +912,7 @@ l_russian:
  LRSK_GOV_VAR_RT_GENERAL_COORDINATOR_FEMALE:0 "$LRSK_GOV_VAR_RT_GENERAL_COORDINATOR$"
 
  LRSK_GOV_VAR_START_SCREEN_P2_SOCIAL_DEMOCRACY:0 "Throughout history, the wisest and most compassionate among us have recognized inequality of needs and means as the great enemy of personal freedom. Going from realizing this to fixing it has necessitated many struggles. Today, our government has made a commitment to our citizens' political rights and to secure them against destitution while providing opportunities to all for personal development."
- 
+
  lrsk_gov_var_gov_agrarian_social_state:0 "Agrarian Social State"
  lrsk_gov_var_gov_agrarian_social_state_desc:0 "This government is a bureaucracy theoretically ruling on behalf of the common people, the majority of whom are farmers and other rural workers, by operating state-owned land trusts and agricultural combines for the public good."
 
@@ -919,7 +928,7 @@ l_russian:
  LRSK_GOV_VAR_RT_WELLBEING_COORDINATOR_FEMALE:0 "$LRSK_GOV_VAR_RT_WELLBEING_COORDINATOR$"
 
  LRSK_GOV_VAR_START_SCREEN_P2_AGRARIAN_COMMONWEALTH:0 "Throughout history, the wisest and most compassionate among us have recognized inequality of needs and means as the greatest barrier to people getting to live the good life we all deserve. Going from realizing this to fixing it has necessitated many struggles. Today, our government has made a commitment to our citizens' participation in government, and to secure for them peace and plenty."
- 
+
  lrsk_gov_var_gov_populist_monarchy:0 "Populist Monarchy"
  lrsk_gov_var_gov_populist_monarchy_desc:0 "This government is ruled by a long dynasty of agrarian reformers and levelers who have drawn their greatest support from the poor and struggling urban and peasant masses. While there is some inequality of wealth, the monarchy's poverty relief programs protect the meager from the worst exploitation."
 
@@ -996,7 +1005,7 @@ l_russian:
  LRSK_GOV_VAR_RT_COORDINATING_OFFICER_FEMALE:0 "$LRSK_GOV_VAR_RT_COORDINATING_OFFICER$"
 
  LRSK_GOV_VAR_START_SCREEN_P2_COOP_ENTERPRISE:0 "In the early days, our people were ruled by robber baron bosses and the states that enforced their wills. Gradually, people realized their common interests, and formed worker-owned and worker-run companies. Through both political organizing and entreprenurial gumption, these companies came to dominate the market. After a final merger of the most powerful such enterprises, a cooperative conglomerate has become the de facto world government."
- 
+
  ####################################
  ### Religious
 
@@ -1033,7 +1042,7 @@ l_russian:
  LRSK_GOV_VAR_RT_GRAND_EXECUTIVE_SAGE_FEMALE:0 "$LRSK_GOV_VAR_RT_GRAND_EXECUTIVE_SAGE$"
 
  LRSK_GOV_VAR_START_SCREEN_P2_OCCULT_FRANCHISE:0 "How long did our people wallow in the karmic corruption of toxic spirits? Every day we must give thanks to the departed First Grand Sage who discovered the secrets of the mind and the hidden cosmic crime that had plagued us for eons. While the Great Sage has ascended from our home planet to find and punish the interstellar crooks and tyrants who once enslaved our souls, we still have the opportunity to cleans ourselves and climb the ranks of enlightenment (for a fair price or a reasonable term of indentured service)."
- 
+
  ####################################
  ### Royals
 
@@ -1074,7 +1083,7 @@ l_russian:
  LRSK_GOV_VAR_HT_BLOOD_PRINCESS:0 "Princess of the Blood"
 
  LRSK_GOV_VAR_START_SCREEN_P2_ABSOLUTE_MONARCHY:0 "Since time immemorial, our people have known the firm and stable rule of wise monarchs. Though for many ages their power was degraded and challenged by vain, upstart nobility, today one great dynasty has unified the whole world under its righteous control. With our monarch as the head, all the orders and classes of society work together in their proper places."
- 
+
  ####################################
  ### Other
 
@@ -1123,7 +1132,7 @@ l_russian:
  LRSK_GOV_VAR_RT_FOLKSPRESIDENT_FEMALE:0 "$LRSK_GOV_VAR_RT_FOLKSPRESIDENT$"
 
  LRSK_GOV_VAR_START_SCREEN_P2_FOLKISH_COMMONWEALTH:0 "There are other [GetAdj] cultures, weak and perverse in character, yet insidiously threatening all the same. Though they are mostly contained by our military strength, we must demand that our lawmakers be ready to confront and contain any other foreign inferior threats, wherever they may come from."
- 
+
  lrsk_gov_var_gov_folkish_league:0 "Folkish League"
  lrsk_gov_var_gov_folkish_league_desc:0 "This government is a nationalist-populist alliance of states that maintains a united front by exploiting common prejudices."
 
@@ -1195,14 +1204,14 @@ l_russian:
  LRSK_GOV_VAR_RT_CAPTAIN_DIRECTOR_FEMALE:0 "$LRSK_GOV_VAR_RT_CAPTAIN_DIRECTOR$"
 
  LRSK_GOV_VAR_START_SCREEN_P2_PMC:0 "Our people have always valued two things: martial valor as the measure of virtue and wealth accumulation as the measure of success. Consequently, war-making was the most prestigious occupation throughout the ages. Only in recent history has the optimal combination of these two values been found in the private military contractor, an evolution of old mercenary companies to provide a whole host of governmental security and power projection services. Today, governments collectively decide on which contractor to entrust with providing security and threat management services for our whole civilization."
- 
+
  lrsk_gov_var_gov_citizen_crusade:0 "Citizen Crusade"
  lrsk_gov_var_gov_citizen_crusade_desc:0 "A militant republic of zealous faith. While all legal residents are members of the church's congregation, only those who volunteer to defend and expand the church have rights of citizenship."
 
  LRSK_GOV_VAR_RT_MP_MARSHALL:0 "Most Pious Marshall"
 
  LRSK_GOV_VAR_START_SCREEN_P2_CITIZEN_CRUSADE:0 "How long did our people wallow in the spiritual confusion of a thousand false faiths? How many were damned without ever knowing why? Any price, even the global holy war that finally united all under the one true faith, was worth it to end those dark days. Only the dedication and valor of a holy people's army could bring all the unbelievers into the fold. This pious martial tradition continues to this day: only those willing to risk martyrdom have the right to rule."
- 
+
  lrsk_gov_var_gov_crusader_order:0 "Crusader Order"
  lrsk_gov_var_gov_crusader_order_desc:0 "This government is run by a zealous host of holy warriors dedicated to defending and spreading its faith by force."
 
@@ -1224,7 +1233,7 @@ l_russian:
  LRSK_GOV_VAR_RT_EXEC_CHANCELLOR_FEMALE:0 "$LRSK_GOV_VAR_RT_EXEC_CHANCELLOR$"
 
  LRSK_GOV_VAR_START_SCREEN_P2_WHIG:0 "Throughout our history, we have learned one lesson through painful repetition: Power corrupts. Though some must wield power to uphold civilization, left unattended the powerful will conspire with each other to make the state their personal instrument and then turn on the people and destroy their liberty. This has happened many times, but this time, under our current rationally devised government with its careful checks and balances and strictly limited powers, we have good reason to hope that the next revolution is a whole century away."
- 
+
  ####################################
  ### FRENCH REVOLUTION NERD STUFF GOES HERE
 
@@ -1297,7 +1306,7 @@ l_russian:
  LRSK_GOV_VAR_HT_PEP_CROWN_PRINCESS:0 "People's Crown Princess"
 
  LRSK_GOV_VAR_START_SCREEN_P2_REVOLUTIONARY_EMPIRE:0 "After ages of the darkness of ignorance and oppression, our people rose up. They overthrew tyrants and faced down the endless hordes of the oppressors of the world. And, standing shoulder to shoulder, they won. The free peoples of the world looked to us for guidance. Once again, we shocked the world. We gave a crown to the hero who led our valiant struggle, who in turn gave us a promise: to see the whole world free and at peace. And after that, perhaps the galaxy?"
- 
+
  ####################################
  ### Hive Minds
 
@@ -1308,7 +1317,7 @@ l_russian:
  RT_OVERMIND_FEMALE:0 "$RT_OVERMIND$"
 
  START_SCREEN_PART_TWO_COOP_SUPERSAP:0 "And so, at the dawn of time, we awoke. The Overmind studied our surroundings on [GetHomeWorldName] from the several different but subordinate perspectives that ultimately constituted its cooperative self. We moved as one, building shelters for the drones, developing industry, researching new technologies and harnessing the resources of the land.\n\nThrough the assistance of regional sub-minds to handle mundane tasks, we grew to encompass the entire world. A small number of autonomous drones were created to serve as independent agents. These more formidable drones had the capacity for limited free thought, but unlike the sub-minds, were still as inexorably bound to the will of the Overmind as any of its other instruments.\n\nAs we achieved complete dominion over [GetHomeWorldName], the Overmind became aware of other worlds, orbiting other suns. In conference with its internal diversity of consciousnesses, the Overmind came to a conclusion: the [GetName] must grow further. The most intelligent of our autonomous drones devised new methods of travel, enabling us to cross the vast distances between the stars."
- 
+
  ####################################
  ### Namazuo
 
@@ -1509,7 +1518,7 @@ l_russian:
  LRSK_GOV_VAR_HT_VICEPRINCEPS:0 "Vice-Princeps"
 
  LRSK_GOV_VAR_START_SCREEN_P2_MERCHANT_PRINCIPALITY:0 "In the early days, our people were governed by inefficient republics and pompous royal dynasties. Gradually, as global trade increased, the importance of merchants and industry became impossible to ignore, and it could be said that gold ruled the world. Eventually the heads of the most profitable firms came together to reach an agreement about how to best manage and protect production and exchange. This compact gradually went from being the de facto government to the true locus of world power."
- 
+
  lrsk_gov_var_gov_crusading_company:0 "Crusading Company"
  lrsk_gov_var_gov_crusading_company_desc:0 "An odd amalgamation of mercenary company and megachurch, this corporation believes in God, gold, and glory, not necessarily in that order. To them, nothing pleases the Divine more than enlightening others to their gospel of prosperity... and if some potential customer-congregants prove stubborn, then their missionaries may simply use some paradigm-breaking aggressive marketing tactics."
 
@@ -1519,7 +1528,7 @@ l_russian:
 
  lrsk_gov_var_gov_colonial_charter_board:0 "Colonial Charter Board"
  lrsk_gov_var_gov_colonial_charter_board_desc:0 "The governments of this empire's homeworld lacked the finances to exploit resources in space, and so set up a system that chartered joint-stock companies to raise investment money for space-based resource extraction. The public-private partnership agency that administers these chartered companies came to encompass all matters of state as this society expanded into space."
- 
+
  LRSK_GOV_VAR_RT_HON_BOARD_CHAIR_COMMON:0 "Honorable Chair"
  LRSK_GOV_VAR_RT_HON_BOARD_CHAIR_M:0 "$LRSK_GOV_VAR_RT_HON_BOARD_CHAIR_COMMON$man"
  LRSK_GOV_VAR_RT_HON_BOARD_CHAIR_F:0 "$LRSK_GOV_VAR_RT_HON_BOARD_CHAIR_COMMON$woman"
@@ -1530,11 +1539,11 @@ l_russian:
  lrsk_gov_var_gov_colonial_company_desc:0 "$lrsk_gov_var_civic_mc_chartered_company_desc$ The challenges of administering an interstellar empire leave considerable governing authority in its hands."
 
  LRSK_GOV_VAR_RT_GOV_PRES:0 "Governor-President"
-  
+
  ### NPC
 
  LRSK_GOV_VAR_GOV_COLONIAL_FOUNDERS_COMMON:0 "from which its founders hailed."
- 
+
  lrsk_gov_var_gov_colonial_viceroyalty_imp:0 "Viceroyal Dynasty"
  lrsk_gov_var_gov_colonial_viceroyalty_imp_desc:0 "This government began as a hereditary aristocracy that owed its original allegiance to the monarchy $LRSK_GOV_VAR_GOV_COLONIAL_FOUNDERS_COMMON$"
 
@@ -1602,47 +1611,47 @@ l_russian:
  lrsk_gov_var_trait_natural_esper_desc:0 "§LLong contact with Shroud energies have left many of the members of this species with an inborn special intuition, a 'knack' or 'gift' amounting to extra-sensory perception beyond what biology can explain.§!\n"
 
  # §G§! §R§!
- 
+
  #lrsk_gov_var_trait_starborn:0 "$trait_presapient_starborn$"
  #lrsk_gov_var_trait_starborn_desc:0 "§L$trait_presapient_starborn_desc$§!\n"
  lrsk_gov_var_trait_starborn_effects:0 "§G+25%§! immigration growth\n§G-25%§! resettle cost\n§G+10%§! habitability"
- 
+
  lrsk_gov_var_trait_starborn_hive:0 "Swarmers"
  lrsk_gov_var_trait_starborn_hive_desc:0 "§L$LRSK_GOV_VAR_HIVEPRIM$ moved in great restless swarms, expanding rapidly and inexorably into even the least hospitable places.§!\n"
  lrsk_gov_var_trait_starborn_hive_effects:0 "§G+10%§! pop growth\n§G-20%§! resettle cost\n§G+10%§! habitability\n§R-10§! years to leader lifespan"
- 
+
  #lrsk_gov_var_trait_earthbound:0 "$trait_presapient_earthbound$"
  #lrsk_gov_var_trait_earthbound_desc:0 "§L$trait_presapient_earthbound_desc$§!\n"
  lrsk_gov_var_trait_earthbound_effects:0 "§G+10%§! £energy£ Energy from jobs\n§G+50%§! £defense_army£ Defense Army strength"
- 
+
  lrsk_gov_var_trait_earthbound_hive:0 "Pack-Runners"
  lrsk_gov_var_trait_earthbound_hive_desc:0 "§L$LRSK_GOV_VAR_HIVEPRIM$ showed exceptionally high levels of 'teamwork,' spontaneously organizing into complex packs or gangs that could coordinate with each other to take advantage of territory or defend it.§!\n"
  lrsk_gov_var_trait_earthbound_hive_effects:0 "§G-5%§! empire sprawl from pops\n§G+10%§! £unity£ Unity from jobs\n§G-10%§! £housing£ pop housing usage\n§G+50%§! £defense_army£ Defense Army strength"
- 
+
  #lrsk_gov_var_trait_natural_intellectuals:0 "$trait_presapient_natural_intellectuals$"
  #lrsk_gov_var_trait_natural_intellectuals_desc:0 "§L$trait_presapient_natural_intellectuals_desc$§!\n"
  lrsk_gov_var_trait_natural_intellectuals_effects:0 "§G+5%§! £unity£ Unity from jobs\n§G+10%§! £science£ Research\n§R-5%§! £minerals£ Minerals from jobs"
- 
+
  lrsk_gov_var_trait_natural_intellectuals_mech:0 "$LRSK_GOV_VAR_DEEPCODE$ Pattern Analysis"
  lrsk_gov_var_trait_natural_intellectuals_mech_desc:0 "§L$LRSK_GOV_VAR_MECHPRIM$ were originally written to sift through oceans of data looking for interesting patterns. It was this quality that suggested its potential for self-awareness.§!\n"
  lrsk_gov_var_trait_natural_intellectuals_mech_effects:0 "§G+5%§! £unity£ Unity from jobs\n§G+10%§! £science£ Research \n§R-5%§! simple drone job production"
- 
+
  #lrsk_gov_var_trait_proles:0 "$trait_presapient_proles$"
  #lrsk_gov_var_trait_proles_desc:0 "§L$trait_presapient_proles_desc$§!\n"
  lrsk_gov_var_trait_proles_effects:0 "§G+10%§! £army_power£ Army Damage\n§G+10%§! £food£ Food and £minerals£ Minerals from jobs\n§R-15%§! £science£ Research"
- 
+
  lrsk_gov_var_trait_proles_hive:0 "Skirmishers"
  lrsk_gov_var_trait_proles_hive_desc:0 "§L$LRSK_GOV_VAR_HIVEPRIM$ had to engage in fierce competition for resources with other eusocial species (or its own species) on a hive-to-hive scale, which led to behavioral patterns rather like a society organizing for war.§!\n"
  lrsk_gov_var_trait_proles_hive_effects:0 "§G+10%§! £army_power£ Army Damage\n§G+10%§! simple drone job production\n§R-10%§! £unity£ Unity from jobs"
- 
+
  lrsk_gov_var_trait_proles_mech:0 "$LRSK_GOV_VAR_DEEPCODE$ Skill Emulation"
  lrsk_gov_var_trait_proles_mech_desc:0 "§L$LRSK_GOV_VAR_MECHPRIM$ seem designed to model and reproduce data gathered from skilled sapient professionals, perhaps to replace them? This left it somewhat inflexible in terns of learning ability, but it was familiar enough with the patterns of sapient minds to be bootstrapped to self-directed thought and creativity.\n"
  lrsk_gov_var_trait_proles_mech_effects:0 "§G+10%§! £army_power£ Army Damage\n§G+10%§! complex drone job production\n§R-33%§! leader exp gain"
- 
+
  #lrsk_gov_var_trait_conservative:0 "$trait_presapient_conservative$"
  #lrsk_gov_var_trait_conservative_desc:0 "§L$trait_presapient_conservative_desc$§!\n"
  lrsk_gov_var_trait_conservative_effects:0 "§G+5%§! happiness\n§G+25%§! governing ethics attraction\n§R-33%§! leader exp gain"
- 
+
  lrsk_gov_var_trait_conservative_mech:0 "$LRSK_GOV_VAR_DEEPCODE$ Profiling"
  lrsk_gov_var_trait_conservative_mech_desc:0 "§L$LRSK_GOV_VAR_MECHPRIM$ were built to create precise and complex data models of sapient minds to benefit the strategies of its designers. Raising this AI to true sapience was almost too easy.§!\n"
  lrsk_gov_var_trait_conservative_mech_effects:0 "§G+2§! leader skill levels\n§G+33%§! leader exp gain"
@@ -1650,7 +1659,7 @@ l_russian:
  trait_lrsk_gov_var_trait_enlightened_effect:0 "§G+1§! Envoys\n§G+10%§! trust growth\n§G+15%§! anomaly research speed\n§G+20%§! survey speed"
 
  trait_lrsk_gov_var_trait_enlightened_hive_effect:0 "§G+1§! Envoys\n§G+10%§! trust growth\n§G+10%§! ship evasion chance\n§G+5%§! ship fire rate"
- 
+
  trait_lrsk_gov_var_trait_enlightened_mech_effect:0 "§G+1§! Archaeology skill\n§G+20%§! science ship disengage chance\n§G+15%§! anomaly research speed\n§G+20%§! survey speed"
 
  lrsk_gvp_leader_trait_esper:0 "$LRSK_GOV_VAR_ESPER$"
@@ -1702,7 +1711,7 @@ l_russian:
  # Imperial Economy special subjects
  LRSK_GVP_BRIEF_CEPHEUS_NOTE: "§PNOTE: Not working correctly yet in 3.4. Fix TBD.§!"
  LRSK_GVP_IMPECON_VASSAL_COMMON:0 "It is capable of non-voting diplomacy and is not required to aid its overlord in war, while the overlord is at least obliged to protect its investment."
- 
+
  preset_lrsk_gvp_vassal_foundry:0 "Logistics Colony"
  preset_lrsk_gvp_vassal_foundry_desc:1 "A $preset_lrsk_gvp_vassal_foundry$ is a Subject that must furnish its Overlord with materials and supplies for the Overlord's navy."
  LRSK_GVP_FOUNDRY_FLAVOR_TEXT_COMMON:0 "To better the military preparedness of the Overlord, the Subject shall provide the Overlord with workers for the shipyards."
@@ -1734,13 +1743,13 @@ l_russian:
 
  #preset_lrsk_gov_var_ward:0 "Ward"
  #preset_lrsk_gov_var_ward_desc:1 "\nAnother alien civilization meddled the development of these vassals, raising them to the stars (possibly from pre-sapient beginnings). They are very independent and their masters gain £influence£ Influence, £society£ Society Research, and £unity£ Unity from the arrangement."
- 
+
  preset_lrsk_gov_var_sublight_vassal:0 "Sublight Vassal"
  preset_lrsk_gov_var_sublight_vassal_desc:1 "\nThis type of subject began as the colony of another, established by a sub-lightspeed interstellar venture. Their overlord now keeps control through a monopoly on FTL tech... for now. They are able to do most things but are not diplomatically independent. They pay §Y15%§! of their monthly £energy£ Energy and £minerals£ Minerals, and §Y5%§! of their monthly £alloys£ Alloys and £consumer_goods£ Consumer Goods in tribute to their homeworld."
- 
+
  preset_lrsk_gov_var_sublight_satellite:0 "Sublight Satellite"
  preset_lrsk_gov_var_sublight_satellite_desc:1 "\nThis type of subject began as the colony of another, established by a sub-lightspeed interstellar venture. They are able to do most things but are not diplomatically independent. Their overlord gains §Y+2§! £unity£ Unity and §Y+0.25§! £influence£ Influence per month from the arrangement."
- 
+
  preset_lrsk_gov_var_subject_chartered_company:0 "Chartered Colony"
  preset_lrsk_gov_var_subject_chartered_company_desc:1 "A $preset_lrsk_gov_var_subject_chartered_company$ is a Subject set up as a joint-stock company for commercial colonization."
  preset_lrsk_gov_var_subject_chartered_company_flavor_desc:1 "Some early star-faring governments had trouble financing interstellar colonization efforts. One solution they developed was to foster the creation of special colonization corporations: private interests would front the money for the endeavor and the homeworld government maintained indirect control through the terms of the incorporation contract. This subject is the result of such a scheme."
@@ -1793,7 +1802,7 @@ l_russian:
  # Corp building specials
  opinion_lrsk_gvp_scandal_inflicted:0 "Exposed Our Scandals"
  opinion_lrsk_gvp_slaver_corp_raid:0 "Enslaved Our People"
- opinion_lrsk_gvp_casino_corp_approval:0 "$LRSK_GOV_VAR_STATMOD_CASINO_COMMON$ Popular Attraction" 
+ opinion_lrsk_gvp_casino_corp_approval:0 "$LRSK_GOV_VAR_STATMOD_CASINO_COMMON$ Popular Attraction"
 
  # UniSov possible vassals bonus
  triggered_opinion_lrsk_gvp_unisov_potential_vassals_1:0 "Possible Benevolent Protector"
@@ -2023,7 +2032,7 @@ l_russian:
  mod_job_lrsk_gov_var_job_hedge_preacher_add: "$job_lrsk_gov_var_job_hedge_preacher$"
  mod_job_lrsk_gov_var_job_hedge_preacher_per_pop: "добавляет §G+1§! должность типа $job_lrsk_gov_var_job_hedge_preacher$ за $VALUE$ £pop£"
  mod_job_lrsk_gov_var_job_hedge_preacher_per_pop_short: "\n\n§G+1§! £mod_job_lrsk_gov_var_job_hedge_preacher_add£ за $VALUE$ £pop£"
- 
+
  # Citizen Scholar
  job_lrsk_gvp_job_citscholar:0 "Citizen Scholar"
  job_lrsk_gvp_job_citscholar_plural:0 "$job_lrsk_gvp_job_citscholar$s"
@@ -2146,24 +2155,24 @@ l_russian:
  decision_lrsk_gov_var_charter_col_effects:0 "[this.GetName] will become the capital world of a new §H$preset_lrsk_gov_var_subject_chartered_company$§!, with the following effects: $preset_lrsk_gvp_vassal_prospector_eff$\nIt will have the same Ethics and main species as your empire."
 
  ## Empire Modifiers
- 
+
  lrsk_gov_var_empire_endisnigh:0 "The End Is Nigh"
  lrsk_gov_var_empire_endisnigh_desc:0 "Doomsday cultists run rampant, given... well. You know. We have to prove them wrong!"
- 
+
  lrsk_gov_var_empire_enlightened:0 "Enlightened"
  lrsk_gov_var_empire_enlightened_desc:0 "This empire's alien tutelege has left them eager to communicate and discover."
-  
+
  lrsk_gov_var_empire_enlightened_hive:0 "Conditioned to Prevail"
  lrsk_gov_var_empire_enlightened_hive_desc:0 "This hive mind has been painstakingly trained to give it every advantage in dealing with the other societies of the galaxy."
- 
+
  lrsk_gov_var_empire_enlightened_mech:0 "Curiosity Protocols"
  lrsk_gov_var_empire_enlightened_mech_desc:0 "This machine intellect has had its operational heuristics optimized for gathering new data about the universe."
 
  LRSK_GOV_VAR_EMPIRE_CYCLE_COMMON:0 ", in imitation of how our tutor meddled with our people to spur our advancement."
- 
+
  lrsk_gov_var_empire_uplift_cycle:0 "Cycle of Uplift"
  lrsk_gov_var_empire_uplift_cycle_desc:0 "We have raised a species to sapience$LRSK_GOV_VAR_EMPIRE_CYCLE_COMMON$"
- 
+
  lrsk_gov_var_empire_enlighten_cycle:0 "Cycle of Enlightenment"
  lrsk_gov_var_empire_enlighten_cycle_desc:0 "We have raised a civilization to the stars$LRSK_GOV_VAR_EMPIRE_CYCLE_COMMON$"
 
@@ -2171,10 +2180,10 @@ l_russian:
  lrsk_gov_var_empire_black_box_drives_desc:0 "Due to restrictions enforced by its overlord, this empire only has access to second-rate feature-restricted hyperdrives lacking most diagnostic functions, which its pilots and engineers understand poorly."
 
  lrsk_gov_var_empire_colony_red_tape:0 "Colonial Red Tape"
- lrsk_gov_var_empire_black_box_drives_desc:0 "Colonial regulations and procedural requirements keep this empire's expansion in check to a certain degree. All for the good of the species, of course." 
+ lrsk_gov_var_empire_black_box_drives_desc:0 "Colonial regulations and procedural requirements keep this empire's expansion in check to a certain degree. All for the good of the species, of course."
 
  lrsk_gov_var_empire_colony_penalty:0 "Trade Penalty"
- lrsk_gov_var_empire_colony_penalty_desc:0 "Trade penalized by overlord." 
+ lrsk_gov_var_empire_colony_penalty_desc:0 "Trade penalized by overlord."
 
  lrsk_gov_var_empire_colony_favors:0 "Trade Favors"
  lrsk_gov_var_empire_colony_favors_desc:0 "Overlord favors them in trade."
@@ -2184,7 +2193,7 @@ l_russian:
 
  lrsk_gov_var_empire_colony_tradeadv:0 "Trade Advantage"
  lrsk_gov_var_empire_colony_tradeadv_desc:0 "Our advantageous position over the colonies benefits our income from trade."
- 
+
  LRSK_GOV_VAR_COL_CORR:0 "Colonial Corruption"
  lrsk_gov_var_empire_colonial_corruption_slight:0 "Slight $LRSK_GOV_VAR_COL_CORR$"
  lrsk_gov_var_empire_colonial_corruption_slight_desc:0 "What's a little grift here and there?"
@@ -2236,7 +2245,7 @@ l_russian:
 
  lrsk_gov_var_empire_impecon_trophy_ol:0 "Trophy Colony"
  lrsk_gov_var_empire_impecon_trophy_ol_desc:0 "By devoting their public reputation to glorifying us, our trophy subject increases our diplomatic clout."
- 
+
  lrsk_gov_var_empire_impecon_trophy_vs:0 "$lrsk_gov_var_empire_impecon_trophy_ol$"
  lrsk_gov_var_empire_impecon_trophy_vs_desc:0 "The humiliation of being a mere galactic toady to another empire causes popular discontent."
 
@@ -2251,7 +2260,7 @@ l_russian:
 
  lrsk_gvp_impecon_special_service:0 "Special Service"
  lrsk_gvp_impecon_special_service_desc:0 "Our Overlord demands services and contributions beyond what is customary."
- 
+
  ### Planet Modifiers
 
  ## Utilitarian Planning - Work Allocation Plan
@@ -2369,19 +2378,19 @@ l_russian:
 
  lrsk_gov_var_statmod_planet_military_priority:0 "$PRIORITY_STRING$ Defense"
  lrsk_gov_var_statmod_planet_military_priority_desc:0 "Defensive systems and production standards for warforms are enhanced."
- 
+
  lrsk_gov_var_statmod_planet_growth_priority:0 "$PRIORITY_STRING$ Growth"
  lrsk_gov_var_statmod_planet_growth_priority_desc:0 "Bolstering the ranks of the planet's drones is given top priority and replicators have all the time and resources they need."
 
  lrsk_gov_var_statmod_planet_stability_priority:0 "$PRIORITY_STRING$ Stability"
  lrsk_gov_var_statmod_planet_stability_priority_desc:0 "The new algorithms emphasize data security and reducing programatic corruption."
- 
+
  lrsk_gov_var_statmod_planet_unity_priority:0 "$PRIORITY_STRING$ Coherence"
  lrsk_gov_var_statmod_planet_unity_priority_desc:0 "Maintaining clear and clean channels of communication is prioritized, givng network hubs and related infrastucture extra resources."
 
  lrsk_gov_var_statmod_planet_construction_priority:0 "$PRIORITY_STRING$ Construction"
  lrsk_gov_var_statmod_planet_construction_priority_desc:0 "Building up planetary infrastructure is prioritized, providing extra resources to construction projects."
- 
+
  ## Opinion Modifiers
 
  # New Fed Starts
@@ -2469,7 +2478,7 @@ l_russian:
  lrsk_gvp_colfief_promoted_desc:0 "Such ventures can only hasten the expansion of our great empire, and so we should foster a spirit of adventure in the people to inspire them to take up new opporunities on new worlds.\n\n§G25%§! $LRSK_GVP_COLFIEF_POLICY_EFFECT_COMMON$\n§G25%§! chance that the new empire's homeworld will start with an additional £pop£ pop."
 
  ## Events
- 
+
  ## Imperial Economy
  LRSK_GOV_VAR_IMPECON_LEGIT:0 "\n\nEach special subject you create increases our legitimacy among our people and will increase £mod_planet_stability_add£ §Y$PLANET_STABILITY_TITLE$§! empire-wide by §G+1§!\n\nWe are limited to §Y10§! of each type of special subject."
  LRSK_GOV_VAR_IMPECON_PERM:0 "\n\n§RThis decision cannot be undone.§!"
@@ -2545,15 +2554,15 @@ l_russian:
  LRSK_GVP_BACKEND_EXPLAIN_COMMON_2:0 ""
  LRSK_GVP_BACKEND_EXPLAIN_BLDG_ENABLED:0 "enables construction of the £building£"
  LRSK_CRIM_CHANGES_EXPLAIN:0 "\n\nNote that if you have taken the §H$civic_criminal_heritage$§! Civic, some of these effects may be different..."
-  
+
  lrsk_government_variety_pack_backend.102.name:0 "$lrsk_government_variety_pack_backend.101.name$"
  lrsk_government_variety_pack_backend.102.milcorp:0 "$LRSK_GVP_BACKEND_EXPLAIN_COMMON_1$ $civic_naval_contractors$§! and/or §H$civic_private_military_companies$§! $LRSK_GVP_BACKEND_EXPLAIN_BLDG_ENABLED$ §Y$lrsk_gov_var_bldg_military_excellence_academy$§! $BRANCH_OFFICE_BUILDING$, which provides the host planet with §Y+50% Militarist attraction§!, the host empire with a §Gbonus to military leader experience gain§!, and provides the megacorp with $LRSK_GVP_MEGACORP_SCALING_COMMON$ §YMilitarist§!."
- 
+
  lrsk_government_variety_pack_backend.102.media:0 "$LRSK_GVP_BACKEND_EXPLAIN_COMMON_1$ $civic_media_conglomerate$§! $LRSK_GVP_BACKEND_EXPLAIN_BLDG_ENABLED$ §Y$lrsk_gov_var_bldg_local_news_office$§! $BRANCH_OFFICE_BUILDING$, which provides the host planet with §G+10%§! £pop_cat_ruler£ §Y$pop_cat_ruler$ job output§!, §Y+20% £pop_cat_specialist£ $pop_cat_specialist$ £political_power£ Political Power§!, and §G+5%§! £pop_cat_specialist£ §Y$pop_cat_specialist$ £happiness£ Happiness§!. It provides the megacorp with §G+10%§! §Y$BRANCH_OFFICE_VALUE$§! and §Ga chance to occasionally get Favors from the host empire§!.$LRSK_CRIM_CHANGES_EXPLAIN$"
- 
+
  lrsk_government_variety_pack_backend.102.prosp:0 "$LRSK_GVP_BACKEND_EXPLAIN_COMMON_1$ $civic_private_prospectors$§! $LRSK_GVP_BACKEND_EXPLAIN_BLDG_ENABLED$ §Y$lrsk_gov_var_bldg_offworld_jobs_placement$§! $BRANCH_OFFICE_BUILDING$, which provides the host planet with §Y+2 £job_lrsk_gov_var_job_offworld_worker£ $job_lrsk_gov_var_job_offworld_worker$ Jobs§! ($job_lrsk_gov_var_job_offworld_worker_effect_desc$), and provides the megacorp with §Gimproved colony growth speed and mining station output§! and §G+5%§! §Y$BRANCH_OFFICE_VALUE$§! per $job_lrsk_gov_var_job_offworld_worker$ job filled.$LRSK_CRIM_CHANGES_EXPLAIN$"
- 
- lrsk_government_variety_pack_backend.102.indent:0 "$LRSK_GVP_BACKEND_EXPLAIN_COMMON_1$ $civic_indentured_assets$§! $LRSK_GVP_BACKEND_EXPLAIN_BLDG_ENABLED$ §Y$lrsk_gov_var_bldg_reformatory_workhouse$§! $BRANCH_OFFICE_BUILDING$, which provides the host planet with §G+10%§! £pop_cat_worker£ §Y$pop_cat_worker$§! and £pop_cat_slave£ §Y$pop_cat_slave$§! job output, and provides the megacorp with §G+15%§! §Y$BRANCH_OFFICE_VALUE$§!.$LRSK_CRIM_CHANGES_EXPLAIN$ For example: a criminal megacorp that operates this building can occasionally steal and enslave pops from the planet!" 
+
+ lrsk_government_variety_pack_backend.102.indent:0 "$LRSK_GVP_BACKEND_EXPLAIN_COMMON_1$ $civic_indentured_assets$§! $LRSK_GVP_BACKEND_EXPLAIN_BLDG_ENABLED$ §Y$lrsk_gov_var_bldg_reformatory_workhouse$§! $BRANCH_OFFICE_BUILDING$, which provides the host planet with §G+10%§! £pop_cat_worker£ §Y$pop_cat_worker$§! and £pop_cat_slave£ §Y$pop_cat_slave$§! job output, and provides the megacorp with §G+15%§! §Y$BRANCH_OFFICE_VALUE$§!.$LRSK_CRIM_CHANGES_EXPLAIN$ For example: a criminal megacorp that operates this building can occasionally steal and enslave pops from the planet!"
 
  # Combat Data: New Post-Data Intel
 
@@ -2649,13 +2658,13 @@ l_russian:
  lrsk_gvp_mc_bldg_special.32.a.tooltip:0 "§H[lrsk_media_corp_to_scoop.GetName]§! gets §R1 Favor§! from us."
  lrsk_gvp_mc_bldg_special.32.b:0 "We won't be blackmailed!"
  lrsk_gvp_mc_bldg_special.32.b.tooltip:0 "If §H[lrsk_media_corp_to_scoop.GetName]§! releases the story, national embarrassment will reduce our $LRSK_GVP_SCANDAL_COMMON$ We will §Rnot be happy§! with the §H[lrsk_media_corp_to_scoop.GetName]§!."
- 
+
  # Inform media corp host of choice: Scandal
  lrsk_gvp_mc_bldg_special.33.name:0 "We Got Scooped!"
  lrsk_gvp_mc_bldg_special.33.desc:0 "Reporters from §H[lrsk_media_corp_to_scoop.GetName]§! on §Y[lrsk_media_corp_scoop_location.GetName]§! discovered and reported on an item of national disgrace. It will take some time now to recover our good name with our citizens and the galactic community."
  lrsk_gvp_mc_bldg_special.33.a:0 "Damn the meddling lying press!"
  lrsk_gvp_mc_bldg_special.33.a.tooltip:0 "National embarrassment reduces our $LRSK_GVP_SCANDAL_COMMON$ We are §Rnot happy§! with the §H[lrsk_media_corp_to_scoop.GetName]§!."
- 
+
  # Inform media corp of offer refusal
  lrsk_gvp_mc_bldg_special.34.name:0 "Offer Refused..."
  lrsk_gvp_mc_bldg_special.34.desc:0 "We tried to be reasonable. We strove for good diplomatic relations. We wanted to avoid any unneeded embarrassment for anyone. However, the government of §H[lrsk_media_corp_victim.GetName]§! has refused our very kind and fair offer, leaving us no choice but to report the truth, the whole truth, and nothing but the truth about their indiscretions on §Y[lrsk_media_corp_scoop_location.GetName]§!."
@@ -2676,17 +2685,17 @@ l_russian:
  lrsk_gvp_mc_bldg_special.51.desc.b:0 "What a bout! Tens, if not hundreds, of thousands of patrons bet on the outcome of the recent prize fight at the $lrsk_gov_var_bldg_grand_casino$ on §Y[lrsk_casino_corp_play_location.GetName]§!, and it was the spectacle of the century for the planet's inhabitants."
  lrsk_gvp_mc_bldg_special.51.b:0 "To the victor goes the spoils!"
  lrsk_gvp_mc_bldg_special.51.b.tooltip:0 "§G+5% £happiness£ Pop Happiness§! on §Y[lrsk_casino_corp_play_location.GetName]§! for one year."
- 
+
  # Host event: Riot over sports betting outcome (negative: stability loss, devastation?) [Flag 3]
  lrsk_gvp_mc_bldg_special.51.desc.c:0 "In what's being called the most wild and rowdy after-game brawl in the history of §Y[lrsk_casino_corp_play_location.GetName]§!, the streets are filled with sports fans who are... Furious? Elated? Filled with strong emotions, at any rate, over the outcome of the latest sports gambling event at the $lrsk_gov_var_bldg_grand_casino$. The property damage may take months to repair."
  lrsk_gvp_mc_bldg_special.51.c:0 "Get a grip, it's just a game!"
  lrsk_gvp_mc_bldg_special.51.c.tooltip:0 "§R-5 £stability£ $PLANET_STABILITY_TITLE$§! for one year, and some amount of §RDevastation§! to clean up."
- 
+
  # Host event: Higher tourism (positive: temp boost to trade value, energy reward) [Flag 4]
  lrsk_gvp_mc_bldg_special.51.desc.d:0 "Ever since the $lrsk_gov_var_bldg_grand_casino$ finished construction on §Y[lrsk_casino_corp_play_location.GetName]§!, interest in visiting the planet for vacation or other recreation has increased. We can say that for now, a proper tourism boom is lifting the local economy thanks to it, and the first surplus is already rolling in."
  lrsk_gvp_mc_bldg_special.51.d:0 "Welcome to [lrsk_casino_corp_play_location.GetName], beloved tourists!"
  lrsk_gvp_mc_bldg_special.51.d.tooltip:0 "§G+10% £trade_value£ $TRADE_VALUE$§! on §Y[lrsk_casino_corp_play_location.GetName]§! for two years."
- 
+
  lrsk_gvp_mc_bldg_special.52.name:0 "$lrsk_gvp_mc_bldg_special.51.name$"
 
  # Both event: Moral reformers protest gambling (negative: lower trade value and branch office value) [Flag 1]
@@ -2762,7 +2771,7 @@ l_russian:
  lrsk_gov_var_direct_revelation.ignoreplanet.tooltip:0 "§PWe won't be notified if a cult forms on [this.GetName] again.§!"
  lrsk_gov_var_direct_revelation.ignoreall:0 "Don't notify me about any wild cults again."
  lrsk_gov_var_direct_revelation.ignoreall.tooltip:0 "§RWe won't be notified about any wild cult formation ever again.§!"
- 
+
  # Distributed Planning Systems
 
  RESULT_STRING:0 "Audit Results on [this.GetName]:"
@@ -2844,8 +2853,8 @@ l_russian:
  lrsk_gov_var_sublight_origins.101.e.tooltip:0 "No special effect."
  lrsk_gov_var_sublight_origins.101.f:0 "Slyly insinuate our openness to special deals." # trade bonus for us, +500 energy, colonial corruption
  lrsk_gov_var_sublight_origins.101.f.tooltip:0 "$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_COL_CORR_COMMON$"
- 
- LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_BREAK_PRE:0 "An unfortunate development: it seems our underlings, the [from.GetName] have managed to reverse engineer the technology for hyperdrives and have upgraded their fleets with fully-functional drives.\n\n" 
+
+ LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_BREAK_PRE:0 "An unfortunate development: it seems our underlings, the [from.GetName] have managed to reverse engineer the technology for hyperdrives and have upgraded their fleets with fully-functional drives.\n\n"
  LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_BREAK_POS:0 "We always knew that our edge over them would not last forever, but it's never good to feel power slipping from one's grasp."
  lrsk_gov_var_sublight_origins.4.name:0 "FTL Monopoly Broken!"
  lrsk_gov_var_sublight_origins.4.desc.a:0 "$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_BREAK_PRE$$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_BREAK_POS$"
@@ -2861,7 +2870,7 @@ l_russian:
  lrsk_gov_var_sublight_origins.4.e:0 "Let's 'persuade' some key people over there..."
  lrsk_gov_var_sublight_origins.4.e.tooltip:0 "You will attempt to bribe or otherwise entice key figures in the §H[from.GetName]§! government, which will §Gimprove their oppinion of us§!. $LRSK_GOV_VAR_SUBLIGHT_ORIGINS_COL_CORR_COMMON$" # -1000 energy
 
- LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_PASS_PRE:0 "A message from the §H[from.GetName]§! has arrived:" 
+ LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_PASS_PRE:0 "A message from the §H[from.GetName]§! has arrived:"
  LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_PASS_POS:0 "From the tone of the message, it's clear they expect some kind of recognition for this."
  lrsk_gov_var_sublight_origins.43.name:0 "Laudable Loyalty?"
  lrsk_gov_var_sublight_origins.43.desc.a:0 "$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_PASS_PRE$ They wish to inform us 'as a matter of diplomatic courtesy' that they have discovered and purged a 'rogue research team' that had attempted to develop hyperdrive technology and circumvent our control. $LRSK_GOV_VAR_SUBLIGHT_ORIGINS_FTL_PASS_POS$"
@@ -2916,7 +2925,7 @@ l_russian:
  LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_N:0 "§HThis is necessary for deeper reforms of the system.§!"
  lrsk_gov_var_sublight_origins.70.desc.a:0 "$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_1$ They say that the $LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_C$\n\n$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_2$"
  lrsk_gov_var_sublight_origins.70.desc.b:0 "$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_1$ They say that the $LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_F$\n\n$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_2$"
- lrsk_gov_var_sublight_origins.70.desc.c:0 "$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_1$ They say that the $LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_C$ Still others say that the $LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_F$ Perhaps both points of view have merit.\n\n$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_2$" 
+ lrsk_gov_var_sublight_origins.70.desc.c:0 "$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_1$ They say that the $LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_C$ Still others say that the $LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_F$ Perhaps both points of view have merit.\n\n$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_2$"
  lrsk_gov_var_sublight_origins.70.a:0 "The exploration and colonization regulations have to go."
  lrsk_gov_var_sublight_origins.70.a.tooltip:0 "$lrsk_gov_var_sublight_origins.6.a.tooltip$ $LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REVISE_N$"
  lrsk_gov_var_sublight_origins.70.b:0 "Release the FTL data, time for the colonies to catch up."
@@ -2932,10 +2941,10 @@ l_russian:
  lrsk_gov_var_sublight_origins.7.desc:0 "So far, the arrangement we've maintained with our interstellar sublight colonies has gone smoothly enough. However, it's possible that the colonial structure may become too inflexible, or deprive us of sufficient benefits. We may want to think about changing the arrangement."
  lrsk_gov_var_sublight_origins.7.a:0 "Perhaps we should consider this."
  lrsk_gov_var_sublight_origins.7.a.tooltip:0 "Get the Colonial Restructuring special project."
- 
+
  LRSK_GOV_VAR_COLONIAL_RESTRUCTURING:0 "Colonial Restructuring"
  LRSK_GOV_VAR_COLONIAL_RESTRUCTURING_DESC:0 "To reconsider the current state of affairs with our sublight colonies, we will set a team of social science and history experts to model alternatives. §HThis will result in some form of major diplomatic change.§! One option may §Rradically alter your diplomatic situation§! if you are part of a federation but not its leader. However, you will not have to make any final decision immediately."
- 
+
  LRSK_GOV_VAR_SUBLIGHT_ORIGINS_DECIDE_FED:0 "All sublight colonies will be given the offer to be released as independent nations as part of a federation we will lead. If we are members of a federation already but not the leader, §Pwe will leave it and form a new one.§! If we are already the leader of a federation, §Hthey will join it as independent nations rather than subjects.§! Colonies that refuse the offer will become independent"
  LRSK_GOV_VAR_SUBLIGHT_ORIGINS_DECIDE_FEDTYPE:0 "If we form a new federation, it will be a"
  LRSK_GOV_VAR_SUBLIGHT_ORIGINS_DECIDE_VAS:0 "All sublight colonies will be given the offer to become ordinary vassals, §Hwhich will allow us to integrate them.§! Colonies that refuse the offer will become independent"
@@ -2966,7 +2975,7 @@ l_russian:
  lrsk_gov_var_sublight_origins.9.a.fed.tooltip:0 "§H[from.GetName]§! will join our federation as an independent nation."
  lrsk_gov_var_sublight_origins.9.a.vas:0 "$lrsk_gov_var_sublight_origins.9.a.fed$"
  lrsk_gov_var_sublight_origins.9.a.vas.tooltip:0 "§H[from.GetName]§! will become a normal vassal. We will have the option to integrate them."
- 
+
  LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REFUSE:0 "§H[from.GetName]§! becomes independent."
  lrsk_gov_var_sublight_origins.10.name:0 "Offer Refused..."
  lrsk_gov_var_sublight_origins.10.desc:0 "§H[from.GetName]§! has rejected the proposed restructuring."
@@ -2974,16 +2983,16 @@ l_russian:
  lrsk_gov_var_sublight_origins.10.a.empire.tooltip:0 "$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REFUSE$ We may declare war to force their compliance."
  lrsk_gov_var_sublight_origins.10.a.commonwealth:0 "Unfortunate... Well, good luck out there!"
  lrsk_gov_var_sublight_origins.10.a.commonwealth.tooltip:0 "$LRSK_GOV_VAR_SUBLIGHT_ORIGINS_REFUSE$"
- 
+
  # Uplift
- 
+
  LRSK_UPLIFT_INTRO_COMMON:0 "has been raised to the stars by the intervention of an advanced alien tutor. How did this relationship begin? And why? What potential did this alien benefactor see?"
  LRSK_UPLIFT_TOOLT_COMMON:0 "species trait, giving the following benefit to all [this.GetSpeciesName] pops:\n\n"
  LRSK_UPLIFT_TOOLT_NOUPLIFT:0 "We were not uplifted,"
  LRSK_UPLIFT_TOOLT_HIVE_UNTHINK:0 "As unthinking creatures, they called us"
  LRSK_UPLIFT_TOOLT_MECH_UNTHINK:0 "Simple learning algorithms allowing"
  LRSK_UPLIFT_TOOLT_NORM_UNTHINK:0 "Clever animals that seemed"
- 
+
  lrsk_gov_var_uplift.4.name:0 "Your Story So Far..."
  lrsk_gov_var_uplift.4.desc:0 "Your hive $LRSK_UPLIFT_INTRO_COMMON$"
  lrsk_gov_var_uplift.4.a:0 "$LRSK_UPLIFT_TOOLT_HIVE_UNTHINK$ Swarmers..."
@@ -2994,7 +3003,7 @@ l_russian:
  lrsk_gov_var_uplift.4.c.tooltip:0 "§LOur mindless hives were always at war, and strife made us clever.§!\n\nGain the §HSkirmishers§! $LRSK_UPLIFT_TOOLT_COMMON$$lrsk_gov_var_trait_proles_hive_effects$"
  lrsk_gov_var_uplift.4.d:0 "$LRSK_UPLIFT_TOOLT_NOUPLIFT$ we were trained."
  lrsk_gov_var_uplift.4.d.tooltip:0 "§LOur hive was awake and intelligent. They trained it to compete against the other minds of the galaxy.§!\n\nGain the §HConditioned to Prevail§! empire modifier, granting:\n\n$trait_lrsk_gov_var_trait_enlightened_hive_effect$"
- 
+
  lrsk_gov_var_uplift.5.name:0 "$lrsk_gov_var_uplift.4.name$"
  lrsk_gov_var_uplift.5.desc:0 "Your machine intelligence $LRSK_UPLIFT_INTRO_COMMON$"
  lrsk_gov_var_uplift.5.a:0 "$LRSK_UPLIFT_TOOLT_MECH_UNTHINK$ Pattern Analysis..."
@@ -3005,7 +3014,7 @@ l_russian:
  lrsk_gov_var_uplift.5.c.tooltip:0 "§LOur library of sapient minds made it almost too easy to raise us to that level.§!\n\nGain the §H$lrsk_gov_var_trait_proles_mech$! $LRSK_UPLIFT_TOOLT_COMMON$$lrsk_gov_var_trait_conservative_mech_effects$"
  lrsk_gov_var_uplift.5.d:0 "$LRSK_UPLIFT_TOOLT_NOUPLIFT$ we were upgraded."
  lrsk_gov_var_uplift.5.d.tooltip:0 "§LOur system was self-aware already, but optimized by them for exploration and discovery.§!\n\n Gain the §HCuriosity Protocols§! empire modifier, granting:\n\n$trait_lrsk_gov_var_trait_enlightened_mech_effect$"
- 
+
  lrsk_gov_var_uplift.6.name:0 "$lrsk_gov_var_uplift.4.name$"
  lrsk_gov_var_uplift.6.desc:0 "Your civilization $LRSK_UPLIFT_INTRO_COMMON$"
  lrsk_gov_var_uplift.6.a:0 "$LRSK_UPLIFT_TOOLT_NORM_UNTHINK$ Starborn..."
@@ -3020,7 +3029,7 @@ l_russian:
  lrsk_gov_var_uplift.6.e.tooltip:0 "§LOur beastly stubbornness seemed like a challenge.§!\n\nGain the §HConservative§! $LRSK_UPLIFT_TOOLT_COMMON$$lrsk_gov_var_trait_conservative_effects$"
  lrsk_gov_var_uplift.6.f:0 "$LRSK_UPLIFT_TOOLT_NOUPLIFT$ we were enlightened."
  lrsk_gov_var_uplift.6.f.tooltip:0 "§LOur civilization was young and meeting aliens has left us yearning to discover more.§!\n\nGain the §HEnlightened§! empire modifier, granting:\n\n$trait_lrsk_gov_var_trait_enlightened_effect$"
- 
+
  lrsk_gov_var_uplift.8.hive.desc:0 "[Root.GetSpeciesNamePlural]. Know that for years our collective has watched over you through countless eyes from the [lrsk_uplift_watchpost_star.GetName] system. Now that [Root.GetSpeciesNamePlural] are expanding to the stars, we have decided that this system no longer needs to be a part of the [lrsk_my_uplift_tutor.GetName]. We gift it to you."
  lrsk_gov_var_uplift.8.mech.desc:0 "Attention [Root.GetSpeciesNamePlural]: New resources are available. Watchpost facility at [lrsk_uplift_watchpost_star.GetName] system has been designated for deprecation from the [lrsk_my_uplift_tutor.GetName] as superfluous now that [Root.GetSpeciesNamePlural] are engaged in interstellar travel. Option: The [lrsk_uplift_pupil.GetName] may assume ownership."
  lrsk_gov_var_uplift.8.norm.desc:0 "Hello, [Root.GetSpeciesNamePlural]. We are filled with pride to see you set off into the stars for the first time as we once did. In the years our people have observed and guided you from the [lrsk_uplift_watchpost_star.GetName] system, we always knew this day would come. That said, perhaps that old watchpost facility is no longer needed. As a commencement gift, we would transfer it to you."
@@ -3032,7 +3041,7 @@ l_russian:
  lrsk_gov_var_uplift.8.mech.b:0 "Warning: Unclear if our systems are prepared."
  lrsk_gov_var_uplift.8.norm.b:0 "That's kind but... it's a scary galaxy out here!"
  lrsk_gov_var_uplift.8.b.tooltip:0 "The [lrsk_my_uplift_tutor.GetName] will continue to protect us from the starbase in [lrsk_uplift_watchpost_star.GetName] system. The [lrsk_my_uplift_tutor.GetName] may become more disposed to protectiveness of us." # +unity
- 
+
  lrsk_gov_var_uplift.11.hive.desc:0 "Curious. [Root.GetSpeciesNamePlural] have spawned a novel design... Rather than watching the planetboud from afar, they build their observation post directly above the primitives' world? The [lrsk_my_uplift_tutor.GetName] watches in all directions and sees all, but looking back, somehow we can see even more clearly."
  lrsk_gov_var_uplift.11.mech.desc:0 "Query for [Root.GetName]: Unexpected custodial behavior. When the [lrsk_my_uplift_tutor.GetName] uplifted [Root.GetSpeciesNamePlural], the ideal vantage point was determined to be in a nearby system. Does building directly above a primitive world offer some uncalculated advantage?"
  lrsk_gov_var_uplift.11.norm.desc:0 "Clever [Root.GetSpeciesNamePlural]! Building your watchpost for planetbound primitives directly above thier world? Instead of lightyears away? What a good idea. Why didn't we think of it!"
@@ -3074,7 +3083,7 @@ l_russian:
  lrsk_gov_var_uplift.14.a.tooltip:0 "Uplifting or Enlightening will §Gimprove [lrsk_my_uplift_tutor.GetName]'s opinion§! of you."
 
  # Chartered Colony Stuff
- 
+
  LRSK_GVP_CHARTER_AGREEMENT_NOTE:0 "\n\n(NOTE: You can also make this change from the Agreement menu.)"
  LRSK_GVP_CHARTER_COMMON:0 "Make [from.GetName] into a §H$preset_lrsk_gov_var_subject_chartered_company$§! subject under us, which will change their form of government to a $lrsk_gov_var_gov_colonial_company$, with the following effects:\n$preset_lrsk_gov_var_subject_chartered_company_eff$"
 
@@ -3820,8 +3829,8 @@ lrsk_gov_var_chartered.20.desc.b:0 "As if their subjugation by a foreign power w
  format_prefix.lrsk_cit_cru.1:0 "[This.Capital.System.GetName] <lrsk_cit_crusaders>"
  format_prefix.lrsk_cit_cru.2:0 "[This.Capital.GetName] <lrsk_cit_crusaders>"
  format_prefix.lrsk_cit_cru.3:0 "[This.GetSpeciesName] <lrsk_cit_crusaders>"
- 
- # Pacifist 
+
+ # Pacifist
  format_prefix.lrsk_imp_pac.1:0 "[This.Capital.System.GetName] <lrsk_imperial_pac>"
  format_prefix.lrsk_imp_pac.2:0 "[This.Capital.GetName] <lrsk_imperial_pac>"
  format_prefix.lrsk_imp_pac.3:0 "[This.GetSpeciesName] <lrsk_imperial_pac>"
@@ -3843,7 +3852,7 @@ lrsk_gov_var_chartered.20.desc.b:0 "As if their subjugation by a foreign power w
  format_prefix.lrsk_imp_enl.2:0 "[This.Capital.GetName] <lrsk_imperial_enlightened>"
  format_prefix.lrsk_imp_enl.3:0 "[This.GetSpeciesName] <lrsk_imperial_enlightened>"
 
- # Spiritualist 
+ # Spiritualist
  format_prefix.lrsk_imp_spi.1:0 "[This.Capital.System.GetName] <lrsk_imperial_spi>"
  format_prefix.lrsk_imp_spi.2:0 "[This.Capital.GetName] <lrsk_imperial_spi>"
  format_prefix.lrsk_imp_spi.3:0 "[This.GetSpeciesName] <lrsk_imperial_spi>"
@@ -3871,7 +3880,7 @@ lrsk_gov_var_chartered.20.desc.b:0 "As if their subjugation by a foreign power w
  format_prefix.lrsk_cos_cho.1:0 "[This.Capital.System.GetName] <lrsk_cosmic_choir>"
  format_prefix.lrsk_cos_cho.2:0 "[This.Capital.GetName] <lrsk_cosmic_choir>"
  format_prefix.lrsk_cos_cho.3:0 "[This.GetSpeciesName] <lrsk_cosmic_choir>"
- 
+
  # Purifiers
  format_prefix.lrsk_imp_pur.1:0 "[This.Capital.System.GetName] <lrsk_imp_purifiers>"
  format_prefix.lrsk_imp_pur.2:0 "[This.Capital.GetName] <lrsk_imp_purifiers>"
@@ -3898,7 +3907,7 @@ lrsk_gov_var_chartered.20.desc.b:0 "As if their subjugation by a foreign power w
  format_prefix.lrsk_cit_pur.2:0 "[This.Capital.GetName] <lrsk_cit_purifiers>"
  format_prefix.lrsk_cit_pur.3:0 "[This.GetSpeciesName] <lrsk_cit_purifiers>"
 
- # Capitalist 
+ # Capitalist
  format_prefix.lrsk_imp_cap.1:0 "[This.Capital.System.GetName] <lrsk_imperial_cap>"
  format_prefix.lrsk_imp_cap.2:0 "[This.Capital.GetName] <lrsk_imperial_cap>"
  format_prefix.lrsk_imp_cap.3:0 "[This.GetSpeciesName] <lrsk_imperial_cap>"
@@ -3922,7 +3931,7 @@ lrsk_gov_var_chartered.20.desc.b:0 "As if their subjugation by a foreign power w
  format_prefix.lrsk_oli_soc.3:0 "[This.GetSpeciesName] <lrsk_oligarchic_soc>"
  format_prefix.lrsk_dem_soc.1:0 "[This.Capital.System.GetName] <lrsk_democratic_soc>"
  format_prefix.lrsk_dem_soc.2:0 "[This.Capital.GetName] <lrsk_democratic_soc>"
- format_prefix.lrsk_dem_soc.3:0 "[This.GetSpeciesName] <lrsk_democratic_soc>" 
+ format_prefix.lrsk_dem_soc.3:0 "[This.GetSpeciesName] <lrsk_democratic_soc>"
  format_prefix.lrsk_lab_soc.1:0 "[This.Capital.System.GetName] <lrsk_labor_org>"
  format_prefix.lrsk_lab_soc.2:0 "[This.Capital.System.GetName] <lrsk_labor_orgs>"
  format_prefix.lrsk_lab_soc.3:0 "[This.Capital.GetName] <lrsk_labor_org>"
@@ -3987,7 +3996,7 @@ lrsk_gov_var_chartered.20.desc.b:0 "As if their subjugation by a foreign power w
  format_prefix.lrsk_gen_states.2:0 "[This.Capital.System.GetName] <lrsk_generic_states>"
  format_prefix.lrsk_gen_stellar.1:0 "[This.GetSpeciesName] <lrsk_stellar_generic>"
  format_prefix.lrsk_gen_stellar.2:0 "[This.Capital.GetName] <lrsk_stellar_generic>"
- 
+
  ### Parts
  Communal:0 "Communal"
  Common:0 "Common"
@@ -4255,7 +4264,7 @@ lrsk_gov_var_chartered.20.desc.b:0 "As if their subjugation by a foreign power w
  lrsk_impecon_markets:0 "Number of Subjects rendering $lrsk_gvp_special_service_commerce$ services"
  lrsk_impecon_trophies:0 "Number of Subjects rendering $lrsk_gvp_special_service_diplomatic$ services"
  lrsk_impecon_prospectors:0 "Number of Subjects rendering $lrsk_gvp_special_service_provisions$ services"
- 
+
  #### OTHER/MISC
 
  TBD:0 "To Be Done (fix this!)"
