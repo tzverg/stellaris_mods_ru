@@ -1,0 +1,123 @@
+﻿l_russian:
+
+ ###-----BUILDINGS-----###                                                        #For Copypast: "§LText§!\n"
+ #-----Storage Bureau-----#
+ building_storage_bureau:0 "Логистическая Контора"
+ building_storage_bureau_desc:0 "§P$building_storage_bureau$§! §Lпредназначена для координации распределения ресурсной базы государства по складским помещениям и прогнозирования потребностей граждан.§!\n\n§P$district_planet_storage$§! §Yудваивает количество рабочих мест§!\n"
+ 
+ ###-----TECHNOLOGIES-----###
+ ##-----STORAGE-----##
+ #-----Tier Zero-----#
+ tech_yanz_storage_tierzero:0 "Логистическая Кампания"
+ tech_yanz_storage_tierzero_desc:0 "§P$district_planet_storage$§! §Wможет еще больше повысить свою эффективность, если §P$building_storage_bureau$§! возьмёт централизованное управление.§!"
+ #-----Tier One-----#
+ tech_yanz_storage_tierone:0 "Антигравитационные Контейнеры"
+ tech_yanz_storage_tierone_desc:0 "§WНовые технологии позволяют игнорировать силу гравитации и хранить то же количество ресурсов в меньшем объеме пространства.§!"
+ tech_yanz_storage_tierone_info:0 "§WКаждое §P$district_planet_storage$§! увеличивает свою §Pбазовую§! вместимость в §Gдва§! раза (§G2x§!)§!"
+ #-----Tier Two-----#
+ tech_yanz_storage_tiertwo:0 "Атомарная Компрессия"
+ tech_yanz_storage_tiertwo_desc:0 "§WНовые технологии манипулирования структурой материи позволяют нам хранить ресурсы гораздо эффективнее за счет сокращения расстояния между атомами, не меняя при этом базовую структуру хранимых ресурсов.§!"
+ tech_yanz_storage_tiertwo_info:0 "§WКаждое §P$district_planet_storage$§! увеличивает свою §Pбазовую§! вместимость в §Gтри§! раза (§G3x§!)§!"
+ #-----Tier Three-----#
+ tech_yanz_storage_tierthree:0 "Многомерные Контейнеры"
+ tech_yanz_storage_tierthree_desc:0 "§WРеволюционные технологии понимания многомерности пространства открывают новые возможности для повышения эффективности хранения ресурсов. §PВнимание!§! случаются непредвиденные ситуации с порчей хранимых ресурсов!§!"
+ tech_yanz_storage_tierthree_info:0 "§WКаждое §P$district_planet_storage$§! увеличивает свою §Pбазовую§! вместимость в §Gчетыре§! раза (§G4x§!)§!"
+ #-----Tier Four-----#
+ tech_yanz_storage_tierfour:0 "Промышленная Телепортация"
+ tech_yanz_storage_tierfour_desc:0 "§WМного места можно сэкономить, заменив бесконечные лабиринты, соединяющие все хранилища телепортационной инфраструктурой.§!"
+ tech_yanz_storage_tierfour_info:0 "§WКаждое §P$district_planet_storage$§! увеличивает свою §Pбазовую§! вместимость в §Gпять§! раз §G5x§!§!"
+ 
+ ###-----DISTRICTS-----###
+ #-----Normal Planet Storage District-----#
+  district_planet_storage: "Район-Хранилище"
+  district_planet_storage_desc: "§LЦелый планетарный район предназначен для организованного и безопасного накопления всех типов ресурсов в промышленных масштабах. Район заполнен до отказа всевозможными специализированными танкерами, силосами, складами и хранилищами энергии. Для работы бесконечного количества автоматизированных логистических систем, которые предсказывают будущий спрос и организуют ресурсы для мгновенного доступа, может потребоваться довольно большое количество энергии.§!\n\n§RОбратите внимание:§! модификатор хранилища не отображается в описании района. Вместо этого читайте описания модификаторов на экране империи."
+  district_planet_storage_plural: "Районы-Хранилища"
+ #-----Habitat Storage District-----#
+ district_habitat_storage: "Модуль-Хранилище"
+ district_habitat_storage_desc: "§LЦелая секция орбитали предназначена для организованного и безопасного накопления всех типов ресурсов в промышленных масштабах. Секция заполнена до отказа всевозможными специализированными танкерами, силосами, складами и хранилищами энергии, в специально подготовленной для хранилища идеальном окружении, лишённом планетарных ограничений и настроенными гравитационными параметрами. Требуется большое количество энергии для работы бесконечного количества автоматизированных логистических систем, которые предсказывают будущий спрос и организуют ресурсы для мгновенного доступа.§!\n\n§RОбратите внимание:§! модификатор хранилища не отображается в описании секции. Вместо этого читайте описания модификаторов на экране империи."
+ district_habitat_storage_plural: "Модули-Хранилища"
+ #-----Ecumenopolis Storage District-----#
+ district_ecum_storage: "Аркология-Хранилище"
+ district_ecum_storage_desc: "§LЦелая аркология предназначена для организованного и безопасного накопления всех типов ресурсов в промышленных масштабах. Аркологию просто заполонили всевозможные бункера, шахты, склады и хранилища энергии, от самого дна земной коры и прямо до небес тянутся контейнерные массивы. Требуется просто невероятное количество энергии для работы всех этих бесконечных автоматизированных логистических систем, которые предсказывают будущий спрос и организуют ресурсы для мгновенного доступа.§!\n\n§RОбратите внимание:§! модификатор хранилища не отображается в описании аркологии. Вместо этого читайте описания модификаторов на экране империи."
+ district_ecum_storage_plural: "Аркологии-Хранилища"
+ #-----Ringworld Storage District-----#
+ district_ringworld_storage: "Континент-Хранилище"
+ district_ringworld_storage_desc: "§LЦелый искусственный континент, предназначен для организованного и безопасного накопления ресурсов в промышленных масштабах. Континент заполнен до отказа всевозможными специализированными танкерами, хранилищами, складами и хранилищами энергии. Требуется громадное количество энергии для работы всех этих бесконечных автоматизированных логистических систем, которые предсказывают будущий спрос и организуют ресурсы для мгновенного доступа.§!\n\n§RОбратите внимание:§! модификатор хранилища не отображается в описании континента. Вместо этого читайте описания модификаторов на экране империи."
+ district_ringworld_storage_plural: "Континенты-Хранилища"
+ 
+ ###-----COLONY TYPES-----###
+ col_nstorage:0 "Мир-Хранилище"
+ col_nstorage_desc:0 "§WВся колония предназначена для организованного и безопасного накопления ресурсов в промышленных масштабах. Эта колония играет важную роль во всех производственных цепочках государства и повышает эффективность всей нашей промышленности.§!"
+ col_habstorage:0 "Орбиталь-Хранилище"
+ col_habstorage_desc:0 "§WИскусственная орбиталь глубокого космоса, предназначенная для организованного и безопасного накопления ресурсов в промышленных масштабах. Она играет важную роль во всех производственных цепочках государства и повышает эффективность всей нашей промышленности.§!"
+ col_citystorage:0 "Экуменополис-Хранилище"
+ col_citystorage_desc:0 "§WЦелый экуменополис предназначен для организованного и безопасного накопления ресурсов в промышленных масштабах. Он играет важную роль во всех производственных цепочках государства и повышает эффективность всей нашей промышленности.§!"
+ col_ringstorage:0 "Секция-Хранилище"
+ col_ringstorage_desc:0 "§WЦелая секция мира-кольца предназначена для организованного и безопасного накопления ресурсов в промышленных масштабах. Она играет важную роль во всех производственных цепочках государства и повышает эффективность всей нашей промышленности.§!"
+ 
+ ###-----POP JOBS-----###
+ #-----Storage Specialist-----#
+ job_yanz_storage_specialist:0 "Складской Работник"
+ job_yanz_storage_specialist_plural:0 "Складские Работники"
+ job_yanz_storage_specialist_desc:0 "§LОгромные складские помещения требуют армии клерков, логистов, специалистов по хранению ресурсов и квалифицированных грузчиков в экзоскелетах, чтобы ничего не взорвалось, не рассыпалось и не выветрилось раньше времени. Все они играют важную роль в государственных производственных цепочках и повышают эффективность всей нашей промышленности.§!"
+ mod_job_yanz_storage_specialist_add:0 "Складских Работников"
+ #-----Storage Hive Drone-----#
+ job_yanz_gestalt_storage_drone:0 "Складской Трутень"
+ job_yanz_gestalt_storage_drone_plural:0 "Складские Трутни"
+ job_yanz_gestalt_storage_drone_desc:0 "§LОгромные складские помещения требуют целого роя трутней для погрузок и разгрузок мирриадов ресурсных паков. Эти трутни играют важную роль во всех производственных цепочках улья и повышают эффективность всей нашей промышленности.§!"
+ mod_job_yanz_gestalt_storage_drone_add:0 "Складских Трутней"
+ #-----Storage Machine drone-----#
+ job_yanz_machine_storage_drone:0 "Складской Дрон"
+ job_yanz_machine_storage_drone_plural:0 "Складские Дроны"
+ job_yanz_machine_storage_drone_desc:0 "§LОгромные складские помещения требуют целого кластера дронов для управления автоматизированными конвеерными линиями и осуществления мелкого ремонта оборудования. Эти дроны играют важную роль во всех производственных цепочках коллектива и повышают эффективность всей нашей промышленности.§!"
+ mod_job_yanz_machine_storage_drone_add:0 "Складских Дронов"
+ 
+ ###-----MODIFIERS-----###
+ mod_planet_district_planet_storage_build_speed_mult:0 "Скорость постройки Района-Хранилища:"
+ mod_planet_district_habitat_storage_build_speed_mult:0 "Скорость постройки Модуля-Хранилища:"
+ mod_planet_district_ecum_storage_build_speed_mult:0 "Скорость постройки Аркологии-Хранилища:"
+ mod_planet_district_ringworld_storage_build_speed_mult:0 "Скорость постройки Континента-Хранилища:"
+ #-----Normal Districts-----#
+ nstorage0_district_aggregate_modifier:0 "SDS Модификатор Районов-Хранилищ"
+ nstorage0_district_aggregate_modifier_desc:0 "§P$district_planet_storage$§! §Wна обычной планете увеличивает государственный объём хранилищ на §G+10000§! каждый§!"
+ nstorage1_district_aggregate_modifier:0 "SDS Модификатор Районов-Хранилищ"
+ nstorage1_district_aggregate_modifier_desc:0 "§P$district_planet_storage$§! §Wна обычной планете увеличивает государственный объём хранилищ на §G+20000§! каждый§!"
+ nstorage2_district_aggregate_modifier:0 "SDS Модификатор Районов-Хранилищ"
+ nstorage2_district_aggregate_modifier_desc:0 "§P$district_planet_storage$§! §Wна обычной планете увеличивает государственный объём хранилищ на §G+30000§! каждый§!"
+ nstorage3_district_aggregate_modifier:0 "SDS Модификатор Районов-Хранилищ"
+ nstorage3_district_aggregate_modifier_desc:0 "§P$district_planet_storage$§! §Wна обычной планете увеличивает государственный объём хранилищ на §G+40000§! каждый§!"
+ nstorage4_district_aggregate_modifier:0 "SDS Модификатор Районов-Хранилищ"
+ nstorage4_district_aggregate_modifier_desc:0 "§P$district_planet_storage$§! §Wна обычной планете увеличивает государственный объём хранилищ на §G+50000§! каждый§!"
+ #-----Habitat Districts-----#
+ hstorage0_district_aggregate_modifier:0 "SDS Модификатор Модулей-Хранилищ"
+ hstorage0_district_aggregate_modifier_desc:0 "§P$district_habitat_storage$§! §Wна орбитали увеличивает государственный объём хранилищ на §G+15000§! каждый§!"
+ hstorage1_district_aggregate_modifier:0 "SDS Модификатор Модулей-Хранилищ"
+ hstorage1_district_aggregate_modifier_desc:0 "§P$district_habitat_storage$§! §Wна орбитали увеличивает государственный объём хранилищ на §G+30000§! каждый§!"
+ hstorage2_district_aggregate_modifier:0 "SDS Модификатор Модулей-Хранилищ"
+ hstorage2_district_aggregate_modifier_desc:0 "§P$district_habitat_storage$§! §Wна орбитали увеличивает государственный объём хранилищ на §G+45000§! каждый§!"
+ hstorage3_district_aggregate_modifier:0 "SDS Модификатор Модулей-Хранилищ"
+ hstorage3_district_aggregate_modifier_desc:0 "§P$district_habitat_storage$§! §Wна орбитали увеличивает государственный объём хранилищ на §G+60000§! каждый§!"
+ hstorage4_district_aggregate_modifier:0 "SDS Модификатор Модулей-Хранилищ"
+ hstorage4_district_aggregate_modifier_desc:0 "§P$district_habitat_storage$§! §Wна орбитали увеличивает государственный объём хранилищ на §G+75000§! каждый§!"
+ #-----Ecumenopolis Distircts-----#
+ ecumstorage0_district_aggregate_modifier:0 "SDS Модификатор Аркологий-Хранилищ"
+ ecumstorage0_district_aggregate_modifier_desc:0 "§P$district_ecum_storage$§! §Wна экуменополисе увеличивает государственный объём хранилищ на §G+30000§! каждая§!"
+ ecumstorage1_district_aggregate_modifier:0 "SDS Модификатор Аркологий-Хранилищ"
+ ecumstorage1_district_aggregate_modifier_desc:0 "§P$district_ecum_storage$§! §Wна экуменополисе увеличивает государственный объём хранилищ на §G+60000§! каждая§!"
+ ecumstorage2_district_aggregate_modifier:0 "SDS Модификатор Аркологий-Хранилищ"
+ ecumstorage2_district_aggregate_modifier_desc:0 "§P$district_ecum_storage$§! §Wна экуменополисе увеличивает государственный объём хранилищ на §G+90000§! каждая§!"
+ ecumstorage3_district_aggregate_modifier:0 "SDS Модификатор Аркологий-Хранилищ"
+ ecumstorage3_district_aggregate_modifier_desc:0 "§P$district_ecum_storage$§! §Wна экуменополисе увеличивает государственный объём хранилищ на §G+120000§! каждая§!"
+ ecumstorage4_district_aggregate_modifier:0 "SDS Модификатор Аркологий-Хранилищ"
+ ecumstorage4_district_aggregate_modifier_desc:0 "§P$district_ecum_storage$§! §Wна экуменополисе увеличивает государственный объём хранилищ на §G+150000§! каждая§!"
+ #-----Ringworld Districts-----#
+ ringstorage0_district_aggregate_modifier:0 "SDS Модификатор Континентов-Хранилищ"
+ ringstorage0_district_aggregate_modifier_desc:0 "§P$district_ringworld_storage$§! §Wна кольцевом мире увеличивает государственный объём хранилищ на §G+100000§! каждый§!"
+ ringstorage1_district_aggregate_modifier:0 "SDS Модификатор Континентов-Хранилищ"
+ ringstorage1_district_aggregate_modifier_desc:0 "§P$district_ringworld_storage$§! §Wна кольцевом мире увеличивает государственный объём хранилищ на §G+200000§! каждый§!"
+ ringstorage2_district_aggregate_modifier:0 "SDS Модификатор Континентов-Хранилищ"
+ ringstorage2_district_aggregate_modifier_desc:0 "§P$district_ringworld_storage$§! §Wна кольцевом мире увеличивает государственный объём хранилищ на §G+300000§! каждый§!"
+ ringstorage3_district_aggregate_modifier:0 "SDS Модификатор Континентов-Хранилищ"
+ ringstorage3_district_aggregate_modifier_desc:0 "§P$district_ringworld_storage$§! §Wна кольцевом мире увеличивает государственный объём хранилищ на §G+400000§! каждый§!"
+ ringstorage4_district_aggregate_modifier:0 "SDS Модификатор Континентов-Хранилищ"
+ ringstorage4_district_aggregate_modifier_desc:0 "§P$district_ringworld_storage$§! §Wна кольцевом мире увеличивает государственный объём хранилищ на §G+500000§! каждый§!"
