@@ -1,0 +1,155 @@
+﻿l_russian:
+ 
+ #######################################################
+ ### STATIC MODIFIER                                 ###
+ #######################################################
+ 
+ fune_abdw_fleet_contribution:0 "Безграничная Сила"
+ fune_abdw_fleet_contribution_desc:0 "Лидеры федераций получают §G20%/40%/60%§! дипломатического веса от силы флота, если его вклад во флотилию федерации §Gнизкий/средний/высокий§!. Модификатор §HВнушительная Сила§! иллюстрирует бонус дипломатического веса §Hгосударству лидеру§! федерации от его §Yсилы флота!§!.\n\nЭтот эффект масштабируется в настройках. Значения по умолчанию:\nНизкий: §G20%§!\nСредний: §G40%§!\nВысокий: §G60%§!"
+  
+ fune_abdw_research_federation:0 "Безграничная Мудрость"
+ fune_abdw_research_federation_desc:0 "Члены исследовательского кооператива получают дипломатический вес от §Yуровня технологического развития§!, как если бы у них были подписаны друг с другом §Yсоглашения об исследованиях§!. Модификатор §HКоллективная Мудрость§! иллюстрирует бонус дипломатического веса и скорости исследования §Hкаждому члену кооператива§!.\n\nЭтот эффект масштабируется по количеству §Hдругих империй§! в его составе, §G+20%§! бонус дипломатического веса от §Yуровня технологического развития§! за каждого члена. По умолчанию учитывается максимум §H10 других империй§!."
+  
+ fune_abdw_trade_federation:0 "Безграничное Богатство"
+ fune_abdw_trade_federation_desc:0 "Члены торговой лиги получают дипломатический вес от §Yуровня экономического развития§!, как если бы у них были подписаны друг с другом §Yкоммерческие соглашения§!. §HТорговая Лига§! гарантирует каждому своему §Hучастнику§! бонус скорости исследований и дипломатического веса от силы §Hэкономики§!.\n\nЭтот эффект масштабируется по количеству §Hдругих империй§! в его составе, §G+20%§! бонус дипломатического веса от §Yуровня экономического развития§! за каждого члена. По умолчанию учитывается максимум §H10 других империй§!."
+ 
+ fune_abdw_migration_pacts:0 "Возвышающее Единство"
+ fune_abdw_migration_pacts_desc:0 "Каждый §Hмиграционный договор§!, включая те, которые предоставляются политикой федерации §Yсвободная миграция§!, предоставляет §Hкаждому участнику§! §G+20%§! бонусного дипломатического веса от §Hнародонаселения§!. По умолчанию учитывается максимум §H10 миграционных договоров§!."
+  
+ fune_abdw_research_agreements:0 "Собирательная Мудрость"
+ fune_abdw_research_agreements_desc:0 "Каждое §Hсоглашение о совместных исследованиях§! предоставляет §Hкаждому участнику§! §G+20%§! бонусного дипломатического веса от §Yуровня технологического развития§!. По умолчанию учитывается максимум §H10 исследовательских договоров§!."
+  
+ fune_abdw_commercial_pacts:0 "Преумноженное Богатство"
+ fune_abdw_commercial_pacts_desc:0 "Каждое подписанное §Hкоммерческое соглашение§! предоставляет §Hкаждому участнику§! §G+20%§! бонусного дипломатического веса от §Yуровня экономического развития§! По умолчанию учитывается максимум §H10 коммерческих соглашений§!."
+  
+ fune_abdw_defensive_pacts:0 "Внушительная Сила"
+ fune_abdw_defensive_pacts_desc:0 "Каждый подписанный §Hоборонительный пакт§! предоставляет §Hкаждому участнику§! §G+20%§! бонусного дипломатического веса от §Hсилы флота§!. По умолчанию учитывается максимум §H10 оборонительных пактов§!."
+ 
+ #######################################################
+ ### EDICTS                                          ###
+ #######################################################
+  
+ edict_fune_abdw_options_menu:0 "[§LНастройки§!] ABDW"
+ edict_fune_abdw_options_menu_desc:0 ""
+ fune_abdw_options_menu_tt:0 "Открывает меню настроек модификации §HAgreements Boost Diplomatic Weight§!."
+  
+ #######################################################
+ ### EVENTS                                          ###
+ #######################################################
+ 
+ fune_abdw_not_locked:0 "Настройки были заблокированы."
+ 
+ fune_abdw_diplomacy_effects.200.name:0 "$edict_fune_abdw_options_menu$"
+ fune_abdw_diplomacy_effects.200.desc:0 "Бонусный дипломатический вес, полученный в результате различных дипломатических ухищрений, может быть настроен в этом меню. Значения по умолчанию составляют §H20%§! во всех категориях.\n\nНастройки применяются ко §Hвсем§! империям участникам галактического сообщества. Изменения вступят в силу в начале следующего месяца.\n\nВыберите соглашения, бонусы от которых вы хотите отредактировать."
+ fune_abdw_diplomacy_effects.200.a:0 "Все соглашения"
+ fune_abdw_diplomacy_effects.200.b:0 "Вклад во флот федерации (§G[event_target:fune_abdw_event_country.fune_abdw_fleet_contribution_mult]%§!)"
+ fune_abdw_diplomacy_effects.200.c:0 "Исследовательские Кооперативы (§G[event_target:fune_abdw_event_country.fune_abdw_research_federation_mult]%§!)"
+ fune_abdw_diplomacy_effects.200.d:0 "Совместные Исследования (§G[event_target:fune_abdw_event_country.fune_abdw_research_agreements_mult]%§!)"
+ fune_abdw_diplomacy_effects.200.e:0 "Коммерческие Соглашения (§G[event_target:fune_abdw_event_country.fune_abdw_commercial_pacts_mult]%§!)"
+ fune_abdw_diplomacy_effects.200.f:0 "Миграционные Договора (§G[event_target:fune_abdw_event_country.fune_abdw_migration_pacts_mult]%§!)"
+ fune_abdw_diplomacy_effects.200.g:0 "Оборонительные Пакты (§G[event_target:fune_abdw_event_country.fune_abdw_defensive_pacts_mult]%§!)" 
+ fune_abdw_diplomacy_effects.200.h:0 "Торговая Лига (§G[event_target:fune_abdw_event_country.fune_abdw_trade_federation_mult]%§!)"
+ fune_abdw_diplomacy_effects.200.i:0 "Cила Флота (§G[event_target:fune_abdw_event_country.fune_abdw_fleet_contribution_mult]%§!)"
+ fune_abdw_diplomacy_effects.200.j:0 "Бонусы от Субъектов: §GВключены§!"
+ fune_abdw_diplomacy_effects.200.j.tt:0 "Определяет, могут ли империи получать бонусный дипломатический вес от соглашений с не автономными (подвластными) империями или нет."
+ fune_abdw_diplomacy_effects.200.k:0 "Бонусы от Субъектов: §YОтключены§!"
+ fune_abdw_diplomacy_effects.200.k.tt:0 "Определяет, могут ли империи получать бонусный дипломатический вес от соглашений с не автономными (подвластными) империями или нет."
+ fune_abdw_diplomacy_effects.200.y:0 "< Заблокировать Опции >"
+ fune_abdw_diplomacy_effects.900.y:0 "§R< Заблокировать Опции >§!"
+ fune_abdw_diplomacy_effects.200.y.tt:0 "Если опции заблокированы, они больше не могут быть изменены в процессе игры. Эта настройка совершенно необязательна и предназначена для игроков, которые хотят оградить себя от мошенничества в многопользовательской игре.\n\nНажмите эту кнопку дважды, чтобы заблокировать текущие опции."
+ fune_abdw_diplomacy_effects.900.y.tt:0 "Если значения заблокированы, их больше нельзя изменить в процессе игры. Эта настройка совершенно необязательна и существует для игроков, которые хотят оградить себя от мошенничества в многопользовательской игре.\n\n§RНажмите эту кнопку еще раз, чтобы заблокировать текущие параметры.§!" 
+ fune_abdw_diplomacy_effects.200.z:0 "< Выйти >"
+ 
+ fune_abdw_diplomacy_effects.210.name:0 "Agreements Boost Diplomatic Weight"
+ fune_abdw_diplomacy_effects.210.desc:0 "Эта настройка изменяет бонусный дипломатический вес, получаемый от всех соглашений, вклада во флот федерации и пребывания в составе федерации, сотрудничающей в коммерческих или научных областях.\n\n§HВыбор значения здесь отменяет все изменения, внесенные в отдельные Соглашения.§!" 
+ fune_abdw_diplomacy_effects.210.a:0 "5%" 
+ fune_abdw_diplomacy_effects.210.b:0 "10%" 
+ fune_abdw_diplomacy_effects.210.c:0 "15%" 
+ fune_abdw_diplomacy_effects.210.d:0 "20%" 
+ fune_abdw_diplomacy_effects.210.e:0 "25%" 
+ fune_abdw_diplomacy_effects.210.f:0 "35%" 
+ fune_abdw_diplomacy_effects.210.g:0 "50%" 
+ fune_abdw_diplomacy_effects.210.z:0 "< Назад >" 
+ 
+ fune_abdw_diplomacy_effects.220.name:0 "Agreements Boost Diplomatic Weight"
+ fune_abdw_diplomacy_effects.220.desc:0 "Эта настройка изменяет бонусный дипломатический вес, получаемый от вклада во флот федерации.\n\n Выбранное значение - для §YНизкого§! вклада. При §Hсреднем§! и §Gвысоком§! вкладе во флот федерации - значение умножается на §H2§! или §G3§! соответственно." 
+ fune_abdw_diplomacy_effects.220.a:0 "5%" 
+ fune_abdw_diplomacy_effects.220.b:0 "10%" 
+ fune_abdw_diplomacy_effects.220.c:0 "15%" 
+ fune_abdw_diplomacy_effects.220.d:0 "20%" 
+ fune_abdw_diplomacy_effects.220.e:0 "25%" 
+ fune_abdw_diplomacy_effects.220.f:0 "35%" 
+ fune_abdw_diplomacy_effects.220.g:0 "50%" 
+ fune_abdw_diplomacy_effects.220.z:0 "< Назад >" 
+ 
+ fune_abdw_diplomacy_effects.230.name:0 "Agreements Boost Diplomatic Weight"
+ fune_abdw_diplomacy_effects.230.desc:0 "Эта настройка изменяет бонусный дипломатический вес, получаемый от членства в исследовательском кооперативе.\n\nКаждый член получает дипломатический вес от технологий, равный количеству империй-членов минус 1, умноженному на выбранное значение."
+ fune_abdw_diplomacy_effects.230.a:0 "5%" 
+ fune_abdw_diplomacy_effects.230.b:0 "10%" 
+ fune_abdw_diplomacy_effects.230.c:0 "15%" 
+ fune_abdw_diplomacy_effects.230.d:0 "20%" 
+ fune_abdw_diplomacy_effects.230.e:0 "25%" 
+ fune_abdw_diplomacy_effects.230.f:0 "35%" 
+ fune_abdw_diplomacy_effects.230.g:0 "50%" 
+ fune_abdw_diplomacy_effects.230.z:0 "< Назад >"
+ 
+ fune_abdw_diplomacy_effects.235.name:0 "Agreements Boost Diplomatic Weight"
+ fune_abdw_diplomacy_effects.235.desc:0 "Эта настройка изменяет бонусный дипломатический вес, получаемый от членства в торговой лиге.\n\nКаждый член получает дипломатический вес от экономики, равный количеству империй-членов минус 1, умноженному на выбранное значение."
+ fune_abdw_diplomacy_effects.235.a:0 "5%" 
+ fune_abdw_diplomacy_effects.235.b:0 "10%" 
+ fune_abdw_diplomacy_effects.235.c:0 "15%" 
+ fune_abdw_diplomacy_effects.235.d:0 "20%" 
+ fune_abdw_diplomacy_effects.235.e:0 "25%" 
+ fune_abdw_diplomacy_effects.235.f:0 "35%" 
+ fune_abdw_diplomacy_effects.235.g:0 "50%" 
+ fune_abdw_diplomacy_effects.235.z:0 "< Назад >"
+ 
+ fune_abdw_diplomacy_effects.240.name:0 "Agreements Boost Diplomatic Weight"
+ fune_abdw_diplomacy_effects.240.desc:0 "Эта настройка изменяет бонусный дипломатический вес, получаемый за каждое подписанное соглашение об исследованиях с другой империей.\n\n " 
+ fune_abdw_diplomacy_effects.240.a:0 "5%" 
+ fune_abdw_diplomacy_effects.240.b:0 "10%" 
+ fune_abdw_diplomacy_effects.240.c:0 "15%" 
+ fune_abdw_diplomacy_effects.240.d:0 "20%" 
+ fune_abdw_diplomacy_effects.240.e:0 "25%" 
+ fune_abdw_diplomacy_effects.240.f:0 "35%" 
+ fune_abdw_diplomacy_effects.240.g:0 "50%" 
+ fune_abdw_diplomacy_effects.240.z:0 "< Назад >"
+ 
+ fune_abdw_diplomacy_effects.250.name:0 "Agreements Boost Diplomatic Weight"
+ fune_abdw_diplomacy_effects.250.desc:0 "Эта настройка изменяет бонусный дипломатический вес, получаемый за каждое подписанное коммерческое соглашение с другой империей.\n\n "
+ fune_abdw_diplomacy_effects.250.a:0 "5%" 
+ fune_abdw_diplomacy_effects.250.b:0 "10%" 
+ fune_abdw_diplomacy_effects.250.c:0 "15%" 
+ fune_abdw_diplomacy_effects.250.d:0 "20%" 
+ fune_abdw_diplomacy_effects.250.e:0 "25%" 
+ fune_abdw_diplomacy_effects.250.f:0 "35%" 
+ fune_abdw_diplomacy_effects.250.g:0 "50%" 
+ fune_abdw_diplomacy_effects.250.z:0 "< Назад >"
+ 
+ fune_abdw_diplomacy_effects.260.name:0 "Agreements Boost Diplomatic Weight"
+ fune_abdw_diplomacy_effects.260.desc:0 "Эта настройка изменяет бонусный дипломатический вес, получаемый за каждый подписанный договор о миграции с другой империей, включая те, которые предоставляются федеративной политикой §Yсвободная миграция§!.\n " 
+ fune_abdw_diplomacy_effects.260.a:0 "5%" 
+ fune_abdw_diplomacy_effects.260.b:0 "10%" 
+ fune_abdw_diplomacy_effects.260.c:0 "15%" 
+ fune_abdw_diplomacy_effects.260.d:0 "20%" 
+ fune_abdw_diplomacy_effects.260.e:0 "25%" 
+ fune_abdw_diplomacy_effects.260.f:0 "35%" 
+ fune_abdw_diplomacy_effects.260.g:0 "50%" 
+ fune_abdw_diplomacy_effects.260.z:0 "< Назад >"
+ 
+ fune_abdw_diplomacy_effects.270.name:0 "Agreements Boost Diplomatic Weight"
+ fune_abdw_diplomacy_effects.270.desc:0 "Эта настройка изменяет бонусный дипломатический вес, получаемый за каждый подписанный оборонительный пакт с другой империей.\n\n " 
+ fune_abdw_diplomacy_effects.270.a:0 "5%" 
+ fune_abdw_diplomacy_effects.270.b:0 "10%" 
+ fune_abdw_diplomacy_effects.270.c:0 "15%" 
+ fune_abdw_diplomacy_effects.270.d:0 "20%" 
+ fune_abdw_diplomacy_effects.270.e:0 "25%" 
+ fune_abdw_diplomacy_effects.270.f:0 "35%" 
+ fune_abdw_diplomacy_effects.270.g:0 "50%" 
+ fune_abdw_diplomacy_effects.270.z:0 "< Назад >"
+  
+ #######################################################
+ ### MOD MENU                                        ###
+ #######################################################
+ 
+ fune_abdw_menu_name:0 "Agreements Boost Diplomatic Weight"
