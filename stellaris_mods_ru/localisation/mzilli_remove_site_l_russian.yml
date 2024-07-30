@@ -1,0 +1,5 @@
+﻿l_russian:
+
+  decision_mzilli_remove_site: "Зачистить Археологический Полигон"
+  decision_mzilli_remove_site_desc: "Нам больше не нужен этот археологический объект."
+  decision_mzilli_remove_site_tooltip: "Разрушает археологические памятники этого мира. Действие может занять день или два."
