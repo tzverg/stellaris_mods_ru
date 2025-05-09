@@ -1,0 +1,78 @@
+﻿l_russian:
+   # Ruler 
+ elven_accident_events.210.name: "§RКровное убийство§!"
+ elven_accident_events.210.desc: "§R[assassinated_leader.GetName]§! был убит руками [assassinated_leader.GetHerHis] [Root.GetSpeciesSpawnNamePlural]. Широкие слои населения отреагировали на эту новость выражением тревоги по поводу того, с чем ещё §R[assassinated_leader.GetName]§! не справился во время жизни."
+  
+ elven_accident_events.211.name: "§RПопытка убийства§!"
+ elven_accident_events.211.desc: "Замысел §R[assassin_leader.GetName]§! убить §R[surviving_leader.GetName]§! провалился! Замысел был запутанным и был бы успешным, если бы не вмешалась быстрота мысли §R[surviving_leader.GetName]§!."
+ elven_accident_events.211.a: "Неудачное планирование - признак плохого руководителя. Казнить [assassin_leader.GetHerHim]!"
+ elven_accident_events.211.b: "Планируйте лучше в следующий раз."
+  
+   # Governor 
+ elven_accident_events.220.name: "§RУбийство§!"
+ elven_accident_events.220.desc: "Искалеченное тело §R[assassinated_leader.GetName]§! было найдено лежащим в луже собственной крови в [assassinated_leader.GetHerHis] особняке. СУществует огромное число мотивов на убийство. Известно лишь, что [assassinated_leader.GetName] расходится во мнениях с [assassinated_leader.GetHerHis] детьми и некоторыми членами совета из-за недавних указов."
+  
+ elven_accident_events.221.name: "§RПопытка убийства§!"
+ elven_accident_events.221.desc: "Срочные новости! §R[assassin_leader.GetName]§! был пойман с поличным при попытке убийства §R[assassinated_leader.GetName]§!. После короткого разбирательства [assassin_leader.GetName] был казнён за [assassinated_leader.GetHerHis] преступления."
+  
+ elven_accident_events.222.name: "§RAssassination Attempt§!"
+ elven_accident_events.222.desc: "Срочные новости! §R[assassin_leader.GetName]§! был пойман с поличным при попытке убийства §R[assassinated_leader.GetName]§!. Учитывая нелепое исполнение, совет решил казнить [assassin_leader.GetName] в целях улучшения планирования других покушений. К сожалению [assassinated_leader.GetName] скончался от полученных ранений через несколько часов."
+  
+   # Scientist 
+  
+ elven_accident_events.230.name: "§RУбийство§!"
+ elven_accident_events.230.desc: "Наш учёный §R[assassinated_leader.GetName]§! был убит одним из [assassinated_leader.GetHisHer] подчинённых! Какой именно, установить невозможно, учитывая, что у каждого из них был потенциальный мотив и возможность убить [assassinated_leader.GetHerHim]."
+  
+ elven_accident_events.231.name: "§RЭксперимент не удался§!"
+ elven_accident_events.231.desc: "Наш учёный §R[assassinated_leader.GetName]§! только что умер из-за неудачного эксперимента в лаборатории. Один из [assassinated_leader.GetHisHer] помощников сыграл важную роль в ликвидации дальнейших повреждений, и научный совет уверяет нас, что этот человек - вполне подходящая замена. Нас заверили, что слухи о причастности этого ассистента к аварии - чистая выдумка."
+  
+ elven_accident_events.232.name: "§RВражда§!"
+ elven_accident_events.232.desc: "До нашего внимания дошли вести, что §R[assassinated_leader.GetName]§! и §R[assassin_leader.GetName]§! уже очень долго враждовали. Кульминацией этого почти стала случайная смерть обоих, поскольку каждый из них пытался саботировать исследования другого. Совет попросил совета о том, как справиться с ситуацией."
+ elven_accident_events.232.a: "Пустите их тела на исследования!"
+ elven_accident_events.232.b: "Пусть враждуют дальше."
+  
+   # Generic 
+  
+ elven_accident_events.240.name: "§RРазозлённая жрица§!"
+ elven_accident_events.240.desc: "К сожалению, §R[assassinated_leader.GetName]§! случайно наткнулся на разгневанную жрицу. Но [assassinated_leader.GetSheHe] умер не зря - [assassinated_leader.GetHerHis] смерть утихомирила гнев жрицы и о других смертельных случаях более не сообщалось."
+  
+ elven_accident_events.241.name: "§RНеосмотрительность§!"
+ elven_accident_events.241.desc: "§R[assassinated_leader.GetName]§! как обычно шел по узкой улочке, когда [assassinated_leader.GetSheHe] внезапно понял, что из [assassinated_leader.GetHerHis] спины торчит кинжал! Это будет уроком для нас всех. Никогда не покидайте своих охранников."
+  
+ elven_accident_events.242.name: "§RКапризы жрицы§!"
+ elven_accident_events.242.desc: "§R[assassinated_leader.GetName]§! был съеден заживо пауками по прихоти жрицы! Положительный момент в том, что любимые членистоногие Богини будут хорошо питаться."
+  
+ elven_accident_events.243.name: "§RИсчезновение§!"
+ elven_accident_events.243.desc: "§R[assassinated_leader.GetName]§! внезапно пропал! Никаких следов [assassinated_leader.GetHerHis] тела и никаких признаков мести не найдено. Это указывает на то, что [assassinated_leader.GetSheHe] мертв или сбежал как трус. В любом случае, [assassinated_leader.GetSheHe] более не релевантен и дальнейшее расследование не требуется."
+  
+ elven_accident_events.244.name: "§RИсчезновение§!"
+ elven_accident_events.244.desc: "§R[assassinated_leader.GetName]§! внезапно пропал! Никаких следов [assassinated_leader.GetHerHis] тела не найдено. Ходят слухи о том, что [assassinated_leader.GetName] упал в кислотное озеро. Любопытно, но в округе нет кислотных озер."
+  
+ elven_accident_events.245.name: "§RПрихоти Богини§!"
+ elven_accident_events.245.desc: "Богиня потребовала достойной жертвы, и наш [Root.GetRulerTitle] готов свершить что угодно ради ее благосклонности. Кто может быть более достоин, чем §R[assassinated_leader.GetName]§!? Кроме того, настало время заменить [assassinated_leader.GetHerHis] кем-то более... лояльным и полезным. Слава Богине!"
+  
+ elven_accident_events.246.name: "§Rгарантированный суицид§!"
+ elven_accident_events.246.desc: "§R[assassinated_leader.GetName]§! был найден после совершения суицида! [assassinated_leader.GetSheHeCap] как-то умудрился спрыгнуть со смертельной высоты, параллельно нанося себе множество ножевых ранений. По словам ведущего следователя, это было, вероятно, лучшее спланированное самоубийство из когда-либо задуманных."
+  
+ elven_accident_events.247.name: "§RПокушения удалось избежать§!"
+ elven_accident_events.247.desc: "§R[surviving_leader.GetName]§! едва сумел избежать покушения на [surviving_leader.GetHerHis] жизнь! С преступниками уже разобрались, поскольку их замысел оказался недостаточным для того, чтобы скрыть их личности. Однако опыт покушения изменил §R[surviving_leader.GetName]§! к худшему."
+  
+ elven_accident_events.248.name: "§RПокушения удалось избежать§!"
+ elven_accident_events.248.desc: "§R[surviving_leader.GetName]§! едва сумел избежать покушения на [surviving_leader.GetHerHis] жизнь! С преступниками уже разобрались, поскольку их замысел оказался недостаточным для того, чтобы скрыть их личности. Однако опыт покушения буквально оживил §R[surviving_leader.GetName]§!! [surviving_leader.GetSheHeCap] теперь ещё эффективнее!"
+  
+ elven_accident_events.249.name: "§RУбийство, говорили они§!"
+ elven_accident_events.249.desc: "До нас только что донесли новости о том, что §R[assassin_leader.GetName]§! был убит руками §R[assassinated_leader.GetName]§!! Так получилось, что §R[assassin_leader.GetName]§! был непосредственно причастен к неудачному покушению на убийство §R[assassinated_leader.GetName]§!. Чтобы избавить всех нас от необходимости иметь дело с неумелым лидером, §R[assassinated_leader.GetName]§! разобрался с проблемой за нас, заколов §R[assassin_leader.GetName]§! по смерти. Убийство было быстрым и, как отметили следователи, произошло под исключительно сложным углом. Очевидно, что §R[assassinated_leader.GetName]§! профессионал по части обращения с клинком!"
+  
+   # Admiral/General 
+  
+ elven_accident_events.250.name: "§RНеудачный инцидент§!"
+ elven_accident_events.250.desc: "К сожалению, адмирал §R[assassinated_leader.GetName]§! трагически погиб во время плановых учений. [assassinated_leader.GetHerHisCap] шея сломалась в виду падения во время столкновения. Что важно, корабль остался цел и невредим.."
+  
+ elven_accident_events.251.name: "§RИнцидент при тренировке?§!"
+ elven_accident_events.251.desc: "Во время недавних учений, генерал §R[assassinated_leader.GetName]§! был каким-то образом смертельно ранен реальным боевым оружием. Следователи отмечают, что все оружие на учениях было несмертельным по своей конструкции и что свидетелей происшествия не было найдено. Поэтому дальнейшее расследование было признано бессмысленным, и дело официально объявлено несчастным случаем."
+  
+ elven_accident_events.252.name: "§RПокушения удалось избежать§!"
+ elven_accident_events.252.desc: "§R[surviving_leader.GetName]§! недавно отбил нападение потенциального убийцы! Убийца, к сожалению, был зарезан руками [surviving_leader.GetName] и как таковой не может предоставить никакой информации о потенциальных сообщниках. Сообщения об исчезновении нескольких высокопоставленных офицеров вскоре после инцидента могут свидетельствовать о том, что [surviving_leader.GetName] уже разобрался с проблемой."
+  
+ elven_accident_events.253.name: "§RПокушения удалось избежать§!"
+ elven_accident_events.253.desc: "Во время недавних учений, на генерала §R[assassinated_leader.GetName]§! было совершено покушение. К счастью, генералу удалось не только избежать покушения, но и убить убийцу! Нам сообщили, что с виновными уже разобрались, и что боеготовность армии не снизилась."

@@ -1,0 +1,294 @@
+﻿l_russian:
+ name_list_ELVEN3: "Эльфы: Лунные эльфы"
+  
+ #################################### 
+ # Civics and traits 
+ #################################### 
+  
+ civic_elven_shields: "Излучатели щитов"
+ civic_elven_shields_desc: "Технологии щитов имеют приоритет над другими формами защиты. Можно быстро получить новые излучатели и усилители щитов. Нужно особенно заботиться о том, чтобы новые корабли были правильно оснащены для работы с постоянно улучшающимися технологиями щитов."
+  
+ trait_pc_lunari_arctic_preference: "Предпочтение - мир вечной мерзлоты"
+ trait_pc_lunari_arctic_preference_desc: "§LКлиматическое предпочтение определяется на генетическом уровне, эонами эволюции или умелыми манипуляциями.§!"
+  
+ #################################### 
+ # TECHS 
+ #################################### 
+ tech_lunari_shield_power_relays: "Силовое реле лунного щита"
+ tech_lunari_shield_power_relays_desc: "Богиня даровала нам вдохновение для открытия новой технологии щитов. Хоть это и затратно, она значительно расширит возможности наших щитов."
+  
+ #################################### 
+ # Planets 
+ #################################### 
+  
+ pc_lunari_shielded: "Закрытая луна"
+ pc_lunari_shielded_desc: "Эта луна заключена в какой-то непроницаемый энергетический барьер. Он обеспечивает единственный хороший источник света в системе, а также излучает огромное количество псионической энергии. Все сканирующие сигналы по неизвестным причинам отражаются обратно."
+  
+ pc_lunari_arctic: "Мир вечной мерзлоты"
+ pc_lunari_arctic_adj: "мерзлый"
+ pc_lunari_arctic_desc: "Холодный, скалистый мир с азотно-кислородной атмосферой. Значительные залежи воды постоянно заморожены в виде ледников на полюсах."
+  
+ pc_lunari_city: "Промёрзлый Экуменополис"
+ pc_lunari_city_desc: "Мир, полностью поглощенный урбанистически-индустриальным разрастанием. Хотя центральное отопление и метеостанции несколько смягчают влияние экстремальных погодных условий и низких температур, большинству известных видов все равно трудно здесь выжить."
+  
+ pc_lunari_arctic_tile: "Промерзшая земля"
+ pc_lunari_arctic_tile_desc: "Снег и лед покрывает поверхность без какой-либо растительности."
+  
+ pc_lunari_arctic_habitability: "Приспособленность к миру вечной мерзлоты"
+ mod_pc_lunari_arctic_habitability: "Приспособленность к миру вечной мерзлоты"
+  
+ #################################### 
+ # Modifiers and tile blockers 
+ #################################### 
+  
+ lunari_dark_planet: "Сокрытый мир"
+ lunari_dark_planet_desc: "§LЭтот мир очень тёмный и холодный. Единственный свет обеспечивается близлежащей луной. Регулярные затмения часто скрывают единственный источник света. Немногие формы жизни способны адаптироваться к таким условиям.§!"
+  
+ lunari_thunderstorms: "Грозовой климат"
+ lunari_thunderstorms_desc: "§LЭтот мир страдает от постоянных гроз. Частые молнии и метели затрудняют жизнь, не говоря уже о строительстве и обслуживании зданий. Пользу может принести изучение причину частых штормов, а так же способов получения энергии от молний.§!"
+  
+ lunari_ultra_rich: "Кристаллические образования"
+ lunari_ultra_rich_desc: "§LЛюбопытные кристаллические образования усеивают поверхность этого мира. Более тщательный осмотр показывает, что они состоят из ценных минералов. Это значительно улучшит и облегчит добычу полезных ископаемых.§!"
+  
+ lunari_auroras: "Лунная аврора"
+ lunari_auroras_desc: "§LВсякий раз, когда Луна видна с поверхности, каскады призматического света танцуют на небе. Считается, что эти явления вызваны тонким слоем кристаллов в мезосфере, реагирующей на лунный свет. Захватывающее зрелище, несмотря ни на что.§!"
+  
+ lunari_stable_weather: "Мягкая погода"
+ lunari_stable_weather_desc: "§LЗоны высокого давления, имеющиеся в атмосфере, способствуют более приятным погодным условиям.§!"
+  
+ lunari_ecological_retaliation: "Экологическая катастрофа"
+ lunari_ecological_retaliation_desc: ""
+  
+ #################################### 
+ # Diplomacy 
+ #################################### 
+  
+ personality_lunari_personality: "Лунные воины"
+ personality_lunari_personality_desc: "Мэниэш Линн, «Народ Луны» на Лунари, по своей природе очень духовны, горды и безжалостны. Они отлично воюют и без колебаний будут пытать или казнить своих врагов, если потребуется. Тем не менее, лунные эльфы готовы сотрудничать с другими, если проявлять к ним уважение. Они могут стать действительно ценными союзниками."
+  
+ LUN_HOSTILE_GREETING_01: "Тебе здесь не рады, [From.GetSpeciesName]. Если вы сейчас перестанете нам надоедать, мы по-прежнему сможем без проблем прервать ваши незначительные жизни."
+ LUN_HOSTILE_GREETING_02: "Вы испытываете наше терпение, [From.GetSpeciesName]. Вы смерти ищете?"
+ LUN_HOSTILE_GREETING_03: "[Root.GetRulerTitle] [Root.GetRulerName] недоволен вами. Нам не о чем поговорить."
+ LUN_DOMINEERING_GREETING_01: "Пришло время говорить правду, [From.GetRulerTitle]. Вы слабы. Вы не можете защитить своих людей, вы не можете защитить свои миры, и вы не можете защитить свой титул. Стать нашей собственностью - ваш единственный шанс на продолжение существования."
+ LUN_NEUTRAL_GREETING_01: "Есть общие обязанности, но личный долг у каждого свой. Я сомневаюсь, что мы многое выиграем от союза. Да благословит вас Луна на вашем пути."
+ LUN_NEUTRAL_GREETING_02: "Нас не особо волнуют ваши дела. Однако, [Root.GetRulerTitle] [Root.GetRulerName] интересуется тем, что вы можете предложить."
+ LUN_NEUTRAL_GREETING_03: "Нам правда нужно общаться? Хорошо, можете говорить."
+ LUN_NEUTRAL_GREETING_04: "Если это торговое предложение, мы его рассмотрим. В противном случае обсуждать нечего."
+ LUN_NEUTRAL_GREETING_05: "О, это один из вас, [From.GetSpeciesName]. Не беспокойтесь, мы не ожидаем, что вы примите или хотя бы поймете наш образ жизни и религию."
+ LUN_THREATENED_GREETING_01: "Нетрудно узреть, что вы задумали. Вы ничто, если вы такие предсказуемые. Но будьте осторожны... потому что мы готовы."
+ LUN_FRIENDLY_GREETING_01: "Мы много слышали о вас. В основном хорошие вещи."
+ LUN_FRIENDLY_GREETING_02: "Да хранит вас Луна. [Root.GetRulerTitle] [Root.GetRulerName] хочет узнать о [From.GetSpeciesNamePlural] и вашей культуре. Пожалуйста, чувствуйте себя как дома и не стесняйтесь делиться с нами интересными историями."
+ LUN_FRIENDLY_GREETING_03: "Если мы сможем помочь, обязательно зовите нас. Да хранит вас Луна."
+ LUN_FRIENDLY_GREETING_04: "Теперь вы тот, кого мы рады видеть. Добро пожаловать, [Root.GetRulerTitle]. [Root.GetRulerName] очень хочет с вами поговорить."
+ LUN_WAR_GREETING_01: "Если это не относится к вашей немедленной капитуляции, убирайтесь прочь!"
+ LUN_WAR_GREETING_02: "Вы так смелы, чтобы связываться с нами сейчас? Время для разговора давно прошло."
+ LUN_WAR_GREETING_03: "*посмеиваясь*\n[Root.GetRulerTitle] [Root.GetRulerName] очень удивляется этой войне. Да помилует вас Луна."
+ LUN_WAR_GREETING_04: "Кажется, мы проиграли. Наслаждайся своей победой... пока."
+ LUN_VASSAL_GREETING_01: "Вы оказались более интересными, чем мы могли себе представить. [Root.GetRulerTitle] [Root.GetRulerName] будет работать с вами."
+ LUN_VASSAL_GREETING_DISLOYAL_01: "Из всех унижений, постигших [Root.GetName], служение [From.GetSpeciesAdj] дуракам самое худшее."
+ LUN_DOW_PROPOSE_01: "Давайте посмотрим, так ли [From.GetSpeciesNamePlural] жестоки, как о них говорят. Приготовьтесь, ибо это война. Пусть Богиня помилует вас, ибо мы - не помилуем."
+  
+ #################################### 
+ # Event stuff 
+ #################################### 
+  
+ elven_colony_events.41.name: "Предвестник беды"
+ elven_colony_events.41.desc: "Тщательное изучение Последнего из Баол привело к некоторым тревожным открытиям в отношении вечной мерзлоты. Предполагается, что раскрытие Баол в мире вечной мерзлоты нанесёт абсолютный ущерб экосистеме. Предполагается, что изменения климата также будут носить временный характер, что может привести к огромным потерям как в жизни, так и в экономике. Консенсус наших ученых единогласно решил никогда не выпускать Баол ни на одной из наших планет с вечной мерзлотой."
+ elven_colony_events.41.a: "Принято."
+  
+ elven_colony_events.42.name: "Экологический катаклизм"
+ elven_colony_events.42.desc: "Похоже, что беспокойство наших ученых относительно временных изменений климата из-за Баол осуществилось. [Root.GetName] шокирующе вернулся в первоначальное состояние вечной мерзлоты. Наряду с огромным экологическим ущербом и бурными штормами, подобных которым мы никогда не видели прежде."
+ elven_colony_events.42.a: "Это катастрофа."
+  
+ #################################### 
+ # Prescripted stuff 
+ #################################### 
+  
+ EMPIRE_DESIGN_lunariciv: "Сребролунная теократия"
+ EMPIRE_DESIGN_lunariciv_desc: "Ничто так не смущает ксенобилогов, как вопрос о Наэрелин, Детях Луны. Родом они с почти мертвого промерзшего мира. Этот мир вращается вокруг двух черных дыр. Единственный свет в их системе исходит от странной светящейся луны, которая каким-то образом препятствует любым попыткам её просканировать. По всем отчетам, этих эльфов вообще не должно существовать. \n\nСами лунные эльфы считают такие вопросы весьма глупыми. Для них ответ очевиден: они были созданы Богиней, и любой дурак, который хочет оспорить данный факт, должен просто посмотреть на их Луну.\n\nБудучи новичками на галактической сцене, Наэрелин кажутся в целом дружелюбными и идущими на контакт, хоть они и редко уходят от дома. Ходят слухи, что они самым жестоким способом уничтожают тех, кто относится к ним неуважительно. Однако, такие разговоры, вероятно, лишь результат пустых домыслов, ведь никто никогда ни в чём не обвинял лунных эльфов. Или, по крайней мере, никто не выжил, чтобы выдвинуть обвинения...\n"
+  
+ elven_system_lunari_initializer_NAME: "Беззвёздные царства"
+ elven_system_lunari_initializer_DESC: "Холодная двойная система черной дыры. Единственный источник света - странная близлежащая луна.\n\n$system_initializer_DESC$"
+  
+ ELVEN_lunari_empire_adjective: "Сребролун"
+ ELVEN_lunari_species_name: "Наэрелин"
+ ELVEN_lunari_species_plural: "Наэрелин"
+ ELVEN_lunari_species_adjective: "Наэрелин"
+ ELVEN_lunari_ruler_title: "Высший жрец"
+ ELVEN_lunari_ruler_title_female: "Высшая жрица"
+ ELVEN_lunari_heir_title: "Жрец"
+ ELVEN_lunari_heir_title_female: "Жрица"
+ ELVEN_lunari_ruler_name: "Гвендолин"
+ ELVEN_lunari_homeworld_name: "Сейлин"
+ ELVEN_lunari_home_system_name: "Беззвёздные царства"
+  
+ #################################### 
+ # Origin 
+ #################################### 
+  
+ origin_elven_sunless_realms: "Беззвёздные царства"
+ origin_elven_sunless_realms_desc: "Чудесно расцветая в системе с двойными черными дырами, единственным светом вашей цивилизации был свет божественной Луны."
+ origin_tooltip_elven_sunless_realms_effects: "§YСтартовая локация§!:\n Начало в §Yособом звёздном кластере§!\n\n§YРодной мир§!:\n £discovery_planet£ §Y$pc_lunari_arctic$§!\n Имеет модификатор §GЛунная Аврора§!\n Имеет §Y1§! §Eуникальную§! особенность\n\n§YРодная система§!:\n Две небольшие планеты типа £discovery_planet£ §Y$pc_lunari_arctic$s§!\n появятся как спутники вашего родного мира\n £discovery_planet£ §Y$pc_lunari_arctic$s§! имеет очень мало\n натуральных источников £food£ §Yпищи§!\n\n§YВид§!:\n §Y$trait_pc_lunari_arctic_preference$§!\n §RТёплые планеты не предпочтительны!§!\n\n§YИмперия§!:\nНачало с технологией §MГидропонное земледелие§!"
+  
+  
+ ################ 
+ ### DEPOSITS ### 
+ ################ 
+  
+ d_lunari_planetary_trees: "Зловещие рощи"
+ d_lunari_planetary_trees_desc: "У некоторых лесов есть деревья странной формы, смутно напоминающей женскую. Они на самом деле живы и очень опасны. Попытки общения оказались в конечном итоге безуспешными, поскольку разумные деревья, кажется, мыслят только об убийстве. Сообщения о задержке дыхания и других странных способностях до сих пор были необоснованными."
+  
+ d_lunari_planetary_trees_blocker: "£blocker£ Зловещие рощи"
+ d_lunari_planetary_trees_blocker_desc: "$d_lunari_planetary_trees_desc$"
+  
+ d_lunari_planetary_ice_blossoms: "Ледяные цветы"
+ d_lunari_planetary_ice_blossoms_desc: "В долинах, изолированных от ветров и метелей, существует замечательный ледяной цветок. Лепестки и нити выглядят так, как будто они сделаны из маленьких ледяных кристаллов. Это создает великолепный призматический эффект, когда присутствует даже небольшое количество света. Цветы считаются священными для лунных эльфов, и даже случайное попирание одного из них - смертный приговор.\n§GБудет перенесено при терраформировании в Экуменополис!§!"
+  
+ d_lunari_planetary_cp_ice_blossoms: "Ледяные цветы"
+ d_lunari_planetary_cp_ice_blossoms_desc: "Естественные места их обитания давно застроены, и теперь ледяные цветы тщательно выращиваются в гигантских куполообразных садах. Цветы по-прежнему считаются священными, а сами сады превратились в святилища. Попытка кражи или даже случайное повреждение призматических ледяных цветов по-прежнему карается смертной казнью."
+  
+ d_lunari_planetary_ice_blossoms_blocker: "£blocker£ Ледяные цветы"
+ d_lunari_planetary_ice_blossoms_blocker_desc: "$d_lunari_planetary_ice_blossoms_desc$"
+  
+ d_lunari_planetary_cp_ice_blossoms_blocker: "£blocker£ Ледяные цветы"
+ d_lunari_planetary_cp_ice_blossoms_blocker_desc: "$d_lunari_planetary_cp_ice_blossoms$"
+  
+ d_lunari_planetary_ice_spires: "Ледяные шпили"
+ d_lunari_planetary_ice_spires_desc: "Гигантские ледяные шпили, которые, кажется, бросают вызов известным законам физики, разбросаны по этому миру. Похоже, они были созданы водой, которая течет прямо вверх почти в идеальных колоннах, а затем мгновенно замерзает. Вода, кажется, все еще течет вверх внутри шпилей при тщательном рассмотрении, что еще больше мешает попыткам понять их формирование."
+  
+ d_lunari_massive_glacier: "$d_massive_glacier$"
+ d_lunari_massive_glacier_desc: "$d_massive_glacier_desc$"
+  
+ d_lunari_dangerous_wildlife_blocker: "$d_dangerous_wildlife_blocker$"
+ d_lunari_dangerous_wildlife_blocker_desc: "$d_dangerous_wildlife_blocker_desc$"
+  
+ d_lunari_planetary_energy_1: "Заряженная атмосфера"
+ d_lunari_planetary_energy_1b: "Заряженная атмосфера"
+ d_lunari_planetary_energy_1_desc: "При столкновении с атмосферой лунного излучения образуется уникальная плазма, которая безвредна для жизни и легко используется для получения энергии."
+ d_lunari_planetary_energy_1b_desc: "При столкновении с атмосферой лунного излучения образуется уникальная плазма, которая безвредна для жизни и легко используется для получения энергии."
+  
+ d_lunari_planetary_energy_2: "Естественные проводящие земли"
+ d_lunari_planetary_energy_2b: "Естественные проводящие земли"
+ d_lunari_planetary_energy_2_desc: "Встречающиеся в природе металлы создали области, где удары молнии могут быть предсказаны с точностью, позволяющей легко их использовать."
+ d_lunari_planetary_energy_2b_desc: "Встречающиеся в природе металлы создали области, где удары молнии могут быть предсказаны с точностью, позволяющей легко их использовать."
+  
+ d_lunari_planetary_energy_3: "Мегаштормы"
+ d_lunari_planetary_energy_3_desc: "В некоторых регионах созданы идеальные условия для создания почти постоянных штормов. Часто эти штормы длятся годами или дольше только с короткими периодами затишья."
+  
+ d_lunari_planetary_minerals_1: "Кристалльный дождь"
+ d_lunari_planetary_minerals_1_desc: "Химические газы, покрывающие поверхность всего региона, вызывают шоковую реакцию всякий раз, когда осадки попадают на землю. Это превратило поверхность в острый, туманный, но богатый минералами ландшафт."
+  
+ d_lunari_planetary_minerals_2: "Богатые горные залежи"
+ d_lunari_planetary_minerals_2b: "Богатые горные залежи"
+ d_lunari_planetary_minerals_2_desc: "Эти горные склоны сверкают богатыми рудными ресурсами и драгоценными камнями."
+ d_lunari_planetary_minerals_2b_desc: "Эти горные склоны сверкают богатыми рудными ресурсами и драгоценными камнями."
+  
+ d_lunari_planetary_minerals_3: "Богатые рудой пещеры"
+ d_lunari_planetary_minerals_3b: "Богатые рудой пещеры"
+ d_lunari_planetary_minerals_3_desc: "Эти глубокие пещеры изобилуют месторождениями металлических и минеральных руд."
+ d_lunari_planetary_minerals_3b_desc: "Эти глубокие пещеры изобилуют месторождениями металлических и минеральных руд."
+  
+ d_lunari_planetary_food_1: "Мёрзлая пустошь"
+ d_lunari_planetary_food_1b: "Мёрзлая пустошь"
+ d_lunari_planetary_food_1_desc: "Этот регион страдает от экстремальных погодных условий, которые приводят к суровым условиям для большинства форм жизни."
+ d_lunari_planetary_food_1b_desc: "Этот регион страдает от экстремальных погодных условий, которые приводят к суровым условиям для большинства форм жизни."
+  
+ d_lunari_planetary_food_2: "Рай лунных водорослей"
+ d_lunari_planetary_food_2_desc: "Озера в этом регионе содержат большое количество съедобных водорослей, которые растут под тонким слоем льда. Считается, что водоросли растут исключительно от света Луны."
+  
+ d_lunari_planetary_food_2b: "Доминирующая флора"
+ d_lunari_planetary_food_2b_desc: "Растения и деревья в этом регионе более эффективно адаптировались к суровым погодным условиям, позволяя им выращивать широкое разнообразие паслёновых."
+  
+ d_lunari_planetary_food_3: "Ледяные рощи"
+ d_lunari_planetary_food_3_desc: "Уникальные формы растений, напоминающие деревья изо льда, покрывают этот регион в виде обширных лесов. Эти "растения" дают плоды, которые весьма питательны и могут храниться продолжительный срок."
+  
+ ############ 
+ ### JOBS ### 
+ ############ 
+  
+ job_elven_ice_spire_researcher: "Исследователь ледяных шпилей"
+ job_elven_ice_spire_researcher_plural: "Исследователи ледяных шпилей"
+ job_elven_ice_spire_researcher_desc: "Эти исследователи усердно пытаются разгадать тайны ледяных шпилей."
+ job_elven_ice_spire_researcher_effect_desc: "£job_elven_ice_spire_researcherr£ $job_elven_ice_spire_researcher_plural$ превращают £consumer_goods£ §Y$consumer_goods$§! в £physics£ §Yочки исследований§! для новых технологий."
+ mod_job_elven_ice_spire_researcher_add: "$job_elven_ice_spire_researcher$"
+ mod_job_elven_ice_spire_researcher_per_pop: "§G+1§! $job_elven_ice_spire_researcher$ за $VALUE$ поселений"
+ mod_job_elven_ice_spire_researcher_per_pop_short: "\n§G+1§! £mod_job_elven_ice_spire_researcher_add£ за $VALUE$ £pop£"
+  
+ job_elven_ice_spire_researcher_machine: "Дрон-исследователь ледяных шпилей"
+ job_elven_ice_spire_researcher_machine_plural: "Дроны-исследователь ледяных шпилей"
+ job_elven_ice_spire_researcher_machine_desc: "Эти дроны усердно пытаются разгадать тайны ледяных шпилей."
+ job_elven_ice_spire_researcher_machine_effect_desc: "£job_elven_ice_spire_researcher_machine£ $job_elven_ice_spire_researcher_machine_plural$ превращают £energy£ §Y$energy$§! в £physics£ §Yочки исследований§! для новых технологий."
+ mod_job_elven_ice_spire_researcher_machine_add: "$job_elven_ice_spire_researcher_machine$"
+ mod_job_elven_ice_spire_researcher_machine_per_pop: "§G+1§! $job_elven_ice_spire_researcher_machine$ за $VALUE$ поселений"
+ mod_job_elven_ice_spire_researcher_machine_per_pop_short: "\n§G+1§! £mod_job_elven_ice_spire_researcher_machine_add£ за $VALUE$ £pop£"
+  
+ job_elven_ice_spire_researcher_hive: "Дрон-исследователь ледяных шпилей"
+ job_elven_ice_spire_researcher_hive_plural: "Дроны-исследователи ледяных шпилей"
+ job_elven_ice_spire_researcher_hive_desc: "Эти дроны усердно пытаются разгадать тайны ледяных шпилей."
+ job_elven_ice_spire_researcher_hive_effect_desc: "£job_elven_ice_spire_researcher_hive£ $job_elven_ice_spire_researcher_hive_plural$ превращают £minerals£ §Y$minerals$§! в £physics£ §Yочки исследований§! для новых технологий."
+ mod_job_elven_ice_spire_researcher_hive_add: "$job_elven_ice_spire_researcher_hive$"
+ mod_job_elven_ice_spire_researcher_hive_per_pop: "§G+1§! $job_elven_ice_spire_researcher_hive$ за $VALUE$ поселений"
+ mod_job_elven_ice_spire_researcher_hive_per_pop_short: "\n§G+1§! £mod_job_elven_ice_spire_researcher_hive_add£ за $VALUE$ £pop£"
+  
+ job_elven_malevolent_grove_researcher: "Исследователь Злобной Рощи"
+ job_elven_malevolent_grove_researcher_plural: "Исследователи Злобной Рощи"
+ job_elven_malevolent_grove_researcher_desc: "Эти отважные исследователи пытаются узнать все, что можно, о разумных древоподобных существах, обитающих в некоторых лесах. Предположительно, с безопасного расстояния."
+ job_elven_malevolent_grove_researcher_effect_desc: "£job_elven_malevolent_grove_researcher£ $job_elven_malevolent_grove_researcher_plural$ перерабатывают £consumer_goods£ §Y$consumer_goods$§! в £society£ §Gсоциальные исследования§! для получения новых технологий"
+ mod_job_elven_malevolent_grove_researcher_add: "должность типа $job_elven_malevolent_grove_researcher$"
+ mod_job_elven_malevolent_grove_researcher_per_pop: "§G+1§! должность типа $job_elven_malevolent_grove_researcher$ за $VALUE$ единиц населения колонии"
+ mod_job_elven_malevolent_grove_researcher_per_pop_short: "\n§G+1§! £mod_job_elven_malevolent_grove_researcher_add£ за $VALUE$ £pop£"
+  
+ job_elven_malevolent_grove_researcher_machine: "Дрон-исследователь зловещей рощи"
+ job_elven_malevolent_grove_researcher_machine_plural: "Дроны-исследователи зловещей рощи"
+ job_elven_malevolent_grove_researcher_machine_desc: "Эти дроны пытаются выяснить все, что могут, о кажущихся разумными древовидных формах жизни, населяющих некоторые леса. Предпочтительно с безопасного расстояния."
+ job_elven_malevolent_grove_researcher_machine_effect_desc: "£job_elven_malevolent_grove_researcher_machine£ $job_elven_malevolent_grove_researcher_machine_plural$ превращают £energy£ §Y$energy$§! в £society£ §Yочки исследований§! для новых технологий."
+ mod_job_elven_malevolent_grove_researcher_machine_add: "$job_elven_malevolent_grove_researcher_machine$"
+ mod_job_elven_malevolent_grove_researcher_machine_per_pop: "§G+1§! $job_elven_malevolent_grove_researcher_machine$ за $VALUE$ поселений"
+ mod_job_elven_malevolent_grove_researcher_machine_per_pop_short: "\n§G+1§! £mod_job_elven_malevolent_grove_researcher_machine_add£ за $VALUE$ £pop£"
+  
+ job_elven_malevolent_grove_researcher_hive: "Дрон-исследователь зловещей рощи"
+ job_elven_malevolent_grove_researcher_hive_plural: "Дроны-исследователи зловещей рощи"
+ job_elven_malevolent_grove_researcher_hive_desc: "Эти дроны пытаются выяснить все, что могут, о кажущихся разумными древовидных формах жизни, населяющих некоторые леса. Предпочтительно с безопасного расстояния."
+ job_elven_malevolent_grove_researcher_hive_effect_desc: "£job_elven_malevolent_grove_researcher_hive£ $job_elven_malevolent_grove_researcher_hive_plural$ превращают £minerals£ §Y$minerals$§! в £society£ §Yочки исследований§! для новых технологий."
+ mod_job_elven_malevolent_grove_researcher_hive_add: "$job_elven_malevolent_grove_researcher_hive$"
+ mod_job_elven_malevolent_grove_researcher_hive_per_pop: "§G+1§! $job_elven_malevolent_grove_researcher_hive$ за $VALUE$ поселений"
+ mod_job_elven_malevolent_grove_researcher_hive_per_pop_short: "\n§G+1§! £mod_job_elven_malevolent_grove_researcher_hive_add£ за $VALUE$ £pop£"
+  
+ ##################### 
+ ### FACTION NAMES ### 
+ ##################### 
+  
+ format.pop_faction.totalitarian.lunari: "<lunari_totalitarian_names>"
+ format.pop_faction.imperialist.lunari: "<lunari_imperialist_names>"
+ format.pop_faction.traditionalist.lunari: "<lunari_spiritualist_names>"
+ format.pop_faction.technologist.lunari: "<lunari_technologist_names>"
+ format.pop_faction.prosperity.lunari: "<lunari_prosperity_names>"
+ format.pop_faction.supremacist.lunari: "[This.Owner.GetSpeciesName] <lunari_supremacist_names>"
+ format.pop_faction.xenoist.lunari: "<lunari_xenoist_names>"
+ format.pop_faction.isolationist.lunari: "<lunari_isolationist_names>"
+ format.pop_faction.progressive.lunari: "<lunari_progressive_names>"
+  
+ EOS_FACTION_INNER_CIRCLE: "Внутренний круг"
+ EOS_FACTION_SILVER_CONCLAV: "Серебряный конклав"
+ EOS_FACTION_SILVER_COUNCIL: "Серебряный совет"
+ EOS_FACTION_CONCLAVE_NTERNAL_ORDER: "Конклав внутреннего порядка"
+ EOS_FACTION_LUNAR_SUPREME_COURT: "Лунный Верховный суд"
+ EOS_FACTION_SILVER_GUARD: "Серебряная гвардия"
+ EOS_FACTION_CHURCH_MOON: "Церковь Луны"
+ EOS_FACTION_SILVER_ACADEMY: "Серебряная академия"
+ EOS_FACTION_INSTITUTE_APPLIED_SCIENCE: "Институт прикладных наук"
+ EOS_FACTION_ACADEMY_ADVANCED_STUDIES: "Академия перспективных исследований"
+ EOS_FACTION_SCIENCE_TECHNOLOGY_INSTITUTE: "Научно-технический институт"
+ EOS_FACTION_NATIONAL_STABILITY_ASSOCIATION: "Национальная ассоциация стабильности"
+ EOS_FACTION_LUNAR_TRADE_NETWORK: "Лунная торговая сеть"
+ EOS_FACTION_LUNAR_INVESTMENT_BANK: "Лунный инвестиционный банк"
+ EOS_FACTION_ASCENSION_MOVEMENT: "Движение Вознесения"
+ EOS_FACTION_PURITY_MOVEMENT: "Движение за чистоту"
+ EOS_FACTION_LUNAR_XENO_AGENCY: "Лунное агентство инопланетян"
+ EOS_FACTION_STELLAR_DIPLOMACY_ASSOCIATION: "Ассоциация звездной дипломатии"
+ EOS_FACTION_CLOSED_BORDERS_INITIATIVE: "Инициатива «Закрытые границы»"
+ EOS_FACTION_NEUTRALITY_BALANCE_MOVEMENT: "Движение нейтральности и равновесия"
+ EOS_FACTION_FREE_THOUGHT_MOVEMENT: "Движение за свободу слова"
+ EOS_FACTION_SELF_DETERMINISM_MOVEMENT: "Движение за самоопределение"
+ EOS_FACTION_TRUE_DEMOCRACY_MOVEMENT: "Движение за истинную демократию"
+ EOS_FACTION_INDIVIDUAL_CHOICE_MOVEMENT: "Движение за индивидуальный выбор"
