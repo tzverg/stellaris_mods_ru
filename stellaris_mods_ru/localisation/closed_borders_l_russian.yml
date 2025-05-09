@@ -1,0 +1,27 @@
+﻿l_russian:
+
+ edict_force_close_borders: "Нарушить Перемирие и Закрыть Границы"
+ edict_force_close_borders_desc: "Мы можем закрыть границы с любой страной, с которой мы недавно воевали. Однако подобное нарушение законов войны моментально положит конец нашему перемирию и обострит отношения со всеми известными государствами."
+
+ closeborders.2000.name: "Нарушить Перемирие и Закрыть Границы"
+ closeborders.2000.desc: "Ценой некоторого политического влияния мы можем принять закон, чтобы немедленно §RНарушить текущее перемирие§! и §YЗакрыть наши границы§!. Однако, подобное нарушение законов войны моментально повредит нашим отношениям с другими государствами нашей галактики."
+
+ closeborders.2000.desc.fail: "На данный момент у нас нет перемирия."
+ closeborders.2000.fail: "Да будет так!"
+
+ closeborders.2000.back: "Неважно."
+ closeborders.2000.truce_country_1: "§Y[truce_country_1.GetName]§!"
+ closeborders.2000.truce_country_2: "§Y[truce_country_2.GetName]§!"
+ closeborders.2000.truce_country_3: "§Y[truce_country_3.GetName]§!"
+ closeborders.2000.truce_country_4: "§Y[truce_country_4.GetName]§!"
+ closeborders.2000.truce_country_5: "§Y[truce_country_5.GetName]§!"
+ closeborders.2000.truce_country_6: "§Y[truce_country_6.GetName]§!"
+ closeborders.2000.truce_country_7: "§Y[truce_country_7.GetName]§!"
+ closeborders.2000.truce_country_8: "§Y[truce_country_8.GetName]§!"
+ closeborders.2000.truce_country_9: "§Y[truce_country_9.GetName]§!"
+ closeborders.2000.truce_country_10: "§Y[truce_country_10.GetName]§!"
+
+ influencefail_text_close_borders: "§RПотребует§! §Y150§! £influence£ §Hвлияния§!"
+ close_borders_broke_truce: "Нарушил Перемирие"
+ opinion_closed_borders_broke_truce: "Нарушил Наше Перемирие"
+ opinion_closed_borders_broke_truce_foreign: "Нарушил Перемирие"
