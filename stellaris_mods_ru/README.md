@@ -22,3 +22,5 @@ mod russifications for personal use
 - [3.9.3] Legendary Worlds (исправление)
 - [3.9.3] Elves of Stellaris (актуализация)
 - [3.9.*] Government Variety Pack (в работе)
+-
+- [4.*.*] Toxoid Traits [08.05.2025]

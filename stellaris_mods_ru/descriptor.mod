@@ -1,6 +1,6 @@
-version="0.0.1"
+version="4.0.0"
 tags={
 	"Translation"
 }
 name="stellaris_mods_ru"
-supported_version="3.9.*"
+supported_version="4.*"
