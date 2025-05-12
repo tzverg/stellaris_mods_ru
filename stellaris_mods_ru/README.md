@@ -25,3 +25,4 @@ mod russifications for personal use
 -
 - [4.*.*][08.05.2025] Toxoid Traits
 - [4.*.*][09.05.2025] End Truce & Close Borders
+- [4.*.*][12.05.2025] Colony Events Expanded [3480183215]
