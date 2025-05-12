@@ -23,6 +23,6 @@ mod russifications for personal use
 - [3.9.3] Elves of Stellaris (актуализация)
 - [3.9.*] Government Variety Pack (в работе)
 -
-- [4.*.*][08.05.2025] Toxoid Traits
-- [4.*.*][09.05.2025] End Truce & Close Borders
-- [4.*.*][12.05.2025] Colony Events Expanded [3480183215]
+- [4.*][08.05.2025] Toxoid Traits
+- [4.*][09.05.2025] End Truce & Close Borders
+- [4.*][12.05.2025] Colony Events Expanded [3480183215]
