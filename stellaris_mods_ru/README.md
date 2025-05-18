@@ -28,3 +28,4 @@ mod russifications for personal use
 - [4.*][12.05.2025] Colony Events Expanded [id=3480183215]
 - [4.*][14.05.2025] Expanded War Goals [id=3046031164]
 - [4.*][14.05.2025] Exosuit Assault Army [id=3480393617]
+- [4.*][18.05.2025] Elves of Stellaris [id=915432220]
