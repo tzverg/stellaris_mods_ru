@@ -27,3 +27,4 @@ mod russifications for personal use
 - [4.*] [18.05.2025] [id=915432220]  Elves of Stellaris
 - [4.*] [19.05.2025] [id=3275068730] More Astral Rifts
 - [4.*] [19.05.2025] [id=2786268200] Under Siege
+- [4.*] [19.05.2025] [id=3479556409] Better Aptitude
