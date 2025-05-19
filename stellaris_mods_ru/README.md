@@ -20,7 +20,6 @@ mod russifications for personal use
 - [3.4.*] AA's Starbase Overhaul (ручной)
 - [3.9.3] Nanite Machines & Distant Stars Overhaul (исправление)
 - [3.9.3] Legendary Worlds (исправление)
-- [3.9.3] Elves of Stellaris (актуализация)
 - [3.9.*] Government Variety Pack (в работе)
 -
 - [4.*][08.05.2025] Toxoid Traits [id=3426744130]
@@ -29,3 +28,4 @@ mod russifications for personal use
 - [4.*][14.05.2025] Expanded War Goals [id=3046031164]
 - [4.*][14.05.2025] Exosuit Assault Army [id=3480393617]
 - [4.*][18.05.2025] Elves of Stellaris [id=915432220]
+- [4.*][19.05.2025] More Astral Rifts [id=3275068730]
