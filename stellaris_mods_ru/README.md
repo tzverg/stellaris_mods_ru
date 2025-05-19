@@ -22,10 +22,10 @@ mod russifications for personal use
 - [3.9.3] Legendary Worlds (исправление)
 - [3.9.*] Government Variety Pack (в работе)
 -
-- [4.*][08.05.2025] Toxoid Traits [id=3426744130]
-- [4.*][09.05.2025] End Truce & Close Borders [id=2493028212]
-- [4.*][12.05.2025] Colony Events Expanded [id=3480183215]
-- [4.*][14.05.2025] Expanded War Goals [id=3046031164]
-- [4.*][14.05.2025] Exosuit Assault Army [id=3480393617]
-- [4.*][18.05.2025] Elves of Stellaris [id=915432220]
-- [4.*][19.05.2025] More Astral Rifts [id=3275068730]
+- [4.*] [08.05.2025] [id=3426744130] Toxoid Traits
+- [4.*] [09.05.2025] [id=2493028212] End Truce & Close Borders
+- [4.*] [12.05.2025] [id=3480183215] Colony Events Expanded
+- [4.*] [14.05.2025] [id=3046031164] Expanded War Goals
+- [4.*] [14.05.2025] [id=3480393617] Exosuit Assault Army
+- [4.*] [18.05.2025] [id=915432220]  Elves of Stellaris
+- [4.*] [19.05.2025] [id=3275068730] More Astral Rifts
