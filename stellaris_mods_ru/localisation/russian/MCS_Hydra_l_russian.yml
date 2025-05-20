@@ -1,0 +1,193 @@
+﻿l_russian:
+  MCS_astral_storm: "Астральный Шторм"
+  MCS_astral_storm_color_tooltip: "§_$MCS_astral_storm$§!"
+  MCS_astral_storm_desc: "Разрывы пространственно-временного континуума, которые внезапно стали появлятся по всей нашей галактике, представляют собой двусторонние порталы в иные измерения. В случае если внутри какой-то системы накапливается достаточное количество астрального материала, его критическая масса способна продавить пространственно-временную пелену, высвобождая ещё большее количество астральной материи, которая, в свою очередь, может выплеснутся в соседние системы через узкие разрывы подпространства именуемые гиперкоридорами. На наше счастье, подобные разрывы нестабильны и со временем затягиваются, словно раны великого неосязаемого для нас зверя, хоть делают это и недостаточно быстро ддля того, чтобы предотвратить грядущую катастрофу."
+  
+  MCS_astral_storm_lore_description: "§L$storm_planet_modifier_intro$ $MCS_astral_storm$ $storm_planet_modifier_outro$§!"
+  
+  MCS_astral_storm_fleet_tt: "- $MOD_SHIP_SHIELD_REGEN_ADD_PERC$ §Rотключено§! для всех краблей и станций."
+  
+  MESSAGE_MCS_ASTRAL_STORM_COSMIC_STORM_SPOTTED_TITLE: "Обнаружен $MCS_astral_storm$!"
+  MESSAGE_MCS_ASTRAL_STORM_COSMIC_STORM_SPOTTED_DESC: "$MESSAGE_COSMIC_STORM_SPOTTED_DESC$$MESSAGE_STORM_INTRO$Расширяющаяся природа данного подвида космического шторма приведет к тому, что астральная материя заполонит всю систему, прилипая к любому включённому модулю энергетического барьера любого вида при этом вызывая пространственно-временные аномалии на поверхности любых планет при превышении значений критической массы астральной материи на локальной области.\n\nНа наше счастье, эти эффекты носят временный характер, хотя учёные говорят что в редких случаях может возникнуть и постоянный разрыв ткани реальности."
+  
+  MESSAGE_MCS_ASTRAL_STORM_AFTERMATH_TITLE: "$MCS_astral_storm$: Последствия"
+  MCS_astral_storm_aftermath_custom_desc: "§Y$MCS_astral_storm$§! оставил довольно большое количество астральной материи для изучения."
+  
+  d_MCS_astral_storm_1: "Астрально-Инфузионная Геология"
+  d_MCS_astral_storm_1_desc: "Космическая буря, которая бушевала в этой звёздной системе, насытила этот регион частицами астральной материи."
+  
+  d_MCS_astral_storm_2: "Временное Искажение"
+  d_MCS_astral_storm_2_desc: "Космическая буря, которая бушевала в этой звёздной системе, исказила пространство и время до такой степени, что основные законы физики больше не применимы в пределах обширной зоны побывавшей вблизи эпицентра аномалии."
+  
+  d_MCS_astral_storm_3: "Астральный Шрам"
+  d_MCS_astral_storm_3_desc: "Космическая буря, которая бушевала в этой звёздной системе, опустошила кору этого мира. Теперь прямо по его поверхности проходит громадных размеров астральный разлом, постоянно перманентно испускающий небольшие количества астральной материи, заполняющего близлежащую область."
+  
+  # Modifier Localization
+  mod_planet_farmers_astral_threads_produces_add: "£astral_threads£ $astral_threads$ добудут £job_farmer£ [GetFarmerPlural]"
+  mod_planet_miners_astral_threads_produces_add: "£astral_threads£ $astral_threads$ добудут £job_miner£ [GetMinerPlural]"
+  mod_planet_pops_robotics_energy_upkeep_mult: "Ежемесячное содержание роботов: £energy£"
+  
+  MCS_astral_storm_aftermath_modifier: "Астральное Вливание"
+  MCS_astral_storm_aftermath_modifier_tooltip: "$STORM_AFTERMATH_DESC$\n$t$- §H$MCS_astral_storm_aftermath_modifier$§!:\n$tt$- §G+0.5§! to §G+1.5§! $mod_planet_physicists_physics_research_produces_add$"
+  MCS_astral_storm_aftermath_modifier_severity_desc: "$MCS_astral_storm$ оставил в атмосфере и геосфере плотный слой астральной материи, вызывающие странный поток аномальных физических явлений."
+  MCS_astral_storm_aftermath_modifier_severity_1: "$MCS_astral_storm_aftermath_modifier$: Последствия"
+  MCS_astral_storm_aftermath_modifier_severity_1_desc: "$MCS_astral_storm_aftermath_modifier_severity_desc$"
+  MCS_astral_storm_aftermath_modifier_severity_2: "$MCS_astral_storm_aftermath_modifier$: §HСерьёзные§! Последствия"
+  MCS_astral_storm_aftermath_modifier_severity_2_desc: "$MCS_astral_storm_aftermath_modifier_severity_desc$"
+  MCS_astral_storm_aftermath_modifier_severity_3: "$MCS_astral_storm_aftermath_modifier$: §RЭкстремальные§! Последствия"
+  MCS_astral_storm_aftermath_modifier_severity_3_desc: "$MCS_astral_storm_aftermath_modifier_severity_desc$"
+
+  ###################
+  # Cryogenic Storm #
+  ###################
+
+  MCS_cryo_storm: "Криогенный Шторм"
+  MCS_cryo_storm_color_tooltip: "§C$MCS_cryo_storm$§!"
+  MCS_cryo_storm_desc: "При критической потере структурной целостности большой ледяной планеты или гравитационных возмущениях, проходящих через ледяной пояс астероидов, отражательная природа материала с температурой, близкой к абсолютному нулю, может запустить каскадную реакцию черезвычайно быстро остывающих космических объектов."
+  
+  MCS_cryo_storm_lore_description: "§L$storm_planet_modifier_intro$ $MCS_cryo_storm$ $storm_planet_modifier_outro$§!"
+  
+  MCS_cryo_storm_planet_tt: "- §R$@MCS_cryo_habitability_hit|0%$§! $MOD_POP_ENVIRONMENT_TOLERANCE$ на §YНе-Холодных§! мирах."
+  
+  MESSAGE_MCS_CRYO_STORM_COSMIC_STORM_SPOTTED_TITLE: "Обнаружен $MCS_cryo_storm$!"
+  MESSAGE_MCS_CRYO_STORM_COSMIC_STORM_SPOTTED_DESC: "$MESSAGE_COSMIC_STORM_SPOTTED_DESC$$MESSAGE_STORM_INTRO$Охлаждающая природа данного подвида космического шторма приведет к быстрому понижению температуры на близлежащих планетах, что представляет опасность для экосистем любого вида, которые могут быть обнаружены на подобных планетах."
+  
+  MESSAGE_MCS_CRYO_STORM_AFTERMATH_TITLE: "$MCS_cryo_storm$: Последствия"
+  MCS_cryo_storm_aftermath_custom_desc: "§Y$MCS_cryo_storm$§! временно переохладил эту планету."
+  
+  d_MCS_cryo_storm_1: "Переохлажденные Кузницы"
+  d_MCS_cryo_storm_1_desc: "Космическая буря, которая бушевала в этой звёздной системе, привела к переохлаждению почвы под одной из наших промышленных зон, что привело к увеличению расхода энергии, необходимой для переработки минералов, но также способствовало повышению потенциального качества производимых сплавов."
+  
+  d_MCS_cryo_storm_2: "Глубокие Трещины"
+  d_MCS_cryo_storm_2_desc: "Космическая буря, которая бушевала в этой звёздной системе, заморозила глубоководные минеральные отложения этой планеты, создав громадные трещины, которые доходят до самой поверхности планеты, делая месторождения доступными для разработки шахтерами с поверхности."
+  
+  d_MCS_cryo_storm_3: "Криогенные Руды"
+  d_MCS_cryo_storm_3_desc: "Космическая буря, которая бушевала в этой звёздной системе, переохладила минеральную кристаллическую решетку в жилах этой горной гряды, навсегда изменив атомную структуру руды которую теперь можно добывать."
+  
+  MCS_cryo_storm_aftermath_modifier: "Нестабильный Климат"
+  MCS_cryo_storm_aftermath_modifier_tooltip: "$STORM_AFTERMATH_DESC$\n$t$- §H$MCS_cryo_storm_aftermath_modifier$§!:\n$tt$- от §G+100%§! до §G+300%§! $MOD_COUNTRY_TERRAFORM_SPEED_MULT$\n$tt$- от §R+25%§! до §R+75%§! $mod_terraforming_cost_mult$"
+  MCS_cryo_storm_aftermath_modifier_severity_desc: "$MCS_cryo_storm$ разрушил стабильность климатической модели данного небесного тела, сделав возможные попытки терраформирования более дорогостоящими, но зато более быстрыми."
+  MCS_cryo_storm_aftermath_modifier_severity_1: "$MCS_cryo_storm_aftermath_modifier$: Последствия"
+  MCS_cryo_storm_aftermath_modifier_severity_1_desc: "$MCS_cryo_storm_aftermath_modifier_severity_desc$"
+  MCS_cryo_storm_aftermath_modifier_severity_2: "$MCS_cryo_storm_aftermath_modifier$: §HСерьёзные§! Последствия"
+  MCS_cryo_storm_aftermath_modifier_severity_2_desc: "$MCS_cryo_storm_aftermath_modifier_severity_desc$"
+  MCS_cryo_storm_aftermath_modifier_severity_3: "$MCS_cryo_storm_aftermath_modifier$: §RЭкстремальные§! Последствия"
+  MCS_cryo_storm_aftermath_modifier_severity_3_desc: "$MCS_cryo_storm_aftermath_modifier_severity_desc$"
+  
+  # Event
+  
+  MCS_storm_event.105.name: "Ледниковый Период"
+  MCS_storm_event.105.desc: "Прошедший недавно §Y$MCS_cryo_storm$§!, который дисбалансировал экосистему [this.GetName]. Метеорологи ожидают, что температура опустится до нормальных уровней спустя лишь несколько месяцев. Несмотря на то, что это прогноз сделали наши ведущие метеорологи, он, к сожалению, не оправдался.\n\nУсреднённая температура планеты [this.GetName] по-прежнему ниже точки замерзания воды, что продолжает оказывать пагубное воздействие и приводит к гибели многих видов флоры и фауны, обитающей на [this.GetPlanetMoon].\n\nХотя происходящее может казаться катастрофой, это также редкая возможность изучить последствия столь пагубного войдействия на экосистему, вызванное черезвычайно быстрыми климатическими изменениями в умеренных слоях."
+  
+  MCS_storm_event.105.tt: "[this.GetName] изменяет классификацию планеты."
+  
+  ####################
+  # Radiactive Storm #
+  ####################
+  
+  MCS_nanite_storm: "Радиоактивный Шторм"
+  MCS_nanite_storm_color_tooltip: "§G$MCS_nanite_storm$§!"
+  MCS_nanite_storm_desc: "В сравнении с гораздо более спокойными бурями частиц - эти бури высвобождают энергию в тысячу раз более мощную, чем испускают самые яркие из небесных светил. Любая цивилизация, которой не посчастливится столкнуться с подобным, либо будет благословлена черезвычайно ​​быстрой положительной мутацией, либо ужасающей деформацией и болезненной смертью."
+  
+  MCS_nanite_storm_lore_description: "§L$storm_planet_modifier_intro$ $MCS_nanite_storm$ $storm_planet_modifier_outro$§!"
+  
+  MCS_nanite_storm_fleet_tt: "- $MOD_SHIP_SHIELD_REGEN_ADD_PERC$ §Rотключено§! для всех краблей и станций."
+  
+  MESSAGE_MCS_NANITE_STORM_COSMIC_STORM_SPOTTED_TITLE: "Обнаружен $MCS_nanite_storm$!"
+  MESSAGE_MCS_NANITE_STORM_COSMIC_STORM_SPOTTED_DESC: "$MESSAGE_COSMIC_STORM_SPOTTED_DESC$$MESSAGE_STORM_INTRO$Радиоактивная природа данного подвида космического шторма вызовет мутации у большинства форм жизни и нарушит работу электрического оборудования любого вида."
+  
+  MESSAGE_MCS_NANITE_STORM_AFTERMATH_TITLE: "$MCS_nanite_storm$: Последствия"
+  MCS_nanite_storm_aftermath_custom_desc: "§Y$MCS_nanite_storm$§! оставил множество черезвычайно сильно облученных территорий, представляющих значительную опасность для здоровья."
+  
+  d_MCS_nanite_storm_1: "Облученная Зона"
+  d_MCS_nanite_storm_1_desc: "Космическая буря, которая бушевала в этой звёздной системе, превратила эти, некогда яркие, поля в безжизненные пустоши."
+  
+  d_MCS_nanite_storm_2: "Мутировавшая Экосистема"
+  d_MCS_nanite_storm_2_desc: "Космическая буря, которая бушевала в этой звёздной системе, вызвала в местной экосистеме странные мутации."
+  
+  d_MCS_nanite_storm_3: "Радиоактивное Загрязнение"
+  d_MCS_nanite_storm_3_desc: "Космическая буря, которая бушевала в этой звёздной системе, повысила радиационный фон этого региона до критических значений."
+  
+  MCS_nanite_storm_aftermath_modifier: "Облученный"
+  MCS_nanite_storm_aftermath_modifier_tooltip: "$STORM_AFTERMATH_DESC$\n$t$- §H$MCS_nanite_storm_aftermath_modifier$§!:\n$tt$- от §R-10%§! до §R-30%§! $MOD_POP_GROWTH_SPEED$"
+  MCS_nanite_storm_aftermath_modifier_severity_desc: "$MCS_nanite_storm$ нанес непоправимый ущерб генетическому материалу большинства форм жизни на этой планете."
+  MCS_nanite_storm_aftermath_modifier_severity_1: "$MCS_nanite_storm_aftermath_modifier$: Последствия"
+  MCS_nanite_storm_aftermath_modifier_severity_1_desc: "$MCS_nanite_storm_aftermath_modifier_severity_desc$"
+  MCS_nanite_storm_aftermath_modifier_severity_2: "$MCS_nanite_storm_aftermath_modifier$: §HСерьёзные§! Последствия"
+  MCS_nanite_storm_aftermath_modifier_severity_2_desc: "$MCS_nanite_storm_aftermath_modifier_severity_desc$"
+  MCS_nanite_storm_aftermath_modifier_severity_3: "$MCS_nanite_storm_aftermath_modifier$: §RЭкстремальные§! Последствия"
+  MCS_nanite_storm_aftermath_modifier_severity_3_desc: "$MCS_nanite_storm_aftermath_modifier_severity_desc$"
+  
+  ##############
+  # Time Storm #
+  ##############
+  
+  MCS_time_storm: "Темпоральный Шторм"
+  MCS_time_storm_color_tooltip: "§d$MCS_time_storm$§!"
+  MCS_time_storm_desc: "Загадочная энергия, из которой состоит этот подвид космической бури, по всей видимости, исходит от изгиба пространственно-временного континуума, и, посредством этого изгиба, $MCS_time_storm$ подпитывает сам себя. Таким образом, время, кажется, ускоряется, замедляется и порой даже обращается вспять, когда объект воздействия находится в зоне воздействия аномальной зоны."
+  
+  MCS_time_storm_lore_description: "§L$storm_planet_modifier_intro$ $MCS_time_storm$ $storm_planet_modifier_outro$§!"
+  
+  MCS_time_storm_fleet_tt: "- $MOD_SHIP_SHIELD_REGEN_ADD_PERC$ §Rотключено§! для всех краблей и станций."
+  
+  MESSAGE_MCS_TIME_STORM_COSMIC_STORM_SPOTTED_TITLE: "Обнаружен $MCS_time_storm$!"
+  MESSAGE_MCS_TIME_STORM_COSMIC_STORM_SPOTTED_DESC: "$MESSAGE_COSMIC_STORM_SPOTTED_DESC$$MESSAGE_STORM_INTRO$Временной поток данного подвида космического шторма затруднит получение надежных измерений от любых из наших научных команд подверженных воздействию катастрофической аномалии, но может оказать положительное влияние на производство и рост населения."
+  
+  MESSAGE_MCS_TIME_STORM_AFTERMATH_TITLE: "$MCS_time_storm$: Последствия"
+  MCS_time_storm_aftermath_custom_desc: "§Y$MCS_time_storm$§! оставил нашим научным командам достаточное количество времени для изучения."
+  
+  d_MCS_time_storm_1: "Застывшая Долина"
+  d_MCS_time_storm_1_desc: "Космическая буря, которая бушевала в этой звёздной системе, практически навсегда остановила, или же черезвычайно сильно замедлила, течение времени в небольшой долине. Изучение этой области застывшего во времени пространства позволяет проводить эксперименты, которые при обычных, не аномальных, условиях проводить невозможно."
+  
+  d_MCS_time_storm_2: "Темпоральная Путаница"
+  d_MCS_time_storm_2_desc: "Космическая буря, которая бушевала в этой звёздной системе, исказила временную линию до такой степени, что теперь она импульсивно флуктуирует. Те, кому не посчастливилось находится внутри этой аномальной области, могут быстро состариваться или прекращают стареть вовсе. Предметы за короткие промежутки времени рассыпаются в прах, пос е чего вновь собираются из него как будто ничего с ними и не произошло."
+  
+  d_MCS_time_storm_3: "Транспланированный Резерв"
+  d_MCS_time_storm_3_desc: "Космическая буря, которая бушевала в этой звёздной системе, перенесла большой необжитый территориальный массив из другой временной линии этой планеты, что позволило внимательно изучить альтернативные эволюционные процессы."
+  
+  MCS_time_storm_aftermath_modifier: "Темпоральные Флуктуации"
+  MCS_time_storm_aftermath_modifier_tooltip: "$STORM_AFTERMATH_DESC$\n$t$- §H$MCS_time_storm_aftermath_modifier$§!:\n$tt$- от §R-50%§! до §G+50%§! $MOD_POP_GROWTH_SPEED$, $MOD_POP_ASSEMBLY_SPEED$ и ресурсов от должностей"
+  MCS_time_storm_aftermath_modifier_severity_desc: "$MCS_time_storm$ изменил течение времени на этой планете."
+  MCS_time_storm_aftermath_modifier_severity_1: "$MCS_time_storm_aftermath_modifier$: Последствия"
+  MCS_time_storm_aftermath_modifier_severity_1_desc: "$MCS_time_storm_aftermath_modifier_severity_desc$"
+  MCS_time_storm_aftermath_modifier_severity_2: "$MCS_time_storm_aftermath_modifier$: §HСерьёзные§! Последствия"
+  MCS_time_storm_aftermath_modifier_severity_2_desc: "$MCS_time_storm_aftermath_modifier_severity_desc$"
+  MCS_time_storm_aftermath_modifier_severity_3: "$MCS_time_storm_aftermath_modifier$: §RЭкстремальные§! Последствия"
+  MCS_time_storm_aftermath_modifier_severity_3_desc: "$MCS_time_storm_aftermath_modifier_severity_desc$"
+  
+  ###############
+  # Litho Storm #
+  ###############
+  
+  MCS_litho_storm: "Лито Шторм"
+  MCS_litho_storm_color_tooltip: "§L$MCS_litho_storm$§!"
+  MCS_litho_storm_desc: "Иногда, когда через звёздную систему пролетают достаточно крупные астероиды, они могут гравитационно захватывать с собой более мелкие космические объекты. Если достаточно большой объект будет гравитационно захвачен и выйдет на орбиту другого, это может спровоцировать цепную реакцию, в результате которой вся захваченная материя также сформирует новые барицентрические орбиты, в конечном итоге перерастая в хаотично перемещающийся массив астероидов, обломков и мелких небесных тел низкой гравитации, которая может заполонить собой целые звёздные системы."
+  
+  MCS_litho_storm_lore_description: "§L$storm_planet_modifier_intro$ $MCS_litho_storm$ $storm_planet_modifier_outro$§!"
+  
+  MCS_litho_storm_fleet_tt: "- $MOD_SHIP_HULL_REGEN_ADD_PERC$, $MOD_SHIP_ARMOR_REGEN_ADD_PERC$ и $MOD_SHIP_SHIELD_REGEN_ADD_PERC$ будут §Rотключены§! для всех краблей и станций.\n- Наносит §R$@storm_MCS_monthly_dmg_med|0$§! урона ежемесячно всем краблям и станциям с более чем $@storm_hp_perc_limit|0Y%$ $HITPOINTS$."
+  
+  MESSAGE_MCS_LITHO_STORM_COSMIC_STORM_SPOTTED_TITLE: "Обнаружен $MCS_litho_storm$!"
+  MESSAGE_MCS_LITHO_STORM_COSMIC_STORM_SPOTTED_DESC: "$MESSAGE_COSMIC_STORM_SPOTTED_DESC$$MESSAGE_STORM_INTRO$Разрушительный характер данного подвида космического шторма нанесет огромный ущерб любым сооружениям на поверхности планеты."
+  
+  MESSAGE_MCS_LITHO_STORM_AFTERMATH_TITLE: "$MCS_litho_storm$: Последствия"
+  MCS_litho_storm_aftermath_custom_desc: "§Y$MCS_litho_storm$§! оставил на поверхности планеты множество легкодоступных ценных минералов."
+  
+  d_MCS_litho_storm_1: "Огромный Кратер"
+  d_MCS_litho_storm_1_desc: "Космическая буря, которая бушевала в этой звёздной системе, стала причиной падения на нашу планету метеорита крупных размеров, вызвав масштабные разрушения инфраструктуры в пострадавшем районе."
+  
+  d_MCS_litho_storm_2: "Кратерные Поля"
+  d_MCS_litho_storm_2_desc: "Космическая буря, которая бушевала в этой звёздной системе, сбросила на поверхность этой планеты большое количество относительно мелких метеоритов, что обеспечило легкий доступ к большому количеству ценных минералов."
+  
+  d_MCS_litho_storm_3: "Кристаллические Кратеры"
+  d_MCS_litho_storm_3_desc: "Космическая буря, которая бушевала в этой звёздной системе, сбросила на поверхность этой планеты несколько весьма ценных кристаллических жеод."
+  
+  MCS_litho_storm_aftermath_modifier: "Метеоритные Поля"
+  MCS_litho_storm_aftermath_modifier_tooltip: "$STORM_AFTERMATH_DESC$\n$t$- §H$MCS_litho_storm_aftermath_modifier$§!:\n$tt$- от §G+1§! до §G+3§! $mod_planet_miners_minerals_produces_add$"
+  MCS_litho_storm_aftermath_modifier_severity_desc: "$MCS_litho_storm$ оставил в атмосфере и геосфере планеты плотный слой пыли, вызывая необычные физические явления."
+  MCS_litho_storm_aftermath_modifier_severity_1: "$MCS_litho_storm_aftermath_modifier$: Последствия"
+  MCS_litho_storm_aftermath_modifier_severity_1_desc: "$MCS_litho_storm_aftermath_modifier_severity_desc$"
+  MCS_litho_storm_aftermath_modifier_severity_2: "$MCS_litho_storm_aftermath_modifier$: §HСерьёзные§! Последствия"
+  MCS_litho_storm_aftermath_modifier_severity_2_desc: "$MCS_litho_storm_aftermath_modifier_severity_desc$"
+  MCS_litho_storm_aftermath_modifier_severity_3: "$MCS_litho_storm_aftermath_modifier$: §RЭкстремальные§! Последствия"
+  MCS_litho_storm_aftermath_modifier_severity_3_desc: "$MCS_litho_storm_aftermath_modifier_severity_desc$"
