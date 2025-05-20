@@ -28,3 +28,4 @@ mod russifications for personal use
 - [4.*] [19.05.2025] [id=3275068730] More Astral Rifts
 - [4.*] [19.05.2025] [id=2786268200] Under Siege
 - [4.*] [19.05.2025] [id=3479556409] Better Aptitude
+- [4.*] [20.05.2025] [id=3483186436] Criminal Heritage Tradition
