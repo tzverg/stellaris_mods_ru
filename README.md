@@ -31,3 +31,4 @@ mod russifications for personal use
 - [4.*] [20.05.2025] [id=3483186436] Criminal Heritage Tradition
 - [4.*] [20.05.2025] [id=3441039353] Hydra's More Cosmic Storms
 - [4.*] [21.05.2025] [id=2702458166] Hypertraversal Manipulation 2
+- [4.*] [16.06.2025] [id=3491109295] At War: Planetary Defense Fleets 4.0
