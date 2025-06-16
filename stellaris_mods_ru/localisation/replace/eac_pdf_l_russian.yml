@@ -1,0 +1,246 @@
+﻿l_russian:
+
+ ###################
+ # Decisions
+ ###################
+ decision_eac_pdf_interface: "Консоль Управления СПО"
+ decision_eac_pdf_interface_desc: "Откройте консоль управления Сил Планетарной Обороны (СПО)."
+ decision_eac_pdf_interface.tooltip: "$decision_eac_pdf_interface_desc$"
+
+ ###################
+ # Edicts
+ ###################
+ edict_eac_pdf_set_all_bases_system_stance: "Перевести все штабы СПО в режим §H$eac_pdf_fleet_stance_system$§!"
+ edict_eac_pdf_set_all_bases_system_stance_desc: "Все планетарные штабы СПО будут проводить боевые операции во всей звёздной системе и незамедлительно развернут силы обороны как только противник будет замечен в её пределах."
+ eac_pdf_set_all_bases_system_stance_allow: "£trigger_no На планете обнаружен штаб СПО в следующих режимах: §H$eac_pdf_fleet_stance_planet$§! или §H$eac_pdf_fleet_stance_never$§!"
+
+ edict_eac_pdf_set_all_bases_planet_stance: "Перевести все штабы СПО в режим §H$eac_pdf_fleet_stance_planet$§!"
+ edict_eac_pdf_set_all_bases_planet_stance_desc: "Все планетарные штабы СПО будут проводить боевые операции на орбите данной планеты и незамедлительно развернут силы обороны как только противник будет замечен в её пределах."
+ eac_pdf_set_all_bases_planet_stance_allow: "£trigger_no На планете обнаружен штаб СПО в следующих режимах: §H$eac_pdf_fleet_stance_system$§! или §H$eac_pdf_fleet_stance_never$§!"
+
+ edict_eac_pdf_set_all_bases_never_stance: "Перевести все штабы СПО в режим §H$eac_pdf_fleet_stance_never$§!"
+ edict_eac_pdf_set_all_bases_never_stance_desc: "Все планетарные штабы СПО §Rне будут§! проводить боевые операции и §Rне станут§! незамедлительно развертывать силы обороны как только противник будет замечен."
+ eac_pdf_set_all_bases_never_stance_allow: "£trigger_no На планете обнаружен штаб СПО в следующих режимах: §H$eac_pdf_fleet_stance_planet$§! или §H$eac_pdf_fleet_stance_system$§!"
+ ###################
+ # Buildings
+ ###################
+ eac_pdf_base: "Штаб СПО"
+ eac_pdf_base_desc: "Центр управления полётами, планетарной военной логистикой и одновлеменно общепланетарный стратегический комплекс Сил Планетарной Обороны. Для взаимодействия с персоналом штаба используйте планетарное решение «§B$decision_eac_pdf_interface$§!»."
+
+ planet_shipbuilders: "Cудостроители"
+
+ ###################
+ # Jobs
+ ###################
+ job_eac_pdf_shipbuilder: "Судостроитель СПО"
+ job_eac_pdf_shipbuilder_plural: "Судостроители СПО"
+ job_eac_pdf_shipbuilder_desc: "Данные специалисты отвечают за сборку и техническое обслуживание флотилии Сил Планетарной Обороны (СПО).\nПотребляют и создают резервные запасы сплавов для нужд флотилии."
+ job_eac_pdf_shipbuilder_effect_desc: "£job_eac_pdf_shipbuilder£ $job_eac_pdf_shipbuilder_plural$ резервируют £alloys в количестве §Y2§! для сборки и технического обслуживания патрульных катеров, потребляют £energy в количестве §Y1§!. Увеличивают £navy_size£ §YВместимость Флотилии§! и обучают подразделения £defense_army£ §YАрмий Планетарной Обороны§!"
+ mod_job_eac_pdf_shipbuilder_add: "должности вида $job_eac_pdf_shipbuilder$"
+ mod_job_eac_pdf_shipbuilder_per_pop: "§G+1§! должность вида $job_eac_pdf_shipbuilder$ за $VALUE$ населения"
+ mod_job_eac_pdf_shipbuilder_per_pop_short: "\n§G+1§! £mod_job_eac_pdf_shipbuilder_add£ за $VALUE$ £pop£"
+
+ job_eac_pdf_drone_shipbuilder: "СПО Дрон-Сборщик"
+ job_eac_pdf_drone_shipbuilder_plural: "СПО Дроны-Сборщики"
+ job_eac_pdf_drone_shipbuilder_desc: "Данные дроны отвечают за сборку и техническое обслуживание флотилии Сил Планетарной Обороны (СПО).\nПотребляют и создают резервные запасы сплавов для нужд флотилии."
+ job_eac_pdf_drone_shipbuilder_effect_desc: "£job_eac_pdf_drone_shipbuilder£ $job_eac_pdf_drone_shipbuilder_plural$ резервируют £alloys в количестве §Y2§! для сборки и технического обслуживания патрульных катеров, потребляют £energy в количестве §Y1§!. Увеличивают £navy_size£ §YВместимость Флотилии§! и подготавливают подразделения £defense_army£ §YАрмий Планетарной Обороны§!"
+ mod_job_eac_pdf_drone_shipbuilder_add: "должности вида $job_eac_pdf_drone_shipbuilder$"
+ mod_job_eac_pdf_drone_shipbuilder_per_pop: "§G+1§! должность вида $job_eac_pdf_drone_shipbuilder$ за $VALUE$ населения"
+ mod_job_eac_pdf_drone_shipbuilder_per_pop_short: "\n§G+1§! £mod_job_eac_pdf_drone_shipbuilder_add£ за $VALUE$ £pop£"
+
+ ###################
+ # Messages
+ ###################
+ EAC_MESSAGE_PLANETARY_FLEET_DETECTED: "Запуск флотилии СПО"
+ EAC_MESSAGE_PLANETARY_FLEET_DETECTED_DESC: "Связисты корпуса $FLEET|H$ обнаружили запуск флотилии СПО с поверхности $PLANET|H$.\n§YВсем занять боевые посты!§!\n"
+
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING: "Обнаружен враг - Запуск флотилии СПО"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_SYSTEM_FLEET_DESC: "Штабисты СПО обнаружили вражескую флотилию $FLEET|H$, входящую в нашу систему. Согласно установленным протоколам - инициирована подготовка к запуску флотилии СПО с поверхности $PLANET|H$.\n§YВсем пилотам СПО и техническому персоналу немедленно явиться на службу! Это не учения! Повторяю: ЭТО НЕ УЧЕНИЯ!§!\n"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_SYSTEM_COLOSSUS_DESC: "Штабисты СПО обнаружили вражеский корабль класса «колосс», приписанный к флотилии $FLEET|H$, входящий в систему. Согласно установленным протоколам - инициирована подготовка к запуску флотилии СПО с поверхности $PLANET|H$. §YВсем пилотам СПО и техническому персоналу немедленно явиться на службу! Это не учения! Повторяю: ЭТО НЕ УЧЕНИЯ!§!\n"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_ORBIT_FLEET_DESC: "Штабисты СПО обнаружили вражескую флотилию $FLEET|H$, выходящую на орбиту колонии $PLANET|H$. Согласно установленным протоколам - инициирована подготовка к запуску флотилии СПО с поверхности $PLANET|H$. §YВсем пилотам СПО и техническому персоналу немедленно явиться на службу! Это не учения! Повторяю: ЭТО НЕ УЧЕНИЯ!§!\n"
+
+ ###################
+ # Ship Components
+ ###################
+ EAC_PDF_PATROL_CRAFT_FISSION_REACTOR: "$FISSION_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_FISSION_REACTOR_DESC: "$FISSION_REACTOR_DESC$"
+ EAC_PDF_PATROL_CRAFT_FUSION_REACTOR: "$FUSION_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_FUSION_REACTOR_DESC: "$FUSION_REACTOR_DESC$"
+ EAC_PDF_PATROL_CRAFT_COLD_FUSION_REACTOR: "$COLD_FUSION_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_COLD_FUSION_REACTOR_DESC: "$COLD_FUSION_REACTOR_DESC$"
+ EAC_PDF_PATROL_CRAFT_ANTIMATTER_REACTOR: "$ANTIMATTER_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_ANTIMATTER_REACTOR_DESC: "$ANTIMATTER_REACTOR_DESC$"
+ EAC_PDF_PATROL_CRAFT_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_ZERO_POINT_REACTOR_DESC: "$ZERO_POINT_REACTOR_DESC$E"
+ EAC_PDF_PATROL_CRAFT_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_DARK_MATTER_REACTOR_DESC: "$DARK_MATTER_REACTOR_DESC$"
+
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_DEFAULT: "$COMBAT_COMPUTER_SWARM_DEFAULT$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_BASIC: "$COMBAT_COMPUTER_SWARM_BASIC$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_ADVANCED: "$COMBAT_COMPUTER_SWARM_ADVANCED$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_SAPIENT: "$COMBAT_COMPUTER_SWARM_SAPIENT$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_AUTONOMOUS: "$COMBAT_COMPUTER_SWARM_AUTONOMOUS$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_PRECOG: "$COMBAT_COMPUTER_SWARM_PRECOG$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_BASIC: "$COMBAT_COMPUTER_PICKET_BASIC$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_ADVANCED: "$COMBAT_COMPUTER_PICKET_ADVANCED$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_SAPIENT: "$COMBAT_COMPUTER_PICKET_SAPIENT$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_AUTONOMOUS: "$COMBAT_COMPUTER_PICKET_AUTONOMOUS$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_PRECOG: "$COMBAT_COMPUTER_PICKET_PRECOG$"
+
+ EAC_PDF_PATROL_CRAFT_THRUSTER_1: "$THRUSTER_1$"
+ EAC_PDF_PATROL_CRAFT_THRUSTER_2: "$THRUSTER_2$"
+ EAC_PDF_PATROL_CRAFT_THRUSTER_3: "$THRUSTER_3$"
+ EAC_PDF_PATROL_CRAFT_THRUSTER_4: "$THRUSTER_4$"
+ EAC_PDF_PATROL_CRAFT_THRUSTER_5: "$THRUSTER_5$"
+
+ ###################
+ # Ships & Sections
+ ###################
+ EAC_PDF_PATROL_CRAFT_1_MID_S2: "$CORVETTE_MID_S3$"
+ EAC_PDF_PATROL_CRAFT_1_MID_T1: "$CORVETTE_MID_M1S1$"
+ EAC_PDF_PATROL_CRAFT_1_MID_M1: "Тяжёлый Перехватчик"
+ EAC_PDF_PATROL_CRAFT_1_MID_S1PD1: "$CORVETTE_MID_S2PD1$"
+
+ EAC_PDF_PATROL_CRAFT_2_MID_M1S1: "Тяжёлый Перехватчик"
+ EAC_PDF_PATROL_CRAFT_2_MID_T1S1: "$CORVETTE_MID_M1S1$"
+ EAC_PDF_PATROL_CRAFT_2_MID_S3: "$CORVETTE_MID_S3$"
+ EAC_PDF_PATROL_CRAFT_2_MID_S2PD1: "$CORVETTE_MID_S2PD1$"
+ EAC_PDF_PATROL_CRAFT_2_MID_T1P2: "Ракетный Перехватчик"
+
+ eac_pdf_patrol_craft_1: "Патрульный Катер I"
+ eac_pdf_patrol_craft_1_cap: "Патрульный Катер I"
+ eac_pdf_patrol_craft_1_plural: "Патрульные Катера I"
+ mod_shipsize_eac_pdf_patrol_craft_1_build_speed_mult: "Скорость сборки $eac_pdf_patrol_craft_1$"
+ shipsize_eac_pdf_patrol_craft_1_construction_speed_mult: "$mod_shipsize_eac_pdf_patrol_craft_1_build_speed_mult$"
+ shipsize_eac_pdf_patrol_craft_1_build_cost_mult: "Стоимость сборки $eac_pdf_patrol_craft_1$"
+ shipsize_eac_pdf_patrol_craft_1_upkeep_mult: "Стоимость содержания $eac_pdf_patrol_craft_1$"
+ mod_shipsize_eac_pdf_patrol_craft_1_hull_add: "Прочность корпуса $eac_pdf_patrol_craft_1$"
+
+ eac_pdf_patrol_craft_2: "Патрульный Катер II"
+ eac_pdf_patrol_craft_2_cap: "Патрульный Катер II"
+ eac_pdf_patrol_craft_2_plural: "Патрульные Катера II"
+ mod_shipsize_eac_pdf_patrol_craft_2_build_speed_mult: "Скорость сборки $eac_pdf_patrol_craft_2$"
+ shipsize_eac_pdf_patrol_craft_2_construction_speed_mult: "$mod_shipsize_eac_pdf_patrol_craft_2_build_speed_mult$"
+ shipsize_eac_pdf_patrol_craft_2_build_cost_mult: "Стоимость сборки $eac_pdf_patrol_craft_2$"
+ shipsize_eac_pdf_patrol_craft_2_upkeep_mult: "Стоимость содержания $eac_pdf_patrol_craft_2$"
+ mod_shipsize_eac_pdf_patrol_craft_2_hull_add: "Прочность корпуса $eac_pdf_patrol_craft_2$"
+
+ ###################
+ # Technologies
+ ###################
+ eac_tech_planetary_defense_force: "Силы Планетарной Обороны"
+ eac_tech_planetary_defense_force_desc: "Силы Планетарной Обороны (СПО) - это, в основе своей, наземно базируемая флотилия, представляющая $eac_pdf_patrol_craft_1_plural$ или $eac_pdf_patrol_craft_2_plural$, способная, согласно заранее определённым доктринам, выводить их в космос для борьбы с флотилиями неприятеля, ограничивая область действия звёздной системой. Флот использует облегчённые корпуса корветов, лишённые гипер-двигателей, потому суда флотилии не способны проходить через гипер-коридоры."
+ eac_tech_patrol_craft_1: "$eac_pdf_patrol_craft_1$"
+ eac_tech_patrol_craft_1_desc: "Облегчённый корпус судна класса «§Bкорвет§!», лишённый гипер-двигателя. $eac_pdf_base$ проводит техническое обслуживание и квартирует его персонал."
+ EAC_TECH_UNLOCK_PATROL_CRAFT_1_CONSTRUCTION_TITLE: "§HРазблокирует Тип Судна:§! $eac_pdf_patrol_craft_1$"
+ EAC_TECH_UNLOCK_PATROL_CRAFT_1_CONSTRUCTION_DESC: "§H$eac_pdf_patrol_craft_1$§!\n$eac_pdf_patrol_craft_1$ - это самое лёгкое военное судно, не обладающее возможностями покинуть звёздную систему в которой оно было построено. Судно вооружено и подготовлено к стремительному боевому развёртыванию с целью связать боем флотилию неприятеля."
+ eac_tech_patrol_craft_2: "$eac_pdf_patrol_craft_2$"
+ eac_tech_patrol_craft_2_desc: "Модифицированный облегчённый корпус судна класса «§Bкорвет§!», лишённый гипер-двигателя. $eac_pdf_base$ проводит техническое обслуживание и квартирует его персонал.\n§RВНИМАНИЕ: Оригинальный дизайн, $eac_pdf_patrol_craft_1$, больше использоваться НЕ БУДЕТ.§!\nДобавляет §G+2§! рабочих места судостроителей для комплекса $eac_pdf_base$."
+ EAC_TECH_UNLOCK_PATROL_CRAFT_2_CONSTRUCTION_TITLE: "§HРазблокирует Тип Судна:§! $eac_pdf_patrol_craft_2$"
+ EAC_TECH_UNLOCK_PATROL_CRAFT_2_CONSTRUCTION_DESC: "§H$eac_pdf_patrol_craft_2$§!\n$eac_pdf_patrol_craft_2$ - это самое лёгкое военное судно, немного модифицированное с целью усиления несущей контрукции и боевых возможностей, не обладающее возможностями покинуть звёздную систему в которой оно было построено. Судно вооружено и подготовлено к стремительному боевому развёртыванию с целью связать боем флотилию неприятеля."
+
+ eac_tech_patrol_craft_hull_1: "Улучшение Корпуса I $eac_pdf_patrol_craft_1$"
+ eac_tech_patrol_craft_hull_1_desc: "Исследование ряда новейших технологий позволят спроектировать более прочные и долговечные $eac_pdf_patrol_craft_1_plural$. Увеличивает стоимость на §B25§! £alloys судов класса $eac_pdf_patrol_craft_1$"
+ eac_tech_patrol_craft_hull_2: "Улучшение Корпуса II $eac_pdf_patrol_craft_1$"
+ eac_tech_patrol_craft_hull_2_desc: "Исследование ряда новейших технологий позволят спроектировать более прочные и долговечные $eac_pdf_patrol_craft_1_plural$. Увеличивает стоимость на §B25§! £alloys судов класса $eac_pdf_patrol_craft_1$"
+ eac_tech_patrol_craft_hull_3: "Улучшение Корпуса III $eac_pdf_patrol_craft_2$"
+ eac_tech_patrol_craft_hull_3_desc: "Исследование ряда новейших технологий позволят спроектировать более прочные и долговечные $eac_pdf_patrol_craft_1_plural$. Увеличивает стоимость на §B25§! £alloys судов класса $eac_pdf_patrol_craft_2$"
+ eac_tech_patrol_craft_hull_4: "Улучшение Корпуса IV $eac_pdf_patrol_craft_2$"
+ eac_tech_patrol_craft_hull_4_desc: "Исследование ряда новейших технологий позволят спроектировать более прочные и долговечные $eac_pdf_patrol_craft_1_plural$. Увеличивает стоимость на §B25§! £alloys судов класса $eac_pdf_patrol_craft_2$"
+ eac_tech_patrol_craft_build_speed_1: "Стандартизация Шаблонов $eac_pdf_patrol_craft_2$"
+ eac_tech_patrol_craft_build_speed_1_desc: "Обновление стандартов для проектирования и сборки судов класса $eac_pdf_patrol_craft_2$ значительно повысило эффективность производственного конвейера. Инновации уменьшили базовое время сборки судов класса $eac_pdf_patrol_craft_2$ на §G25%§!"
+ eac_tech_patrol_craft_build_speed_2: "Новый Конвейер Сборки $eac_pdf_patrol_craft_2$"
+ eac_tech_patrol_craft_build_speed_2_desc: "Обновление технологических процессов сборочных конвейеров судов класса $eac_pdf_patrol_craft_2$ значительно повысило их эффективность. Инновации уменьшили базовое время сборки судов класса $eac_pdf_patrol_craft_2$ еще на §G25%§!"
+ eac_tech_patrol_craft_produce_multiplier: "$eac_pdf_base$: Боевая Логистика"
+ eac_tech_patrol_craft_produce_multiplier_desc: "Коррекция логистических процессов комплекса $eac_pdf_base$.\nУвеличение расходов на содержание комплекса ради увеличения и стабилизации поставок сплавов по логистическим линиям даже в режиме проведения активных боевых действий на орбите планеты"
+
+ ###################
+ # Scripted Loc
+ ###################
+ eac_pdf_fleet_stance_system: "Системная Угроза"
+ eac_pdf_fleet_stance_planet: "Планетарная Угроза"
+ eac_pdf_fleet_stance_never: "Изоляция"
+ eac_pdf_shipyard_status_active_1: "Сборка $eac_pdf_patrol_craft_1$"
+ eac_pdf_shipyard_status_active_2: "Сборка $eac_pdf_patrol_craft_2$"
+ eac_pdf_shipyard_status_idle_waiting: "Ожидание - Дефицит необходимых ресурсов"
+ eac_pdf_shipyard_status_idle: "Ожидание - Максимальная вместимость СПО"
+ eac_pdf_fleet_deployment_status_deployed: "СПО развернуты"
+ eac_pdf_fleet_deployment_status_on_base: "СПО пришвартованы"
+
+# Start of Alloy Gain
+ eac_pdf_gain_0: " §W0§!"
+ eac_alloy_monthly_gain_var: "§G+[This.Alloy_Monthly_Gain]§!"
+
+
+# Start of Extra Ship
+ eac_pdf_num_0: "0"
+ eac_deplayed_ship_count_var: "[This.Deployed_Ship_Count]"
+ eac_pdf_reinforce_ship_var: "[This.PDF_Reinforce_Ships]"
+ eac_total_fleet_ships_var: "[This.Total_Fleet_Ships]"
+ 
+ #end of Extra ships
+
+ ###################
+ # Events
+ ###################
+
+ eac_pdf_pdf_fleet_size: "§WРазмер флотилии СПО (развернуто / всего / максимально):§! £navy_size£ §Y[This.GetDeployedShipCount] / [This.GetTotalFleetSize] / [This.Planetary_Defense_Force_Max]§!\n"
+ eac_pdf_pdf_fleet_stance: "§WРежим работы флотилии СПО:§! §Y[This.GetPDFFleetStance]§!\n"
+ eac_pdf_fleet_deployment_status: "§WСтатус развертывания:§! §Y[This.GetFleetDeploymentStatus]§!\n"
+ eac_pdf_ship_cost: "§WСтоимость судна СПО:§! £alloys£ §Y[This.Owner.Planetary_Defense_Ship_Cost]§!\n"
+ eac_pdf_ship_size: "§WКоличество используемых судов:§! §Y[This.GetCurrentPatrolCraftSize]§!\n"
+
+ eac_pdf_fleet_reinforce_cost: "§WСтоимость восполнения:§! £navy_size£ §Y[This.GetPDFFleetReinfocementShips] £alloys §Y[This.PDF_Reinforce_Cost]§!\n"
+ eac_pdf_fleet_reinforce_cost_0: "§WСтоимость восполнения:§! £navy_size£ §Y[This.GetPDFFleetReinfocementShips] £alloys §Y0§!\n"
+ 
+ eac_pdf_ship_build_speed: "§WСкорость сборки:§! £resource_time£ §Y[This.Owner.Planetary_Defense_Ship_Build_Speed]§!\n"
+ eac_pdf_shipyard_status: "§WСтатус верфей:§! §Y[This.GetPDFShipyardStatus]§!\n"
+ 
+ eac_pdf_local_storage: "§WМестное Хранилище Ресурсов:§! £alloys£ §Y[This.Alloy_Storage] / [This.PDF_Maximum_Storage]§!\n"
+ eac_pdf_local_storage_0: "§WМестное Хранилище Ресурсов:§! £alloys£ §Y0 / [This.PDF_Maximum_Storage]§!\n"
+ 
+ eac_pdf_monthly_gain: "§WЕжемесячные поставки:§! £alloys£ [This.GetMonthlyAllowGain]"
+
+ 
+ eac_pdf_events.100.title: "СПО [This.GetName]"
+ 
+ eac_pdf_events.100.desc: " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.100.desc_0_1: " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost_0$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.100.desc_1_0: " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage_0$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.100.desc_0_0: " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost_0$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage_0$ $eac_pdf_monthly_gain$"
+ 
+ eac_pdf_events.100.TransferResources: "Транспортировка ресурсов В/ИЗ [This.GetName]"
+ eac_pdf_events.100.ChooseFleetStance: "Сменить режим реагирования СПО"
+ eac_pdf_events.100.DeployFleet: "Принудительное развертывание СПО"
+ eac_pdf_events_close: "Закрыть"
+ eac_pdf_events_return: "Назад"
+ eac_pdf_events_refhesh: "Обновить Информацию"
+
+ eac_pdf_events.101.title: "Транспортировка Ресурсов"
+
+ eac_pdf_events.101.desc: "§WПеремещайте ресурсы между Имперскими Хранилищами и местными планетарными складами, подконтрольными Штабу СПО.§!\n\n $eac_pdf_fleet_reinforce_cost$ $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.101.desc_0_1: "§WПеремещайте ресурсы между Имперскими Хранилищами и местными планетарными складами, подконтрольными Штабу СПО.§!\n\n $eac_pdf_fleet_reinforce_cost_0$ $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.101.desc_1_0: "§WПеремещайте ресурсы между Имперскими Хранилищами и местными планетарными складами, подконтрольными Штабу СПО.§!\n\n $eac_pdf_fleet_reinforce_cost$ $eac_pdf_local_storage_0$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.101.desc_0_0: "§WПеремещайте ресурсы между Имперскими Хранилищами и местными планетарными складами, подконтрольными Штабу СПО.§!\n\n $eac_pdf_fleet_reinforce_cost_0$ $eac_pdf_local_storage_0$ $eac_pdf_monthly_gain$"
+
+ eac_pdf_events.101.ToPlanetHeader: "Из Имперских Хранилищ [This.Owner.GetName] в Местные Склады Колонии [This.GetName]"
+ eac_pdf_events.101.ToPlanet50: "Перевод 50 £alloys£"
+ eac_pdf_events.101.ToPlanet100: "Перевод 100 £alloys£"
+ eac_pdf_events.101.ToPlanet500: "Перевод 500 £alloys£"
+ eac_pdf_events.101.ToPlanet1000: "Перевод 1000 £alloys£"
+ eac_pdf_events.101.ToPlanet2500: "Перевод 2500 £alloys£"
+ eac_pdf_events.101.ToPlanet5000: "Перевод 5000 £alloys£"
+ eac_pdf_events.101.ToPlanetAll: "Перевод всех £alloys£"
+ eac_pdf_events.101.FromPlanetHeader: "Из Местных Складов Колонии [This.GetName] в Имперские Хранилища [This.Owner.GetName]"
+ eac_pdf_events.101.FromPlanet50: "Перевод 50 £alloys£"
+ eac_pdf_events.101.FromPlanet100: "Перевод 100 £alloys£"
+ eac_pdf_events.101.FromPlanet500: "Перевод 500 £alloys£"
+ eac_pdf_events.101.FromPlanet1000: "Перевод 1000 £alloys£"
+ eac_pdf_events.101.FromPlanetAll: "Перевод всех £alloys£"
+
+ eac_pdf_events.102.title: "Режим Реагирования СПО"
+ eac_pdf_events.102.desc: "§WВыберите Режим Реагирования флотилии СПО конкретно для этой колонии§!\n\n§WТекущий Режим Реагирования флотилии СПО:§! §Y[This.GetPDFFleetStance]§!"
+
+ eac_pdf_events.102.FleetStanceSystem: "$eac_pdf_fleet_stance_system$"
+ eac_pdf_events.102.FleetStancePlanet: "$eac_pdf_fleet_stance_planet$"
+ eac_pdf_events.102.FleetStanceNever: "$eac_pdf_fleet_stance_never$"
