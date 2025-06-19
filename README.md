@@ -33,3 +33,4 @@ mod russifications for personal use
 - [4.*] [21.05.2025] [id=2702458166] Hypertraversal Manipulation 2
 - [4.*] [16.06.2025] [id=3491109295] At War: Planetary Defense Fleets 4.0
 - [4.*] [16.06.2025] [id=3488841069] At War: Planetary Cannons 4.0
+- [4.*] [20.06.2025] [id=2994821528] Expanded Mods Base
