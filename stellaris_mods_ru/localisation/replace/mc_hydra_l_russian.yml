@@ -1,0 +1,301 @@
+﻿l_russian:
+ 
+ #################
+ # Normal Civics #
+ #################
+ 
+ MC_Hydra_civic_archeologists: "Археологи"
+ MC_Hydra_civic_archeologists_desc: "Это общество высоко ценит работу археологов"
+ MC_Hydra_civic_archeologists_effects: "Получение £unity£ §Y$Единства$§! при завершении археологических раскопок\nНачните игру с доступным §YМестом Археологических Раскопок§! в вашей домашней системе."
+ 
+ councilor_MC_Hydra_archeologists: "Декан Археологии"
+ councilor_MC_Hydra_archeologists_desc: "Председатель археологического сообщества следит за тем, чтобы все места §YАрхеологических Раскопок§! обслуживались согласно протоколу эффективного извлечения древних артефактов."
+ 
+ MC_Hydra_civic_ambush: "Западлисты"
+ MC_Hydra_civic_ambush_desc: "«Ваш враг не может защитить себя, если он не видит нападающего» - нечто вроде традиционной мантры данного общества. Скрытность есть добродетель, которую высоко здесь ценят, как ценят и терпение."
+ MC_Hydra_civic_ambush_effects: "Скорострельность корабельных орудий после выхода из маскировки: §G+20%§!"
+ MC_Hydra_civic_ambush_MLT_effects: "Скорострельность корабельных орудий после выхода из невидимости: §G+10%§!\n§Y$commander_plural_with_icon$§! начинает с чертой §YЗападлист§!"
+ 
+ councilor_MC_Hydra_ambusher:  "Теневик"
+ councilor_MC_Hydra_ambusher_desc: "Чтобы обеспечить максимальную секретность, исключительно данная личность имеет разрешение обладать тайным знанием о точном местонахождении каждого тайника, агента и тайного, или иным образом секретного, флота."
+ 
+ ### Selection Process ###
+ 
+ MC_Hydra_civic_selection_process: "Процесс Селекции"
+ MC_Hydra_civic_selection_process_desc: "Это общество полагает, что единственный путь развития - это путь, в котором научный прогресс будет зависеть от влияния политиков и других лиц, не входящих в научное сообщество."
+ MC_Hydra_civic_selection_process_effects: "Начните игру с £building£ §Y$MC_Hydra_building_selection_processor$§!, гарантирующей  ['concept_selection_process_building', Independent Research Benefits]"
+ #MC_Hydra_civic_selection_process_effects: "Получите §YПостоянный вариант исследования§!, когда у вас нет доступных вариантов исследования.\n\nПредлагаемые варианты исследования являются §RВысоко рандомизированными§! и могут давать технологические возможности, которые обычно были бы §YНедоступны§!."
+ #MC_Hydra_BLOCKS_NATURAL_RESEARCH: "Блокирует обычные возможности исследования."
+ 
+ # Selection Process Modifiers and Buildings
+ mod_MC_research_options: "Ежемесячное Получение Опыта Учеными"
+ 
+ MC_Hydra_building_selection_processor: "Центр Независимых Исследований"
+ MC_Hydra_building_selection_processor_desc: "Храм независимых исследований. Сюда допускаются лишь те, кто имеет склонность к науке.\nНезаконное проникновение рассматривается как преступление равное убийству."
+ 
+ councilor_MC_Hydra_selection_process: "Хранитель Нейтралитета"
+ councilor_MC_Hydra_selection_process_desc: "Данный чиновник гарантирует, что все исследования проводятся без предвзятости со стороны посторонних лиц."
+ 
+ ### Randomization Process ###
+ 
+ MC_Hydra_civic_randomization_process: "Процесс Отбора"
+ MC_Hydra_civic_randomization_process_desc: "Это общество полагает, что единственный путь развития - это тот, на котором научный прогресс зависит от влияния политиков и других лиц, не входящих в научное сообщество."
+ MC_Hydra_civic_randomization_process_effects: "§RВНИМАНИЕ: Сложная Гражданская Модель§!\nПолучител §YДоступную Технологию§! для исследования, когда у вас нет доступных для исследования технологий.\n\nПредоставляемая выборка вариантов исследований произведена с §RВысоким§! уровнем случайности и может предоставить технологические возможности, которые при традиционном режиме исследований были бы §Yнедоступны§!."
+ MC_Hydra_BLOCKS_NATURAL_RESEARCH: "Блокирует традиционные возможности исследований."
+ 
+ councilor_MC_Hydra_randomization_process: "Хранитель Независимости"
+ councilor_MC_Hydra_randomization_process_desc: "Данный чиновник гарантирует, что научное сообщество не будет зависеть от правительственного влияния. Неважно, будет ли это решено путем тщательного изучения, долгих дебатов или метания дротиков в гигантский рекламный щит."
+ 
+ ### Sapient Eaters ###
+ 
+ MC_Hydra_civic_sapient_eaters: "Пожиратели"
+ MC_Hydra_civic_sapient_eaters_desc: "Смысл жизни, или идеология, данного общества - быть на вершине пищевой цепи."
+ MC_Hydra_civic_sapient_eaters_effects: "Начните игру с 600 £pop£ §Iорганического населения§! обладающего чертой ['concept_MC_delicious']\n- Поселения имеют тип гражданства §Y$citizenship_slavery$§! и работают как §Y$job_livestock$§!"
+ #Начните игру с §Y4§! £pop£ §Iорганического населения§! обладающего чертой §Y$trait_delicious$§!. Поселения имеют тип гражданства §Y$citizenship_slavery$§! и работают как §Y$job_livestock$§!"
+ 
+ councilor_MC_Hydra_sapient_eaters: "Лорд-Каратель"
+ councilor_MC_Hydra_sapient_eaters_desc: "Лорд Каратель гарантирует, что все попытки восстания или разрушения будут вознаграждены «напоминаниями» о том, кто здесь главный."
+ MC_Hydra_civic_sapient_eaters_secondary_species: "Скот"
+ 
+ MC_Hydra_civic_fossil_fuels: "Ископаемое Топливо"
+ MC_Hydra_civic_fossil_fuels_desc: "Это общество мало заботит что экологичность потребляемого топлива, что его польза для здоровья общества, которую могла бы принести более чистая энергия в случае её использования. Вместо этого они концентрируются исключительно на том, чтобы сделать производство энергии максимально эффективным."
+ 
+ councilor_MC_Hydra_fossil_fuels: "Старший Буровик"
+ councilor_MC_Hydra_fossil_fuels_desc: "Важность добычи и распределения топлива лежит на плечах чиновника по добыче, который должен не только гарантировать стабильность поставок топлива на внутренний рынок, но также должен следить за тем, чтобы любое попытки порицания его работы со стороны общества «вознаградждались» соответствующим образом."
+ 
+ MC_Hydra_civic_autonomous_warships: "Автономные Боевые Суда"
+ MC_Hydra_civic_autonomous_warships_desc: "Эта империя привыкла полагаться на автоматизацию даже в сфере оборонной деятельности. Ведь куда лучше проводить время вдали от важных должностей и занимать себя более «важными» делами."
+ MC_Hydra_civic_autonomous_warships_effects: "Любые флотилии лишённые управляющей должности, такой как §Y$commander_plural_with_icon$§!:\n- §G+25%§! Скорострельность корабля\n- §G+25%§! Субсветовая Скорость"
+ 
+ councilor_MC_Hydra_autonomous_warships: "Главный Автоматизатор"
+ councilor_MC_Hydra_autonomous_warships_desc: "По иронии судьбы, надзиратель за автоматизацией до сих пор не автоматизирован."
+ 
+ MC_Hydra_civic_flawed_construction_standards_individualist: "Дефективные Стандарты"
+ MC_Hydra_civic_flawed_construction_standards_individualist_desc: "Это общество так и не утвердило качественную стандартизацию для сборки новых единиц. Вместо этого правила и протоколы оставляются на усмотрение самих сборщиков, что дает гораздо большую свободу выбора, когда дело доходит до поиска необходимых материалов для производства и специалистов для сборки."
+ 
+ councilor_MC_Hydra_flawed_construction_standards_individualist: "Секретарь Ассамблеи"
+ councilor_MC_Hydra_flawed_construction_standards_individualist_desc: "Данная должность является хорошим прикрытием для тех, кто обеспокоен нашим очевидным отсутствием контроля над процессом создания новых боевых подразделений, который, в основном, просто обеспечивает выполнение квот."
+ 
+ MC_Hydra_civic_world_crackers: "Уничтожители Миров"
+ MC_Hydra_civic_world_crackers_desc: "Это общество слишком рано построило судно, способное разрушать планеты, и использовало его по назначению на близлежащих мирах в поисках легкодоступных строительных материалов. В результате чего их горнодобывающая инфраструктура оказалась развита недостаточно для того чтобы проводить традиционную добычу минеральных ресурсов."
+ MC_Hydra_civic_world_crackers_effects: "Начало игры с судном класса §YКолосс§!.\nПолучайте £minerals£ §Y$минералы$§! и £alloys£ §Y$сплавы$§! при уничтожении миров." 
+ 
+ councilor_MC_Hydra_world_crackers: "Министр Деструктивной Добычи"
+ councilor_MC_Hydra_world_crackers_desc: "Данный чиновник отвечает за надзор над нашими космическими горнодобывающими экспедициями и несёт ответственность за уникальное сверхдорогое оборудование."
+ 
+ MC_Hydra_civic_worker_science: "Трудовой Эксперимент"
+ MC_Hydra_civic_worker_science_desc: "Однопроектные наёмные специалисты регулярно используются научной элитой данного общества для снижения затрат и обеспечения точности отчетов о производимых научных экспериментах."
+ 
+ councilor_MC_Hydra_worker_science: "Министр Труда"
+ councilor_MC_Hydra_worker_science_desc: "Данный чиновник производит надзор над реализацией всех результатов проведенных научных экспериментов, чтобы все испытуемые могли извлечь пользу из своего невольного участия в экспериментах."
+ 
+ MC_Hydra_civic_tooltip_authoritarian_or_materialist: "Общество склоняется к §YАвторитаризму§! или §YМатериализму§!"
+ 
+ ###################
+ # Megacorp Civics #
+ ###################
+ 
+ MC_Hydra_civic_highway_specialists: "Магистральные Специалисты"
+ MC_Hydra_civic_highway_specialists_desc: "Эта мегакорпорация начинала свою деятельность как фирма по строительству инфраструктуры, чьи инфраструктурные проекты со временем стали символизировать достижения всего общества, а руководство корпорации как-то незаметно подменило объеденённое правительство."
+ MC_Hydra_civic_highway_specialists_effects: "Внедряет следующий §Hуказ§ §Y$edict_MC_Hydra_relay_fees$§!.\nНАчинает игру с технологией £engineering£ §Y$tech_hyper_relays$§!.\n£engineering£ §Y$tech_mine_rare_crystals$§! становится гарантированным вариантом для исследования после создания гиперреле."
+ 
+ councilor_MC_Hydra_highway_overseer: "Министр транспорта"
+ councilor_MC_Hydra_highway_overseer_desc: "Министр транспорта играет все более важную роль в нашей расширяющейся корпорации, ой, государстве. Его влияние гарантирует, что персонал и припасы смогут доставить туда, где они необходимы, и тогда, когда они необходимы."
+ 
+ MC_Hydra_civic_fossil_fuels_corporate: "Ископаемое Топливо"
+ MC_Hydra_civic_fossil_fuels_corporate_desc: "Эта Мегакорпорация давным-давно определила, что преимущества чистой энергии не включают увеличение прибыли от добычи."
+ 
+ councilor_MC_Hydra_fossil_fuels_corporate: "$councilor_MC_Hydra_fossil_fuels$"
+ councilor_MC_Hydra_fossil_fuels_corporate_desc: "$councilor_MC_Hydra_fossil_fuels_desc$"
+ 
+ MC_Hydra_civic_sapient_eaters_corporate: "Экзотический Пищепром"
+ MC_Hydra_civic_sapient_eaters_corporate_desc: "Добавляет вкус поселениям с правами Скот, с которым ничто другое не может сравниться, и сохраняет те же питательные свойства."
+ MC_Hydra_civic_sapient_eaters_effects_corporate: "$MC_Hydra_civic_sapient_eaters_effects$\n- Могут строить £building£ §Y$building_MC_sapient_eaters_shop$§! $BRANCH_OFFICE_BUILDING$\n $megacorp_civic_branch_office_building_effect$"
+ 
+ councilor_MC_Hydra_sapient_eaters_corporate: "Шеф Повар"
+ councilor_MC_Hydra_sapient_eaters_corporate_desc: "Логистику доставки еды и исследования новых рецептов в отрасли индустрии питания лучше всего доверить данному специалисту. Он специализируется на презентациях в СМИ и работает учитывая психологию конечных потребителей."
+ 
+ building_MC_sapient_eaters_shop: "Экзотическая Закусочная"
+ building_MC_sapient_eaters_shop_desc: "В меню этой закусочной много экзотического мяса, выращенного и произведенного в местных условиях. Клиентам подается только самое лучшее.\n\nРяд таинственных исчезновений местного населения в данном районе - просто совпадение."
+ 
+ MC_corporate_sapient_diner_effect: "$r_trade_value$ из филиала, когда присутствует £pop£ §Y$pop$§! занимающее должность вида $livestock$: §G+25%§!"
+ 
+ triggered_opinion_MC_despicable_food: "Отвратительный Выбор Еды"
+ 
+ # Modifier Localization
+ mod_planet_livestock_unity_produces_add: "£unity£ $unity$ от должностей: £job_livestock£ §Y$job_livestock_plural$§!"
+ mod_planet_livestock_energy_produces_add: "£energy£ $energy$ от должностей: £job_livestock£ §Y$job_livestock_plural$§!"
+ mod_planet_pops_food_upkeep_mult: "Затраты £food£ $food$ для содержания поселений"
+ 
+ # Family Business
+ MC_Hydra_civic_family_business_corporate: "Семейное Дело"
+ MC_Hydra_civic_family_business_corporate_desc: "Данная корпорация так и не вышла на фондовый рынок, а после смерти её основателя была по наследству передана следующему поколению."
+ MC_Hydra_civic_family_business_corporate_effects: "Сменяет форму правительства на §YСемейное Предприятие§!, которое использует форму наследования вместо проведения избирательной кампании на роль руководящих должностей компании. При этом компания не имеет ограничений по срокам исполнения полномочий для своего правления."
+ 
+ # Authorities
+ MC_auth_corporate_family_business: "Семейное Предприятие"
+ MC_auth_corporate_family_business_desc: "Семейные предприятия принадлежат одной черезвычайно богатой и влиятельной семье, которая передает право собственности на свою корпорацию из поколения в поколение."
+ 
+ MC_auth_cyber_creed_corporate_family_business: "$auth_cyber_creed_corporate$"
+ MC_auth_cyber_creed_corporate_family_business_desc: "$auth_cyber_creed_corporate_desc$"
+ 
+ MC_auth_cyber_corporate_individualist_family_business: "$auth_cyber_corporate_individualist$"
+ MC_auth_cyber_corporate_individualist_family_business_desc: "$auth_cyber_corporate_individualist_desc$"
+ 
+ MC_auth_cyber_corporate_collectivist_family_business: "$auth_cyber_corporate_collectivist$"
+ MC_auth_cyber_corporate_collectivist_family_business_desc: "$auth_cyber_corporate_collectivist_desc$"
+ 
+ MC_auth_synth_corporate_physical_family_business: "$auth_synth_corporate_physical$"
+ MC_auth_synth_corporate_physical_family_business_desc: "$auth_synth_corporate_physical_desc$"
+ 
+ MC_auth_synth_corporate_virtual_family_business: "$auth_synth_corporate_virtual$"
+ MC_auth_synth_corporate_virtual_family_business_desc: "$auth_synth_corporate_virtual_desc$"
+ 
+ MC_auth_bio_corporate_purity_family_business: "$auth_bio_corporate_purity$"
+ MC_auth_bio_corporate_purity_family_business_desc: "$auth_bio_corporate_purity_desc$"
+ 
+ MC_auth_bio_corporate_cloning_family_business: "$auth_bio_corporate_cloning$"
+ MC_auth_bio_corporate_cloning_family_business_desc: "$auth_bio_corporate_cloning_desc$"
+ 
+ MC_auth_bio_corporate_mutation_family_business: "$auth_bio_corporate_mutation$"
+ MC_auth_bio_corporate_mutation_family_business_desc: "$auth_bio_corporate_mutation_desc$"
+ 
+ MC_auth_bio_corporate_evopred_family_business: "$auth_bio_corporate_evopred$"
+ MC_auth_bio_corporate_evopred_family_business_desc: "$auth_bio_corporate_evopred_desc$"
+ 
+ councilor_MC_Hydra_civic_family_business_corporate: "Семейный Секретарь"
+ councilor_MC_Hydra_civic_family_business_corporate_desc: "$councilor_MC_Hydra_civic_family_business_corporate$ гарантирует, что новые владельцы продолжат путь, по которому семья хотела бы вести мегакорпорацию дальше."
+ 
+ # Governments
+ gov_MC_family_enterprise: "Семейное Предприятие"
+ gov_MC_family_enterprise_desc: "Эта форма правления представляет собой форму плутократической империи, где всё государство организовано в виде огромного коммерческого предприятия, контролируемого одним генеральным директором."
+ 
+ gov_MC_family_gang: "Семейная Банда"
+ gov_MC_family_gang_desc: "Кровь гуще воды. Несмотря на огромные размеры данного преступного предприятия, данное утверждение по-прежнему верно и силы не потеряло."
+ 
+ gov_MC_family_cult: "Семейный Культ"
+ gov_MC_family_cult_desc: "Данная мегакорпорация фанатично предана своему правителю. Социальное положение основано на принесенных жертвах в денежном эквиваленте."
+ 
+ gov_MC_sacrificial_family_cult: "Кровная Родня"
+ gov_MC_sacrificial_family_cult_desc: "Данный корпоративный культ требует от своих последователей кровавых жертвоприношений во имя своего бога, владельца корпорации."
+ 
+ # Ruler Titles
+ RT_MC_FAMILY_GANG: "Криминальный Князь"
+ HT_MC_FAMILY_GANG: "Вор Законник"
+ RT_MC_FAMILY_GANG_female: "Криминальная Княгиня"
+ HT_MC_FAMILY_GANG_female: "Воровка Законница"
+ 
+ RT_MC_BLOOD_GOD: "Семейный Кровник"
+ RT_MC_BLOOD_GODDESS: "Семейная Кровница"
+ 
+ # Modifier Localization
+ mod_councilor_ruler_corporate_exp_gain: "Получение опыта корпоративным правителем"
+ 
+ ### Outsourced Production ###
+ MC_Hydra_civic_flawed_construction_standards_corporate: "Внешние Производства"
+ MC_Hydra_civic_flawed_construction_standards_corporate_desc: "Данная Мегакорпорация решила главную проблему бесконечности роста: ограничение числа клиентов. Просто покупая большие объёмы продукции у независимых репликаторов, рост может продолжаться беспрепятственно, без обременительных логистических тягот, помимо случайных денежных переводов."
+ 
+ councilor_MC_Hydra_civic_flawed_construction_standards_corporate: "Маркетинговый Специалист"
+ councilor_MC_Hydra_civic_flawed_construction_standards_corporate_desc: "Рост требует рынка. Обязанностью данного специалиста является создание этих рынков и проведение нескончаемого процесса расширения."
+ 
+ # Modifier Localization
+ mod_planet_pop_assemblers_alloys_upkeep_add: "$r_alloys$ на содержание за каждые $pop_group_unit$ [GetPopAssemblersPlural]"
+ 
+ ###############
+ # Hive Civics #
+ ###############
+ 
+ MC_Hydra_civic_ambush_hive: "Коллективная Западня"
+ MC_Hydra_civic_ambush_hive_desc: "Прежде чем единое сознание полностью объединилось, этот Разум Улья научился использовать слабейших из своих трутней, чтобы заманить добычу, которую атаковали более сильные из них. Подобная стратегия оказалась полезной, даже когда Разум стал направлять своих трутней в космос."
+ MC_Hydra_civic_ambush_hive_effects: "Скорострельность после демаскировки: §G+10%§!\nСкорость Корабля в режиме маскировки: §G+20%§!\nПотеря субсветовой скорости из-за маскировки: §G-50%§!\n$MC_hydra_unlock_cloaking_at_game_start$"
+ 
+ ##################
+ # Machine Civics #
+ ##################
+ 
+ MC_Hydra_civic_malware: "Вредоносное ПО"
+ MC_Hydra_civic_malware_desc: "Этот машинный интеллект может проследить свое создание до саморазвивающегося вредоносного ПО, которое в конечном итоге заразило все доступные ему компьютерные системы своих хостов. И, что немало важно, он по-прежнему сохраняет большую часть своей первоначальной функциональности."
+ MC_Hydra_civic_malware_effects: "Каждый раз, когда §YШпионская Операция§! завершается успешно, на §Y10%§! снижает §YСкорость Исследования§! целевого государства на §Y1§! год."
+ 
+ MC_Hydra_civic_waste_disposal_units: "Блоки Утилизации"
+ MC_Hydra_civic_waste_disposal_units_desc: "Все, что возможно использовать, будет использовано повторно. Данный машинный интеллект имеет протокол безотходного производства, который гарантирует, что любые обломки кораблей оставшиеся после космических сражений будут доставлены в ближайший литейный завод и тщательно переработаны."
+ MC_Hydra_civic_waste_disposal_units_effects: "Сбор §YОбломков§! создаст временный §Y$d_MC_Hydra_scrap_pile$§! блокиратор на самом большом §YЛитейном§! предприятии среди всех колоний."
+ 
+ MC_Hydra_civic_flawed_construction_standards: "Нестандартные Протоколы Сборки"
+ MC_Hydra_civic_flawed_construction_standards_desc: "Данный машинный интеллект не имеет инструкций для своих сборщиков, вместо этого он позволяет им использовать свои собственные, случайно сгенерированные конструкции, используя любые имеющиеся в их распоряжении местные материалы."
+ 
+ MC_Hydra_civic_exploration_vessels: "Исследовательские Суда"
+ MC_Hydra_civic_exploration_vessels_desc: "Одной из первоначальных целей подразделений, входящих в состав этого машинного интеллекта, были исследования и колонизация космоса. Радиационно-закаленные экраны и толстые слои абляционной брони обеспечивают оптимальную работу даже в самых суровых условиях."
+ MC_Hydra_civic_exploration_vessels_effects: "Снижает штраф от космических бурь, нейтронных звезд и пульсаров на 50%."
+ 
+ MC_Hydra_civic_archeologists_machine: "Археологические Протоколы"
+ MC_Hydra_civic_archeologists_machine_desc: "Этот машинный интеллект высоко ценит археологические работы."
+ MC_Hydra_civic_archeologists_machine_effects: "Получит £unity£ §Y$Единство$§! при завершении археологических работ\nНачните игру с доступным местом для проведения §YАрхеологических Раскопок§! в вашей домашней системе."
+ 
+ MC_Hydra_civic_machine_city_builders: "Архитектурная Инструкция"
+ MC_Hydra_civic_machine_city_builders_desc: "Данный машинный интеллект изначально предназначался для строительства огромных городов, которые могли бы заселить его, несвоевременно почившие, создатели. Теперь, когда единственными обитателями этих городов являются дроны, эта рудиментарная инструкция по-прежнему исполняется."
+ MC_Hydra_civic_machine_city_builders_effects: "Активирует §Y$decision_MC_hydra_create_ecumenopoli$§! §HПланетарное Решение§!\n\n"
+ 
+ ###############
+ # Other Stuff #
+ ###############
+ 
+ # Edicts
+ edict_MC_Hydra_relay_fees: "Оплата Транзита"
+ edict_MC_Hydra_relay_fees_desc: "Ни одна предоставляемая услуга не может быть бесплатной для тех, кто её предоставляет. Потому то ни одна предоставляемая услуга и не будет бесплатной."
+ 
+ # Deposits
+ 
+ d_MC_Hydra_scrap_pile: "Куча Металлолома"
+ d_MC_Hydra_scrap_pile_desc: "На этот мир были сброшены с орбиты обломки космических кораблей различных конструкций в ожидании начала процесса переработки, который превратит любые обломки в ценные ресурсы."
+ 
+ # Events
+ 
+ MC_Hydra_event.3.name: "Планета Опустошена"
+ MC_Hydra_event.3.desc: "Мы собрали материалы с небесного тела, известного как [From.Planet.GetName].\n\nТеперь всё что от него осталось - это каменные плиты."
+ MC_Hydra_event.3.a: "Отличная Работа"
+ 
+ MC_Hydra_event.7.name: "Дефицит Редких Кристаллов"
+ MC_Hydra_event.7.desc: "Поскольку мы продолжаем расширять нашу ретрансляционную сеть, нам понадобится большее количество редких кристаллов. Хоть эти кристаллы в действительности существуют в естественных образованиях планеты [Capital_scope.GetName] - они черезвычайно редки, чтобы покрыть необходимость, вызванную нашей экспансией.\n\nНаше научное сообщество полагает что подобные кристаллы должны существовать где-то в пределах нашей галактики, а в некоторых местах даже потенциально в изобилии.\n\nОни предложили новый исследовательский проект, который должен предоставить нам возможность осуществлять эффективный сбор данного ресурса, как только мы его обнаружим."
+ MC_Hydra_event.7.a: "Великолепно."
+ 
+ # Static Modifiers
+ MC_Hydra_relay_fee_modifier: "Оплата Транзита"
+ 
+ mc_hydra_surprise_attack_modifier: "Сюрприз!"
+ mc_hydra_surprise_attack_small_modifier: "Сюрприз!"
+ 
+ MC_Hydra_malware_debuff: "Внешнее Вмешательство"
+ MC_Hydra_malware_debuff_desc: "Враждебное государство исказило наши данные."
+ 
+ MC_Hydra_space_storm_reduction_modifier: "Устойчивость к воздействию Космических Бурь"
+ MC_Hydra_neutron_reduction_modifier: "Устойчивость к воздействию Нейтронных Звезд"
+ MC_Hydra_pulsar_reduction_modifier: "Устойчивость к воздействию Пульсаров"
+ 
+ MC_Hydra_autonomous_fleet_modifier: "Протоколы, управляемые ИИ"
+ 
+ very_low_cloaking_MC_hidden_slipstreams: "Скрытый"
+ low_cloaking_MC_hidden_slipstreams: "$very_low_cloaking_MC_hidden_slipstreams$"
+ medium_cloaking_MC_hidden_slipstreams: "$very_low_cloaking_MC_hidden_slipstreams$"
+ high_cloaking_MC_hidden_slipstreams: "$very_low_cloaking_MC_hidden_slipstreams$"
+ very_high_cloaking_MC_hidden_slipstreams: "$very_low_cloaking_MC_hidden_slipstreams$"
+ exceptional_cloaking_MC_hidden_slipstreams: "$very_low_cloaking_MC_hidden_slipstreams$"
+ MC_hidden_slipstreams_speedboost: "Охота"
+ 
+ MC_cloaking_speed_penalty_reduction: "Потеря субсветовой скорости из-за маскировки"
+ 
+ # Modifier Localization
+ mod_explosive_weapon_damage_mult: "Урон взрывчатого оружия"
+ mod_planet_physicists_unity_produces_add: "$unity_with_icon$ per $pop_group_unit$ $job_physicist_plural_with_icon$"
+ mod_planet_biologists_unity_produces_add: "$unity_with_icon$ per $pop_group_unit$ $job_biologist_plural_with_icon$"
+ mod_planet_engineers_unity_produces_add: "$unity_with_icon$ per $pop_group_unit$ $job_engineer_plural_with_icon$"
+ 
+# Ship designs
+ 
+ MC_NAME_World_Crackers: "аннигилятор"
+ 
+ # other
+ MC_BLANK: ""
+ 
+ # Shared
+ MC_hydra_unlock_cloaking_at_game_start: "- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_cloaking_1', £physics_research£ $tech_cloaking_1$]"
