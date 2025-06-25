@@ -1,0 +1,9 @@
+﻿l_russian:
+ ariphaos_ai_archaeology_dig.name: "Археологические раскопки ИИ"
+ ariphaos_ai_archaeology_dig.desc: ""
+ ariphaos_ai_archaeology_site: "Место Раскопок ИИ"
+ site_ariphaos_ai_0: "Место Раскопок ИИ (Просто)"
+ site_ariphaos_ai_1: "Место Раскопок ИИ (Обычно)"
+ site_ariphaos_ai_2: "Место Раскопок ИИ (Тяжело)"
+ site_ariphaos_ai_3: "Место Раскопок ИИ (Вызов)"
+ site_ariphaos_ai_4: "Место Раскопок ИИ (Невероятно)"
