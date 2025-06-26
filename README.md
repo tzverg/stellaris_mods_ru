@@ -36,6 +36,7 @@ mod russifications for personal use
 - [4.*] [20.06.2025] [id=2994821528] Expanded Mods Base
 - [4.*] [25.06.2025] [id=2002751329] Sensor Expansion
 - [4.*] [25.06.2025] [id=2273568769] AI-Player Exclusive Archaeology & Astral Rifts
+- [4.*] [26.06.2025] [id=2452302093] We Require Borders
 - [4.*] [26.06.2025] [id=3248725702] Hydra's More Civics
 - [4.*] [26.06.2025] [id=3344489699] Hydra's More Galactic Community Resolutions
 - [4.*] [26.06.2025] [id=3378829098] Hydra's More Species Traits
