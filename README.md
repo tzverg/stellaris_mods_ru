@@ -35,6 +35,7 @@ mod russifications for personal use
 - [4.*] [16.06.2025] [id=3488841069] At War: Planetary Cannons 4.0
 - [4.*] [20.06.2025] [id=2994821528] Expanded Mods Base
 - [4.*] [25.06.2025] [id=2002751329] Sensor Expansion
+- [4.*] [25.06.2025] [id=3344489699] Hydra's More Galactic Community Resolutions
 - [4.*] [25.06.2025] [id=3378829098] Hydra's More Species Traits
 - [4.*] [25.06.2025] [id=3248725702] Hydra's More Civics
 - [4.*] [25.06.2025] [id=2273568769] AI-Player Exclusive Archaeology & Astral Rifts

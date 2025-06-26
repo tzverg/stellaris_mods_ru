@@ -1,0 +1,291 @@
+﻿l_russian:
+ #####################
+ # Galactic Community
+ #####################
+ 
+ #########################
+ # Archeology Resolutions
+ #########################
+ 
+ # Effects
+ mod_MGCR_planet_custodians_unity_produces_mult: "£unity£ §YЕдинство§! от должностей $job_custodian_plural$"
+ mod_MGCR_planet_custodians_upkeep_mult: "содержание должностей $job_custodian$"
+ MGCR_planet_custodians: "$MT_planet_custodians$"
+ MGCR_planet_buildings_museums: "$MT_planet_buildings_museums$"
+ 
+ ### Resolutions
+ ## Repeals
+ # Archeological Cooporation
+ resolution_category_MGCR_archeology: "Сохранение Истории"
+ resolution_MGCR_archeology_repeal_1: "Отмена резолюции «§Y$resolution_MGCR_archeology_archeological_coorporation$§!»"
+ resolution_MGCR_archeology_repeal_2: "Отмена резолюции «§Y$resolution_MGCR_archeology_mandatory_funding$§!»"
+ resolution_MGCR_archeology_repeal_3: "Отмена резолюции «§Y$resolution_MGCR_archeology_preservation_of_history$§!»"
+ resolution_MGCR_archeology_repeal_4: "Отмена резолюции «§Y$resolution_MGCR_archeology_access_to_the_past$§!»"
+ resolution_MGCR_archeology_repeal_5: "Отмена резолюции «§Y$resolution_MGCR_archeology_conservation_of_history$§!»"
+ resolution_MGCR_archeology_repeal_1_desc: "Прошлое не следует сохранять, если оно препятствует прогрессу. Вместо этого каждая империя должна иметь право последнего слова, когда речь идет об останках погибших цивилизаций, сохранившихся на их планетах."
+ resolution_MGCR_archeology_repeal_2_desc: "$resolution_MGCR_archeology_repeal_1_desc$"
+ resolution_MGCR_archeology_repeal_3_desc: "$resolution_MGCR_archeology_repeal_1_desc$"
+ resolution_MGCR_archeology_repeal_4_desc: "$resolution_MGCR_archeology_repeal_1_desc$"
+ resolution_MGCR_archeology_repeal_5_desc: "$resolution_MGCR_archeology_repeal_1_desc$"
+ resolution_MGCR_archeology_repeal_1_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_archeology_archeological_coorporation$§!»."
+ resolution_MGCR_archeology_repeal_2_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_archeology_mandatory_funding$§!», но оставляет при этом «§Y$resolution_MGCR_archeology_archeological_coorporation$§!» в качестве галактического закона."
+ resolution_MGCR_archeology_repeal_3_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_archeology_preservation_of_history$§!», но оставляет при этом «§Y$resolution_MGCR_archeology_mandatory_funding$§!» в качестве галактического закона."
+ resolution_MGCR_archeology_repeal_4_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_archeology_access_to_the_past$§!», но оставляет при этом «§Y$resolution_MGCR_archeology_preservation_of_history$§!» в качестве галактического закона.\n"
+ resolution_MGCR_archeology_repeal_5_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_archeology_conservation_of_history$§!», но оставляет при этом «§Y$resolution_MGCR_archeology_access_to_the_past$§!» в качестве галактического закона.\n"
+ ##Resolutions
+ # Archeological Cooporation
+ resolution_MGCR_archeology_archeological_coorporation: "Археологическое Сотрудничество"
+ resolution_MGCR_archeology_archeological_coorporation_desc: "Раскрытие древней истории должно быть общим проектом, в котором каждый может принять участие. Оказывая поддержку другим участникам, мы сможем проводить более быстрые и безопасные раскопки избегая при этом излишней бюрократической волокиты."
+ resolution_MGCR_archeology_archeological_coorporation_ancrel: "$resolution_MGCR_archeology_archeological_coorporation$"
+ # Mandatory Funding
+ resolution_MGCR_archeology_mandatory_funding: "Дополнительное Финансирование"
+ resolution_MGCR_archeology_mandatory_funding_desc: "Мы должны выделять большую часть бюджета на строительство и содержание наших региональных культурных центров."
+ resolution_MGCR_archeology_mandatory_funding_ancrel: "Дополнительное Финансирование"
+ # Preservation of History
+ resolution_MGCR_archeology_preservation_of_history: "Сбережение Истории"
+ resolution_MGCR_archeology_preservation_of_history_tooltip: "§RЗапрещено§! уничтожение £minor_artifacts£ §YМалых Артефактов§!."
+ resolution_MGCR_archeology_preservation_of_history_desc: "Многое из того, что было создано древними империями предтеч, уже безвозвратно утрачено, а те, кто уничтожает последние из чудес прошлого, должны быть сурово наказаны."
+ # Access to the past
+ resolution_MGCR_archeology_access_to_the_past: "Окно в Прошлое"
+ resolution_MGCR_archeology_access_to_the_past_tooltip: "§RЗапрещено§! §YВосстановление§! или §YУничтожение§! §YРеликтовых Миров§!."
+ resolution_MGCR_archeology_access_to_the_past_desc: "Обитаемые Миры древних предтеч необходимо тщательно изучать, но никак не осквернять. Запретив уничтожение столь редких нынче реликвий, мы получим больше возможностей для того чтобы раскрыть все их секреты."
+ # Conservation of history
+ resolution_MGCR_archeology_conservation_of_history: "Сохранение Истории"
+ resolution_MGCR_archeology_conservation_of_history_tooltip: "§RЗапрещено§! §YТерраформирование§! или §YУничтожение§! §YОпустошённых Миров§!."
+ resolution_MGCR_archeology_conservation_of_history_desc: "Пусть они не так впечатляют, как экуменополисы предтеч, но опустошённые миры также являются важной частью истории нашей галактики и должны быть сохранены для наших потомков."
+ 
+ ########################
+ # Movement Resolutions #
+ ########################
+ 
+ resolution_category_MGCR_movement: "Скоординированное Развитие Инфраструктуры"
+ resolution_MGCR_movement_repeal_1: "Отмена резолюции «§Y$resolution_MGCR_movement_1$§!»"
+ resolution_MGCR_movement_repeal_2: "Отмена резолюции «§Y$resolution_MGCR_movement_2$§!»"
+ resolution_MGCR_movement_repeal_3: "Отмена резолюции «§Y$resolution_MGCR_movement_3$§!»"
+ resolution_MGCR_movement_repeal_4: "Отмена резолюции «§Y$resolution_MGCR_movement_4$§!»"
+ resolution_MGCR_movement_repeal_5: "Отмена резолюции «§Y$resolution_MGCR_movement_5$§!»"
+ resolution_MGCR_movement_repeal_1_desc: "Стандартизированные законы и правила, навязанные галактическим сообществом, только мешают развитию локальной инфраструктуры, которая может потребовать более специфических конструкций, чем конструкции из биопластин."
+ resolution_MGCR_movement_repeal_2_desc: "$resolution_MGCR_movement_repeal_1_desc$"
+ resolution_MGCR_movement_repeal_3_desc: "$resolution_MGCR_movement_repeal_1_desc$"
+ resolution_MGCR_movement_repeal_4_desc: "$resolution_MGCR_movement_repeal_1_desc$"
+ resolution_MGCR_movement_repeal_5_desc: "$resolution_MGCR_movement_repeal_1_desc$"
+ resolution_MGCR_movement_repeal_1_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_movement_1$§!»."
+ resolution_MGCR_movement_repeal_2_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_movement_2$§!»."
+ resolution_MGCR_movement_repeal_3_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_movement_3$§!»."
+ resolution_MGCR_movement_repeal_4_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_movement_4$§!»."
+ resolution_MGCR_movement_repeal_5_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_movement_5$§!»."
+ 
+ resolution_MGCR_movement_1: "Стандартизированные правила"
+ resolution_MGCR_movement_1_desc: "Гражданские корабли из других государств представляют собой всё большую угрозу безопасности, когда правила одного государства сильно отличаются от правил другого. Стандартизированный набор правил устранит конкретно эту причину для беспокойства."
+ resolution_MGCR_movement_1_tooltip: ""
+ 
+ resolution_MGCR_movement_2: "Выдаваемые Сообществом Документы"
+ resolution_MGCR_movement_2_desc: "Удостоверения личности, выданные таким образом, чтобы они были легко идентифицируемы всеми участниками §YГалактического Сообщества§!. Подобного рода документы будут бесплатно раздаваться всем членам галактического сообщества и позволят быстрее, проще и надежнее осуществлять временное и постоянное перемещение по задворкам обитаемой галактики."
+ resolution_MGCR_movement_2_tooltip: ""
+ 
+ MGCR_Hydra_relay_trade: "Смягчение Транзитного Налога"
+ MGCR_Hydra_relay_trade_desc: "Налоговые льготы, предоставляемые за использование транспортной сети галактики с целью транзитной перевозки различных товаров, снимают экономическое давление с небольших торговых маршрутов и стимулируют более крупные экономические обмены."
+ 
+ MGCR_Hydra_relay_trade_modifier: "Смягчение транзитного налога"
+ 
+ resolution_MGCR_movement_3: "Концентрированное Строительство Магистралей"
+ resolution_MGCR_movement_3_desc: "Скоординированные усилия по соединению основных торговых маршрутов, проходящих по гиперкоридорам, должны улучшить безопасный обмен товарами и укрепить экономику всех ответственных участников §YГалактического Сообщества§!."
+ resolution_MGCR_movement_3_tooltip: "Открывает §YУказ§!, повышающий объём торговли планет, подключенных к нашей сети гипер-ретрансляторов."
+ 
+ resolution_MGCR_movement_4: "Туристические Центры"
+ resolution_MGCR_movement_4_desc: "По мере расширения государств, всё большее значение приобретают их столицы. Мы не можем позволить некоторым из наших членов §YГалактического Сообщества§! ограничивать доступ к такому важному месту культурному центру."
+ resolution_MGCR_movement_4_tooltip: "§RЗапрещено§! обладание колониями, не подключёнными к общегалактической сети гипер-ретрансляторов."
+ 
+ resolution_MGCR_movement_5: "Империтив Свободных Путешествий"
+ resolution_MGCR_movement_5_desc: "Ненужные транспортные ограничения сильно затрудняют галактические миграции, тормозя торговлю и изолирую гражданское население. Новые правила, устанавливающие свободные путешествия между всеми государствами, наконец-то избавят нашу галактику от столь неудобных временных ограничений."
+ resolution_MGCR_movement_5_tooltip: "§RЗапрещена§! политика закрытых границ для любого члена §YГалактического Сообщества§!."
+ 
+ #######################
+ # Freedom Resolutions #
+ #######################
+ 
+ resolution_category_MGCR_freedom: "Свобода Мнения"
+ resolution_MGCR_freedom_repeal_1: "Отмена резолюции «§Y$resolution_MGCR_freedom_1$§!»"
+ resolution_MGCR_freedom_repeal_2: "Отмена резолюции «§Y$resolution_MGCR_freedom_2$§!»"
+ resolution_MGCR_freedom_repeal_3: "Отмена резолюции «§Y$resolution_MGCR_freedom_3$§!»"
+ resolution_MGCR_freedom_repeal_4: "Отмена резолюции «§Y$resolution_MGCR_freedom_4$§!»"
+ resolution_MGCR_freedom_repeal_5: "Отмена резолюции «§Y$resolution_MGCR_freedom_5$§!»"
+ resolution_MGCR_freedom_repeal_1_desc: "Наивные убеждения §YГалактического Сообщества§! активно наносят вред корректно функционирующим правительствам его членов. Проповедовать свободу принятия самостоятельных решений, не позволяя при этом региональному правительству самостоятельно принимать решения об ограничении этой свободы - это чистой воды лицемерие."
+ resolution_MGCR_freedom_repeal_2_desc: "$resolution_MGCR_freedom_repeal_1_desc$"
+ resolution_MGCR_freedom_repeal_3_desc: "$resolution_MGCR_freedom_repeal_1_desc$"
+ resolution_MGCR_freedom_repeal_4_desc: "$resolution_MGCR_freedom_repeal_1_desc$"
+ resolution_MGCR_freedom_repeal_5_desc: "$resolution_MGCR_freedom_repeal_1_desc$"
+ resolution_MGCR_freedom_repeal_1_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_freedom_1$§!»."
+ resolution_MGCR_freedom_repeal_2_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_freedom_2$§!»."
+ resolution_MGCR_freedom_repeal_3_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_freedom_3$§!»."
+ resolution_MGCR_freedom_repeal_4_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_freedom_4$§!»."
+ resolution_MGCR_freedom_repeal_5_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_freedom_5$§!»."
+ 
+ resolution_MGCR_freedom_1: "Борьба с Цензурой"
+ resolution_MGCR_freedom_1_desc: "Снижение цензуры со стороны органов власти - это первый шаг к восстановлению доверия к институту правительства. Только после востановления утерянного доверия возможно будет начать решать реальные проблемы государства."
+ resolution_MGCR_freedom_1_tooltip: ""
+ 
+ resolution_MGCR_freedom_2: "Галактические Медиа"
+ resolution_MGCR_freedom_2_desc: "Разброс мнений и этических норм галактического сообщества огромен, но если средства массовой информации недосягаемы, то каждый их институт «надувает» свой собственный маленький пузырь правды. С помощью Галактической Медиа Службы мы разрушим эти невидимые границы и привнесем в сообщества нашей галактики новую эру субъективной свободы."
+ resolution_MGCR_freedom_2_tooltip: ""
+ 
+ resolution_MGCR_freedom_3: "Свобода Слова"
+ resolution_MGCR_freedom_3_desc: "Каждое разумное существо имеет право выражать своё мнение так, как ему нравится, даже в том случае если это идет вразрез с регламентом руководящего органа его родины."
+ resolution_MGCR_freedom_3_tooltip: ""
+ 
+ resolution_MGCR_freedom_4: "Инкриминация Самовыражения"
+ resolution_MGCR_freedom_4_desc: "Даже самые отвратительные из мнений должны иметь «право на жизнь». Ежели подобные мнения ограничивать - это прямой путь к цензуре и тирании."
+ resolution_MGCR_freedom_4_tooltip: "§RЗапрещено§! §YПодавлять§! неугодные фракции."
+ 
+ resolution_MGCR_freedom_5: "Абсолют Равенства"
+ resolution_MGCR_freedom_5_desc: "Взгляд гражданина §YГалактического Сообщества§! на галактическую политику неизменно проходит сквозь линзу предвзятостей его малой родины. Обязательная объективность новостей, предоставляемых правящим органом, должна гарантировать, что все граждане смогут принимать взвешенные решения, основываясь исключительно на собственном мнении, при этом опуская навязываемое им извне."
+ resolution_MGCR_freedom_5_tooltip: "§RЗапрещено§! §YПродвигать§! фаворитные фракции."
+ 
+ #####################
+ # Crime Resolutions #
+ #####################
+ 
+ resolution_category_MGCR_crime: "Гражданская Безопасность"
+ resolution_MGCR_crime_repeal_1: "Отмена резолюции «§Y$resolution_MGCR_crime_1$§!»"
+ resolution_MGCR_crime_repeal_2: "Отмена резолюции «§Y$resolution_MGCR_crime_2$§!»"
+ resolution_MGCR_crime_repeal_3: "Отмена резолюции «§Y$resolution_MGCR_crime_3$§!»"
+ resolution_MGCR_crime_repeal_4: "Отмена резолюции «§Y$resolution_MGCR_crime_4$§!»"
+ resolution_MGCR_crime_repeal_5: "Отмена резолюции «§Y$resolution_MGCR_crime_5$§!»"
+ resolution_MGCR_crime_repeal_1_desc: "§YГалактическое Сообщество§! не должно определять, какие именно части культуры его членов должны быть разрешены, а какие нет, даже если галактическое большинство считает их отвратительными."
+ resolution_MGCR_crime_repeal_2_desc: "$resolution_MGCR_crime_repeal_1_desc$"
+ resolution_MGCR_crime_repeal_3_desc: "$resolution_MGCR_crime_repeal_1_desc$"
+ resolution_MGCR_crime_repeal_4_desc: "$resolution_MGCR_crime_repeal_1_desc$"
+ resolution_MGCR_crime_repeal_5_desc: "$resolution_MGCR_crime_repeal_1_desc$"
+ resolution_MGCR_crime_repeal_1_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_crime_1$§!»."
+ resolution_MGCR_crime_repeal_2_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_crime_2$§!»."
+ resolution_MGCR_crime_repeal_3_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_crime_3$§!»."
+ resolution_MGCR_crime_repeal_4_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_crime_4$§!»."
+ resolution_MGCR_crime_repeal_5_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_crime_5$§!»."
+ 
+ resolution_MGCR_crime_1: "Антикоррупционная Инициатива"
+ resolution_MGCR_crime_1_desc: "Те, кто принимают законы, часто подвержены различного рода угрозам, взяткам и другим воздействиям различных интересантов. Устранение коррумпированных политиков и элитариев, злоупотребляющих своей властью, с руководящих должностей имеет первостепенное значение для создания работающей судебной системы галактики."
+ resolution_MGCR_crime_1_tooltip: ""
+ 
+ resolution_MGCR_crime_2: "Торжество Правосудия"
+ resolution_MGCR_crime_2_desc: "Те, кто следят за чистотой наших помыслов и заполненностью исправительных и коррекционных учреждений, заслуживают гораздо большего признания, чем они получают сейчас."
+ resolution_MGCR_crime_2_tooltip: ""
+ 
+ resolution_MGCR_crime_4: "Власть Закона"
+ resolution_MGCR_crime_4_desc: "Никто не имеет права быть настолько могущественным, чтобы игнорировать законы §YГалактического Сообщества§!."
+ resolution_MGCR_crime_4_tooltip: "§YКорпорации§!, имеющие гражданскую модель «§Y$civic_criminal_heritage$§!», явно §Rнарушают галактический закон§!, но им будет предоставлена возможность отказаться от столь пагубного пути."
+ 
+ MGCR_galcom.9999.desc: "§YГалактическое Сообщество§! приняло резолюцию «§Y$resolution_MGCR_crime_4$§!», которая запрещает отдельным членам §YГалактического Сообщества§! регулировать свои внутренние дела в пользу жесткого свода правил. К сожалению, эти правила вступают в прямой конфликт с нашей бизнес-моделью. Должны ли мы изменить всю нашу бизнес-модель, чтобы соответствовать новым правилам?"
+ 
+ MGCR_galcom.9999.decline: "Это всего лишь стоимость ведения бизнеса."
+ 
+ MGCR_galcom.9999.comply: "Наш метод работы все равно устарел."
+ MGCR_galcom.9999.comply.tooltip: "Наша империя откажется от гражданской модели «§Y$civic_criminal_heritage$§!»."
+ 
+ resolution_MGCR_crime_3: "Борьба с Преступностью"
+ resolution_MGCR_crime_3_desc: "Преступность подобна болезни: Если оставить её в покое, она будет гноиться в гнилой плоти, медленно расползаясь по всему телу заражая всё на своём пути, пока не достигнет критической массы и не убьёт, наконец, своего носителя."
+ resolution_MGCR_crime_3_tooltip: "Государства, у которых уровень £crime£ §YПреступности§! на любой из колоний превышает §S20 единиц§!, становятся §Rнарушителями галактического закона§!."
+ 
+ resolution_MGCR_crime_5: "Постоянное Наблюдение"
+ resolution_MGCR_crime_5_desc: "Мы обязаны предотвращать преступления, желательно до момента их совершения. Таким образом, проверка граждан в режиме реального времени должна происходить просто по умолчанию."
+ resolution_MGCR_crime_5_tooltip: "Государства, у которых уровень £crime£ §YПреступности§! на любой из колоний превышает §S5 единиц§!, становятся §Rнарушителями галактического закона§!."
+ 
+ #########################
+ # Migration Resolutions #
+ #########################
+ resolution_category_MGCR_migration: "Образовательный Обмен"
+ resolution_MGCR_migration_repeal_1: "Отмена резолюции «§Y$resolution_MGCR_migration_1$§!»"
+ resolution_MGCR_migration_repeal_2: "Отмена резолюции «§Y$resolution_MGCR_migration_2$§!»"
+ resolution_MGCR_migration_repeal_3: "Отмена резолюции «§Y$resolution_MGCR_migration_3$§!»"
+ resolution_MGCR_migration_repeal_4: "Отмена резолюции «§Y$resolution_MGCR_migration_4$§!»"
+ resolution_MGCR_migration_repeal_5: "Отмена резолюции «§Y$resolution_MGCR_migration_5$§!»"
+ resolution_MGCR_migration_repeal_1_desc: "Правила, установленные §YГалактическим Сообществом§!, опасны тем, что позволяют более развитым государствам попросту красть следующее поколение лидеров у тех, кто в них больше всего нуждается."
+ resolution_MGCR_migration_repeal_2_desc: "$resolution_MGCR_migration_repeal_1_desc$"
+ resolution_MGCR_migration_repeal_3_desc: "$resolution_MGCR_migration_repeal_1_desc$"
+ resolution_MGCR_migration_repeal_4_desc: "$resolution_MGCR_migration_repeal_1_desc$"
+ resolution_MGCR_migration_repeal_5_desc: "$resolution_MGCR_migration_repeal_1_desc$"
+ resolution_MGCR_migration_repeal_1_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_migration_1$§!»."
+ resolution_MGCR_migration_repeal_2_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_migration_2$§!»."
+ resolution_MGCR_migration_repeal_3_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_migration_3$§!»."
+ resolution_MGCR_migration_repeal_4_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_migration_4$§!»."
+ resolution_MGCR_migration_repeal_5_effect_success: "Отменяет резолюцию «§Y$resolution_MGCR_migration_5$§!»."
+ 
+ resolution_MGCR_migration_1: "Инициатива по Обмену"
+ resolution_MGCR_migration_1_desc: "Не все гениальные умы вписываются в концепции государства, в котором им посчастливилось родится или быть собраным. Давайте предоставим им возможность самостоятельно определить работодателя, которому, по их мнению, они будут более полезны."
+ resolution_MGCR_migration_1_tooltip: ""
+ 
+ resolution_MGCR_migration_2: "Учебные Программы"
+ resolution_MGCR_migration_2_desc: "Приведение региональных систем образования всех видов в соответствие с галактическими стандартами попросту необходимо для нашей программы обмена и должно стать для нас приоритетным, прежде чем мы сможем приступить к самому обмену."
+ resolution_MGCR_migration_2_tooltip: "Начальные черты внешних лидеров: §G+1§!"
+ 
+ resolution_MGCR_migration_3: "Стандартизированная Паспортизация"
+ resolution_MGCR_migration_3_desc: "Нынешняя система, связанная с трудовыми паспортами, сложна и неоправданно запутана, когда в каждой империи действуют свои правила выдачи подобных документов. Набор стандартизированных правил, созданных §YГалактическим Сообществом§!, выделяющим общие положения для всех его участников, устранит, либо смягчит в достаточной мере эту проблему."
+ resolution_MGCR_migration_3_tooltip: "В пуле внешних лидеров смогут появиться любые представители §YГалактического Сообщества§!"
+ 
+ resolution_MGCR_migration_4: "Межзвёздные Университеты"
+ resolution_MGCR_migration_4_desc: "Создание университетов и школ на нейтральной территории поможет преподавателям представителей §YГалактического Сообщества§! сохранять нейтралитет и профессиональную объективность, необходимые для обучения нового поколения студентов."
+ resolution_MGCR_migration_4_tooltip: "Начальный уровень внешних лидеров: §G+1§!"
+ 
+ resolution_MGCR_migration_5: "Образовательный Мандат"
+ resolution_MGCR_migration_5_desc: "Распространение идей в нашей галактике начинается с улучшения образования. Мандат §Y«Звёздный Свет»§! обеспечит наше будущее, в котором можно будет узнать всё, не подвергаясь цензуре и пропаганде со стороны региональных правительств. Запомните: §YГалактическое Сообщество§! знает лучше."
+ resolution_MGCR_migration_5_tooltip: ""
+ 
+ mod_MGCR_extrernal_skill_add: "Начальный уровень внешних лидеров: §G+1§!"
+ 
+ #################
+ # Leader Traits #
+ #################
+ 
+ leader_trait_MGCR_resolution_category_migration_focus: "Фокус: Студенчество по Обмену"
+ leader_trait_MGCR_resolution_category_migration_focus_desc: "Этот делегат проявляет особый интерес ко всем вопросам, связанным с независимым образованием для студентов каждой разумной формы жизни, которое не знает границ."
+ 
+ leader_trait_MGCR_resolution_category_migration_focus_2: "$leader_trait_MGCR_resolution_category_migration_focus$"
+ leader_trait_MGCR_resolution_category_migration_focus_2_desc: "$leader_trait_MGCR_resolution_category_migration_focus_desc$"
+ 
+ leader_trait_MGCR_resolution_category_migration_focus_3: "$leader_trait_MGCR_resolution_category_migration_focus$"
+ leader_trait_MGCR_resolution_category_migration_focus_3_desc: "$leader_trait_MGCR_resolution_category_migration_focus_desc$"
+ 
+ leader_trait_MGCR_resolution_category_freedom_focus: "Фокус: Свобода Мнения"
+ leader_trait_MGCR_resolution_category_freedom_focus_desc: "Этот делегат проявляет особый интерес ко всем вопросам, связанным с образованием и самовыражением студентов каждой разумной формы жизни, которое не знает границ."
+ 
+ leader_trait_MGCR_resolution_category_freedom_focus_2: "$leader_trait_MGCR_resolution_category_freedom_focus$"
+ leader_trait_MGCR_resolution_category_freedom_focus_2_desc: "$leader_trait_MGCR_resolution_category_freedom_focus_desc$"
+ 
+ leader_trait_MGCR_resolution_category_freedom_focus_3: "$leader_trait_MGCR_resolution_category_freedom_focus$"
+ leader_trait_MGCR_resolution_category_freedom_focus_3_desc: "$leader_trait_MGCR_resolution_category_freedom_focus_desc$"
+ 
+ leader_trait_MGCR_resolution_category_archeology_focus: "Фокус: Сохранение Истории"
+ leader_trait_MGCR_resolution_category_archeology_focus_desc: "Этот делегат проявляет особый интерес ко всем вопросам, связанным с сохранением исторического наследия нашей галактики."
+ 
+ leader_trait_MGCR_resolution_category_archeology_focus_2: "$leader_trait_MGCR_resolution_category_archeology_focus$"
+ leader_trait_MGCR_resolution_category_archeology_focus_2_desc: "$leader_trait_MGCR_resolution_category_archeology_focus_desc$"
+ 
+ leader_trait_MGCR_resolution_category_archeology_focus_3: "$leader_trait_MGCR_resolution_category_archeology_focus$"
+ leader_trait_MGCR_resolution_category_archeology_focus_3_desc: "$leader_trait_MGCR_resolution_category_archeology_focus_desc$"
+ 
+ leader_trait_MGCR_resolution_category_movement_focus: "Фокус: Развитие Инфраструктуры"
+ leader_trait_MGCR_resolution_category_movement_focus_desc: "Этот делегат проявляет особый интерес ко всем вопросам, связанным с инфраструктурой и космическим трансфером."
+ 
+ leader_trait_MGCR_resolution_category_movement_focus_2: "$leader_trait_MGCR_resolution_category_movement_focus$"
+ leader_trait_MGCR_resolution_category_movement_focus_2_desc: "$leader_trait_MGCR_resolution_category_movement_focus_desc$"
+ 
+ leader_trait_MGCR_resolution_category_movement_focus_3: "$leader_trait_MGCR_resolution_category_movement_focus$"
+ leader_trait_MGCR_resolution_category_movement_focus_3_desc: "$leader_trait_MGCR_resolution_category_movement_focus_desc$"
+ 
+ leader_trait_MGCR_resolution_category_crime_focus: "Фокус: Гражданская Безопасность"
+ leader_trait_MGCR_resolution_category_crime_focus_desc: "Этот делегат проявляет особый интерес ко всем вопросам, связанным с нарушениями правопорядка."
+ 
+ leader_trait_MGCR_resolution_category_crime_focus_2: "$leader_trait_MGCR_resolution_category_crime_focus$"
+ leader_trait_MGCR_resolution_category_crime_focus_2_desc: "$leader_trait_MGCR_resolution_category_crime_focus_desc$"
+ 
+ leader_trait_MGCR_resolution_category_crime_focus_3: "$leader_trait_MGCR_resolution_category_crime_focus$"
+ leader_trait_MGCR_resolution_category_crime_focus_3_desc: "$leader_trait_MGCR_resolution_category_crime_focus_desc$"
+ 
+ ###########################
+ # Vote Strength Modifiers #
+ ###########################
+ 
+ mod_resolution_category_MGCR_migration_vote_strength_mult: "Сила голоса при голосовании за резолюции категории «§Y$resolution_category_MGCR_migration$§!»"
+ mod_resolution_category_MGCR_archeology_vote_strength_mult: "Сила голоса при голосовании за резолюции категории «§Y$resolution_category_MGCR_archeology$§!»"
+ mod_resolution_category_MGCR_movement_vote_strength_mult: "Сила голоса при голосовании за резолюции категории «§Y$resolution_category_MGCR_movement$§!»"
+ mod_resolution_category_MGCR_freedom_vote_strength_mult: "Сила голоса при голосовании за резолюции категории «§Y$resolution_category_MGCR_freedom$§!»"
+ mod_resolution_category_MGCR_crime_vote_strength_mult: "Сила голоса при голосовании за резолюции категории «§Y$resolution_category_MGCR_crime$§!»"
