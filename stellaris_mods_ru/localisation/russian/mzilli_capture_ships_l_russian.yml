@@ -1,0 +1,36 @@
+﻿l_russian:
+
+mzilli_capture_ships_chain_title: "Подбитые Корабли"
+mzilli_capture_ships_chain_desc: "Список всех известных кораблей, которые были выведены из строя и являют собой привлекательные цели для проведения абордажа."
+
+mzilli_capture_ships.5.name: "[FROMFROM.GetAdj]ий [FROM.GetShipSizeName] подбит"
+mzilli_capture_ships.5.desc.a: "Нашей флотилии удалось вывести из строя §Y[FROM.GetShipSizeName]§! сражавшийся под флагом государства §g[FROMFROM.GetName]§! в системе §E[FROM.solar_system.GetName]§!. Экипаж судна, в большинстве своём, погиб, но основные системы корабля в целости. Система самоуничтожения корабля, похоже, отказала.\n\nЕсли мы будем действовать быстро, мы могли бы захватить его до реактивации системы самоуничтожения или обнаружения разведкой государства §g[FROMFROM.GetName]§!."
+mzilli_capture_ships.5.desc.b: "Военно Космические Силы государства §g[FROMFROMFROM.GetName]§! в системе §E[FROM.solar_system.GetName]§! умудрились в бою деактивировать один из наших кораблей класса §Y[FROM.GetShipSizeName]§! шаблона §H[FROM.GetDesignName]§!, под наименованием §W[FROM.GetName]§!. Команда корабля не выходит на связь, но сам корабль, в основном, цел, а система самоуничтожения корабля, похоже, отказала.\n\nЕсли мы будем действовать быстро, мы могли бы отправить группу захвата и инженеров до реактивации системы самоуничтожения или обнаружения разведкой государства §g[FROMFROMFROM.GetName]§!."
+mzilli_capture_ships.5.desc.c: "Военно Космические Силы государства §g[FROMFROMFROM.GetName]§! в системе §E[FROM.solar_system.GetName]§! умудрились в бою деактивировать один из наших кораблей класса §Y[FROM.GetShipSizeName]§! шаблона §H[ROOT.GetDesignName]§!, под наименованием §W[FROM.GetName]§!. Команда корабля не выходит на связь, но сам корабль, в основном, цел, а система самоуничтожения корабля, похоже, отказала.\n\nБлагодаря нашей особенности §B$ap_enigmatic_engineering$§!, мы не рискуем потерять корабль §W[FROM.GetName]§!, потому как государство §g[FROMFROMFROM.GetName]§! не может разобраться в наших технологиях в случае захвата корабля, потому не станет и пытаться это делать, но мы все равно должны поторопиться с ремонтом, пока не перезапустилась система самоуничтожения."
+mzilli_capture_ships.5.a: "Отправить $constructor$!"
+mzilli_capture_ships.5.tooltip.a: "У нас есть примерно §H720 дней§! для восстановления судна вида §Y[FROM.GetShipSizeName]§! под названием §W[FROM.GetName]§!, с опозновательными знаками государства §g[FROMFROM.GetName]§!, в системе §E[FROM.solar_system.GetName]§! прежде, чем перезапустится его система самоуничтожения."
+mzilli_capture_ships.5.tooltip.b: "$mzilli_capture_ships.5.tooltip.a$ Противник тоже может попытаться захватить его в течение этого времени."
+mzilli_capture_ships.5.tooltip.c: "\n§RЗаметка:§! С этого момента, мы станем уведомлять вас только в случае поломки корабля уровня §H$cruiser$ или выше§!. Но все выведенные из строя корабли, что могут быть восстановлены, будут по-прежнему заноситься в §GЖурнал§!."
+
+MZILLI_RECOVER_SHIP: "Разбитый [Prev.GetAdj]ий [ROOT.GetShipSizeName]"
+MZILLI_RECOVER_SHIP_DESC: "Корабль под наименованием §W[ROOT.GetName]§!, один из наших кораблей класса §Y[ROOT.GetShipSizeName]§! шаблона §H[ROOT.GetDesignName]§!, был выведен из строя в системе §E[ROOT.solar_system.GetName]§!. Если мы будем действовать быстро, мы сможем восстановить его до реактивации системы самоуничтожения судна, а так-же, возможно, сумеем опередить других мародёров."
+
+MZILLI_CAPTURE_SHIP: "Разбитый [Prev.GetAdj]ий [ROOT.GetShipSizeName]"
+MZILLI_CAPTURE_SHIP_DESC: "Мы смогли вывести из строя один из кораблей класса §Y[ROOT.GetShipSizeName]§! шаблона §H[ROOT.GetDesignName]§! в системе §E[ROOT.solar_system.GetName]§!. Дизайн судна принадлежит государству под названием §g[From.GetName]§!. Если мы будем действовать быстро, мы сможем восстановить его до реактивации системы самоуничтожения судна, а так-же, возможно, сумеем опередить других мародёров."
+
+mzilli_capture_ships.6.name: "Судно [FROMFROM.GetName] восстановлено"
+mzilli_capture_ships.6.desc: "Наша команда инженеров успешно восстановила управление судном §W[FROMFROM.GetName]§! в системе §E[Root.solar_system.GetName]§! и деактивировала его систему самоуничтожения.\n\nНо §Y[FROMFROM.GetShipSizeName]§! все еще требует капитального ремонта, прежде чем сможет вернуться в строй, но, по крайней мере, судно снова может передвигаться своими средствами."
+mzilli_capture_ships.6.tooltip: "Судно §W[FROMFROM.GetName]§! снова функционирует."
+
+mzilli_capture_ships.7.name: "[FROMFROMFROM.GetAdj]ий [FROMFROM.GetShipSizeName] захвачен"
+mzilli_capture_ships.7.desc: "Наша команда инженеров успешно восстановила управление разбитым судном государства §g[FROMFROMFROM.GetName]§! класса §Y[FROMFROM.GetShipSizeName]§! в системе §E[FROMFROM.solar_system.GetName]§! и деактивировала его систему самоуничтожения.\n\nСудно -- §W[FROMFROM.GetName]§! -- все еще требует капитального ремонта, прежде чем сможет нести службу под флагом [Owner.GetAdj]ой ВКС, но, по крайней мере, он снова может передвигаться своими средствами."
+mzilli_capture_ships.7.tooltip: "Судно §W[FROMFROM.GetName]§! снова функционирует, и отныне пренадлежит государству §g[Root.Owner.GetName]§!."
+
+mzilli_capture_ships.8.name: "Наше судно [FROMFROM.GetName] захвачено противником"
+mzilli_capture_ships.8.desc: "Команда спасателей с корабля §W[FROM.Owner.GetName]§! зарегестрировала потерпевшее крушение судно §Y[FROMFROM.GetName]§! в системе §E[FROM.solar_system.GetName]§! и выдвинулась для его ремонта, но обнаружила что судно движется. Хотя §Y[FROMFROM.GetShipSizeName]§! все еще сильно поврежден, он снова способен передвигаться используя собственные ресурсы, и, судя по перехватам сообщений, команда инженеров государства §g[FROM.Owner.GetName]§! передислоцирует судно для ремонта к ближайшей собственной верфи.\n\nНа обшивке судна §W[FROMFROM.GetName]§! нанесены знаки нового владельца, что демонстрирует не слишком дружелюбное отношение к нам. Нам необходимо передать эту информацию адмиралтейству нашего флота, чтобы наши корабли были готовы встретиться в бою с нашим же судном в случае если вражда с государством [FROM.Owner.GetName] продолжится."
+mzilli_capture_ships.8.tooltip: "Наш §LСпециальный Проект§! по восстановлению судна §W[FROMFROM.GetName]§! §Rпровален§!, а судно перешло под контроль государства §g[FROM.Owner.GetName]§!."
+mzilli_capture_ships.8.battleship: "Якорь мне в ж*пу, они же украли НАШ ЛИНКОР!"
+mzilli_capture_ships.8.titan: "§Y[FROMFROM.GetShipSizeName]§!... это нехорошо."
+
+mzilli_disabled_ship_modifier: "подбит"
+mzilli_repairing_ship_modifier: "восстанавливается"
