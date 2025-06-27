@@ -25,7 +25,6 @@ mod russifications for personal use
 - [4.*] [14.05.2025] [id=3046031164] Expanded War Goals
 - [4.*] [14.05.2025] [id=3480393617] Exosuit Assault Army
 - [4.*] [18.05.2025] [id=915432220]  Elves of Stellaris
-- [4.*] [19.05.2025] [id=3275068730] More Astral Rifts
 - [4.*] [19.05.2025] [id=2786268200] Under Siege
 - [4.*] [19.05.2025] [id=3479556409] Better Aptitude
 - [4.*] [20.05.2025] [id=3483186436] Criminal Heritage Tradition
@@ -41,3 +40,5 @@ mod russifications for personal use
 - [4.*] [26.06.2025] [id=3344489699] Hydra's More Galactic Community Resolutions
 - [4.*] [26.06.2025] [id=3378829098] Hydra's More Species Traits
 - [4.*] [26.06.2025] [id=2114559224] Viable Feudalism and Imperialism - Empire Federation
+- [4.*] [27.05.2025] [id=3275068730] More Astral Rifts
+- [4.*] [27.05.2025] [id=3195070547] More Leader Traits

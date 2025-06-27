@@ -1,0 +1,918 @@
+﻿l_russian:
+ 
+ ####################
+ # Commander Traits #
+ ####################
+ 
+ ### Strategist Traits ###
+ 
+ # Weaver of Shadows
+ 
+ leader_trait_MLT_weaver_of_shadows: "Ткач Теней"
+ leader_trait_MLT_weaver_of_shadows_desc: "Этот лидер придерживается убеждения, что разведка выигрывает войны, не позволяя общественности или врагу сообщать о военных возможностях."
+ leader_trait_MLT_weaver_of_shadows_2: "$leader_trait_MLT_weaver_of_shadows$"
+ leader_trait_MLT_weaver_of_shadows_2_desc: "$leader_trait_MLT_weaver_of_shadows_desc$"
+ leader_trait_MLT_weaver_of_shadows_3: "$leader_trait_MLT_weaver_of_shadows$"
+ leader_trait_MLT_weaver_of_shadows_3_desc: "$leader_trait_MLT_weaver_of_shadows_desc$"
+ 
+ leader_trait_MLT_weaver_of_shadows_hive: "Ткач Теней"
+ leader_trait_MLT_weaver_of_shadows_hive_desc: "Этот автономный трутень верит, что разведка выигрывает войны и пресекает попытки рабочих трутней распространять информацию, обладающую военной ценностью."
+ leader_trait_MLT_weaver_of_shadows_2_hive: "$leader_trait_MLT_weaver_of_shadows_hive$"
+ leader_trait_MLT_weaver_of_shadows_2_hive_desc: "$leader_trait_MLT_weaver_of_shadows_hive_desc$"
+ leader_trait_MLT_weaver_of_shadows_3_hive: "$leader_trait_MLT_weaver_of_shadows_hive$"
+ leader_trait_MLT_weaver_of_shadows_3_hive_desc: "$leader_trait_MLT_weaver_of_shadows_hive_desc$"
+ 
+ leader_trait_MLT_weaver_of_shadows_machine: "Ткач Теней"
+ leader_trait_MLT_weaver_of_shadows_machine_desc: "Дополнительные брандмауэры и шифрование надёжно хранят секреты этого дрона от посторонних."
+ leader_trait_MLT_weaver_of_shadows_2_machine: "$leader_trait_MLT_weaver_of_shadows_machine$"
+ leader_trait_MLT_weaver_of_shadows_2_machine_desc: "$leader_trait_MLT_weaver_of_shadows_machine_desc$"
+ leader_trait_MLT_weaver_of_shadows_3_machine: "$leader_trait_MLT_weaver_of_shadows_machine$"
+ leader_trait_MLT_weaver_of_shadows_3_machine_desc: "$leader_trait_MLT_weaver_of_shadows_machine_desc$"
+ 
+ # Dogfighter
+ 
+ leader_trait_MLT_dogfighter: "Пилот-Инструктор"
+ leader_trait_MLT_dogfighter_desc: "Большая пушка мало что значит против многотысячного роя, а превосходящей огневой мощи всегда можно противопоставить численность и скорость."
+ leader_trait_MLT_dogfighter_2: "$leader_trait_MLT_dogfighter$"
+ leader_trait_MLT_dogfighter_2_desc: "$leader_trait_MLT_dogfighter_desc$"
+ leader_trait_MLT_dogfighter_3: "$leader_trait_MLT_dogfighter$"
+ leader_trait_MLT_dogfighter_3_desc: "$leader_trait_MLT_dogfighter_desc$"
+ 
+ leader_trait_MLT_dogfighter_hive: "Роевой Штурм"
+ leader_trait_MLT_dogfighter_hive_desc: "Этот трутень считает, что лучший способ выиграть войну - это задавить врага численным превосходством."
+ leader_trait_MLT_dogfighter_2_hive: "$leader_trait_MLT_dogfighter_hive$"
+ leader_trait_MLT_dogfighter_2_hive_desc: "$leader_trait_MLT_dogfighter_hive_desc$"
+ leader_trait_MLT_dogfighter_3_hive: "$leader_trait_MLT_dogfighter_hive$"
+ leader_trait_MLT_dogfighter_3_hive_desc: "$leader_trait_MLT_dogfighter_hive_desc$"
+ 
+ leader_trait_MLT_dogfighter_machine: "Роевая Модель"
+ leader_trait_MLT_dogfighter_machine_desc: "Этот дрон считает, что лучший способ выиграть войну - это задавить врага численным превосходством."
+ leader_trait_MLT_dogfighter_2_machine: "$leader_trait_MLT_dogfighter_machine$"
+ leader_trait_MLT_dogfighter_2_machine_desc: "$leader_trait_MLT_dogfighter_machine_desc$"
+ leader_trait_MLT_dogfighter_3_machine: "$leader_trait_MLT_dogfighter_machine$"
+ leader_trait_MLT_dogfighter_3_machine_desc: "$leader_trait_MLT_dogfighter_machine_desc$"
+ 
+ # Escapist
+ 
+ leader_trait_MLT_escape_expert: "Мастер Варпа"
+ leader_trait_MLT_escape_expert_desc: "Обладая склонностью избегать тяжёлых ситуаций, этот лидер более склонен к отступлениям, чем большинство его соратников."
+ leader_trait_MLT_escape_expert_2: "$leader_trait_MLT_escape_expert$"
+ leader_trait_MLT_escape_expert_2_desc: "$leader_trait_MLT_escape_expert_desc$"
+ leader_trait_MLT_escape_expert_3: "$leader_trait_MLT_escape_expert$"
+ leader_trait_MLT_escape_expert_3_desc: "$leader_trait_MLT_escape_expert_desc$"
+ 
+ leader_trait_MLT_escape_expert_hive: "Инстинкты Самосохранения"
+ leader_trait_MLT_escape_expert_hive_desc: "Этот трутень внедряет дополнительные функции безопасности на всех подконтрольных ему судах."
+ leader_trait_MLT_escape_expert_2_hive: "$leader_trait_MLT_escape_expert_hive$"
+ leader_trait_MLT_escape_expert_2_hive_desc: "$leader_trait_MLT_escape_expert_hive_desc$"
+ leader_trait_MLT_escape_expert_3_hive: "$leader_trait_MLT_escape_expert_hive$"
+ leader_trait_MLT_escape_expert_3_hive_desc: "$leader_trait_MLT_escape_expert_hive_desc$"
+ 
+ leader_trait_MLT_escape_expert_machine: "Аварийные Протоколы"
+ leader_trait_MLT_escape_expert_machine_desc: "Этот дрон внедряет дополнительные функции безопасности на всех подконтрольных ему судах."
+ leader_trait_MLT_escape_expert_2_machine: "$leader_trait_MLT_escape_expert_machine$"
+ leader_trait_MLT_escape_expert_2_machine_desc: "$leader_trait_MLT_escape_expert_machine_desc$"
+ leader_trait_MLT_escape_expert_3_machine: "$leader_trait_MLT_escape_expert_machine$"
+ leader_trait_MLT_escape_expert_3_machine_desc: "$leader_trait_MLT_escape_expert_machine_desc$"
+ 
+ # Citizen Recruiter - Destiny Trait
+ 
+ leader_trait_MLT_citizen_recruiter: "Вербовщик"
+ leader_trait_MLT_citizen_recruiter_desc: "Этот лидер использует массовые информационные кампании для вербовки гражданских и обязательную воинскую повинность, чтобы укрепить наши силы."
+ leader_trait_MLT_citizen_recruiter_effect: "$EMPIRE_EFFECTS_TXT$:\n$t$Увеличивает §Yвместимость флотилии§! на §Y5%§! от показателей всего нашего £pops£ §Yнаселения§!."
+ 
+ ### Governor Traits ###
+ 
+ # Arms Dealer
+ 
+ leader_trait_MLT_arms_dealer: "Торговец Оружием"
+ leader_trait_MLT_arms_dealer_desc: "Этот лидер облегчает торговлю оружием, используя тех, кто находится под командованием [Root.GetHisHer] в качестве экспертов по оружию и торговцев."
+ leader_trait_MLT_arms_dealer_2: "$leader_trait_MLT_arms_dealer$"
+ leader_trait_MLT_arms_dealer_2_desc: "$leader_trait_MLT_arms_dealer_desc$"
+ leader_trait_MLT_arms_dealer_3: "$leader_trait_MLT_arms_dealer$"
+ leader_trait_MLT_arms_dealer_3_desc: "$leader_trait_MLT_arms_dealer_desc$"
+ 
+ leader_trait_MLT_arms_dealer_hive: "Директива Простоя"
+ leader_trait_MLT_arms_dealer_hive_desc: "Вместо того чтобы позволить боевым трутням погрузиться в спячку, этот трутень поручает им добывать дополнительные ресурсы на благо улья."
+ leader_trait_MLT_arms_dealer_2_hive: "$leader_trait_MLT_arms_dealer_hive$"
+ leader_trait_MLT_arms_dealer_2_hive_desc: "$leader_trait_MLT_arms_dealer_hive_desc$"
+ leader_trait_MLT_arms_dealer_3_hive: "$leader_trait_MLT_arms_dealer_hive$"
+ leader_trait_MLT_arms_dealer_3_hive_desc: "$leader_trait_MLT_arms_dealer_hive_desc$"
+ 
+ leader_trait_MLT_arms_dealer_machine: "Процедуры Ожидания"
+ leader_trait_MLT_arms_dealer_machine_desc: "Этот дрон использует вооруженные подразделения, обычно находящиеся в режиме ожидания, для перманентного получения дополнительных ресурсов."
+ leader_trait_MLT_arms_dealer_2_machine: "$leader_trait_MLT_arms_dealer_machine$"
+ leader_trait_MLT_arms_dealer_2_machine_desc: "$leader_trait_MLT_arms_dealer_machine_desc$"
+ leader_trait_MLT_arms_dealer_3_machine: "$leader_trait_MLT_arms_dealer_machine$"
+ leader_trait_MLT_arms_dealer_3_machine_desc: "$leader_trait_MLT_arms_dealer_machine_desc$"
+ 
+ # Parade
+ 
+ leader_trait_MLT_parade: "Организатор Парада"
+ leader_trait_MLT_parade_desc: "Этот лидер организует большие военные парады, чтобы поддерживать моральный дух и чувство единства в обществе."
+ leader_trait_MLT_parade_2: "$leader_trait_MLT_parade$"
+ leader_trait_MLT_parade_2_desc: "$leader_trait_MLT_parade_desc$"
+ leader_trait_MLT_parade_3: "$leader_trait_MLT_parade$"
+ leader_trait_MLT_parade_3_desc: "$leader_trait_MLT_parade_desc$"
+ 
+ #leader_trait_MLT_parade_hive: ""
+ #leader_trait_MLT_parade_hive_desc: ""
+ #leader_trait_MLT_parade_2_hive: "$leader_trait_MLT_parade_hive$"
+ #leader_trait_MLT_parade_2_hive_desc: "$leader_trait_MLT_parade_hive_desc$"
+ #leader_trait_MLT_parade_3_hive: "$leader_trait_MLT_parade_hive$"
+ #leader_trait_MLT_parade_3_hive_desc: "$leader_trait_MLT_parade_hive_desc$"
+ 
+ #leader_trait_MLT_parade_machine: ""
+ #leader_trait_MLT_parade_machine_desc: ""
+ #leader_trait_MLT_parade_2_machine: "$leader_trait_MLT_parade_machine$"
+ #leader_trait_MLT_parade_2_machine_desc: "$leader_trait_MLT_parade_machine_desc$"
+ #leader_trait_MLT_parade_3_machine: "$leader_trait_MLT_parade_machine$"
+ #leader_trait_MLT_parade_3_machine_desc: "$leader_trait_MLT_parade_machine_desc$"
+ 
+ # Observer
+ 
+ leader_trait_MLT_observer: "Бдительность"
+ leader_trait_MLT_observer_desc: "Этот лидер никогда не позволяет себе ослабить бдительность. Массивные станции прослушивания гарантируют, что любая деятельность судна тщательно записывается и протоколируется."
+ leader_trait_MLT_observer_2: "$leader_trait_MLT_observer$"
+ leader_trait_MLT_observer_2_desc: "$leader_trait_MLT_observer_desc$"
+ leader_trait_MLT_observer_3: "$leader_trait_MLT_observer$"
+ leader_trait_MLT_observer_3_desc: "$leader_trait_MLT_observer_desc$"
+ 
+ leader_trait_MLT_observer_hive: "Указание Бдительности"
+ leader_trait_MLT_observer_hive_desc: "Этот трутень никогда не позволяет себе ослабить бдительность. Массивные сенсорные органы гарантируют, что любая деятельность судна тщательно записывается и протоколируется."
+ leader_trait_MLT_observer_2_hive: "$leader_trait_MLT_observer_hive$"
+ leader_trait_MLT_observer_2_hive_desc: "$leader_trait_MLT_observer_hive_desc$"
+ leader_trait_MLT_observer_3_hive: "$leader_trait_MLT_observer_hive$"
+ leader_trait_MLT_observer_3_hive_desc: "$leader_trait_MLT_observer_hive_desc$"
+ 
+ leader_trait_MLT_observer_machine: "Протоколы Бдительности"
+ leader_trait_MLT_observer_machine_desc: "Этот дрон использует мощные сенсорные датчики для регистрации активности судна как в непосредственной близости от судна, так и вдали от него."
+ leader_trait_MLT_observer_2_machine: "$leader_trait_MLT_observer_machine$"
+ leader_trait_MLT_observer_2_machine_desc: "$leader_trait_MLT_observer_machine_desc$"
+ leader_trait_MLT_observer_3_machine: "$leader_trait_MLT_observer_machine$"
+ leader_trait_MLT_observer_3_machine_desc: "$leader_trait_MLT_observer_machine_desc$"
+ 
+ # Impenetrable Bulwark - Destiny Trait
+ 
+ leader_trait_MLT_impenetrable_bulwark: "Непробиваемый Бастион"
+ leader_trait_MLT_impenetrable_bulwark_desc: "Этот лидер посвятил себя защите наших миров. Ничто не проскочит мимо [Root.GetHimHer] внимания."
+ 
+ ### General Traits ###
+ 
+ # Sadistic
+ 
+ leader_trait_MLT_sadistic: "Садист"
+ leader_trait_MLT_sadistic_desc: "Этот лидер намеренно нападает на гражданских жителей ради собственного развлечения."
+ leader_trait_MLT_sadistic_2: "$leader_trait_MLT_sadistic$"
+ leader_trait_MLT_sadistic_2_desc: "$leader_trait_MLT_sadistic_desc$"
+ leader_trait_MLT_sadistic_3: "$leader_trait_MLT_sadistic$"
+ leader_trait_MLT_sadistic_3_desc: "$leader_trait_MLT_sadistic_desc$"
+ 
+ leader_trait_MLT_sadistic_hive: "Мясник"
+ leader_trait_MLT_sadistic_hive_desc: "Этот трутень намеренно нападает на гражданских жителей чтобы сеять панику и снизить моральный дух среди военных формирований противника."
+ leader_trait_MLT_sadistic_2_hive: "$leader_trait_MLT_sadistic_hive$"
+ leader_trait_MLT_sadistic_2_hive_desc: "$leader_trait_MLT_sadistic_hive_desc$"
+ leader_trait_MLT_sadistic_3_hive: "$leader_trait_MLT_sadistic_hive$"
+ leader_trait_MLT_sadistic_3_hive_desc: "$leader_trait_MLT_sadistic_hive_desc$"
+ 
+ leader_trait_MLT_sadistic_machine: "Деморализатор"
+ leader_trait_MLT_sadistic_machine_desc: "Этот дрон намеренно нападает на гражданских жителей, чтобы снизить моральный дух среди военных формирований противника."
+ leader_trait_MLT_sadistic_2_machine: "$leader_trait_MLT_sadistic_machine$"
+ leader_trait_MLT_sadistic_2_machine_desc: "$leader_trait_MLT_sadistic_machine_desc$"
+ leader_trait_MLT_sadistic_3_machine: "$leader_trait_MLT_sadistic_machine$"
+ leader_trait_MLT_sadistic_3_machine_desc: "$leader_trait_MLT_sadistic_machine_desc$"
+ 
+ # Recycler
+ 
+ leader_trait_MLT_recycler: "Приспособленец"
+ leader_trait_MLT_recycler_desc: "Этот лидер собирает снаряжение павших, чтобы их жертва могла стать для новобранцев ступенькой к победе."
+ leader_trait_MLT_recycler_2: "$leader_trait_MLT_recycler$"
+ leader_trait_MLT_recycler_2_desc: "$leader_trait_MLT_recycler_desc$"
+ leader_trait_MLT_recycler_3: "$leader_trait_MLT_recycler$"
+ leader_trait_MLT_recycler_3_desc: "$leader_trait_MLT_recycler_desc$"
+ 
+ leader_trait_MLT_recycler_hive: "Организатор"
+ leader_trait_MLT_recycler_hive_desc: "Этот трутень ничего не упускает из виду, уменьшая потери, когда сталкивается с превосходящими силами противника."
+ leader_trait_MLT_recycler_2_hive: "$leader_trait_MLT_recycler_hive$"
+ leader_trait_MLT_recycler_2_hive_desc: "$leader_trait_MLT_recycler_hive_desc$"
+ leader_trait_MLT_recycler_3_hive: "$leader_trait_MLT_recycler_hive$"
+ leader_trait_MLT_recycler_3_hive_desc: "$leader_trait_MLT_recycler_hive_desc$"
+ 
+ leader_trait_MLT_recycler_machine: "Переработчик"
+ leader_trait_MLT_recycler_machine_desc: "Этот дрон внедрил в свой код протоколы сбора утиля, чтобы снизить потребление ресурсов."
+ leader_trait_MLT_recycler_2_machine: "$leader_trait_MLT_recycler_machine$"
+ leader_trait_MLT_recycler_2_machine_desc: "$leader_trait_MLT_recycler_machine_desc$"
+ leader_trait_MLT_recycler_3_machine: "$leader_trait_MLT_recycler_machine$"
+ leader_trait_MLT_recycler_3_machine_desc: "$leader_trait_MLT_recycler_machine_desc$"
+ 
+ leader_trait_MLT_recycler_tt: "$ARMY_EFFECTS_TXT$:\n$t$Когда подразделение под командованием этого лидера погибает: предоставляет §Y20§! £minerals£."
+ leader_trait_MLT_recycler_2_tt: "$ARMY_EFFECTS_TXT$:\n$t$Когда подразделение под командованием этого лидера погибает: предоставляет §Y35§! £minerals£."
+ leader_trait_MLT_recycler_3_tt: "$ARMY_EFFECTS_TXT$:\n$t$Когда подразделение под командованием этого лидера погибает: предоставляет §Y50§! £minerals£."
+ 
+ # Techstealer
+ 
+ leader_trait_MLT_techstealer: "Похититель Знаний"
+ leader_trait_MLT_techstealer_desc: "Этот лидер известен тем, что занимается реверс-инжинирингом любой инопланетной технологии, которую [Root.GetHisHer] получает."
+ leader_trait_MLT_techstealer_effect: "$ARMY_EFFECTS_TXT$:\n$t$При победе в наземном сражении в качестве атакующего:\n$tt$Крадёт случайную £research£ §Yтехнологию§!"
+ 
+ ### Admiral Traits ###
+ 
+ # Ambusher
+ 
+ leader_trait_MLT_ambusher: "Засадник"
+ leader_trait_MLT_ambusher_desc: "Этот лидер предпочитает терпеливо выжидать, охотясь на ничего не подозревающих противников."
+ leader_trait_MLT_ambusher_2: "$leader_trait_MLT_ambusher$"
+ leader_trait_MLT_ambusher_2_desc: "$leader_trait_MLT_ambusher_desc$"
+ leader_trait_MLT_ambusher_3: "$leader_trait_MLT_ambusher$"
+ leader_trait_MLT_ambusher_3_desc: "$leader_trait_MLT_ambusher_desc$"
+ 
+ leader_trait_MLT_ambusher_hive: "Засадник"
+ leader_trait_MLT_ambusher_hive_desc: "Этот трутень, как и [Root.GetHisHer] подчинённые стремятся оборудовать свои суда самыми современными биомодулями маскировки, позволяющими проводить внезапные атаки, которые в противном случае были бы невозможны."
+ leader_trait_MLT_ambusher_2_hive: "$leader_trait_MLT_ambusher_hive$"
+ leader_trait_MLT_ambusher_2_hive_desc: "$leader_trait_MLT_ambusher_hive_desc$"
+ leader_trait_MLT_ambusher_3_hive: "$leader_trait_MLT_ambusher_hive$"
+ leader_trait_MLT_ambusher_3_hive_desc: "$leader_trait_MLT_ambusher_hive_desc$"
+ 
+ leader_trait_MLT_ambusher_machine: "Засадник"
+ leader_trait_MLT_ambusher_machine_desc: "Этот дрон модернизировал все подконтрольные суда самыми современными модулями маскировки, позволяющими проводить внезапные атаки, которые в противном случае были бы невозможны."
+ leader_trait_MLT_ambusher_2_machine: "$leader_trait_MLT_ambusher_machine$"
+ leader_trait_MLT_ambusher_2_machine_desc: "$leader_trait_MLT_ambusher_machine_desc$"
+ leader_trait_MLT_ambusher_3_machine: "$leader_trait_MLT_ambusher_machine$"
+ leader_trait_MLT_ambusher_3_machine_desc: "$leader_trait_MLT_ambusher_machine_desc$"
+ 
+ leader_trait_MLT_ambusher_2_effect: "$FLEET_EFFECTS_TXT$:\n$t$Эффективность Маскировки: §G+1§!\n$t$На 30 дней после снятия маскировки:\n$tt$Урон от корабельного оружия: §G+10%§!"
+ leader_trait_MLT_ambusher_3_effect: "$FLEET_EFFECTS_TXT$:\n$t$Эффективность Маскировки: §G+1§!\n$t$На 30 дней после снятия маскировки:\n$tt$Урон от корабельного оружия: §G+25%§!"
+ 
+ # Glory Chaser
+ 
+ leader_trait_MLT_glory_chaser: "Славный Охотник"
+ leader_trait_MLT_glory_chaser_desc: "Цель жизни этого лидера - получить признание общества и стать бесстрашным героем, который победил вопреки всем невзгодам и несмотря ни на что."
+ leader_trait_MLT_glory_chaser_2: "$leader_trait_MLT_glory_chaser$"
+ leader_trait_MLT_glory_chaser_2_desc: "$leader_trait_MLT_glory_chaser_desc$"
+ leader_trait_MLT_glory_chaser_3: "$leader_trait_MLT_glory_chaser$"
+ leader_trait_MLT_glory_chaser_3_desc: "$leader_trait_MLT_glory_chaser_desc$"
+ 
+ #leader_trait_MLT_glory_chaser_hive: ""
+ #leader_trait_MLT_glory_chaser_hive_desc: ""
+ #leader_trait_MLT_glory_chaser_2_hive: "$leader_trait_MLT_glory_chaser_hive$"
+ #leader_trait_MLT_glory_chaser_2_hive_desc: "$leader_trait_MLT_glory_chaser_hive_desc$"
+ #leader_trait_MLT_glory_chaser_3_hive: "$leader_trait_MLT_glory_chaser_hive$"
+ #leader_trait_MLT_glory_chaser_3_hive_desc: "$leader_trait_MLT_glory_chaser_hive_desc$"
+ 
+ leader_trait_MLT_glory_chaser_machine: "Быстрый Отклик"
+ leader_trait_MLT_glory_chaser_machine_desc: "Этот дрон обладает невероятно низким временем отклика, что позволяет быстро реорганизовывать подконтрольный ему флот при вступлении в бой с неприятелем."
+ leader_trait_MLT_glory_chaser_2_machine: "$leader_trait_MLT_glory_chaser_machine$"
+ leader_trait_MLT_glory_chaser_2_machine_desc: "$leader_trait_MLT_glory_chaser_machine_desc$"
+ leader_trait_MLT_glory_chaser_3_machine: "$leader_trait_MLT_glory_chaser_machine$"
+ leader_trait_MLT_glory_chaser_3_machine_desc: "$leader_trait_MLT_glory_chaser_machine_desc$"
+ 
+ leader_trait_MLT_glory_chaser_effect: "$FLEET_EFFECTS_TXT$:\n$t$Субсветовая Скорость: §G+5%§!\n$t$Первые 30 дней боя:\n$tt$Скорострельность Корабельных Орудий: §G+15%§!"
+ leader_trait_MLT_glory_chaser_2_effect: "$FLEET_EFFECTS_TXT$:\n$t$Субсветовая Скорость: §G+5%§!\n$t$Первые 30 дней боя:\n$tt$Скорострельность Корабельных Орудий: §G+25%§!"
+ leader_trait_MLT_glory_chaser_3_effect: "$FLEET_EFFECTS_TXT$:\n$t$Субсветовая Скорость: §G+5%§!\n$t$Первые 30 дней боя:\n$tt$Скорострельность Корабельных Орудий: §G+35%§!"
+ 
+ # Black Hole Specialist - Untiered Trait
+ 
+ leader_trait_MLT_black_hole_specialist: "Чёрный Эксперт"
+ leader_trait_MLT_black_hole_specialist_desc: "Этот специалист прошел углубленную подготовку по изучению влияния гравитационных волн, испускаемых чёрными дырами, на передвижение флота."
+ leader_trait_MLT_black_hole_specialist_effect: "$FLEET_EFFECTS_TXT$:\n$t$Убирает негативные эффекты от Чёрных Дыр"
+ 
+ leader_trait_MLT_black_hole_expert: "$leader_trait_MLT_black_hole_specialist$"
+ leader_trait_MLT_black_hole_expert_desc: "$leader_trait_MLT_black_hole_specialist_desc$"
+ leader_trait_MLT_black_hole_expert_effect: "$FLEET_EFFECTS_TXT$:\nНаходясь в системе с Чёрной Дырой:\n$tt$Субсветовая Скорость: §G+20%§!\n$tt$ \nСкорострельность Корабельных Орудий: §G+20%§!\n$tt$Дальность Стрельбы Корабельных Орудий: §G+20%§"
+ 
+ # FTL expert
+ 
+ leader_trait_MLT_FTL_expert: "Сверхсветовой Эксперт"
+ leader_trait_MLT_FTL_expert_desc: "Индивидуальные настройки сверхсветового привода этого специалиста значительно уменьшают его время отклика."
+ leader_trait_MLT_FTL_expert_2: "$leader_trait_MLT_FTL_expert$"
+ leader_trait_MLT_FTL_expert_2_desc: "$leader_trait_MLT_FTL_expert_desc$"
+ leader_trait_MLT_FTL_expert_3: "$leader_trait_MLT_FTL_expert$"
+ leader_trait_MLT_FTL_expert_3_desc: "$leader_trait_MLT_FTL_expert_desc$"
+ 
+ leader_trait_MLT_FTL_expert_hive: "Смотритель Подпространства"
+ leader_trait_MLT_FTL_expert_hive_desc: "Этот трутень настроился на зеркальный план подпространства, позволяя [Root.GetHimHer] перемещать свои суда по гиперлиниям с наименьшей турбулентностью."
+ leader_trait_MLT_FTL_expert_2_hive: "$leader_trait_MLT_FTL_expert_hive$"
+ leader_trait_MLT_FTL_expert_2_hive_desc: "$leader_trait_MLT_FTL_expert_hive_desc$"
+ leader_trait_MLT_FTL_expert_3_hive: "$leader_trait_MLT_FTL_expert_hive$"
+ leader_trait_MLT_FTL_expert_3_hive_desc: "$leader_trait_MLT_FTL_expert_hive_desc$"
+ 
+ leader_trait_MLT_FTL_expert_machine: "Аналитик Подпространства"
+ leader_trait_MLT_FTL_expert_machine_desc: "Этот дрон посвятил часть своих внутренних процессов рассчёту точных маршрутов по гиперпространству, что позволяет гораздо эффективнее проводить свои суда через него."
+ leader_trait_MLT_FTL_expert_2_machine: "$leader_trait_MLT_FTL_expert_machine$"
+ leader_trait_MLT_FTL_expert_2_machine_desc: "$leader_trait_MLT_FTL_expert_machine_desc$"
+ leader_trait_MLT_FTL_expert_3_machine: "$leader_trait_MLT_FTL_expert_machine$"
+ leader_trait_MLT_FTL_expert_3_machine_desc: "$leader_trait_MLT_FTL_expert_machine_desc$"
+ 
+ # Darkstalker - Destiny Trait
+ 
+ leader_trait_MLT_darkstalker: "Тёмный Странник"
+ leader_trait_MLT_darkstalker_desc: "Тьма будет обманута своей собственной хитростью, прежде чем будет заключен мир."
+ #"Скрытый от посторонних глаз, он преследует тьму в пределах своих владений."
+ leader_trait_MLT_darkstalker_effect: "$FLEET_EFFECTS_TXT$:\n$t$Эффективность Маскировки: §G+2§!\n$t$Штраф к Субсветовой Скорости при Включенной Маскировке: §G-100%§!\n$t$Пока замаскирован:\n$tt$Субсветовая Скорость: §G+25%§!"
+ 
+ ####################
+ # Scientist Traits #
+ ####################
+ 
+ ### Explorer Traits ###
+ 
+ # Thrill
+ 
+ leader_trait_MLT_thrill: "Азартный Игрок"
+ leader_trait_MLT_thrill_desc: "Этот лидер жаждет острых ощущений от опасности."
+ leader_trait_MLT_thrill_2: "$leader_trait_MLT_thrill$"
+ leader_trait_MLT_thrill_2_desc: "$leader_trait_MLT_thrill_desc$"
+ leader_trait_MLT_thrill_3: "$leader_trait_MLT_thrill$"
+ leader_trait_MLT_thrill_3_desc: "$leader_trait_MLT_thrill_desc$"
+ 
+ #leader_trait_MLT_thrill_hive: ""
+ #leader_trait_MLT_thrill_hive_desc: ""
+ #leader_trait_MLT_thrill_2_hive: "$leader_trait_MLT_thrill_hive$"
+ #leader_trait_MLT_thrill_2_hive_desc: "$leader_trait_MLT_thrill_hive_desc$"
+ #leader_trait_MLT_thrill_3_hive: "$leader_trait_MLT_thrill_hive$"
+ #leader_trait_MLT_thrill_3_hive_desc: "$leader_trait_MLT_thrill_hive_desc$"
+ 
+ #leader_trait_MLT_thrill_machine: ""
+ #leader_trait_MLT_thrill_machine_desc: ""
+ #leader_trait_MLT_thrill_2_machine: "$leader_trait_MLT_thrill_machine$"
+ #leader_trait_MLT_thrill_2_machine_desc: "$leader_trait_MLT_thrill_machine_desc$"
+ #leader_trait_MLT_thrill_3_machine: "$leader_trait_MLT_thrill_machine$"
+ #leader_trait_MLT_thrill_3_machine_desc: "$leader_trait_MLT_thrill_machine_desc$"
+ 
+ leader_trait_MLT_thrill_effect: "§G-25%§! содержания пока находится вне наших границ"
+ leader_trait_MLT_thrill_2_effect: "§G-50%§! содержания пока находится вне наших границ"
+ leader_trait_MLT_thrill_3_effect: "§G-75%§! содержания пока находится вне наших границ"
+ 
+ # Self Sufficient
+ 
+ leader_trait_MLT_self_sufficient: "Самодостаточный"
+ leader_trait_MLT_self_sufficient_desc: "Этот специалист знает, как распорядится тем, что [Root.GetHeShe] имеет, и обладает навыками, необходимыми для устранения любых неприятностей, которые [Root.GetHisHer] преследуют."
+ leader_trait_MLT_self_sufficient_2: "$leader_trait_MLT_self_sufficient$"
+ leader_trait_MLT_self_sufficient_2_desc: "$leader_trait_MLT_self_sufficient_desc$"
+ leader_trait_MLT_self_sufficient_3: "$leader_trait_MLT_self_sufficient$"
+ leader_trait_MLT_self_sufficient_3_desc: "$leader_trait_MLT_self_sufficient_desc$"
+ 
+ leader_trait_MLT_self_sufficient_hive: "Автономный"
+ leader_trait_MLT_self_sufficient_hive_desc: "Возросшая автономия этого трутня позволяет добиться больших результатов, чем способны добится менее автономные трутни Улья."
+ leader_trait_MLT_self_sufficient_2_hive: "$leader_trait_MLT_self_sufficient_hive$"
+ leader_trait_MLT_self_sufficient_2_hive_desc: "$leader_trait_MLT_self_sufficient_hive_desc$"
+ leader_trait_MLT_self_sufficient_3_hive: "$leader_trait_MLT_self_sufficient_hive$"
+ leader_trait_MLT_self_sufficient_3_hive_desc: "$leader_trait_MLT_self_sufficient_hive_desc$"
+ 
+ leader_trait_MLT_self_sufficient_machine: "Сепаратный"
+ leader_trait_MLT_self_sufficient_machine_desc: "Возросшая автономия этого дрона позволяет добиться большего, чем способны добится другие дроны коллектива."
+ leader_trait_MLT_self_sufficient_2_machine: "$leader_trait_MLT_self_sufficient_machine$"
+ leader_trait_MLT_self_sufficient_2_machine_desc: "$leader_trait_MLT_self_sufficient_machine_desc$"
+ leader_trait_MLT_self_sufficient_3_machine: "$leader_trait_MLT_self_sufficient_machine$"
+ leader_trait_MLT_self_sufficient_3_machine_desc: "$leader_trait_MLT_self_sufficient_machine_desc$"
+ 
+ # Keen Eye
+ 
+ leader_trait_MLT_keen_eye: "Бывший Археолог"
+ leader_trait_MLT_keen_eye_desc: "Как бывший археолог, этот руководитель точно знает, где лучше всего искать руины древних цивилизаций."
+ leader_trait_MLT_keen_eye_2: "$leader_trait_MLT_keen_eye$"
+ leader_trait_MLT_keen_eye_2_desc: "$leader_trait_MLT_keen_eye_desc$"
+ leader_trait_MLT_keen_eye_3: "$leader_trait_MLT_keen_eye$"
+ leader_trait_MLT_keen_eye_3_desc: "$leader_trait_MLT_keen_eye_desc$"
+ 
+# leader_trait_MLT_keen_eye_hive: "Ruin Analysis"
+# leader_trait_MLT_keen_eye_hive_desc: "This leader works best with data that has not been contaminated by gravity."
+# leader_trait_MLT_keen_eye_2_hive: "$leader_trait_MLT_keen_eye_hive$"
+# leader_trait_MLT_keen_eye_2_hive_desc: "$leader_trait_MLT_keen_eye_hive_desc$"
+# leader_trait_MLT_keen_eye_3_hive: "$leader_trait_MLT_keen_eye_hive$"
+# leader_trait_MLT_keen_eye_3_hive_desc: "$leader_trait_MLT_keen_eye_hive_desc$"
+ 
+ leader_trait_MLT_keen_eye_machine: "Исторические Модули"
+ leader_trait_MLT_keen_eye_machine_desc: "Этот дрон собирает любую информацию об империях прошлого, с целью проанализировать и предсказать местонахождение останков древних цивилизаций."
+ leader_trait_MLT_keen_eye_2_machine: "$leader_trait_MLT_keen_eye_machine$"
+ leader_trait_MLT_keen_eye_2_machine_desc: "$leader_trait_MLT_keen_eye_machine_desc$"
+ leader_trait_MLT_keen_eye_3_machine: "$leader_trait_MLT_keen_eye_machine$"
+ leader_trait_MLT_keen_eye_3_machine_desc: "$leader_trait_MLT_keen_eye_machine_desc$"
+ 
+ ### Scholar Traits ###
+ 
+ ### Analyst Traits ###
+ 
+ # Private Research
+ 
+ leader_trait_MLT_private_research: "Частные НИИ"
+ leader_trait_MLT_private_research_desc: "Этот лидер выделил часть [Root.GetHisHer] собственного состояния для формирования независимых от государства Научно Исследовательских Институтов."
+ leader_trait_MLT_private_research_2: "$leader_trait_MLT_private_research$"
+ leader_trait_MLT_private_research_2_desc: "$leader_trait_MLT_private_research_desc$"
+ leader_trait_MLT_private_research_3: "$leader_trait_MLT_private_research$"
+ leader_trait_MLT_private_research_3_desc: "$leader_trait_MLT_private_research_desc$"
+ 
+ leader_trait_MLT_private_research_hive: "Потенциал Познания"
+ leader_trait_MLT_private_research_hive_desc: "Этот трутень считает, что исследовательские возможности Улья имеют первостепенное значение и часто размышляет о вечном."
+ leader_trait_MLT_private_research_2_hive: "$leader_trait_MLT_private_research_hive$"
+ leader_trait_MLT_private_research_2_hive_desc: "$leader_trait_MLT_private_research_hive_desc$"
+ leader_trait_MLT_private_research_3_hive: "$leader_trait_MLT_private_research_hive$"
+ leader_trait_MLT_private_research_3_hive_desc: "$leader_trait_MLT_private_research_hive_desc$"
+ 
+ leader_trait_MLT_private_research_machine: "Эвристический Модуль"
+ leader_trait_MLT_private_research_machine_desc: "Этот дрон ведет частную научную базу данных, тщательно заполняя и сортируя блоки научной информации."
+ leader_trait_MLT_private_research_2_machine: "$leader_trait_MLT_private_research_machine$"
+ leader_trait_MLT_private_research_2_machine_desc: "$leader_trait_MLT_private_research_machine_desc$"
+ leader_trait_MLT_private_research_3_machine: "$leader_trait_MLT_private_research_machine$"
+ leader_trait_MLT_private_research_3_machine_desc: "$leader_trait_MLT_private_research_machine_desc$"
+ 
+ # Astral Researcher
+ 
+ leader_trait_MLT_astral_researcher: "Астральный Странник"
+ leader_trait_MLT_astral_researcher_desc: "Этот специалист очарован разрывами между измерениями, и много своих сил направляет на изучение подобных разломов."
+ leader_trait_MLT_astral_researcher_2: "$leader_trait_MLT_astral_researcher$"
+ leader_trait_MLT_astral_researcher_2_desc: "$leader_trait_MLT_astral_researcher_desc$"
+ leader_trait_MLT_astral_researcher_3: "$leader_trait_MLT_astral_researcher$"
+ leader_trait_MLT_astral_researcher_3_desc: "$leader_trait_MLT_astral_researcher_desc$"
+ 
+ leader_trait_MLT_astral_researcher_hive: "Астральный исследователь"
+ leader_trait_MLT_astral_researcher_hive_desc: "Этот дрон сильно заинтересован разрывами между измерениями, и уделяет много времени на изучение всего потустороннего."
+ leader_trait_MLT_astral_researcher_2_hive: "$leader_trait_MLT_astral_researcher_hive$"
+ leader_trait_MLT_astral_researcher_2_hive_desc: "$leader_trait_MLT_astral_researcher_hive_desc$"
+ leader_trait_MLT_astral_researcher_3_hive: "$leader_trait_MLT_astral_researcher_hive$"
+ leader_trait_MLT_astral_researcher_3_hive_desc: "$leader_trait_MLT_astral_researcher_hive_desc$"
+ 
+ leader_trait_MLT_astral_researcher_machine: "Астральный Сканер"
+ leader_trait_MLT_astral_researcher_machine_desc: "Этот дрон сверх меры заинтересован разрывами между измерениями, и много своих ресурсов направляет на изучение всего потустороннего."
+ leader_trait_MLT_astral_researcher_2_machine: "$leader_trait_MLT_astral_researcher_machine$"
+ leader_trait_MLT_astral_researcher_2_machine_desc: "$leader_trait_MLT_astral_researcher_machine_desc$"
+ leader_trait_MLT_astral_researcher_3_machine: "$leader_trait_MLT_astral_researcher_machine$"
+ leader_trait_MLT_astral_researcher_3_machine_desc: "$leader_trait_MLT_astral_researcher_machine_desc$"
+ 
+ # Excavator
+ 
+ leader_trait_MLT_excavator: "Археолог-Проектировщик"
+ leader_trait_MLT_excavator_desc: "Этот руководитель проявляет большую осторожность, чтобы не повредить какие-либо древние остатки при планировании инфраструктуры."
+ leader_trait_MLT_excavator_2: "$leader_trait_MLT_excavator$"
+ leader_trait_MLT_excavator_2_desc: "$leader_trait_MLT_excavator_desc$"
+ leader_trait_MLT_excavator_3: "$leader_trait_MLT_excavator$"
+ leader_trait_MLT_excavator_3_desc: "$leader_trait_MLT_excavator_desc$"
+ 
+ leader_trait_MLT_excavator_hive: "Трутень-Архо-Проектировщик"
+ leader_trait_MLT_excavator_hive_desc: "Этот трутень способен проектировать инфраструктуру улья, не повреждая при этом останки древних цивилизаций."
+ leader_trait_MLT_excavator_2_hive: "$leader_trait_MLT_excavator_hive$"
+ leader_trait_MLT_excavator_2_hive_desc: "$leader_trait_MLT_excavator_hive_desc$"
+ leader_trait_MLT_excavator_3_hive: "$leader_trait_MLT_excavator_hive$"
+ leader_trait_MLT_excavator_3_hive_desc: "$leader_trait_MLT_excavator_hive_desc$"
+ 
+ leader_trait_MLT_excavator_machine: "Директивы Бережливости"
+ leader_trait_MLT_excavator_machine_desc: "При планировании инфраструктуры этот дрон проявляет большую осторожность, чтобы не повредить какие-либо остатки древних цивилизаций."
+ leader_trait_MLT_excavator_2_machine: "$leader_trait_MLT_excavator_machine$"
+ leader_trait_MLT_excavator_2_machine_desc: "$leader_trait_MLT_excavator_machine_desc$"
+ leader_trait_MLT_excavator_3_machine: "$leader_trait_MLT_excavator_machine$"
+ leader_trait_MLT_excavator_3_machine_desc: "$leader_trait_MLT_excavator_machine_desc$"
+ 
+ # Cloning Expert
+ 
+ leader_trait_MLT_cloning_expert: "Специалист по Клонированию"
+ leader_trait_MLT_cloning_expert_desc: "Этот лидер использует передовые методы клонирования, чтобы увеличить рост нашей популяции."
+ leader_trait_MLT_cloning_expert_2: "$leader_trait_MLT_cloning_expert$"
+ leader_trait_MLT_cloning_expert_2_desc: "$leader_trait_MLT_cloning_expert_desc$"
+ leader_trait_MLT_cloning_expert_3: "$leader_trait_MLT_cloning_expert$"
+ leader_trait_MLT_cloning_expert_3_desc: "$leader_trait_MLT_cloning_expert_desc$"
+ 
+ leader_trait_MLT_cloning_expert_hive: "Специалист по Разведению"
+ leader_trait_MLT_cloning_expert_hive_desc: "Этот трутень использует передовые методы клонирования, чтобы в частном порядке ещё больше увеличить рост популяции."
+ leader_trait_MLT_cloning_expert_2_hive: "$leader_trait_MLT_cloning_expert_hive$"
+ leader_trait_MLT_cloning_expert_2_hive_desc: "$leader_trait_MLT_cloning_expert_hive_desc$"
+ leader_trait_MLT_cloning_expert_3_hive: "$leader_trait_MLT_cloning_expert_hive$"
+ leader_trait_MLT_cloning_expert_3_hive_desc: "$leader_trait_MLT_cloning_expert_hive_desc$"
+ 
+ leader_trait_MLT_cloning_expert_machine: "Дрон Селектор"
+ leader_trait_MLT_cloning_expert_machine_desc: "Этот дрон использует передовые методы клонирования, чтобы увеличить прирост органического населения."
+ leader_trait_MLT_cloning_expert_2_machine: "$leader_trait_MLT_cloning_expert_machine$"
+ leader_trait_MLT_cloning_expert_2_machine_desc: "$leader_trait_MLT_cloning_expert_desc$"
+ leader_trait_MLT_cloning_expert_3_machine: "$leader_trait_MLT_cloning_expert_machine$"
+ leader_trait_MLT_cloning_expert_3_machine_desc: "$leader_trait_MLT_cloning_expert_machine_desc$"
+ 
+ # Dark Matter Specialist - Destiny Trait
+ 
+ leader_trait_MLT_dark_matter_specialist: "Эксперт Тёмной Материи"
+ leader_trait_MLT_dark_matter_specialist_desc: "Эксперт в области темной материи и её теоретического и практического применения, этот лидер - один из немногих, кто может безопасно контролировать производство синтетической темной материи."
+ 
+ ### Statistican Traits ###
+ 
+ # Megastructure Expert
+ 
+ leader_trait_MLT_megastructure_expert: "Специалист Мегапроектировщик"
+ leader_trait_MLT_megastructure_expert_desc: "Этот лидер является главным сторонником мегаинженерии и обладает обширными познаниями в этой области."
+ leader_trait_MLT_megastructure_expert_2: "$leader_trait_MLT_megastructure_expert$"
+ leader_trait_MLT_megastructure_expert_2_desc: "$leader_trait_MLT_megastructure_expert_desc$"
+ leader_trait_MLT_megastructure_expert_3: "$leader_trait_MLT_megastructure_expert$"
+ leader_trait_MLT_megastructure_expert_3_desc: "$leader_trait_MLT_megastructure_expert_desc$"
+ 
+ leader_trait_MLT_megastructure_expert_hive: "Трутень-Мегапроектировщик"
+ leader_trait_MLT_megastructure_expert_hive_desc: "Этот трутень прошел специальную подготовку в области мегаинженерии, что позволяет создавать более быстрые и качественные колоссальные конструкции в вакууме."
+ leader_trait_MLT_megastructure_expert_2_hive: "$leader_trait_MLT_megastructure_expert_hive$"
+ leader_trait_MLT_megastructure_expert_2_hive_desc: "$leader_trait_MLT_megastructure_expert_hive_desc$"
+ leader_trait_MLT_megastructure_expert_3_hive: "$leader_trait_MLT_megastructure_expert_hive$"
+ leader_trait_MLT_megastructure_expert_3_hive_desc: "$leader_trait_MLT_megastructure_expert_hive_desc$"
+ 
+ leader_trait_MLT_megastructure_expert_machine: "Дрон-Мегапроектировщик"
+ leader_trait_MLT_megastructure_expert_machine_desc: "Этот дрон скопировал все данные, хранящиеся в центральной базе данных, по теме мегаинженерии и продолжает расширять данный специфический подраздел."
+ leader_trait_MLT_megastructure_expert_2_machine: "$leader_trait_MLT_megastructure_expert_machine$"
+ leader_trait_MLT_megastructure_expert_2_machine_desc: "$leader_trait_MLT_megastructure_expert_machine_desc$"
+ leader_trait_MLT_megastructure_expert_3_machine: "$leader_trait_MLT_megastructure_expert_machine$"
+ leader_trait_MLT_megastructure_expert_3_machine_desc: "$leader_trait_MLT_megastructure_expert_machine_desc$"
+ 
+ # Space Researcher
+ 
+ leader_trait_MLT_space_researcher: "Внегравитационный Исследователь"
+ leader_trait_MLT_space_researcher_desc: "Блестящий исследователь со склонностью к проведению исследований за пределами гравитационного колодца."
+ leader_trait_MLT_space_researcher_2: "$leader_trait_MLT_space_researcher$"
+ leader_trait_MLT_space_researcher_2_desc: "$leader_trait_MLT_space_researcher_desc$"
+ leader_trait_MLT_space_researcher_3: "$leader_trait_MLT_space_researcher$"
+ leader_trait_MLT_space_researcher_3_desc: "$leader_trait_MLT_space_researcher_desc$"
+ 
+ leader_trait_MLT_space_researcher_hive: "Внегравитационный Научный Трутень"
+ leader_trait_MLT_space_researcher_hive_desc: "Этот трутень лучше всего проводит опыты, которые стоит проводить в полной невесомости."
+ leader_trait_MLT_space_researcher_2_hive: "$leader_trait_MLT_space_researcher_hive$"
+ leader_trait_MLT_space_researcher_2_hive_desc: "$leader_trait_MLT_space_researcher_hive_desc$"
+ leader_trait_MLT_space_researcher_3_hive: "$leader_trait_MLT_space_researcher_hive$"
+ leader_trait_MLT_space_researcher_3_hive_desc: "$leader_trait_MLT_space_researcher_hive_desc$"
+ 
+ leader_trait_MLT_space_researcher_machine: "Внегравитационный Научный Дрон"
+ leader_trait_MLT_space_researcher_machine_desc: "Этот дрон ценит данные, полученные из опытов, проводимых под нулевой гравитацией, более высоко, чем данные полученные из других источников, ссылаясь на негативное воздействие гравитационных постоянных на качество, получаемых в результате, данных."
+ leader_trait_MLT_space_researcher_2_machine: "$leader_trait_MLT_space_researcher_machine$"
+ leader_trait_MLT_space_researcher_2_machine_desc: "$leader_trait_MLT_space_researcher_machine_desc$"
+ leader_trait_MLT_space_researcher_3_machine: "$leader_trait_MLT_space_researcher_machine$"
+ leader_trait_MLT_space_researcher_3_machine_desc: "$leader_trait_MLT_space_researcher_machine_desc$"
+ 
+ # Private Collector
+ leader_trait_MLT_private_collector: "Частный Коллекционер"
+ leader_trait_MLT_private_collector_desc: "Страсть к изучению прошлого привела к многочисленным связям с разнообразными коллекционерами государства."
+ leader_trait_MLT_private_collector_2: "$leader_trait_MLT_private_collector$"
+ leader_trait_MLT_private_collector_2_desc: "$leader_trait_MLT_private_collector_desc$"
+ leader_trait_MLT_private_collector_3: "$leader_trait_MLT_private_collector$"
+ leader_trait_MLT_private_collector_3_desc: "$leader_trait_MLT_private_collector_desc$"
+ 
+# leader_trait_MLT_private_collector_hive: ""
+# leader_trait_MLT_private_collector_hive_desc: "This leader works best with data that has not been contaminated by gravity."
+# leader_trait_MLT_private_collector_2_hive: "$leader_trait_MLT_private_collector_hive$"
+# leader_trait_MLT_private_collector_2_hive_desc: "$leader_trait_MLT_private_collector_hive_desc$"
+# leader_trait_MLT_private_collector_3_hive: "$leader_trait_MLT_private_collector_hive$"
+# leader_trait_MLT_private_collector_3_hive_desc: "$leader_trait_MLT_private_collector_hive_desc$"
+ 
+# leader_trait_MLT_private_collector_machine: "Zero-G Researcher"
+# leader_trait_MLT_private_collector_machine_desc: "This unit values data from Zero-G facilities more highly than other sources, citing the disrupting effect gravity has on data-collection."
+# leader_trait_MLT_private_collector_2_machine: "$leader_trait_MLT_private_collector_machine$"
+# leader_trait_MLT_private_collector_2_machine_desc: "$leader_trait_MLT_private_collector_machine_desc$"
+# leader_trait_MLT_private_collector_3_machine: "$leader_trait_MLT_private_collector_machine$"
+# leader_trait_MLT_private_collector_3_machine_desc: "$leader_trait_MLT_private_collector_machine_desc$"
+ 
+ # Megaengineering Overseer
+ 
+ leader_trait_MLT_megaengineering_overseer: "Управляющий Мегаструктурами"
+ leader_trait_MLT_megaengineering_overseer_desc: "Этот лидер - квалифицированный мегаинженер, способный наладить руководство огромными проектами с участием миллиардов рабочих и обслуживающего персонала."
+ 
+ # Wonderworlds - Destiny Trait
+ 
+ leader_trait_MLT_wonderworlds: "Мастеровой Рая"
+ leader_trait_MLT_wonderworlds_desc: "Этот лидер привык контролировать каждый процесс. Будучи экспертом как в области терраформирования, так и в области мегаструктурной инженерии, данный специалист обладает полным карт-бланшем, когда дело доходит до проектирования искусственных миров."
+ leader_trait_MLT_wonderworlds_effect: "$EMPIRE_EFFECTS_TXT$:\n$t$Ресурсы от видов деятельности на исскуственных мирах: §G+10%§!"
+ 
+ ###################
+ # Official Traits #
+ ###################
+ 
+ ### Governor Traits ###
+ 
+ # Concrete Constructor
+ 
+ leader_trait_MLT_concrete_constructor: "Фанат Необетона"
+ leader_trait_MLT_concrete_constructor_desc: "Этот лидер является поклонником необетона и следит за тем, чтобы он использовался во всех строительных проектах, проходящих под его непосредственным руководством. Кто-то может сказать, что это довольно скучно и безвкусно, но при достаточном усилии любой сможет убедиться что этот материал ничёть не хуже остальных."
+ leader_trait_MLT_concrete_constructor_2: "$leader_trait_MLT_concrete_constructor$"
+ leader_trait_MLT_concrete_constructor_2_desc: "$leader_trait_MLT_concrete_constructor_desc$"
+ leader_trait_MLT_concrete_constructor_3: "$leader_trait_MLT_concrete_constructor$"
+ leader_trait_MLT_concrete_constructor_3_desc: "$leader_trait_MLT_concrete_constructor_desc$"
+ 
+ leader_trait_MLT_concrete_constructor_hive: "Функциональный Архитектор"
+ leader_trait_MLT_concrete_constructor_hive_desc: "Этот трутень мало заботится об эстетике, отдавая предпочтение эффективности и универсальности."
+ leader_trait_MLT_concrete_constructor_2_hive: "$leader_trait_MLT_concrete_constructor_hive$"
+ leader_trait_MLT_concrete_constructor_2_hive_desc: "$leader_trait_MLT_concrete_constructor_hive_desc$"
+ leader_trait_MLT_concrete_constructor_3_hive: "$leader_trait_MLT_concrete_constructor_hive$"
+ leader_trait_MLT_concrete_constructor_3_hive_desc: "$leader_trait_MLT_concrete_constructor_hive_desc$"
+ 
+ leader_trait_MLT_concrete_constructor_machine: "Функциональный Модуль"
+ leader_trait_MLT_concrete_constructor_machine_desc: "Этот дрон мало заботится об эстетике, отдавая предпочтение эффективности и универсальности."
+ leader_trait_MLT_concrete_constructor_2_machine: "$leader_trait_MLT_concrete_constructor_machine$"
+ leader_trait_MLT_concrete_constructor_2_machine_desc: "$leader_trait_MLT_concrete_constructor_machine_desc$"
+ leader_trait_MLT_concrete_constructor_3_machine: "$leader_trait_MLT_concrete_constructor_machine$"
+ leader_trait_MLT_concrete_constructor_3_machine_desc: "$leader_trait_MLT_concrete_constructor_machine_desc$"
+ 
+ # Lawyer
+ 
+ leader_trait_MLT_lawyer: "Юрист"
+ leader_trait_MLT_lawyer_desc: "Этот руководитель является экспертом в области местного законодательства, что позволяет быстрее утверждать новые проекты."
+ leader_trait_MLT_lawyer_2: "$leader_trait_MLT_lawyer$"
+ leader_trait_MLT_lawyer_2_desc: "$leader_trait_MLT_lawyer_desc$"
+ leader_trait_MLT_lawyer_3: "$leader_trait_MLT_lawyer$"
+ leader_trait_MLT_lawyer_3_desc: "$leader_trait_MLT_lawyer_desc$"
+ 
+ leader_trait_MLT_lawyer_hive: "Трутень Координатор"
+ leader_trait_MLT_lawyer_hive_desc: "Хороший рабочий процесс легко создать, когда вы можете контролировать всех рабочих трутней."
+ leader_trait_MLT_lawyer_2_hive: "$leader_trait_MLT_lawyer_hive$"
+ leader_trait_MLT_lawyer_2_hive_desc: "$leader_trait_MLT_lawyer_hive_desc$"
+ leader_trait_MLT_lawyer_3_hive: "$leader_trait_MLT_lawyer_hive$"
+ leader_trait_MLT_lawyer_3_hive_desc: "$leader_trait_MLT_lawyer_hive_desc$"
+ 
+ leader_trait_MLT_lawyer_machine: "Дрон Координатор"
+ leader_trait_MLT_lawyer_machine_desc: "Этот управляющий дрон создает пользовательские протоколы для рабочих дронов каждого нового проекта."
+ leader_trait_MLT_lawyer_2_machine: "$leader_trait_MLT_lawyer_machine$"
+ leader_trait_MLT_lawyer_2_machine_desc: "$leader_trait_MLT_lawyer_machine_desc$"
+ leader_trait_MLT_lawyer_3_machine: "$leader_trait_MLT_lawyer_machine$"
+ leader_trait_MLT_lawyer_3_machine_desc: "$leader_trait_MLT_lawyer_machine_desc$"
+ 
+ # Bureaucrat
+ 
+ leader_trait_MLT_bureaucrat: "Бюрократическая Жилка"
+ leader_trait_MLT_bureaucrat_desc: "В личном деле этого специалиста фигурирует множество похвал в адрес тех, кто занимает административные и бюрократические должности."
+ leader_trait_MLT_bureaucrat_2: "$leader_trait_MLT_bureaucrat$"
+ leader_trait_MLT_bureaucrat_2_desc: "$leader_trait_MLT_bureaucrat_desc$"
+ leader_trait_MLT_bureaucrat_3: "$leader_trait_MLT_bureaucrat$"
+ leader_trait_MLT_bureaucrat_3_desc: "$leader_trait_MLT_bureaucrat_desc$"
+ 
+ leader_trait_MLT_bureaucrat_hive: "Трутень Организатор"
+ leader_trait_MLT_bureaucrat_hive_desc: "Этот руководящий трутень следит за тем, чтобы все координаторы Улья так-же координировались между собой, обеспечивая координацию для всех других трутней, задействованных в этом процессе."
+ leader_trait_MLT_bureaucrat_2_hive: "$leader_trait_MLT_bureaucrat_hive$"
+ leader_trait_MLT_bureaucrat_2_hive_desc: "$leader_trait_MLT_bureaucrat_hive_desc$"
+ leader_trait_MLT_bureaucrat_3_hive: "$leader_trait_MLT_bureaucrat_hive$"
+ leader_trait_MLT_bureaucrat_3_hive_desc: "$leader_trait_MLT_bureaucrat_hive_desc$"
+ 
+ leader_trait_MLT_bureaucrat_machine: "Дрон Организатор"
+ leader_trait_MLT_bureaucrat_machine_desc: "Этот дрон проводит тщательное ведение журнала, чтобы убедиться, что все ресурсы машинного разума были потрачены с умом."
+ leader_trait_MLT_bureaucrat_2_machine: "$leader_trait_MLT_bureaucrat_machine$"
+ leader_trait_MLT_bureaucrat_2_machine_desc: "$leader_trait_MLT_bureaucrat_machine_desc$"
+ leader_trait_MLT_bureaucrat_3_machine: "$leader_trait_MLT_bureaucrat_machine$"
+ leader_trait_MLT_bureaucrat_3_machine_desc: "$leader_trait_MLT_bureaucrat_machine_desc$"
+ 
+ # Migration Overseer
+ 
+ leader_trait_MLT_migration_overseer: "Миграционный Контролёр"
+ leader_trait_MLT_migration_overseer_desc: "Этот специалист часто участвует в рекламных кампаниях, освещающих миграцию на [Root.GetHisHer] планету и продвигает различные организации, помогающие переселенцам быстрее адаптироваться."
+ 
+ ### Delegate Traits ###
+ 
+ # Federal Navigator
+ 
+ leader_trait_MLT_federal_navigator: "Высший Навигатор"
+ leader_trait_MLT_federal_navigator_desc: "Этот делегат часто включает навигаторов федерации на любые собрания, гарантируя, что любые составленные планы государства не нарушат местный трафик."
+ leader_trait_MLT_federal_navigator_2: "$leader_trait_MLT_federal_navigator$"
+ leader_trait_MLT_federal_navigator_2_desc: "$leader_trait_MLT_federal_navigator_desc$"
+ leader_trait_MLT_federal_navigator_3: "$leader_trait_MLT_federal_navigator$"
+ leader_trait_MLT_federal_navigator_3_desc: "$leader_trait_MLT_federal_navigator_desc$"
+ 
+ leader_trait_MLT_federal_navigator_hive: "Трутень Навигатор"
+ leader_trait_MLT_federal_navigator_hive_desc: "Этот трутень часто наставляет свою команду трутней навигаторов для любых логистических вызовов, гарантируя, что любые составленные Ульем планы не смогут помешать местной логистике."
+ leader_trait_MLT_federal_navigator_2_hive: "$leader_trait_MLT_federal_navigator_hive$"
+ leader_trait_MLT_federal_navigator_2_hive_desc: "$leader_trait_MLT_federal_navigator_hive_desc$"
+ leader_trait_MLT_federal_navigator_3_hive: "$leader_trait_MLT_federal_navigator_hive$"
+ leader_trait_MLT_federal_navigator_3_hive_desc: "$leader_trait_MLT_federal_navigator_hive_desc$"
+ 
+ leader_trait_MLT_federal_navigator_machine: "Дрон Навигатор"
+ leader_trait_MLT_federal_navigator_machine_desc: "Этот дрон часто копирует свою базу данных для других навигаторов Машинного Разума, гарантируя, что любые, составленные Центральным Процессором, планы не помешают местной логистике."
+ leader_trait_MLT_federal_navigator_2_machine: "$leader_trait_MLT_federal_navigator_machine$"
+ leader_trait_MLT_federal_navigator_2_machine_desc: "$leader_trait_MLT_federal_navigator_machine_desc$"
+ leader_trait_MLT_federal_navigator_3_machine: "$leader_trait_MLT_federal_navigator_machine$"
+ leader_trait_MLT_federal_navigator_3_machine_desc: "$leader_trait_MLT_federal_navigator_machine_desc$"
+ 
+ # Federal Researcher
+ 
+ leader_trait_MLT_federal_researcher: "Мудрец"
+ leader_trait_MLT_federal_researcher_desc: "Делясь друг с другом как нашими исследованиями так и жизненным опытом, мы все в конечном итоге, становимся образованнее и мудрее."
+ leader_trait_MLT_federal_researcher_2: "$leader_trait_MLT_federal_researcher$"
+ leader_trait_MLT_federal_researcher_2_desc: "$leader_trait_MLT_federal_researcher_desc$"
+ leader_trait_MLT_federal_researcher_3: "$leader_trait_MLT_federal_researcher$"
+ leader_trait_MLT_federal_researcher_3_desc: "$leader_trait_MLT_federal_researcher_desc$"
+ 
+ leader_trait_MLT_federal_researcher_hive: "Трутень Наставник"
+ leader_trait_MLT_federal_researcher_hive_desc: "Выгода от получения доступа к информации от наших союзников перевешивает риски, связанные с получением ими доступа к знаниям Улья."
+ leader_trait_MLT_federal_researcher_2_hive: "$leader_trait_MLT_federal_researcher_hive$"
+ leader_trait_MLT_federal_researcher_2_hive_desc: "$leader_trait_MLT_federal_researcher_hive_desc$"
+ leader_trait_MLT_federal_researcher_3_hive: "$leader_trait_MLT_federal_researcher_hive$"
+ leader_trait_MLT_federal_researcher_3_hive_desc: "$leader_trait_MLT_federal_researcher_hive_desc$"
+ 
+ leader_trait_MLT_federal_researcher_machine: "Общие Базы Данных"
+ leader_trait_MLT_federal_researcher_machine_desc: "Преимущества доступа к базам данных наших союзников перевешивают риски, связанные с получением ими доступа к нашим."
+ leader_trait_MLT_federal_researcher_2_machine: "$leader_trait_MLT_federal_researcher_machine$"
+ leader_trait_MLT_federal_researcher_2_machine_desc: "$leader_trait_MLT_federal_researcher_machine_desc$"
+ leader_trait_MLT_federal_researcher_3_machine: "$leader_trait_MLT_federal_researcher_machine$"
+ leader_trait_MLT_federal_researcher_3_machine_desc: "$leader_trait_MLT_federal_researcher_machine_desc$"
+ 
+ # Grudgebearer
+ 
+ leader_trait_MLT_grudgebearer: "Злопамятный"
+ leader_trait_MLT_grudgebearer_desc: "Этот лидер никогда не позволит обиде угаснуть, и сделает все, что в [Root.GetHisHer] силах, чтобы никогда больше не позволить противнику одержать победу подобным образом."
+ leader_trait_MLT_grudgebearer_2: "$leader_trait_MLT_grudgebearer$"
+ leader_trait_MLT_grudgebearer_2_desc: "$leader_trait_MLT_grudgebearer_desc$"
+ leader_trait_MLT_grudgebearer_3: "$leader_trait_MLT_grudgebearer$"
+ leader_trait_MLT_grudgebearer_3_desc: "$leader_trait_MLT_grudgebearer_desc$"
+ 
+ leader_trait_MLT_grudgebearer_hive: "Злопамятный"
+ leader_trait_MLT_grudgebearer_hive_desc: "Память этого трутня всегда сосредоточена на уязвимостях врагов его Улья."
+ leader_trait_MLT_grudgebearer_2_hive: "$leader_trait_MLT_grudgebearer_hive$"
+ leader_trait_MLT_grudgebearer_2_hive_desc: "$leader_trait_MLT_grudgebearer_hive_desc$"
+ leader_trait_MLT_grudgebearer_3_hive: "$leader_trait_MLT_grudgebearer_hive$"
+ leader_trait_MLT_grudgebearer_3_hive_desc: "$leader_trait_MLT_grudgebearer_hive_desc$"
+ 
+ leader_trait_MLT_grudgebearer_machine: "Злопамятный"
+ leader_trait_MLT_grudgebearer_machine_desc: "Этот дрон никогда не стирает воспоминания, связанные о нанесении вреда ресурсной базе Машинного Разума."
+ leader_trait_MLT_grudgebearer_2_machine: "$leader_trait_MLT_grudgebearer_machine$"
+ leader_trait_MLT_grudgebearer_2_machine_desc: "$leader_trait_MLT_grudgebearer_machine_desc$"
+ leader_trait_MLT_grudgebearer_3_machine: "$leader_trait_MLT_grudgebearer_machine$"
+ leader_trait_MLT_grudgebearer_3_machine_desc: "$leader_trait_MLT_grudgebearer_machine_desc$"
+ 
+ leader_trait_MLT_grudgebearer_tt: "$GALCOM_EFFECTS_TXT$$TABBED_NEW_LINE$Дипломатический вес при противостоянии резолюции соперника: §G+10%§!"
+ leader_trait_MLT_grudgebearer_2_tt: "$GALCOM_EFFECTS_TXT$$TABBED_NEW_LINE$Дипломатический вес при противостоянии резолюции соперника: §G+15%§!$TABBED_NEW_LINE$Дипломатический вес при противостоянии резолюции соперника: §G+15%§!"
+ leader_trait_MLT_grudgebearer_3_tt: "$GALCOM_EFFECTS_TXT$$TABBED_NEW_LINE$Дипломатический вес при противостоянии резолюции соперника: §G+25%§!$TABBED_NEW_LINE$Дипломатический вес при противостоянии резолюции соперника: §G+25%§!"
+ 
+ # Logistics Expert - Destiny Trait
+ 
+ leader_trait_MLT_logistics_expert: "Логистический Эксперт"
+ leader_trait_MLT_logistics_expert_desc: "Передвинув несколько номеров и сертификатов, этот лидер может сохранить часть нашего вклада во флотилию федерации."
+ 
+ ### Advisor Traits ###
+ 
+ # Traffic Specialist
+ 
+ leader_trait_MLT_traffic_specialist: "Диспетчер Трафика"
+ leader_trait_MLT_traffic_specialist_desc: "Этот администратор проявляет свои качества, когда дело доходит до разработки концепции нашего межзвездного трафика, обеспечивая составление более быстрых маршрутов и транзита ресурсов."
+ leader_trait_MLT_traffic_specialist_2: "$leader_trait_MLT_traffic_specialist$"
+ leader_trait_MLT_traffic_specialist_2_desc: "$leader_trait_MLT_traffic_specialist_desc$"
+ leader_trait_MLT_traffic_specialist_3: "$leader_trait_MLT_traffic_specialist$"
+ leader_trait_MLT_traffic_specialist_3_desc: "$leader_trait_MLT_traffic_specialist_desc$"
+ 
+ leader_trait_MLT_traffic_specialist_hive: "Пространственный Аналитик"
+ leader_trait_MLT_traffic_specialist_hive_desc: "Этот трутень тщательно контролирует часть межзвёздного трафика, обеспечивая более эргономичные временные затраты на транзит ресурсов."
+ leader_trait_MLT_traffic_specialist_2_hive: "$leader_trait_MLT_traffic_specialist_hive$"
+ leader_trait_MLT_traffic_specialist_2_hive_desc: "$leader_trait_MLT_traffic_specialist_hive_desc$"
+ leader_trait_MLT_traffic_specialist_3_hive: "$leader_trait_MLT_traffic_specialist_hive$"
+ leader_trait_MLT_traffic_specialist_3_hive_desc: "$leader_trait_MLT_traffic_specialist_hive_desc$"
+ 
+ leader_trait_MLT_traffic_specialist_machine: "Модуль Пространственной Аналитики"
+ leader_trait_MLT_traffic_specialist_machine_desc: "Анализ космической погоды в режиме реального времени обеспечивает лучшую маневренность при сверхсветовых и субсветовых перелётах."
+ leader_trait_MLT_traffic_specialist_2_machine: "$leader_trait_MLT_traffic_specialist_machine$"
+ leader_trait_MLT_traffic_specialist_2_machine_desc: "$leader_trait_MLT_traffic_specialist_machine_desc$"
+ leader_trait_MLT_traffic_specialist_3_machine: "$leader_trait_MLT_traffic_specialist_machine$"
+ leader_trait_MLT_traffic_specialist_3_machine_desc: "$leader_trait_MLT_traffic_specialist_machine_desc$"
+ 
+ # Royal Liaison
+ 
+ leader_trait_MLT_royal_liaison: "Кадровик"
+ leader_trait_MLT_royal_liaison_desc: "Правитель не может править без громадного множества квалифицированных помощников, которые должны выполнять множество отдельных обязанностей. Этот специалист следит за тем, чтобы на каждую работу подобного рода отбирались только лучшие специалисты."
+ leader_trait_MLT_royal_liaison_2: "$leader_trait_MLT_royal_liaison$"
+ leader_trait_MLT_royal_liaison_2_desc: "$leader_trait_MLT_royal_liaison_desc$"
+ leader_trait_MLT_royal_liaison_3: "$leader_trait_MLT_royal_liaison$"
+ leader_trait_MLT_royal_liaison_3_desc: "$leader_trait_MLT_royal_liaison_desc$"
+ 
+ leader_trait_MLT_royal_liaison_hive: "Трутень Эмпат"
+ leader_trait_MLT_royal_liaison_hive_desc: "[Root.Owner.Ruler.GetRulerTitle] предоставил этому трутню возможность взять на себя часть своей рабочей нагрузки, в моменты когда это более всего необходимо."
+ leader_trait_MLT_royal_liaison_2_hive: "$leader_trait_MLT_royal_liaison_hive$"
+ leader_trait_MLT_royal_liaison_2_hive_desc: "$leader_trait_MLT_royal_liaison_hive_desc$"
+ leader_trait_MLT_royal_liaison_3_hive: "$leader_trait_MLT_royal_liaison_hive$"
+ leader_trait_MLT_royal_liaison_3_hive_desc: "$leader_trait_MLT_royal_liaison_hive_desc$"
+ 
+ leader_trait_MLT_royal_liaison_machine: "Вспомогательный Процессор"
+ leader_trait_MLT_royal_liaison_machine_desc: "[Root.Owner.Ruler.SetRulerTitle] предоставил специальный порт для прямого подключения сознания данного дрона. Это позволяет данному дрону брать на себя часть рабочей нагрузки Центрального Процессора, когда это более всего необходимо."
+ leader_trait_MLT_royal_liaison_2_machine: "$leader_trait_MLT_royal_liaison_machine$"
+ leader_trait_MLT_royal_liaison_2_machine_desc: "$leader_trait_MLT_royal_liaison_machine_desc$"
+ leader_trait_MLT_royal_liaison_3_machine: "$leader_trait_MLT_royal_liaison_machine$"
+ leader_trait_MLT_royal_liaison_3_machine_desc: "$leader_trait_MLT_royal_liaison_machine_desc$"
+ 
+ # Haggler
+ 
+ leader_trait_MLT_haggler: "Торгаш"
+ leader_trait_MLT_haggler_desc: "Этот лидер является экспертом в бартерной торговле и имеет множество личных связей с деятелями рынка, что часто позволяет обходить пошлину, обычно взимаемую при использовании галактической торговли."
+ leader_trait_MLT_haggler_2: "$leader_trait_MLT_haggler$"
+ leader_trait_MLT_haggler_2_desc: "$leader_trait_MLT_haggler_desc$"
+ leader_trait_MLT_haggler_3: "$leader_trait_MLT_haggler$"
+ leader_trait_MLT_haggler_3_desc: "$leader_trait_MLT_haggler_desc$"
+ 
+ leader_trait_MLT_haggler_hive: "Трутень Завхоз"
+ leader_trait_MLT_haggler_hive_desc: "Этот трутень разработал способ использования нетрадиционных ресурсов в качестве замены отсутствующим традиционным."
+ leader_trait_MLT_haggler_2_hive: "$leader_trait_MLT_haggler_hive$"
+ leader_trait_MLT_haggler_2_hive_desc: "$leader_trait_MLT_haggler_hive_desc$"
+ leader_trait_MLT_haggler_3_hive: "$leader_trait_MLT_haggler_hive$"
+ leader_trait_MLT_haggler_3_hive_desc: "$leader_trait_MLT_haggler_hive_desc$"
+ 
+ leader_trait_MLT_haggler_machine: "Дрон Контролёр"
+ leader_trait_MLT_haggler_machine_desc: "Этот дрон разработал подпрограмму использования нетрадиционных ресурсов в качестве замены отсутствующим традиционным."
+ leader_trait_MLT_haggler_2_machine: "$leader_trait_MLT_haggler_machine$"
+ leader_trait_MLT_haggler_2_machine_desc: "$leader_trait_MLT_haggler_machine_desc$"
+ leader_trait_MLT_haggler_3_machine: "$leader_trait_MLT_haggler_machine$"
+ leader_trait_MLT_haggler_3_machine_desc: "$leader_trait_MLT_haggler_machine_desc$"
+ 
+ # Internal Structuring - Destiny Trait
+ 
+ leader_trait_MLT_internal_structuring: "Меценат"
+ leader_trait_MLT_internal_structuring_desc: "Этот лидер непреклонен в своем убеждении о том, что чем масштабнее операция, тем лучше, и отказался от части [Root.GetHisHer] продаж, чтобы получить больший откат для новых сотрудников."
+ 
+ ### Ambassador Traits ###
+ # Silver-Tongued
+ leader_trait_MLT_friendly: "Дружелюбный"
+ leader_trait_MLT_friendly_desc: "Этот лидер ведет себя хорошо, даже находясь среди тех, кто враждебно и недоверчиво к н[Root.GetHimHer] относится."
+ leader_trait_MLT_friendly_hive: "Успокаивающие Феромоны"
+ leader_trait_MLT_friendly_hive_desc: "Этот трутень использует специальные феромоны, чтобы выглядеть более привлекательным и заслуживающим доверия в глазах других органических дипломатов."
+ leader_trait_MLT_friendly_machine: "Блестящий Корпус"
+ leader_trait_MLT_friendly_machine_desc: "Этот дрон выделил необычно большое количество качественных ресурсов для формирования впечатлительного внешнего вида."
+ 
+ leader_trait_MLT_friendly_2: "$leader_trait_MLT_friendly$"
+ leader_trait_MLT_friendly_2_desc: "$leader_trait_MLT_friendly_desc$"
+ leader_trait_MLT_friendly_2_hive: "$leader_trait_MLT_friendly_hive$"
+ leader_trait_MLT_friendly_2_hive_desc: "$leader_trait_MLT_friendly_hive_desc$"
+ leader_trait_MLT_friendly_2_machine: "$leader_trait_MLT_friendly_machine$"
+ leader_trait_MLT_friendly_2_machine_desc: "$leader_trait_MLT_friendly_machine_desc$"
+ 
+ leader_trait_MLT_friendly_3: "$leader_trait_MLT_friendly$"
+ leader_trait_MLT_friendly_3_desc: "$leader_trait_MLT_friendly_desc$"
+ leader_trait_MLT_friendly_3_hive: "$leader_trait_MLT_friendly_hive$"
+ leader_trait_MLT_friendly_3_hive_desc: "$leader_trait_MLT_friendly_hive_desc$"
+ leader_trait_MLT_friendly_3_machine: "$leader_trait_MLT_friendly_machine$"
+ leader_trait_MLT_friendly_3_machine_desc: "$leader_trait_MLT_friendly_machine_desc$"
+ 
+ leader_trait_MLT_friendly_tt: "$EMPIRE_EFFECTS_TXT$:\n$t$Государства, способные к дипломатии, имеют увеличенное £opinion£ §Yмнение§! о нашем государстве на §G10§!."
+ leader_trait_MLT_friendly_2_tt: "$EMPIRE_EFFECTS_TXT$:\n$t$Государства, способные к дипломатии, имеют увеличенное £opinion£ §Yмнение§! о нашем государстве на §G20§!."
+ leader_trait_MLT_friendly_3_tt: "$EMPIRE_EFFECTS_TXT$:\n$t$Государства, способные к дипломатии, имеют увеличенное £opinion£ §Yмнение§! о нашем государстве на §G40§!."
+ 
+ # Secretkeeper
+ 
+ leader_trait_MLT_secretkeeper: "Хранитель Тайн"
+ leader_trait_MLT_secretkeeper_desc: "Этот лидер тщательно следит за тем, когда какая и какую именно информация раскрывать как потенциальным союзникам, так и врагам."
+ leader_trait_MLT_secretkeeper_2: "$leader_trait_MLT_secretkeeper$"
+ leader_trait_MLT_secretkeeper_2_desc: "$leader_trait_MLT_secretkeeper_desc$"
+ leader_trait_MLT_secretkeeper_3: "$leader_trait_MLT_secretkeeper$"
+ leader_trait_MLT_secretkeeper_3_desc: "Луна круглая и большая, высоко в небе.\nВеликие тайны хранит мой разум.\nСмотри на Луну, ведь она знает больше, чем ты."
+ #"$leader_trait_MLT_secretkeeper_desc$"
+ 
+ leader_trait_MLT_secretkeeper_hive: "Подпространственная Связь"
+ leader_trait_MLT_secretkeeper_hive_desc: "Связь этого трутня с сетью подпространственных коммуникаций Улья сильнее, чем у большинства других трутней связитов, что позволяет в меньшей степени полагаться на технологические решения."
+ leader_trait_MLT_secretkeeper_2_hive: "$leader_trait_MLT_secretkeeper_hive$"
+ leader_trait_MLT_secretkeeper_2_hive_desc: "$leader_trait_MLT_secretkeeper_hive_desc$"
+ leader_trait_MLT_secretkeeper_3_hive: "$leader_trait_MLT_secretkeeper_hive$"
+ leader_trait_MLT_secretkeeper_3_hive_desc: "$leader_trait_MLT_secretkeeper_hive_desc$"
+ 
+ leader_trait_MLT_secretkeeper_machine: "Высококачественное Шифрование"
+ leader_trait_MLT_secretkeeper_machine_desc: "Этот дрон использует пользовательские алгоритмы и методы шифрования для обеспечения безопасности баз данных Машинного Разума."
+ leader_trait_MLT_secretkeeper_2_machine: "$leader_trait_MLT_secretkeeper_machine$"
+ leader_trait_MLT_secretkeeper_2_machine_desc: "$leader_trait_MLT_secretkeeper_machine_desc$"
+ leader_trait_MLT_secretkeeper_3_machine: "$leader_trait_MLT_secretkeeper_machine$"
+ leader_trait_MLT_secretkeeper_3_machine_desc: "$leader_trait_MLT_secretkeeper_machine_desc$"
+ 
+ # Trader
+ 
+ leader_trait_MLT_trader: "Коммерческое Образование"
+ leader_trait_MLT_trader_desc: "Этот специалист получил лучшее экономическое образование, которое только может предложить империя, что позволяет получать гораздо большую прибыль от любых подписанных контрактов."
+ leader_trait_MLT_trader_2: "$leader_trait_MLT_trader$"
+ leader_trait_MLT_trader_2_desc: "$leader_trait_MLT_trader_desc$"
+ leader_trait_MLT_trader_3: "$leader_trait_MLT_trader$"
+ leader_trait_MLT_trader_3_desc: "$leader_trait_MLT_trader_desc$"
+ 
+ #leader_trait_MLT_trader_hive: ""
+ #leader_trait_MLT_trader_hive_desc: ""
+ #leader_trait_MLT_trader_2_hive: "$leader_trait_MLT_trader_hive$"
+ #leader_trait_MLT_trader_2_hive_desc: "$leader_trait_MLT_trader_hive_desc$"
+ #leader_trait_MLT_trader_3_hive: "$leader_trait_MLT_trader_hive$"
+ #leader_trait_MLT_trader_3_hive_desc: "$leader_trait_MLT_trader_hive_desc$"
+ 
+ #leader_trait_MLT_trader_machine: ""
+ #leader_trait_MLT_trader_machine_desc: ""
+ #leader_trait_MLT_trader_2_machine: "$leader_trait_MLT_trader_machine$"
+ #leader_trait_MLT_trader_2_machine_desc: "$leader_trait_MLT_trader_machine_desc$"
+ #leader_trait_MLT_trader_3_machine: "$leader_trait_MLT_trader_machine$"
+ #leader_trait_MLT_trader_3_machine_desc: "$leader_trait_MLT_trader_machine_desc$"
+ 
+ MLT_covert_desc_start: "Этот специалист любит играть из-за кулис, прокладывая нити и плетя сети, которые охватывают всех игроков"
+ 
+ leader_trait_MLT_covert: "Прядильщик"
+ leader_trait_MLT_covert_desc: "$MLT_covert_desc_start$ на планете."
+ leader_trait_MLT_covert_2: "$leader_trait_MLT_covert$"
+ leader_trait_MLT_covert_2_desc: "$MLT_covert_desc_start$ государства."
+ leader_trait_MLT_covert_3: "$leader_trait_MLT_covert$"
+ leader_trait_MLT_covert_3_desc: "$MLT_covert_desc_start$ галактики."
+ 
+ leader_trait_MLT_covert_hive: "Трутень Инфильтратор"
+ leader_trait_MLT_covert_hive_desc: "Специализация этого трутня - проникновение в инопланетные информационные коммуникации, что позволяет быстро подавлять сопротивление, захватывать системы и манипулировать информационными потоками."
+ leader_trait_MLT_covert_2_hive: "$leader_trait_MLT_covert_hive$"
+ leader_trait_MLT_covert_2_hive_desc: "$leader_trait_MLT_covert_hive_desc$"
+ leader_trait_MLT_covert_3_hive: "$leader_trait_MLT_covert_hive$"
+ leader_trait_MLT_covert_3_hive_desc: "$leader_trait_MLT_covert_hive_desc$"
+ 
+ leader_trait_MLT_covert_machine: "Дрон Хакер"
+ leader_trait_MLT_covert_machine_desc: "Этот дрон уже сам заражён частью вредоносных программ, которые [Root.GetHisHer] разрабатывал, широко распространяя своё влияние."
+ leader_trait_MLT_covert_2_machine: "$leader_trait_MLT_covert_machine$"
+ leader_trait_MLT_covert_2_machine_desc: "$leader_trait_MLT_covert_machine_desc$"
+ leader_trait_MLT_covert_3_machine: "$leader_trait_MLT_covert_machine$"
+ leader_trait_MLT_covert_3_machine_desc: "$leader_trait_MLT_covert_machine_desc$"
+ 
+ # Recruiter - Destiny Trait
+ 
+ leader_trait_MLT_recruiter: "Прославленный Вербовщик"
+ leader_trait_MLT_recruiter_desc: "Этот специалист использует свою известность, чтобы привлечь квалифицированные кадры для более тщательного отбора персонала."
+ 
+ ###############
+ # Other Stuff #
+ ###############
+ 
+ triggered_opinion_MLT_friendly: "$leader_trait_MLT_friendly$"
+ mod_planet_researchers_astral_threads_produces_add: "Астральные нити от исследователей"
+ mod_planet_jobs_astral_threads_produces_mult: "Астральные нити от видов деятельности"
