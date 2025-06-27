@@ -40,5 +40,6 @@ mod russifications for personal use
 - [4.*] [26.06.2025] [id=3344489699] Hydra's More Galactic Community Resolutions
 - [4.*] [26.06.2025] [id=3378829098] Hydra's More Species Traits
 - [4.*] [26.06.2025] [id=2114559224] Viable Feudalism and Imperialism - Empire Federation
+- [4.*] [27.05.2025] [id=2732567565] No More Exclaves
 - [4.*] [27.05.2025] [id=3275068730] More Astral Rifts
 - [4.*] [27.05.2025] [id=3195070547] More Leader Traits

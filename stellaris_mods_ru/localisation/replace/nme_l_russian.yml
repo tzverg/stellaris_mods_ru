@@ -1,0 +1,14 @@
+﻿# l_english:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
+
+ NME_exclave_lost_message_title: "Утеряна связь с §Y$SYSTEM$§!"
+ NME_exclave_lost_message_desc: "Из-за того, что мы по-прежнему не можем получить доступ к эксклаву в системе §Y$SYSTEM$§!, мы потеряли связь с нашим форпостом."
+ 
