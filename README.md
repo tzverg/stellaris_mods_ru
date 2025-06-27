@@ -20,7 +20,6 @@ mod russifications for personal use
 - [3.14.*] [18.07.2022] [id=2780180614] Cross Border Trade [DEPRECATED]
 - [3.11.*] [31.10.2023] [id=1373224279] New Legendary Worlds [DEPRECATED]
 
-- [4.*] [08.05.2025] [id=3426744130] Toxoid Traits
 - [4.*] [09.05.2025] [id=2493028212] End Truce & Close Borders
 - [4.*] [12.05.2025] [id=3480183215] Colony Events Expanded
 - [4.*] [14.05.2025] [id=3046031164] Expanded War Goals
@@ -41,6 +40,7 @@ mod russifications for personal use
 - [4.*] [26.06.2025] [id=3344489699] Hydra's More Galactic Community Resolutions
 - [4.*] [26.06.2025] [id=3378829098] Hydra's More Species Traits
 - [4.*] [26.06.2025] [id=2114559224] Viable Feudalism and Imperialism - Empire Federation
+- [4.*] [27.05.2025] [id=3426744130] Toxoid Traits
 - [4.*] [27.05.2025] [id=2732567565] No More Exclaves
 - [4.*] [27.05.2025] [id=2826506007] Capture Ships
 - [4.*] [27.05.2025] [id=3275068730] More Astral Rifts

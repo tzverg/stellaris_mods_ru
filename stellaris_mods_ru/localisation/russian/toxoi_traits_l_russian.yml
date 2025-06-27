@@ -1,6 +1,6 @@
 ﻿l_russian:
-  # Traits Descriptions
-  # common/traits/toxoi_species_traits.txt
+ # Traits Descriptions
+ # common/traits/toxoi_species_traits.txt
 
  tox_trait_Accelerated_Evolution: "Насильственная Эволюция"
  tox_trait_Accelerated_Evolution_desc: "§L Эти виды используют токсичные мутагены, чтобы насильно и ускоренно продвигать свою собственную эволюцию, адаптируясь неестественными темпами к любому испытанию.§!"
@@ -62,10 +62,12 @@
  tox_trait_Toxic_Tolerance_desc: "§LОбладая непревзойденной устойчивостью, этот вид развил почти легендарную устойчивость даже к самым смертельным токсинам, процветая там, где другие токсоиды быстро бы погибли.§!"
  tox_trait_Waste_Recycling: "Токсическая Переработка"
  tox_trait_Waste_Recycling_desc: "§LПредставители этого вида умело преобразуют собственные токсичные отходы в ценные ресурсы. Умение эффективно преобразовывать опасные материалы, снижая при этом воздействие на окружающую среду, определённо делает их представителей особенными.§!"
-  
-  # Tooltips (Here you can add descriptions to modifier names) 
- mod_planet_pops_food_upkeep_mult: "стоимость содержания пешки в ед. £food£пищи"
- mod_planet_pops_minerals_upkeep_mult: "стоимость содержания пешки в ед.£minerals£минералов"
+
+
+ 
+ # Tooltips (Here you can add descriptions to modifier names)
+ mod_planet_pops_food_upkeep_mult: "содержание поселений в ед. £food£пищи"
+ mod_planet_pops_minerals_upkeep_mult: "содержание поселений в ед. £minerals£минералов"
  mod_shipsize_titan_build_speed_mult: "£time£скорость постройки титана"
  mod_shipsize_colossus_build_speed_mult: "£time£скорость постройки колосса"
  mod_shipsize_juggernaut_build_speed_mult: "£time£скорость постройки джаггернаута"
@@ -75,9 +77,9 @@
  mod_damage_vs_country_type_ruined_marauders_mult: "£military_power£урон фракциям мародёров"
  mod_damage_vs_country_type_marauder_raiders_mult: "£military_power£урон фракциям пиратов"
  mod_damage_vs_country_type_guardian_mult: "£military_power£урон хранителям"
- mod_station_gatherers_volatile_motes_produces_mult: "производство £volatile_motes£летучей пыли добывающей станцией"
- mod_station_gatherers_exotic_gases_produces_mult: "производство £exotic_gases£экзотических газов добывающей станцией"
- mod_station_gatherers_rare_crystals_produces_mult: "производство £rare_crystals£редких кристаллов добывающей станцией"
+ mod_station_gatherers_volatile_motes_produces_mult: "производство £volatile_motes£летучей пыли на добывающей станции"
+ mod_station_gatherers_exotic_gases_produces_mult: "производство £exotic_gases£экзотических газов на добывающей станции"
+ mod_station_gatherers_rare_crystals_produces_mult: "производство £rare_crystals£редких кристаллов на добывающей станции"
  mod_armies_food_cost_mult: "стоимость найма армии в ед. £food£пищи"
  mod_leaders_food_cost_mult: "стоимость найма лидера в ед. £food£пищи"
  mod_leaders_food_upkeep_mult: "стоимость содержания лидера в ед. £food£пищи"
