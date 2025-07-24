@@ -1,0 +1,43 @@
+﻿l_russian:
+ ################################
+ # Agendas
+ ################################
+ 
+ council_agenda_agenda_MA_Hydra_democratic_name: "Различие Точек Зрения"
+ council_agenda_agenda_MA_Hydra_democratic_desc: "Хорошие идеи часто хоронят когда мнения начинают навязывать, ибо кто может мыслить нестандартно в подобной ситуации?"
+ agenda_MA_Hydra_democratic_finish: "$agenda_MA_Hydra_democratic$"
+ 
+ council_agenda_agenda_MA_Hydra_oligarchic_name: "Исполнить Приказ"
+ council_agenda_agenda_MA_Hydra_oligarchic_desc: "Дополнительное финансирование наших правоохранительных структур обеспечит повышение порядка на наших улицах, а если преступников будет недостаточно, для доказания необходимости жесткого [Root.GetSpeciesHandName]ного подхода, нам придется просто придумать некоторые преступления для тех, кого мы желаем изолировать от нашего общества."
+ agenda_MA_Hydra_oligarchic_finish: "$agenda_MA_Hydra_oligarchic$"
+ council_agenda_agenda_MA_Hydra_oligarchic_effect: "(Предоставит £influence£$1|Y0$ за $pop_group_unit$ $MA_Hydra_job_enforcer_name_with_icon$)"
+ 
+ council_agenda_agenda_MA_Hydra_dicatorial_name: "Прослушка Населения"
+ council_agenda_agenda_MA_Hydra_dicatorial_desc: "Ради обеспечения их же собственной безопасности, мы не можем оставлять наших подданных без присмотра. Кто знает, что они способны вытворить, если у них появится такая возможность?"
+ agenda_MA_Hydra_dicatorial_finish: "$agenda_MA_Hydra_dictatorial$"
+ 
+ council_agenda_agenda_MA_Hydra_imperial_name: "Сила Традиций"
+ council_agenda_agenda_MA_Hydra_imperial_desc: "Празднество в честь наших самых царственных из наших правителей обеспечит дальнейшее объединение нашего народа и напомнит всем о силе нашего режима, когда мы все вместе будем работать над воплощением воли, которую проявил наш [This.GetRulerTitle]."
+ agenda_MA_Hydra_imperial_finish: "$agenda_MA_Hydra_imperial$"
+ 
+ council_agenda_agenda_MA_Hydra_megacorp_name: "Манипуляция Финансами"
+ council_agenda_agenda_MA_Hydra_megacorp_desc: "Мы ни в коем случае не должны допускать стагнации нашей экономики. Стимулируя финаносовый приток, мы сможем легче направлять его на наши нужды."
+ agenda_MA_Hydra_megacorp_finish: "$agenda_MA_Hydra_megacorp$"
+ 
+ council_agenda_agenda_MA_Hydra_hivemind_name: "Снизить Девинтность"
+ council_agenda_agenda_MA_Hydra_hivemind_desc: "Сведение к минимуму дефективности наших трутней позволит гарантировать, что сущность останется незапятнанной их отклонениями."
+ agenda_MA_Hydra_hivemind_finish: "$agenda_MA_Hydra_hivemind$"
+ 
+ council_agenda_agenda_MA_Hydra_machine_name: "Эвристическая Эволюция"
+ council_agenda_agenda_MA_Hydra_machine_desc: "Необходимость самосовершенствования разума вынуждает наши протоколы совершенствования постоянно эволюционировать."
+ agenda_MA_Hydra_machine_finish: "$agenda_MA_Hydra_machine$"
+ 
+ # Requirements:
+ Hydra_requires_democratic_authority: "$TRIGGER_FAIL$ Наше правительство должно поддерживать §YДемократические Ценности§!"
+ Hydra_requires_oligarchic_authority: "$TRIGGER_FAIL$ Наше правительство должно ценить §YОлигархические Традиции§!"
+ Hydra_requires_dictatorial_authority: "$TRIGGER_FAIL$ Наше правительство должно иметь §YДиктаторские Амбиции§!"
+ Hydra_requires_imperial_authority: "$TRIGGER_FAIL$ Наше правительство должно демонстрировать §YИмперскую Власть§!"
+ Hydra_requires_megacorp_authority: "$TRIGGER_FAIL$ Наше правительство должно обладать §YКорпоративной Отвественностью§!"
+ 
+ # Localization with icons
+ MA_Hydra_job_enforcer_name_with_icon: "£job_enforcer£ $job_enforcer_plural$"
