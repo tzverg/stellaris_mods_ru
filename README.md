@@ -46,3 +46,4 @@ mod russifications for personal use
 - [4.*] [27.05.2025] [id=3275068730] More Astral Rifts
 - [4.*] [27.05.2025] [id=3195070547] More Leader Traits
 - [4.*] [24.07.2025] [id=3533198210] Hydra's More Agenda's
+- [4.*] [26.07.2025] [id=3366111136] Better Origins
