@@ -1,0 +1,34 @@
+﻿l_russian:
+  tr_psionics_mind_readers_tooltip1: "Открывает доступ к глобальному указу §YВзгляд в незримое§!."
+  
+  agenda_favored_society_finish_planet1: "$council_agenda_agenda_favored_society_name$ $agenda_ref$"
+  agenda_favored_society_finish_planet1_desc: "$council_agenda_agenda_favored_society_desc$"
+   
+  tr_subterfuge_cloaking_finish_desc1: "$tr_subterfuge_finish_effect$
+  
+  tr_supremacy_finish_desc1: "Открывает политику §YВоенная доктрина§!\nОткрывает дипломатическую позицию §YПревосходство§!"
+  
+  tr_mercantile_federations_finish_desc1: "Открывает доступ к федерации вида: §Y$trade_federation$§!"
+  tr_mercantile_worker_coop_improved_ownership_desc1: "£pops£ граждане с уровнем жизни §Y$living_standard_worker_ownership$§!: §G+5%§! к счастью."
+  
+  tr_synchronicity_integrated_preservation_desc1: "§Y$job_evaluator_plural$§! снижают на §G3§! §Y$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§!"
+  tr_harmony_federations_finish_desc1: "Открывает доступ к федерации вида: §Y$spiritualist_federation$§!"
+  tr_synchronicity_machine_finish_desc1: "§YРазблокирует Указ:§! $edict_industrial_maintenance$."
+  
+  tr_domination_trust_officers_desc1: "§YРазблокирует Указ:§! $edict_enhanced_surveillance$\n£job_enforcer£ §Y$job_enforcer_plural$§! производят §G+3§! £unity£ §Yединства§!"
+  tr_domination_judgment_corps_desc1: "§YРазблокирует Указ:§! $edict_enhanced_surveillance$\n£job_enforcer£ §Y$job_enforcer_plural$§! производят §G+3§! £unity£ §Yединства§!"
+  tr_domination_federations_finish_desc1: "Открывает доступ к федерации вида: §Y$hegemony_federation$§!"
+  
+  tr_domestication_finish_desc1: "Разблокирует взаимодействие с ['concept_voidlure', Вуалью]"
+  
+  tr_discovery_adopt_desc1: "§YРазблокирует Указ:§! $edict_map_the_stars$"
+  
+  tr_diplomacy_diplomatic_networking_desc1: "Посольства предоставляют §G+5§! единиц £unity£ §Yединства§! и §G+5§! £society_research£ £physics_research£ £engineering_research£ очков §Yисследований§!\nТак-же позволяет совершать продвинутые дипломатические встречи не имея посольства в целевом государстве"
+  tr_diplomacy_eminent_diplomats_desc1: "Дипломатическое Одобрение: §G+15§!\nПослы, занятые §Yулучшением отношений§!, с вероятностью §G1%§! в месяц могут добиться §Yодолжения§!."
+  tr_diplomacy_adopt_desc: "§YРазблокирует Указ:§! $edict_diplomatic_grants$"
+  tr_diplomacy_the_federation_desc1: "§YРазблокирует Дипломатическое Действие:§! сформировать федерацию"
+  tr_diplomacy_federation_xp_gain1: "Ежемесячный прирост опыта федерации: §G+2§!"
+  
+  tr_aptitude_adopt_desc2: "Все §Yлидеры§! получают начальную §Yчерту§! §Gулучшеный§! либо начинают с §Yчертой§! §GУровня 2§!.\nЕсли у вашего §Yлидера§! есть черта вида §YСветило§!, она будет улучшена на §G+2§!"
+  
+  tr_adaptability_recycling_desc1: "§YСтоимость§! и §YСодержание§! §YПостроек§! и §YРайонов§! города снижается на $r_strategic$ §G-25%§!"
