@@ -24,7 +24,6 @@ mod russifications for personal use
 - [4.*] [12.05.2025] [id=3480183215] Colony Events Expanded
 - [4.*] [14.05.2025] [id=3046031164] Expanded War Goals
 - [4.*] [14.05.2025] [id=3480393617] Exosuit Assault Army
-- [4.*] [18.05.2025] [id=915432220]  Elves of Stellaris
 - [4.*] [19.05.2025] [id=2786268200] Under Siege
 - [4.*] [19.05.2025] [id=3479556409] Better Aptitude
 - [4.*] [20.05.2025] [id=3483186436] Criminal Heritage Tradition
@@ -49,3 +48,4 @@ mod russifications for personal use
 - [4.*] [26.07.2025] [id=3366111136] Better Origins
 - [4.*] [27.07.2025] [id=3353855875] Better Traditions
 - [4.*] [28.07.2025] [id=3350233419] Better Perks
+- [4.*] [13.11.2025] [id=915432220]  Elves of Stellaris
