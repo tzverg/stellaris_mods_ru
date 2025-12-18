@@ -48,4 +48,4 @@ mod russifications for personal use
 - [4.*] [26.07.2025] [id=3366111136] Better Origins
 - [4.*] [27.07.2025] [id=3353855875] Better Traditions
 - [4.*] [28.07.2025] [id=3350233419] Better Perks
-- [4.*] [13.11.2025] [id=915432220]  Elves of Stellaris
+- [4.*] [19.12.2025] [id=915432220]  Elves of Stellaris
