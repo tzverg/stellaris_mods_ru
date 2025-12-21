@@ -1,0 +1,88 @@
+﻿l_russian:
+
+ SBF_SHIP_BB_CA_BOW_1: "Носитель: Нос"
+ SBF_SHIP_BB_CA_MID_1: "Носитель: Палубы"
+ SBF_SHIP_BB_CA_STN_1: "Носитель: Корма"
+ 
+ SBF_SHIP_BB_EX_BOW_1: "Ракетоносец: Нос"
+ SBF_SHIP_BB_EX_MID_1: "Ракетоносец: Палубы"
+ SBF_SHIP_BB_EX_STN_1: "Ракетоносец: Корма"
+ 
+ SBF_SHIP_BB_GA_MID_1: "$SBF_SHIP_BB_GA$"
+ 
+ SBF_SHIP_BB_ID_MID_1: "$SBF_SHIP_BB_ID$"
+ 
+ SBF_SHIP_BB_MR_BOW_1: "Космолёт: Нос"
+ SBF_SHIP_BB_MR_MID_1: "Космолёт: Бараки"
+ SBF_SHIP_BB_MR_STN_1: "Космолёт: Корма"
+ 
+ SBF_SHIP_BB_SF_BOW_1: "Быстролёт: Нос"
+ SBF_SHIP_BB_SF_MID_1: "Быстролёт: Палубы"
+ SBF_SHIP_BB_SF_STN_1: "Быстролёт: Корма"
+ 
+ SBF_SHIP_BB_X2_MID_1: "Пилон"
+ 
+ SBF_SHIP_CC_CA_BOW_1: "Носитель: Нос"
+ SBF_SHIP_CC_CA_MID_1: "Носитель: Мини-Палуба"
+ SBF_SHIP_CC_CA_STN_1: "Носитель: Корма"
+ 
+ SBF_SHIP_CC_DR_BOW_1: "Дроноверфь: Нос"
+ SBF_SHIP_CC_DR_STN_1: "Сетехаб: Корма"
+ 
+ SBF_SHIP_CC_EX_BOW_1: "Космолёт: Нос"
+ SBF_SHIP_CC_EX_MID_1: "Космолёт: Палубы"
+ SBF_SHIP_CC_EX_STN_1: "Космолёт: Корма О.К."
+ 
+ SBF_SHIP_CC_MR_BOW_1: "Космолёт: Нос"
+ SBF_SHIP_CC_MR_STN_1: "Космолёт: Корма Б."
+ 
+ SBF_SHIP_CC_PD_BOW_1: "ПМО: Нос"
+ SBF_SHIP_CC_PD_MID_1: "ПМО: Палубы"
+ SBF_SHIP_CC_PD_STN_1: "ПМО: Корма"
+ 
+ SBF_SHIP_CC_RP_MID_1: "$SBF_SHIP_CC_RP$"
+ 
+ SBF_SHIP_CC_HL_BOW_1: "Г.Проектор: Нос"
+ SBF_SHIP_CC_HL_MID_1: "Звездолёт: Палубы"
+ SBF_SHIP_CC_HL_STN_1: "Двигатели: Корма"
+ 
+ SBF_SHIP_HL_HL_BOW_1: "Г.Проектор: Нос"
+ SBF_SHIP_HL_HL_MID_1: "Г.Проектор: Палубы"
+ SBF_SHIP_HL_HL_STN_1: "Г.Проектор: Корма"
+ 
+ SBF_SHIP_CO_AS_MID_1: "$SBF_SHIP_CO_AS$"
+ 
+ SBF_SHIP_CO_WB_MID_1: "$SBF_SHIP_CO_WB$"
+ 
+ SBF_SHIP_DD_AP_BOW_1: "Разрушитель: Нос"
+ SBF_SHIP_DD_AP_STN_1: "Вычислитель: Корма"
+ 
+ SBF_SHIP_DD_EX_BOW_1: "Бомбардир: Нос"
+ SBF_SHIP_DD_EX_STN_1: "Бомбардир: Корма"
+ 
+ SBF_SHIP_DD_MR_MID_1: "$SBF_SHIP_DD_MR$"
+ 
+ SBF_SHIP_DD_XL_BOW_1: "Стационарник: Нос"
+ SBF_SHIP_DD_XL_STN_1: "Стабилизатор: Корма"
+ 
+ SBF_SHIP_DN_DN_MID_1: "$SBF_SHIP_DN_DN$"
+ 
+ SBF_SHIP_JG_MR_MID_1: "$SBF_SHIP_JG_MR$"
+ 
+ SBF_SHIP_MN_MN_MID_1: "$SBF_SHIP_MN_MN$"
+ 
+ SBF_SHIP_SB_MF_CORE: "Мобильная Крепость"
+ SBF_SHIP_SB_MF_L4: "Орудийная Секция Крепости"
+ SBF_SHIP_SB_MF_X2: "Артилерийская Секция Крепости"
+ SBF_SHIP_SB_MF_G8: "Торпедная Секция Крепости"
+ SBF_SHIP_SB_MF_H4: "Ангарная Секция Крепости"
+ SBF_SHIP_SB_MF_P8: "Секция Главного Калибра"
+ 
+ SBF_SHIP_SB_NC_CORE: "$SBF_SHIP_SB_NC$"
+ 
+ SBF_SHIP_ST_MN_CORE: "$SBF_SHIP_ST_MN$"
+ 
+ SBF_SHIP_TI_CA_BOW_1: "Носитель: Нос"
+ SBF_SHIP_TI_CA_MID_1: "Носитель: Палубы"
+ SBF_SHIP_TI_CA_STN_1: "Носитель: Корма"
+ 
