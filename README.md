@@ -52,4 +52,5 @@ mod russifications for personal use
 - [4.*] [22.12.2025] [id=3479948802] Ren's Lithogenesis
 - [4.*] [22.12.2025] [id=3377995402] Marauders in action
 - [4.*] [22.12.2025] [id=3291336822] Relic World Flavour
+- [4.*] [22.12.2025] [id=2184737698] AI Game Performance Optimisation 4.2
 - [4.*] [22.12.2025] [id=1353547443] Battle Debris - Starship Graveyards
