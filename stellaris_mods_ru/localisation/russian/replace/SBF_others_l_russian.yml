@@ -1,0 +1,31 @@
+﻿l_russian:
+ 
+ OR: "либо"
+
+ SBF_core_components: "Специализированные Корабельные Компоненты"
+
+ SBF_tech_ship_unlock: "§HРазблокирует тип судна:§!"
+
+ modifier_ship_build_speed: "Скорость строительства кораблей"
+ modifier_ship_hull: "Прочность корпуса корабля"
+
+ mod_SBFms_SBF_COMP_C_LRM_GUD_other_weapon_dmg_mult: "Урон не-взрывчатого оружия"
+ mod_SBFms_SBF_COMP_C_LRM_GUD_other_weapon_fir_mult: "Скорострельность не-взрывчатого оружия"
+
+#  weapon_type_marine: "§YMarine§!"
+#  mod_weapon_type_marine_weapon_damage_mult: "Marine Weapon Damage"
+#  mod_weapon_type_marine_weapon_fire_rate_mult: "Marine Weapon Attack Speed"
+
+ weapon_type_marine: "§YДесантные Капсулы§!"
+ mod_weapon_type_marine_weapon_damage_mult: "Повреждения от десантных капсул"
+ mod_weapon_type_marine_weapon_fire_rate_mult: "Скорость запуска десантных капсул"
+
+ weapon_type_special: "§YСпециализированное§!"
+ mod_weapon_type_special_weapon_damage_mult: "Урон специализированного вооружения"
+ mod_weapon_type_special_weapon_fire_rate_mult: "Скорострельность специализированного вооружения"
+
+ SBF_SBF_SHIP_JG_MR_ship_build: "Цитадель космодесанта также оснащена оборудованием, позволяющим быстро производить суда поддержки космодесанта в больших объемах."
+ 
+ SBF_trait: "ИИ"
+ SBF_trait_tt_pre: "Если вы сохраните созданную вами империю ИИ и добавите данную особенность к её основной расе, а так-же установите для империи параметр «Принудительное Создание» в списке слева, то данная империя навсегда примет эту особенность."
+ SBF_trait_tt_post: "Специализация Судостроения.\n\n§RПримечание: Данная особенность будет автоматически удалена при старте игры.\nПримечание: Особенность не окажет никакого влияния на империи игроков.\nПримечание: Не рекомендуется применять одновременно слишком много характеристик, определяющих специализацию судостроения.§!"

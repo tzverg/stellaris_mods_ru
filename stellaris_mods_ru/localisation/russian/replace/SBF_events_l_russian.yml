@@ -1,0 +1,21 @@
+﻿l_russian:
+ 
+ SBF_event_nova_cannon.102.name:				"$SBF_SHIP_SB_NC$ поразила цель!"
+ SBF_event_nova_cannon.102.desc:				"Запущенная нами боеголовка $SBF_SHIP_SB_NC$ успешно поразила колонию государства [event_target:victim_country.GetName] под наименованием [event_target:victim_planet.GetName]. У нас есть все основания для того чтобы гордится нашими военно-техническими достижениями."
+ 
+ SBF_event_nova_cannon.103.name:				"$SBF_SHIP_SB_NC$ поразила цель!"
+ SBF_event_nova_cannon.103.desc:				"Представители государства под наименованием [event_target:shooter_country.GetName] атаковали нашу территорию при помощи ужасающего межзвездного оружия, известного как $SBF_SHIP_SB_NC$. Получаем подтверждение, касаемо попадания боеголовки в обитаемую зону планеты [event_target:victim_planet.GetName]. Проводится оценка нанесённого ущерба."
+ 
+ SBF_event_nova_cannon.104.name:				"$SBF_SHIP_SB_NC$ поразила цель!"
+ SBF_event_nova_cannon.104.desc:				"Боеголовка $SBF_SHIP_SB_NC$, запущенная представителями государства [event_target:shooter_country.GetName] поразила цель на территории колонии [event_target:victim_planet.GetName]. В настоящее время мы оцениваем масштабы нанесённого ущерба."
+ SBF_event_nova_cannon.104.no_more_notify:		"Не уведомлять меня о подобном"
+ 
+ SBF_event_nova_cannon.105.name:				"Колония [event_target:victim_planet.GetName] Уничтожена!"
+ SBF_event_nova_cannon.105.desc:				"Боеголовка $SBF_SHIP_SB_NC$, запущенная представителями государства [event_target:shooter_country.GetName] поразила цель на территории колонии [event_target:victim_planet.GetName], что в результате привело к полному уничтожению всей колонии."
+ 
+ SBF_event_nova_cannon.106.name:				"Колония [event_target:victim_planet.GetName] Уничтожена!"
+ SBF_event_nova_cannon.106.desc:				"Боеголовка $SBF_SHIP_SB_NC$, запущенная представителями государства [event_target:victim_country.GetName] поразила цель на территории колонии [event_target:victim_planet.GetName], что в результате привело к полному уничтожению всей колонии."
+ 
+ SBF_event_nova_cannon.107.name:				"$SBF_SHIP_SB_NC$ перезаряжена"
+ SBF_event_nova_cannon.107.desc:				"Установка $SBF_SHIP_SB_NC$ перезаряжена и подготовлена к повторному залпу после целеуказания при помощи научного корабля."
+ SBF_event_nova_cannon.107.no_more_notify:		"Не уведомлять меня о подобном"

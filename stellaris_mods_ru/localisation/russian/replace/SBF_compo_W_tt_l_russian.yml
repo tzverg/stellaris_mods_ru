@@ -1,0 +1,7 @@
+﻿l_russian:
+
+ SBF_COMP_W_BB_BSTR_tt: "§Hсамо-применяемый модификатор§!(на £time£ §Y10§! дней):\n    - $MOD_SHIP_SPEED_MULT$: §G+900%§!\n    - $MOD_SHIP_EVASION_ADD$: §G+100§!"
+ SBF_COMP_W_HALUC_W_tt: "Проецирует 1 §YГаллюцинацию§!\nПродолжительностью: £time£ §Y30§! дней"
+ SBF_COMP_W_MN_FUSE_tt: "§Rинициализирует команду самоуничтожения!§!"
+ SBF_COMP_W_MN_SW_X_tt: "Демонтирует §YКосмо-Мины§!."
+ 

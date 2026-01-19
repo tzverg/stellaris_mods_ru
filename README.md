@@ -48,6 +48,11 @@ mod russifications for personal use
 - [4.*] [26.07.2025] [id=3366111136] Better Origins
 - [4.*] [27.07.2025] [id=3353855875] Better Traditions
 - [4.*] [28.07.2025] [id=3350233419] Better Perks
-- [4.*] [13.11.2025] [id=915432220]  Elves of Stellaris
+- [4.*] [19.12.2025] [id=915432220]  Elves of Stellaris
+- [4.*] [22.12.2025] [id=3479948802] Ren's Lithogenesis
+- [4.*] [22.12.2025] [id=3377995402] Marauders in action
+- [4.*] [22.12.2025] [id=3291336822] Relic World Flavour
+- [4.*] [22.12.2025] [id=2184737698] AI Game Performance Optimisation 4.2
+- [4.*] [22.12.2025] [id=1353547443] Battle Debris - Starship Graveyards
 
-- [4.2.*] [13.11.2025] [id=3615026960] ~~Stellaris v[4.2] General Fixes
+- [4.2.*] [19.01.2026] [id=3615026960] ~~Stellaris v[4.2] General Fixes
