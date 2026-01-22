@@ -1,0 +1,4 @@
+﻿l_russian:
+
+ tr_cloning_finish_tt: "Позволяет принимать ['concept_cloning_authorities']\n£building£ $building_clone_vats$ за уровень £building£ §Yстоличного сооружения§!: §G+1§!"
+ tr_cloning_finish_clone_army_tt: "$tr_cloning_finish_tt$\n£pop£ Поселения категории «§Y$clone_soldier$§!», поддерживаемые комплексом §Y$building_clone_vats$§!: §G+$@clones_sustained_low|0$§!\n£pop£ Поселения категории «§Y$clone_soldier$§!», поддерживаемые комплексом §Y$building_clone_vats$§! Уровня: §G+$@clones_sustained_basic|0$§!"

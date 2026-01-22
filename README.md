@@ -56,3 +56,4 @@ mod russifications for personal use
 - [4.*] [22.12.2025] [id=1353547443] Battle Debris - Starship Graveyards
 
 - [4.2.*] [19.01.2026] [id=3615026960] ~~Stellaris v[4.2] General Fixes
+- [4.2.*] [**\[22.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2994821528) [**\[id=2994821528\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2994821528) Expanded Mods Base
