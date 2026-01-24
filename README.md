@@ -46,8 +46,8 @@ mod russifications for personal use
 - [4.*] [27.05.2025] [id=3195070547] More Leader Traits
 - [4.*] [24.07.2025] [id=3533198210] Hydra's More Agenda's
 - [4.*] [26.07.2025] [id=3366111136] Better Origins
-- [4.*] [27.07.2025] [id=3353855875] Better Traditions
 
+- [4.\*.\*] [**\[27.07.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3353855875) [**\[id=3353855875\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3353855875) Better Traditions
 - [4.\*.\*] [**\[28.07.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3350233419) [**\[id=3350233419\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3350233419) Better Perks
 - [4.\*.\*] [**\[19.12.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/915432220) [**\[id=915432220\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=915432220) Elves of Stellaris
 - [4.0.\*] [**\[22.12.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3479948802) [**\[id=3479948802\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3479948802) Ren's Lithogenesis
