@@ -41,8 +41,8 @@ mod russifications for personal use
 - [4.*] [26.06.2025] [id=2114559224] Viable Feudalism and Imperialism - Empire Federation
 - [4.*] [27.05.2025] [id=3426744130] Toxoid Traits
 - [4.*] [27.05.2025] [id=2732567565] No More Exclaves
-- [4.*] [27.05.2025] [id=2826506007] Capture Ships
 
+- [4.2.\*] [**\[27.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2826506007) [**\[id=2826506007\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2826506007) Capture Ships
 - [4.2.\*] [**\[27.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3275068730) [**\[id=3275068730\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3275068730) More Astral Rifts
 - [4.2.\*] [**\[27.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3195070547) [**\[id=3195070547\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3195070547) More Leader Traits
 - [4.\*.\*] [**\[24.07.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3533198210) [**\[id=3533198210\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3533198210) Hydra's More Agenda's

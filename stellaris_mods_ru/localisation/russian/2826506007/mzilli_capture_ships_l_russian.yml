@@ -33,4 +33,4 @@ mzilli_capture_ships.8.battleship: "Якорь мне в ж*пу, они же у
 mzilli_capture_ships.8.titan: "§Y[FROMFROM.GetShipSizeName]§!... это нехорошо."
 
 mzilli_disabled_ship_modifier: "подбит"
-mzilli_repairing_ship_modifier: "восстанавливается"
+mzilli_repairing_ship_modifier: "ремонтируется"
