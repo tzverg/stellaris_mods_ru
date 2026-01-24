@@ -49,8 +49,8 @@ mod russifications for personal use
 - [4.*] [27.07.2025] [id=3353855875] Better Traditions
 - [4.*] [28.07.2025] [id=3350233419] Better Perks
 - [4.*] [19.12.2025] [id=915432220]  Elves of Stellaris
-- [4.*] [22.12.2025] [id=3479948802] Ren's Lithogenesis
 
+- [4.0.*] [**\[22.12.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3479948802) [**\[id=3479948802\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3479948802) Ren's Lithogenesis
 - [4.2.*] [**\[22.12.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3377995402) [**\[id=3377995402\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3377995402) Marauders in action
 - [4.2.*] [**\[22.12.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3291336822) [**\[id=3291336822\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3291336822) Relic World Flavour
 - [4.2.*] [**\[22.12.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2184737698) [**\[id=2184737698\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2184737698) AI Game Performance Optimisation 4.2
