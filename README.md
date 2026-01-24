@@ -52,8 +52,8 @@ mod russifications for personal use
 - [4.*] [22.12.2025] [id=3479948802] Ren's Lithogenesis
 - [4.*] [22.12.2025] [id=3377995402] Marauders in action
 - [4.*] [22.12.2025] [id=3291336822] Relic World Flavour
-- [4.*] [22.12.2025] [id=2184737698] AI Game Performance Optimisation 4.2
 
+- [4.2.*] [**\[22.12.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2184737698) [**\[id=2184737698\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2184737698) AI Game Performance Optimisation 4.2
 - [4.2.*] [**\[22.12.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/1353547443) [**\[id=1353547443\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=1353547443) Battle Debris - Starship Graveyards
 - [4.2.*] [**\[19.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3615026960) [**\[id=3615026960\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3615026960) ~~Stellaris v[4.2] General Fixes
 - [4.2.*] [**\[22.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2994821528) [**\[id=2994821528\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2994821528) Expanded Mods Base
