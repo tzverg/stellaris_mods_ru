@@ -43,8 +43,8 @@ mod russifications for personal use
 - [4.*] [27.05.2025] [id=2732567565] No More Exclaves
 - [4.*] [27.05.2025] [id=2826506007] Capture Ships
 - [4.*] [27.05.2025] [id=3275068730] More Astral Rifts
-- [4.*] [27.05.2025] [id=3195070547] More Leader Traits
 
+- [4.2.\*] [**\[27.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3195070547) [**\[id=3195070547\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3195070547) More Leader Traits
 - [4.\*.\*] [**\[24.07.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3533198210) [**\[id=3533198210\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3533198210) Hydra's More Agenda's
 - [4.\*.\*] [**\[26.07.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3366111136) [**\[id=3366111136\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3366111136) Better Origins
 - [4.\*.\*] [**\[27.07.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3353855875) [**\[id=3353855875\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3353855875) Better Traditions
