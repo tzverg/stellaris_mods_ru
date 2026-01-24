@@ -24,7 +24,7 @@
  council_agenda_agenda_MA_Hydra_megacorp_desc: "Мы ни в коем случае не должны допускать стагнации нашей экономики. Стимулируя финаносовый приток, мы сможем легче направлять его на наши нужды."
  agenda_MA_Hydra_megacorp_finish: "$agenda_MA_Hydra_megacorp$"
  
- council_agenda_agenda_MA_Hydra_hivemind_name: "Снизить Девинтность"
+ council_agenda_agenda_MA_Hydra_hivemind_name: "Снизить Девиантность"
  council_agenda_agenda_MA_Hydra_hivemind_desc: "Сведение к минимуму дефективности наших трутней позволит гарантировать, что сущность останется незапятнанной их отклонениями."
  agenda_MA_Hydra_hivemind_finish: "$agenda_MA_Hydra_hivemind$"
  
