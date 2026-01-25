@@ -33,8 +33,8 @@ mod russifications for personal use
 - [4.*] [16.06.2025] [id=3488841069] At War: Planetary Cannons 4.0
 - [4.*] [25.06.2025] [id=2002751329] Sensor Expansion
 - [4.*] [25.06.2025] [id=2273568769] AI-Player Exclusive Archaeology & Astral Rifts
-- [4.*] [26.06.2025] [id=2452302093] We Require Borders
 
+- [4.2.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2452302093) [**\[id=2452302093\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2452302093) We Require Borders
 - [4.2.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3248725702) [**\[id=3248725702\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3248725702) Hydra's More Civics
 - [4.2.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3344489699) [**\[id=3344489699\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3344489699) Hydra's More Galactic Community Resolutions
 - [4.2.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3378829098) [**\[id=3378829098\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3378829098) Hydra's More Species Traits
