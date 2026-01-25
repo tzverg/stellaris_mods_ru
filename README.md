@@ -30,8 +30,8 @@ mod russifications for personal use
 - [4.*] [20.05.2025] [id=3441039353] Hydra's More Cosmic Storms
 - [4.*] [21.05.2025] [id=2702458166] Hypertraversal Manipulation 2
 - [4.*] [16.06.2025] [id=3491109295] At War: Planetary Defense Fleets 4.0
-- [4.*] [16.06.2025] [id=3488841069] At War: Planetary Cannons 4.0
 
+- [4.2.4] [**\[16.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3488841069) [**\[id=3488841069\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3488841069) At War: Planetary Cannons 4.0
 - [4.1.\*] [**\[25.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2002751329) [**\[id=2002751329\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2002751329) Sensor Expansion
 - [4.1.\*] [**\[25.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2273568769) [**\[id=2273568769\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2273568769) AI-Player Exclusive Archaeology & Astral Rifts
 - [4.2.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2452302093) [**\[id=2452302093\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2452302093) We Require Borders
