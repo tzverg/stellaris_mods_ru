@@ -37,8 +37,8 @@ mod russifications for personal use
 - [4.*] [26.06.2025] [id=3248725702] Hydra's More Civics
 - [4.*] [26.06.2025] [id=3344489699] Hydra's More Galactic Community Resolutions
 - [4.*] [26.06.2025] [id=3378829098] Hydra's More Species Traits
-- [4.*] [26.06.2025] [id=2114559224] Viable Feudalism and Imperialism - Empire Federation
 
+- [4.0.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2114559224) [**\[id=2114559224\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2114559224) Viable Feudalism and Imperialism - Empire Federation
 - [4.\*.\*] [**\[27.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3426744130) [**\[id=3426744130\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3426744130) Toxoid Traits
 - [4.\*.\*] [**\[27.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2732567565) [**\[id=2732567565\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2732567565) No More Exclaves
 - [4.2.\*] [**\[27.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2826506007) [**\[id=2826506007\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2826506007) Capture Ships
