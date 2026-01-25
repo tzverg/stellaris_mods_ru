@@ -21,6 +21,10 @@
  edict_eac_pdf_set_all_bases_never_stance: "Перевести все штабы СПО в режим §H$eac_pdf_fleet_stance_never$§!"
  edict_eac_pdf_set_all_bases_never_stance_desc: "Все планетарные штабы СПО §Rне будут§! проводить боевые операции и §Rне станут§! незамедлительно развертывать силы обороны как только противник будет замечен."
  eac_pdf_set_all_bases_never_stance_allow: "£trigger_no На планете обнаружен штаб СПО в следующих режимах: §H$eac_pdf_fleet_stance_planet$§! или §H$eac_pdf_fleet_stance_system$§!"
+
+ edict_eac_pdf_set_all_failsafe:0 "Перевести все штабы СПО в режим §H$eac_pdf_fleet_stance_system$§!"
+ edict_eac_pdf_set_all_failsafe_desc:0 "Глобально сбрасывает режим работы всех штабов СПО на «§H$eac_pdf_fleet_stance_system$§!»."
+ eac_pdf_set_all_failsafe_allow:0 "Есть миры, которым необходимо сбросить состояние своего флота."
  ###################
  # Buildings
  ###################
@@ -36,7 +40,7 @@
  job_eac_pdf_shipbuilder_plural: "Судостроители СПО"
  job_eac_pdf_shipbuilder_desc: "Данные специалисты отвечают за сборку и техническое обслуживание флотилии Сил Планетарной Обороны (СПО).\nПотребляют и создают резервные запасы сплавов для нужд флотилии."
  job_eac_pdf_shipbuilder_effect_desc: "£job_eac_pdf_shipbuilder£ $job_eac_pdf_shipbuilder_plural$ резервируют £alloys в количестве §Y2§! для сборки и технического обслуживания патрульных катеров, потребляют £energy в количестве §Y1§!. Увеличивают £navy_size£ §YВместимость Флотилии§! и обучают подразделения £defense_army£ §YАрмий Планетарной Обороны§!"
- mod_job_eac_pdf_shipbuilder_add: "должности вида $job_eac_pdf_shipbuilder$"
+ mod_job_eac_pdf_shipbuilder_add: "должности вида: $job_eac_pdf_shipbuilder$"
  mod_job_eac_pdf_shipbuilder_per_pop: "§G+1§! должность вида $job_eac_pdf_shipbuilder$ за $VALUE$ населения"
  mod_job_eac_pdf_shipbuilder_per_pop_short: "\n§G+1§! £mod_job_eac_pdf_shipbuilder_add£ за $VALUE$ £pop£"
 
@@ -44,7 +48,7 @@
  job_eac_pdf_drone_shipbuilder_plural: "СПО Дроны-Сборщики"
  job_eac_pdf_drone_shipbuilder_desc: "Данные дроны отвечают за сборку и техническое обслуживание флотилии Сил Планетарной Обороны (СПО).\nПотребляют и создают резервные запасы сплавов для нужд флотилии."
  job_eac_pdf_drone_shipbuilder_effect_desc: "£job_eac_pdf_drone_shipbuilder£ $job_eac_pdf_drone_shipbuilder_plural$ резервируют £alloys в количестве §Y2§! для сборки и технического обслуживания патрульных катеров, потребляют £energy в количестве §Y1§!. Увеличивают £navy_size£ §YВместимость Флотилии§! и подготавливают подразделения £defense_army£ §YАрмий Планетарной Обороны§!"
- mod_job_eac_pdf_drone_shipbuilder_add: "должности вида $job_eac_pdf_drone_shipbuilder$"
+ mod_job_eac_pdf_drone_shipbuilder_add: "должности вида: $job_eac_pdf_drone_shipbuilder$"
  mod_job_eac_pdf_drone_shipbuilder_per_pop: "§G+1§! должность вида $job_eac_pdf_drone_shipbuilder$ за $VALUE$ населения"
  mod_job_eac_pdf_drone_shipbuilder_per_pop_short: "\n§G+1§! £mod_job_eac_pdf_drone_shipbuilder_add£ за $VALUE$ £pop£"
 
@@ -52,12 +56,14 @@
  # Messages
  ###################
  EAC_MESSAGE_PLANETARY_FLEET_DETECTED: "Запуск флотилии СПО"
- EAC_MESSAGE_PLANETARY_FLEET_DETECTED_DESC: "Связисты корпуса $FLEET|H$ обнаружили запуск флотилии СПО с поверхности $PLANET|H$.\n§YВсем занять боевые посты!§!\n"
+ EAC_MESSAGE_PLANETARY_FLEET_DETECTED_DESC: "Связисты из состава флотилии $FLEET|H$ обнаружили запуск судов СПО с поверхности мира $PLANET|H$.\n§YВсем занять боевые посты!§!\n"
 
- EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING: "Обнаружен враг - Запуск флотилии СПО"
- EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_SYSTEM_FLEET_DESC: "Штабисты СПО обнаружили вражескую флотилию $FLEET|H$, входящую в нашу систему. Согласно установленным протоколам - инициирована подготовка к запуску флотилии СПО с поверхности $PLANET|H$.\n§YВсем пилотам СПО и техническому персоналу немедленно явиться на службу! Это не учения! Повторяю: ЭТО НЕ УЧЕНИЯ!§!\n"
- EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_SYSTEM_COLOSSUS_DESC: "Штабисты СПО обнаружили вражеский корабль класса «колосс», приписанный к флотилии $FLEET|H$, входящий в систему. Согласно установленным протоколам - инициирована подготовка к запуску флотилии СПО с поверхности $PLANET|H$. §YВсем пилотам СПО и техническому персоналу немедленно явиться на службу! Это не учения! Повторяю: ЭТО НЕ УЧЕНИЯ!§!\n"
- EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_ORBIT_FLEET_DESC: "Штабисты СПО обнаружили вражескую флотилию $FLEET|H$, выходящую на орбиту колонии $PLANET|H$. Согласно установленным протоколам - инициирована подготовка к запуску флотилии СПО с поверхности $PLANET|H$. §YВсем пилотам СПО и техническому персоналу немедленно явиться на службу! Это не учения! Повторяю: ЭТО НЕ УЧЕНИЯ!§!\n"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING: "Обнаружен Враг - Запуск флотилии СПО"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_SYSTEM_FLEET_DESC: "Штабисты СПО обнаружили вражескую флотилию с идентификатором $FLEET|H$, входящую в систему, находящуюся под нашим проекторатом. Согласно установленным протоколам - инициирована подготовка к запуску флотилии СПО с поверхности мира $PLANET|H$.\n§YВсем пилотам СПО и техническому персоналу немедленно явиться на службу! Это не учения! Повторяю: ЭТО НЕ УЧЕНИЯ!§!\n"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_SYSTEM_COLOSSUS_DESC: "Штабисты СПО обнаружили вражеский корабль класса «колосс», приписанный к флотилии $FLEET|H$, входящий в систему, находящуюся под нашим проекторатом. Согласно установленным протоколам - инициирована подготовка к запуску флотилии СПО с поверхности $PLANET|H$. §YВсем пилотам СПО и техническому персоналу немедленно явиться на службу! Это не учения! Повторяю: ЭТО НЕ УЧЕНИЯ!§!\n"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_ORBIT_FLEET_DESC: "Штабисты СПО обнаружили вражескую флотилию $FLEET|H$, выходящую на орбиту мира $PLANET|H$. Согласно установленным протоколам - инициирована подготовка к запуску флотилии СПО с поверхности мира $PLANET|H$. §YВсем пилотам СПО и техническому персоналу немедленно явиться на службу! Это не учения! Повторяю: ЭТО НЕ УЧЕНИЯ!§!\n"
+
+ eac_pdf_fleet_stance_unknown:0 "§RЗабаговано: режим работы флотилии не установлен§!"
 
  ###################
  # Ship Components
@@ -202,7 +208,7 @@
  eac_pdf_monthly_gain: "§WЕжемесячные поставки:§! £alloys£ [This.GetMonthlyAllowGain]"
 
  
- eac_pdf_events.100.title: "СПО [This.GetName]"
+ eac_pdf_events.100.title: "СПО мира [This.GetName]"
  
  eac_pdf_events.100.desc: " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
  eac_pdf_events.100.desc_0_1: " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost_0$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
@@ -239,7 +245,7 @@
  eac_pdf_events.101.FromPlanetAll: "Перевод всех £alloys£"
 
  eac_pdf_events.102.title: "Режим Реагирования СПО"
- eac_pdf_events.102.desc: "§WВыберите Режим Реагирования флотилии СПО конкретно для этой колонии§!\n\n§WТекущий Режим Реагирования флотилии СПО:§! §Y[This.GetPDFFleetStance]§!"
+ eac_pdf_events.102.desc: "§WВыберите режим работы флотилии СПО конкретно для этой колонии§!\n\n§WТекущий режим работы флотилии СПО:§! §Y[This.GetPDFFleetStance]§!"
 
  eac_pdf_events.102.FleetStanceSystem: "$eac_pdf_fleet_stance_system$"
  eac_pdf_events.102.FleetStancePlanet: "$eac_pdf_fleet_stance_planet$"
