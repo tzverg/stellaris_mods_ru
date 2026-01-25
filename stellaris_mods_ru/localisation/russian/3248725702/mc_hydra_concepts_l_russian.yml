@@ -1,0 +1,16 @@
+﻿l_russian:
+
+ ### Concepts
+ # Use §K for headers and §I for highlights in Concepts
+
+ # Selection Process
+ concept_selection_process_building: "Преимущества Независимых Исследований"
+ concept_selection_process_building_desc: "§Y$MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$§! преобразуются в:\n§G+1§! §Kопыта ежемесячно§! для должностей вида: $scientist_with_icon$"
+ 
+ MC_Hydra_civic_tooltip_not_sapient_eater: "§RНЕ ИМЕЕТ§! активной гражданской модели вида: ['concept_MC_sapient_eaters_civics']"
+ 
+ concept_MC_sapient_eaters_civics: "Пожиратели"
+ concept_MC_sapient_eaters_civics_desc: "$concept_MC_sapient_eaters_civics$ §GИМЕЕТ§! активную гражданскую модель из списка: \n- ['civic:civic_guided_sapience']$NEW_LINE$- ['civic:civic_corporate_guided_sapience']"
+ 
+ concept_MC_delicious: "$trait_delicious$"
+ concept_MC_delicious_desc: "- $mod_pop_livestock_bonus_workforce_add$: §G+2§!\n\n§L$trait_delicious_desc$§!"

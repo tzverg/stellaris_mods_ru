@@ -286,9 +286,9 @@
  
  # Modifier Localization
  mod_explosive_weapon_damage_mult: "Урон взрывчатого оружия"
- mod_planet_physicists_unity_produces_add: "$unity_with_icon$ per $pop_group_unit$ $job_physicist_plural_with_icon$"
- mod_planet_biologists_unity_produces_add: "$unity_with_icon$ per $pop_group_unit$ $job_biologist_plural_with_icon$"
- mod_planet_engineers_unity_produces_add: "$unity_with_icon$ per $pop_group_unit$ $job_engineer_plural_with_icon$"
+ mod_planet_physicists_unity_produces_add: "$unity_with_icon$ за $pop_group_unit$ $job_physicist_plural_with_icon$"
+ mod_planet_biologists_unity_produces_add: "$unity_with_icon$ за $pop_group_unit$ $job_biologist_plural_with_icon$"
+ mod_planet_engineers_unity_produces_add: "$unity_with_icon$ за $pop_group_unit$ $job_engineer_plural_with_icon$"
  
 # Ship designs
  
