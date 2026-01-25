@@ -143,4 +143,4 @@
  # Vanilla Localization #
  ########################
  
- mod_planet_pops_food_upkeep_mult: "£food£ §YПищи§! для содержания £pop£ поселений"
+ mod_planet_pops_food_upkeep_mult: "Потребление £food£ §YПищи§! £pop£ населением"
