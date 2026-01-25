@@ -28,7 +28,6 @@ mod russifications for personal use
 - [4.*] [19.05.2025] [id=3479556409] Better Aptitude
 - [4.*] [20.05.2025] [id=3483186436] Criminal Heritage Tradition
 - [4.*] [20.05.2025] [id=3441039353] Hydra's More Cosmic Storms
-- [4.*] [21.05.2025] [id=2702458166] Hypertraversal Manipulation 2
 
 - [4.2.4] [**\[16.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3488841069) [**\[id=3488841069\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3488841069) At War: Planetary Cannons 4.0
 - [4.1.\*] [**\[25.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2002751329) [**\[id=2002751329\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2002751329) Sensor Expansion
@@ -55,4 +54,5 @@ mod russifications for personal use
 - [4.2.\*] [**\[22.12.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/1353547443) [**\[id=1353547443\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=1353547443) Battle Debris - Starship Graveyards
 - [4.2.\*] [**\[19.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3615026960) [**\[id=3615026960\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3615026960) ~~Stellaris v[4.2] General Fixes
 - [4.2.\*] [**\[22.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2994821528) [**\[id=2994821528\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2994821528) Expanded Mods Base
+- [4.0.\*] [**\[25.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2702458166) [**\[id=2702458166\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2702458166) Hypertraversal Manipulation 2
 - [4.1.6] [**\[25.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3491109295) [**\[id=3491109295\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3491109295) At War: Planetary Defense Fleets 4.0
