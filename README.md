@@ -27,8 +27,8 @@ mod russifications for personal use
 - [4.*] [19.05.2025] [id=2786268200] Under Siege
 - [4.*] [19.05.2025] [id=3479556409] Better Aptitude
 - [4.*] [20.05.2025] [id=3483186436] Criminal Heritage Tradition
-- [4.*] [20.05.2025] [id=3441039353] Hydra's More Cosmic Storms
 
+- [4.2.\*] [**\[20.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3441039353) [**\[id=3441039353\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3441039353) Hydra's More Cosmic Storms
 - [4.2.4] [**\[16.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3488841069) [**\[id=3488841069\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3488841069) At War: Planetary Cannons 4.0
 - [4.1.\*] [**\[25.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2002751329) [**\[id=2002751329\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2002751329) Sensor Expansion
 - [4.1.\*] [**\[25.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2273568769) [**\[id=2273568769\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2273568769) AI-Player Exclusive Archaeology & Astral Rifts
