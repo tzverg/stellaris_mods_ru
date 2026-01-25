@@ -35,8 +35,8 @@ mod russifications for personal use
 - [4.*] [25.06.2025] [id=2273568769] AI-Player Exclusive Archaeology & Astral Rifts
 - [4.*] [26.06.2025] [id=2452302093] We Require Borders
 - [4.*] [26.06.2025] [id=3248725702] Hydra's More Civics
-- [4.*] [26.06.2025] [id=3344489699] Hydra's More Galactic Community Resolutions
 
+- [4.2.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3344489699) [**\[id=3344489699\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3344489699) Hydra's More Galactic Community Resolutions
 - [4.2.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3378829098) [**\[id=3378829098\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3378829098) Hydra's More Species Traits
 - [4.0.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2114559224) [**\[id=2114559224\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2114559224) Viable Feudalism and Imperialism - Empire Federation
 - [4.\*.\*] [**\[27.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3426744130) [**\[id=3426744130\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3426744130) Toxoid Traits
