@@ -24,9 +24,8 @@ mod russifications for personal use
 - [4.*] [12.05.2025] [id=3480183215] Colony Events Expanded
 - [4.*] [14.05.2025] [id=3046031164] Expanded War Goals
 - [4.*] [14.05.2025] [id=3480393617] Exosuit Assault Army
-- [4.*] [19.05.2025] [id=2786268200] Under Siege
 
-- [4.0.\*] [**\[19.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3479556409) [**\[id=3479556409\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3479556409) Better Aptitude
+- [4.0.\*] [**\[19.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2786268200) [**\[id=2786268200\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2786268200) Under Siege
 - [4.0.10] [**\[20.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3483186436) [**\[id=3483186436\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3483186436) Criminal Heritage Tradition
 - [4.2.\*] [**\[20.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3441039353) [**\[id=3441039353\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3441039353) Hydra's More Cosmic Storms
 - [4.2.4] [**\[16.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3488841069) [**\[id=3488841069\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3488841069) At War: Planetary Cannons 4.0
@@ -56,3 +55,4 @@ mod russifications for personal use
 - [4.2.\*] [**\[22.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2994821528) [**\[id=2994821528\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2994821528) Expanded Mods Base
 - [4.0.\*] [**\[25.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2702458166) [**\[id=2702458166\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2702458166) Hypertraversal Manipulation 2
 - [4.1.6] [**\[25.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3491109295) [**\[id=3491109295\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3491109295) At War: Planetary Defense Fleets 4.0
+- [4.0.\*] [**\[26.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3479556409) [**\[id=3479556409\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3479556409) Better Aptitude
