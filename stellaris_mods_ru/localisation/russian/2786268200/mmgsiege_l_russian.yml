@@ -1,0 +1,107 @@
+﻿l_russian:
+ mmgsiege_under_siege: "Нехватка Местных Ресурсов"
+ mmgsiege_under_siege_desc: "[Prev.MmgsiegeStatus]" # DO NOT TRANSLATE
+
+ mmgsiege_status_under_siege: "Этот мир находится ['concept_mmgsiege_under_siege', под осадой]. Его население вынуждено производить все необходимые ресурсы на местах, находясь при этом в полной изоляции, лишённые доступа к внешней торговой сети и государственной системе связи. Ситуация быстро выходит из под контроля и ['concept_mmgsiege_local_resource_shortages', нехватка местных ресурсов] ощущается всё отчётливее.\n\n$mmgsiege_local_resource_shortage_energy$\n\n$mmgsiege_local_resource_shortage_minerals$\n\n$mmgsiege_local_resource_shortage_food$\n\n$mmgsiege_local_resource_shortage_consumer_goods$"
+ mmgsiege_status_not_under_siege: "Этот мир уже §RНЕ§! ['concept_mmgsiege_under_siege', под осадой], но ['concept_mmgsiege_local_resource_shortages', нехватка местных ресурсов] все ещё оказывает влияние на местную экономику вследствии последней осады этого мира.\n\n$mmgsiege_local_resource_shortage_energy$\n\n$mmgsiege_local_resource_shortage_minerals$\n\n$mmgsiege_local_resource_shortage_food$\n\n$mmgsiege_local_resource_shortage_consumer_goods$"
+ mmgsiege_status_under_siege_occupied: "Этот мир до недавних пор находился ['concept_mmgsiege_under_siege', под осадой], но процесс осады практически завершён. Силы вторжения проводят окончательную зачистку лагерей сопротивления, а планетарная администрация уже захвачена, централизованное сопротивление подавлено и мир переходит в §Rрежим оккупации§!."
+
+ concept_mmgsiege_under_siege: "Под Осадой"
+ concept_mmgsiege_under_siege_desc: "Мир переходит в §R['concept_mmgsiege_under_siege', режим осады]§!, если основная звездная база системы переходит под контроль противника. Находясь в ['concept_mmgsiege_under_siege', режиме осады], мир переходит на самообеспечение и должен производить ключевые ресурсы, такие как £energy£энергокредиты, £minerals£минералы, £food£пища, а так-же £consumer_goods£ТМС, или потреблять эти ресурсы из своих, заранее заготовленных, запасов. Для этого необходимо предварительно заполнить местное['concept_mmgsiege_local_stockpile', планетарное хранилище].\n\nВ случае если местных запасов недостаточно для обеспечения быта местного населения, обитателей этого мира ожидает ['concept_mmgsiege_local_resource_shortages', дефицит местных ресурсов].\n\nОккупированные планеты более не подвержены осаде."
+ concept_mmgsiege_local_resource_shortages: "Нехватка Местных Ресурсов"
+ concept_mmgsiege_local_resource_shortages_desc: "В случае перехода в ['concept_mmgsiege_under_siege', режим осады], местная администрация просто вынуждена развернуть цепи производства для обеспечения собственного населения такими ресурсами как £energy£энергокредиты, £minerals£минералы, £food£пища, а так-же £consumer_goods£ТМС, либо же расконсервировать предварительно заполненное ими ['concept_mmgsiege_local_stockpile', планетарное хранилище].\n\nВ случае если мир испытывает ['concept_mmgsiege_local_resource_shortages', дефицит местных ресурсов], а его местные хранилища опустошены, население столкнется с обострением ['concept_mmgsiege_local_resource_shortages', дефицита местных ресурсов], прогрессирующим в следующем порядке: $mmgsiege_shortage_status_minor$ > $mmgsiege_shortage_status_major$ > $mmgsiege_shortage_status_severe$ > $mmgsiege_shortage_status_catastrophic$. Специфика наложения штрафов зависит от формы правления вашего государства, а так-же численности населения целевого мира, но с большой долей вероятности можно ожидать снижения §Iуровня счастья§!, §Iскорости роста§! и §Iпроизводительности§! местного населения.\n\nСкорость нарастания дефицита зависит от уровня производства дефицитных ресурсов инфраструктурой целевого мира. К примеру: дефицит в колонии, самостоятельно восполняющей 50% собственных потребностей, будет расти в два раза медленнее, чем в колонии, которая для своего обеспечения не производит абсолютно ничего.\n\nМиры, которые больше не находятся в режиме осады, будут восстанавливать §Iодин§! уровень дефицита каждые §I3 месяца§!."
+ concept_mmgsiege_local_stockpile: "Планетарное Хранилище"
+ concept_mmgsiege_local_stockpile_desc: "['concept_mmgsiege_local_resource_shortages', Дефицит местных ресурсов] - это серьёзная проблема для каждой удалённой колонии. Во избежание усугубления и без того катастрофической ситуации - каждый мир имеет возможность накапливать запасы следующих, черезвычайно необходимых населению, ресурсов: £energy£энергокредиты, £minerals£минералы, £food£пища, а так-же £consumer_goods£ТМС, которые будет потреблять переходя в ['concept_mmgsiege_under_siege', режим осады].\n\nВы можете проверить состояние вашего планетарного хранилища используя для этого следующее планетарное решение: §I['mmgsiege_decision_manage_stockpile']§!."
+
+ mod_ROBOT_pop_happiness: "£mod_pop_happiness£ $MOD_POP_HAPPINESS$ синтетичеких форм жизни"
+ mod_MACHINE_pop_happiness: "£mod_pop_happiness£ $MOD_POP_HAPPINESS$ кибернетических форм жизни"
+ mmgsiege_zero: "0" # DO NOT TRANSLATE
+ mmgsiege_newline_tab_no_effect: "\n$tt$$NO_EFFECT$" # DO NOT TRANSLATE
+ mmgsiege_month: "Месяц"
+ mmgsiege_months: "Месяцы"
+
+ mmgsiege_local_resource_shortage_energy: "£energy£ [Prev.MmgsiegeEnergyShortageStatus] [Prev.MmgsiegeEnergyShortageSubstatus][Prev.MmgsiegeEnergyShortageRobotPopHappiness][Prev.MmgsiegeEnergyShortagePopAssemblyReduction][Prev.MmgsiegeEnergyShortageBureaucratsProduces][Prev.MmgsiegeEnergyShortageResearchersProduces][Prev.MmgsiegeEnergyShortageJobAmenities][Prev.MmgsiegeEnergyShortageOrbitalBombardmentDamage][Prev.MmgsiegeEnergyShortageNoEffect]" # DO NOT TRANSLATE
+ mmgsiege_local_resource_shortage_minerals: "£minerals£ [Prev.MmgsiegeMineralsShortageStatus] [Prev.MmgsiegeMineralsShortageSubstatus][Prev.MmgsiegeMineralsShortageLithoidPopHappiness][Prev.MmgsiegeMineralShortageLithoidPopGrowthReduction][Prev.MmgsiegeMineralsShortagePopAssemblyOrganicReduction][Prev.MmgsiegeMineralShortageArtisansProduces][Prev.MmgsiegeMineralShortageMetallurgistsProduces][Prev.MmgsiegeMineralsShortageBureaucratsProduces][Prev.MmgsiegeMineralsShortageResearchersProduces][Prev.MmgsiegeMineralsShortageJobAmenities][Prev.MmgsiegeMineralsShortageOrbitalBombardmentDamage][Prev.MmgsiegeMineralsShortageNoEffect]" # DO NOT TRANSLATE
+ mmgsiege_local_resource_shortage_food: "£food£ [Prev.MmgsiegeFoodShortageStatus] [Prev.MmgsiegeFoodShortageSubstatus][Prev.MmgsiegeFoodShortageBiologicalPopHappiness][Prev.MmgsiegeFoodShortageBiologicalPopGrowthReduction][Prev.MmgsiegeFoodShortagePopAssemblyOrganicReduction][Prev.MmgsiegeFoodShortageMetallurgistsProduces][Prev.MmgsiegeFoodShortageBureaucratsProduces][Prev.MmgsiegeFoodShortageJobAmenities][Prev.MmgsiegeFoodShortageNoEffect]" # DO NOT TRANSLATE
+ mmgsiege_local_resource_shortage_consumer_goods: "£consumer_goods£ [Prev.MmgsiegeConsumerGoodsShortageStatus] [Prev.MmgsiegeConsumerGoodsShortageSubstatus][Prev.MmgsiegeConsumerGoodsShortageBioTrophyHappiness][Prev.MmgsiegeConsumerGoodsShortageBureaucratsProduces][Prev.MmgsiegeConsumerGoodsShortageResearchersProduces][Prev.MmgsiegeConsumerGoodsShortageJobAmenities][Prev.MmgsiegeConsumerGoodsShortageNoEffect]" # DO NOT TRANSLATE
+
+ mmgsiege_shortage_biological_pop_happiness: "\n$tt$§T$MOD_BIOLOGICAL_POP_HAPPINESS$:§! §R[Prev.mmgsiege_shortage_biological_pop_happiness]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_lithoid_pop_happiness: "\n$tt$§T$MOD_LITHOID_POP_HAPPINESS$:§! §R[Prev.mmgsiege_shortage_lithoid_pop_happiness]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_robot_pop_happiness: "\n$tt$§T$mod_ROBOT_pop_happiness$:§! §R[Prev.mmgsiege_shortage_robot_pop_happiness]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_bio_trophy_happiness: "\n$tt$§Tmod_pop_cat_bio_trophy_happiness:§! §R[Prev.mmgsiege_shortage_bio_trophy_happiness]%§!" # DO NOT TRANSLATE
+
+ mmgsiege_shortage_biological_pop_growth_reduction: "\n$tt$§T$mod_BIOLOGICAL_logistic_growth_mult$:§! §R[Prev.mmgsiege_shortage_biological_pop_growth_reduction]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_lithoid_pop_growth_reduction: "\n$tt$§T$mod_LITHOID_logistic_growth_mult$:§! §R[Prev.mmgsiege_shortage_lithoid_pop_growth_reduction]%§!" # DO NOT TRANSLATE
+
+ mmgsiege_shortage_pop_assembly_reduction: "\n$tt$§T$MOD_PLANET_POP_ASSEMBLY_REDUCTION$:§! §R[Prev.mmgsiege_shortage_pop_assembly_reduction]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_pop_assembly_organic_reduction: "\n$tt$§T$mod_BIOLOGICAL_bonus_pop_growth_mult$:§! §R[Prev.mmgsiege_shortage_pop_assembly_organic_reduction]%§!\n$tt$§T$mod_LITHOID_bonus_pop_growth_mult$:§! §R[Prev.mmgsiege_shortage_pop_assembly_organic_reduction]%§!" # DO NOT TRANSLATE
+
+ mmgsiege_shortage_virtual_produces: "\n$tt$§T$mod_planet_virtual_jobs_produces_mult$:§! §R[Prev.mmgsiege_shortage_virtual_produces]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_artisans_produces: "\n$tt$§T$mod_planet_artisans_produces_mult$:§! §R[Prev.mmgsiege_shortage_artisans_produces]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_metallurgists_produces: "\n$tt$§T$mod_planet_metallurgists_produces_mult$:§! §R[Prev.mmgsiege_shortage_metallurgists_produces]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_bureaucrats_produces: "\n$tt$§T$mod_planet_bureaucrats_produces_mult$:§! §R[Prev.mmgsiege_shortage_bureaucrats_produces]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_researchers_produces: "\n$tt$§T$mod_planet_researchers_produces_mult$:§! §R[Prev.mmgsiege_shortage_researchers_produces]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_job_amenities: "\n$tt$§T$mod_pop_job_amenities_mult$:§! §R[Prev.mmgsiege_shortage_job_amenities]%§!" # DO NOT TRANSLATE
+
+ mmgsiege_shortage_energy_orbital_bombardment_damage: "\n$tt$§T$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$:§! §R+[Prev.mmgsiege_shortage_energy_orbital_bombardment_damage]%§!" # DO NOT TRANSLATE
+ mmgsiege_shortage_minerals_orbital_bombardment_damage: "\n$tt$§T$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$:§! §R+[Prev.mmgsiege_shortage_minerals_orbital_bombardment_damage]%§!" # DO NOT TRANSLATE
+
+ mmgsiege_shortage_status_no_shortage: "Отсутствие Кризиса"
+ mmgsiege_shortage_status_minor: "§YНезначительный Кризис§!"
+ mmgsiege_shortage_status_major: "§HСредний Кризис§!"
+ mmgsiege_shortage_status_severe: "§RТяжёлый Кризис§!"
+ mmgsiege_shortage_status_catastrophic: "§MКатастрофический Кризис§!"
+
+ mmgsiege_shortage_substatus_produced_locally: "(Местное Производство)"
+ mmgsiege_shortage_substatus_not_under_siege: "(§RНЕ§! ['concept_mmgsiege_under_siege'])"
+ mmgsiege_shortage_substatus_max_level: "(Критический Уровень)"
+ mmgsiege_shortage_substatus_recovering_energy: "(Ещё [Prev.mmgsiege_months_until_energy_shortage_full_recovery] [Prev.mmgsiege_months_until_energy_shortage_full_recovery_month_months] необходимо восполнять дефицит £energy£энергокредитов)"
+ mmgsiege_shortage_substatus_recovering_minerals: "(Ещё [Prev.mmgsiege_months_until_minerals_shortage_full_recovery] [Prev.mmgsiege_months_until_minerals_shortage_full_recovery_month_months] необходимо восполнять дефицит £minerals£минералов)"
+ mmgsiege_shortage_substatus_recovering_food: "(Ещё [Prev.mmgsiege_months_until_food_shortage_full_recovery] [Prev.mmgsiege_months_until_food_shortage_full_recovery_month_months] необходимо восполнять дефицит £food£пищи)"
+ mmgsiege_shortage_substatus_recovering_consumer_goods: "(Ещё [Prev.mmgsiege_months_until_consumer_goods_shortage_full_recovery] [Prev.mmgsiege_months_until_consumer_goods_shortage_full_recovery_month_months] необходимо восполнять дефицит £consumer_goods£ТМС)"
+ mmgsiege_shortage_substatus_stockpile_empty_energy: "(Ещё [Prev.mmgsiege_months_until_next_energy_shortage_level] [Prev.mmgsiege_months_until_next_energy_shortage_level_month_months] и хранилища £energy£энергокредитов полностью опустеют)"
+ mmgsiege_shortage_substatus_stockpile_empty_minerals: "(Ещё [Prev.mmgsiege_months_until_next_minerals_shortage_level] [Prev.mmgsiege_months_until_next_minerals_shortage_level_month_months] и хранилища £minerals£минералов полностью опустеют)"
+ mmgsiege_shortage_substatus_stockpile_empty_food: "(Ещё [Prev.mmgsiege_months_until_next_food_shortage_level] [Prev.mmgsiege_months_until_next_food_shortage_level_month_months] и хранилища £food£пищи полностью опустеют)"
+ mmgsiege_shortage_substatus_stockpile_empty_consumer_goods: "(Ещё [Prev.mmgsiege_months_until_next_consumer_goods_shortage_level] [Prev.mmgsiege_months_until_next_consumer_goods_shortage_level_month_months] и хранилища £consumer_goods£ТМС полностью опустеют)"
+ mmgsiege_shortage_substatus_progress_energy: "(Ещё [Prev.mmgsiege_months_until_next_energy_shortage_level] [Prev.mmgsiege_months_until_next_energy_shortage_level_month_months] и дефицит £energy£энергокредитов перейдёт на новый уровень)"
+ mmgsiege_shortage_substatus_progress_minerals: "(Ещё [Prev.mmgsiege_months_until_next_minerals_shortage_level] [Prev.mmgsiege_months_until_next_minerals_shortage_level_month_months] и дефицит £minerals£минералов перейдёт на новый уровень)"
+ mmgsiege_shortage_substatus_progress_food: "(Ещё [Prev.mmgsiege_months_until_next_food_shortage_level] [Prev.mmgsiege_months_until_next_food_shortage_level_month_months] и дефицит £food£пищи перейдёт на новый уровень)"
+ mmgsiege_shortage_substatus_progress_consumer_goods: "(Ещё [Prev.mmgsiege_months_until_next_consumer_goods_shortage_level] [Prev.mmgsiege_months_until_next_consumer_goods_shortage_level_month_months] и дефицит £consumer_goods£ТМС перейдёт на новый уровень)"
+
+ mmgsiege_shortage_feature: "$mmgsiege_under_siege$" # DO NOT TRANSLATE
+ mmgsiege_shortage_feature_desc: "$BLANK_STRING$" # DO NOT TRANSLATE
+
+ mmgsiege_decision_manage_stockpile: "Открыть Хранилище"
+ mmgsiege_decision_manage_stockpile_desc: "Размер Хранилища увеличивается за счёт:\n - §Hпланетарной столицы§!\n+1/10 от максимального объема хранилищ государства, обеспечиваемого планетарными строениями вида §Hресурсный бункер§!"
+ mmgsiege_decision_manage_stockpile_effect: "Управление складом.\n\nТекущее хранилище:\n£energy£ [Prev.mmgsiege_energy_stockpile]§L/[Prev.mmgsiege_stockpile_maximum]§!\n£minerals£ [Prev.mmgsiege_minerals_stockpile]§L/[Prev.mmgsiege_stockpile_maximum]§!\n£food£ [Prev.mmgsiege_food_stockpile]§L/[Prev.mmgsiege_stockpile_maximum]§!\n£consumer_goods£ [Prev.mmgsiege_consumer_goods_stockpile]§L/[Prev.mmgsiege_stockpile_maximum]§!"
+
+ mmgsiege_energy_budget_percent_and_value: "£energy£ [From.mmgsiege_energy_stockpile_budget_percent]% ([From.mmgsiege_energy_stockpile_budget])" # DO NOT TRANSLATE
+ mmgsiege_minerals_budget_percent_and_value: "£minerals£ [From.mmgsiege_minerals_stockpile_budget_percent]% ([From.mmgsiege_minerals_stockpile_budget])" # DO NOT TRANSLATE
+ mmgsiege_food_budget_percent_and_value: "£food£ [From.mmgsiege_food_stockpile_budget_percent]% ([From.mmgsiege_food_stockpile_budget])" # DO NOT TRANSLATE
+ mmgsiege_consumer_goods_budget_percent_and_value: "£consumer_goods£ [From.mmgsiege_consumer_goods_stockpile_budget_percent]% ([From.mmgsiege_consumer_goods_stockpile_budget])" # DO NOT TRANSLATE
+ mmgsiege_energy_stockpile_var_value: "£energy£[This.mmgsiege_energy_stockpile]" # DO NOT TRANSLATE
+ mmgsiege_minerals_stockpile_var_value: "£minerals£[This.mmgsiege_minerals_stockpile]" # DO NOT TRANSLATE
+ mmgsiege_food_stockpile_var_value: "£food£[This.mmgsiege_food_stockpile]" # DO NOT TRANSLATE
+ mmgsiege_consumer_goods_stockpile_var_value: "£consumer_goods£[This.mmgsiege_consumer_goods_stockpile]" # DO NOT TRANSLATE
+
+ mmgsiege_stockpile_budget_feature: "Siege Stockpile Budget" # DO NOT TRANSLATE
+ mmgsiege_stockpile_budget_feature_desc: "DEPRECATED: This does nothing. You are seeing this because you used an older version of this mod earlier in this game." # DO NOT TRANSLATE
+ mmgsiege_stockpile_budget: "Контракт Колониального Снабжения"
+ mmgsiege_manage_stockpile_budget: "Условия ККС"
+ mmgsiege_manage_stockpile_budget_desc: "§HКонтракт Колониального Снабжения§!, или упрощённо §Y(ККС)§!, регламентирует ежемесячный трансфер государственных ресурсов, очерченных условиями контракта, в специализированные местные хранилища, расположенные на ваших колониях, приоретизированные по определённым критериям, с целью подготовки колонии к переходу в ['concept_mmgsiege_under_siege', режим осады]. §YПриоритет колоний§! определяется по следующим критериям:\n\n£trigger_yes£ численность населения\n£trigger_yes£ близость к фронту\n£trigger_no£ местное производство ресурса\n£trigger_no£ переполнение местных хранилищ ресурса\n\nДефицит ресурсов негативно сказывается на производительности населения колонии, использующей данный ресурс, и оказывает следующее дополнительное влияние:\n\n£energy£ §Rдефицит энергокредитов§!:\n$tt$-повышает ущерб от бомбардировок данной колонии\n$tt$-понижает скорость сборки роботов\n£minerals£ §Rдефицит минералов§!:\n$tt$-повышает ущерб от бомбардировок данной колонии\n$tt$-понижает скорость воспроизводства и уровень счастья литоидов\n£food£ §Rдефицит пищи§!:\n$tt$-понижает скорость воспроизводства и уровень счастья органиков."
+ mmgsiege_manage_local_stockpile: "§YМеню УКС§!"
+ mmgsiege_manage_local_stockpile_desc: "Это меню §HУправления Колониальным Снабжением§! (§YУКС§!). В этом меню вы можете в ручном режиме перенаправить имеющиеся в вашем распоряжении ресурсы и заполнить специализированные местные хранилища данной колонии.\n\nПри необходимости заключения контракта с посредником для §Yавтоматического§! трансфера ресурсов в местные хранилища используйте указ под названием §H$edict_mmgsiege_stockpile_automation$§!.\n\nОбъём Местных Хранилищ: §H[From.mmgsiege_stockpile_maximum]§!\n§L§Yадминистративные комплексы§!, §Yцитадели§!, §Yкрепости§!, а так-же §Yбункеры для хранения ресурсов§! способны увеличить §Yмаксимальный объём§! местных хранилищ.§!"
+ mmgsiege_stockpile_empty: "Мин."
+ mmgsiege_stockpile_max: "Макс."
+
+ mmgsiege_must_open_planet_fail: "£trigger_no£ Должно быть открыто окно обзора мира, другие же окна должны быть закрыты."
+ mmgsiege_must_open_planet_success: "£trigger_yes£ Открыто окно обзора мира"
+ mmgsiege_is_not_under_siege_fail: "£trigger_no£ Планета §Gнаходится§! в режиме осады"
+ mmgsiege_is_not_under_siege_success: "£trigger_yes£ Планета §RНЕ находится§! в режиме осады"
+
+ edict_mmgsiege_stockpile_automation: "Подписать ККС"
+ edict_mmgsiege_stockpile_automation_desc: "Подпись контракта колониального снабжения (§YККС§!) даст отмашку частным посредникам на доставку государственных ресурсов в специализированные планетарные хранилища, расположенные по всей территории нашего государства. §HКонтракт§! регламентирует ежемесячный трансфер государственных ресурсов, очерченных условиями контракта, в специализированные хранилища на ваши колонии, приоретизированные по определённым критериям, с целью подготовки колоний к затяжной осаде.\n\nПомните, что для активации этой функции - окно §Y$mmgsiege_manage_stockpile_budget$§! должно быть §Rзакрыто§!."
+ edict_mmgsiege_stockpile_automation_alt: "$edict_mmgsiege_stockpile_automation$" # DO NOT TRANSLATE
+ edict_mmgsiege_stockpile_automation_alt_desc: "$edict_mmgsiege_stockpile_automation_desc$" # DO NOT TRANSLATE
+ edict_mmgsiege_manage_stockpile_automation: "Пересмотр условий ККС"
+ edict_mmgsiege_manage_stockpile_automation_desc: "Пересмотрите условия контракта колониального снабжения (§YККС§!), а именно объём ежемесячного трансфера ресурсов в специализированные планетарные хранилища.\n\nПомните, что для активации этой функции - окно §Y$mmgsiege_manage_stockpile_budget$§! должно быть §Rзакрыто§!."
