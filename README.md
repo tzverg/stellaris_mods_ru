@@ -20,8 +20,6 @@ mod russifications for personal use
 - [3.14.*] [18.07.2022] [id=2780180614] Cross Border Trade [DEPRECATED]
 - [3.11.*] [31.10.2023] [id=1373224279] New Legendary Worlds [DEPRECATED]
 
-- [4.*] [09.05.2025] [id=2493028212] End Truce & Close Borders
-
 - [4.0.6] [**\[27.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3480183215) [**\[id=3480183215\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3480183215) Colony Events Expanded
 - [4.0.10] [**\[20.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3483186436) [**\[id=3483186436\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3483186436) Criminal Heritage Tradition
 - [4.0.\*] [**\[14.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3480393617) [**\[id=3480393617\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3480393617) Exosuit Assault Army
@@ -33,6 +31,7 @@ mod russifications for personal use
 - [4.1.6] [**\[25.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3491109295) [**\[id=3491109295\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3491109295) At War: Planetary Defense Fleets 4.0
 - [4.1.\*] [**\[25.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2002751329) [**\[id=2002751329\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2002751329) Sensor Expansion
 - [4.1.\*] [**\[25.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2273568769) [**\[id=2273568769\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2273568769) AI-Player Exclusive Archaeology & Astral Rifts
+- [4.1.\*] [**\[27.01.2026\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2493028212) [**\[id=2493028212\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2493028212) End Truce & Close Borders
 - [4.2.4] [**\[16.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3488841069) [**\[id=3488841069\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3488841069) At War: Planetary Cannons 4.0
 - [4.2.\*] [**\[20.05.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/3441039353) [**\[id=3441039353\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=3441039353) Hydra's More Cosmic Storms
 - [4.2.\*] [**\[26.06.2025\]**](https://github.com/tzverg/stellaris_mods_ru/tree/main/stellaris_mods_ru/localisation/russian/2452302093) [**\[id=2452302093\]**](https://steamcommunity.com/sharedfiles/filedetails/?id=2452302093) We Require Borders
