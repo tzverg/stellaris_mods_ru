@@ -1,0 +1,53 @@
+﻿l_russian:
+ # For reference: Color codes
+ #B 	Blue
+ #E 	Teal
+ #G 	Green
+ #H 	Orange
+ #L 	Brown
+ #M 	Purple
+ #P 	Light red
+ #R 	Red
+ #S 	Dark orange
+ #T 	Light grey
+ #W 	White
+ #Y 	Yellow
+ #! 	Default
+ 
+ ###Star Classes
+ pc_d_star: "Белый Карлик"
+ pc_d_star_desc: "Звёзды класса «D», широко известны как белые карлики, представляют из себя остатки звёздных ядер, состоящие преимущественно из материи с электронным вырождением. Считается, что белые карлики являются конечной стадией эволюции звёзд, масса которых недостаточна для превращения в нейтронную звезду. При образовании белый карлик имеет очень высокую температуру, но, поскольку у него нет источника энергии, он постепенно излучает всю свою энергию и остывает." 
+
+ ###Star Systems
+ sc_d: "$pc_d_star$"
+ sc_d_desc: "$pc_d_star_desc$"
+ sc_binary_wide_degenerate_1: "Двойные Звёзды"
+ sc_binary_wide_degenerate_2: "Двойные Звёзды"
+ sc_binary_wide_degenerate_3: "Двойные Звёзды"
+ sc_binary_giant_and_the_dwarf_1: "Двойные Звёзды"
+ sc_binary_yellow_red_1: "Двойные Звёзды"
+ sc_binary_father_and_son_1: "Двойные Звёзды"
+ sc_binary_father_and_son_2: "Двойные Звёзды"
+ sc_binary_father_and_son_3: "Двойные Звёзды с вращающимся вокруг них Коричневым Карликом"
+ sc_binary_yellow_siblings_1: "Двойные Звёзды"
+ sc_binary_young_couple_1: "Двойные Звёзды"
+ sc_brown_companion_1: "Жёлтая звезда с обращающимся вокруг неё Коричневым Карликом"
+ sc_brown_companion_2: "Белая звезда с обращающимся вокруг неё Коричневым Карликом"
+ sc_brown_companion_3: "Красный Гигант с обращающимся вокруг него Коричневым Карликом"
+ sc_binary_yellow_with_white_1: "Двойные Звёзды"
+ sc_binary_white_with_white_1: "Двойные Звёзды"
+ sc_binary_white_with_white_2: "Двойные Звёзды"
+ sc_binary_surviving_dwarf_1: "Белый карлик с обращающимся вокруг него Коричневым Карликом"
+ sc_trinary_young_twins_being_watched_1: "Тройные Звёзды"
+ sc_trinary_orphan_twins_1: "Тройные Звёзды"
+ sc_trinary_orphan_twins_2: "Двойные Звёзды с обращающимся вокруг них Пульсаром"
+ sc_trinary_orphan_twins_3: "Двойные Звёзды с обращающейся вокруг них Нейтронной Звездой"
+ sc_trinary_orphan_twins_4: "Двойные Звёзды с вращающейся вокруг них Чёрной Дырой"
+ sc_trinary_centauri_1: "Тройные Звёзды"
+ sc_trinary_centauri_2: "Тройные Звёзды"
+ sc_trinary_indi_1: "Жёлтая Звезда и вращающийся вокруг неё Коричневый Карлик"
+ sc_trinary_indi_2: "Белая Звезда и вращающийся вокруг неё Коричневый Карлик"
+ sc_binary_xray_1: "Рентгеновы Двойные Звёзды"
+ sc_binary_xray_2:0 "Рентгеновы Двойные Звёзды"
+ sc_binary_xray_3:0 "Рентгеновы Двойные Звёзды"
+ 
