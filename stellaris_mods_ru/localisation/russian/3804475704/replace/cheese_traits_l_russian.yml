@@ -1,0 +1,258 @@
+﻿l_russian:
+
+  # Not necessary to translate
+
+  job_traits_on_ruler_warning: ""
+
+  leader_trait_selfcare_expert: "Эксперт ЗОЖ"
+  leader_trait_selfcare_expert_desc: "Этот лидер достиг высочайшего уровня мастерства в поддержке здорового образа жизни. Его продолжительность жизни будет существенно увеличена."
+
+  mod_starbase_constructions_cost_mult: "Стоимость строительства Звёздной Базы"
+
+  # Generic Traits
+  leader_trait_capitalist: "Энергетический Магнат"
+  leader_trait_private_mines: "Астероидный Магнат"
+  leader_trait_homesteader: "Аграрный Магнат"
+  leader_trait_scrapper: "Мусорный Магнат"
+  leader_trait_entrepreneur: "Промышленный Магнат"
+
+  leader_trait_gifted: "Одарённость"
+  leader_trait_venerated: "Почитание"
+  leader_trait_melancholic: "Меланхолия"
+  leader_trait_fallible: "Ненадёжность"
+  leader_trait_excessive: "Скопидомство"
+  leader_trait_reclusive: "Затворничество"
+  leader_trait_embezzler: "Аферизм"
+  leader_trait_intolerant: "Шовинизм"
+  leader_trait_gullible: "Конформизм"
+  leader_trait_volatile: "Вспыльчивость"
+  leader_trait_passive: "Непритязательность"
+  leader_trait_tyrannical: "Тирания"
+  leader_trait_bureaucratic: "Канцеляризм"
+
+
+  trait_ruler_warlike: "Воинственность"
+  trait_ruler_charismatic: "Харизматичность"
+  # yeehaw
+
+  leader_trait_sadistic: "Деспотичность"
+  leader_trait_lawless: "Продажность"
+
+  # Gestalt trait names and desc
+  leader_trait_fallible_hive: "Дефективность"
+  leader_trait_fallible_machine: "Брак"
+
+  leader_trait_stubborn_hive: "Косность"
+  leader_trait_stubborn_machine: "Ригидность"
+
+  leader_trait_lavish_lifestyle_hive: "Непродуктивность"
+  leader_trait_lavish_lifestyle_machine: "Неэффективность"
+
+  leader_trait_righteous_hive: "Нетленность"
+
+  leader_trait_bureaucratic_hive: "Интровертивность"
+  leader_trait_bureaucratic_machine: "Инкапсулированость"
+
+  leader_trait_micromanager_hive: "Рассеяность"
+  leader_trait_micromanager_machine: "Рассинхронизация"
+
+  leader_trait_reckless_hive: "Сумасбродство"
+  leader_trait_reckless_machine: "Безрассудность"
+
+  leader_trait_slipshod_hive: "Пацифизм"
+  leader_trait_slipshod_hive_desc: "[owner.GetIndividualName::Этот|||fem:Эта] [owner.GetIndividualName&nom] обладает иррациональным и неэффективным, в военном смысле, сознанием, ослабляющим оборонительные возможности подконтрольной индивиду флотилии."
+  leader_trait_slipshod_machine: "Уязвимость"
+  leader_trait_slipshod_machine_desc: "Этот модуль обладает иррациональной и неэффективной боевой подпрограммой, ослабляющей оборонительные возможности подконтрольной ему флотилии."
+
+  leader_trait_slothful_hive: "Инертность"
+  leader_trait_slothful_machine: "Подвисания"
+
+  leader_trait_victory_or_death_hive: "Безрассудство"
+
+  leader_trait_disorganized_hive: "Дезориентация"
+  leader_trait_disorganized_machine: "Хаотичность"
+  leader_trait_disorganized_machine_desc: "Этот модуль действует на основе неверных логистических расчетов, что приводит к растрате стратегически необходимых ресурсов."
+
+  leader_trait_paranoid_hive: "Скрытность"
+  leader_trait_paranoid_hive_desc: "[owner.GetIndividualName::Этот|||fem:Эта] [owner.GetIndividualName&nom] демонстрирует сложное поведение для защиты информационных потоков данных, чем значительно замедляет проведение исследований."
+
+  leader_trait_narrow_minded_machine: "Сепарированность"
+
+  leader_trait_neurotic_hive: "Психоз"
+  leader_trait_neurotic_machine: "Алеатронность"
+  leader_trait_neurotic_machine_desc: "Alea (случайная игра, риск) + электроника. Устройство, работающее на «авось» опираясь на случайных, не верифицированных, данных. Этот модуль придаёт чрезмерное значение посторонним данным."
+
+  leader_trait_opinionated_hive: "Инфодефиция"
+  leader_trait_opinionated_machine: "Инкоддер"
+
+  leader_trait_profligate_hive: "Люксомания"
+  leader_trait_profligate_hive_desc: "[owner.GetIndividualName::Этот|||fem:Эта] [owner.GetIndividualName&nom] обладает дефектом, увеличивающим затраты на содержание всех прочих [owner.GetIndividualNamePlural&gen] на планете."
+  leader_trait_profligate_machine: "Инфлятор"
+  leader_trait_profligate_machine_desc: "В программном обеспечении этого устройства присутствует постоянная ошибка, которая приводит к увеличению затрат на обслуживание всех остальных устройств внутренней сети этого мира."
+
+  leader_trait_procrastinator_hive: "Макропрофанация"
+  leader_trait_procrastinator_hive_desc: "[owner.GetIndividualName::Этот|||fem:Эта] [owner.GetIndividualName&nom] неэффективно контролирует инфраструктурные проекты планетарного масштаба."
+  leader_trait_procrastinator_machine: "Георегрессия"
+  leader_trait_procrastinator_machine_desc: "Этот модуль неэффективно контролирует планетарные строительные проекты."
+
+  leader_trait_insider_trading_hive: "Экократия"
+  leader_trait_insider_trading_hive_desc: "[owner.GetIndividualName::Этот|||fem:Эта] [owner.GetIndividualName&nom] осуществляет неэффективное управление планетарными [owner.GetIndividualNamePlural&inst]."
+  leader_trait_insider_trading_machine: "Робократия"
+  leader_trait_insider_trading_machine_desc: "Этот модуль неэффективно управляет планетарной локальной информационной сетью и всеми устройствами в её составе."
+
+  leader_trait_eager_machine: "Оптимизированность"
+  leader_trait_eager_hive: "Совершенство"
+
+  trait_ruler_charismatic_hive: "Посредничество"
+
+  trait_ruler_warlike_machine: "Милитаризм"
+
+  trait_ruler_logistic_understanding_hive: "Интендант"
+  trait_ruler_logistic_understanding_machine: "Маршрутизатор"
+
+  leader_trait_gifted_hive: "Одаренность"
+  leader_trait_gifted_hive_desc: "Благодаря необычному росту синаптических связей функциональность [owner.GetIndividualName::этого|||fem:этой] [owner.GetIndividualName&gen] значительно расширена."
+  leader_trait_gifted_machine: "Рефаторизация"
+
+  leader_trait_aggressive_hive: "Решительность"
+
+  leader_trait_spycraft_hive: "Дешифровка"
+  leader_trait_spycraft_machine: "Криптография"
+
+  trait_ruler_investor_machine: "Оптимизация"
+
+  leader_trait_hardy_hive: "Окукливание"
+  leader_trait_hardy_machine: "Экранирование"
+
+  trait_ruler_deep_connections_machine: "Аналитика"
+
+  leader_trait_industrial_espionage_hive: "Ксено-Аналитика"
+  leader_trait_industrial_espionage_machine: "Реверс-Инжиниринг"
+
+  trait_ruler_recruiter_hive: "Инфекторство"
+  trait_ruler_recruiter_hive_desc: "[owner.GetIndividualName::Этот|||fem:Эта] [owner.GetIndividualName&nom]а специализируется на циклах заражения, что позволяет быстро и дешево выращивать боевые формирования."
+
+  leader_trait_carefree_hive: "Смекалка"
+  leader_trait_carefree_machine: "Экстраполирование"
+
+  leader_trait_civil_engineer_hive: "Ваяние"
+  leader_trait_civil_engineer_machine: "Компиляция"
+
+  leader_trait_collaborator_hive: "Толкование"
+  leader_trait_collaborator_machine: "Прокси"
+
+  leader_trait_roamer_hive: "Умозаключение"
+  leader_trait_roamer_machine: "Каталогизирование"
+
+  leader_trait_slippery_hive: "Инстинктивность"
+
+  leader_trait_surveyor_hive: "Менторство"
+  leader_trait_surveyor_machine: "Координирование"
+
+  leader_trait_bureaucrat_hive: "Вдумчивость"
+
+  leader_trait_distribution_lines_hive: "Снабжение"
+
+  leader_trait_adventurous_spirit_hive: "Эгоизм"
+  leader_trait_adventurous_spirit_machine: "Автономность"
+
+  leader_trait_resilient_hive: "Выносливость"
+  leader_trait_resilient_machine: "Износостойкость"
+
+  leader_trait_adaptable_machine: "Эвристичность"
+
+  leader_trait_melancholic_hive: "Меланхолия"
+  leader_trait_melancholic_machine: "Подвисания"
+
+  leader_trait_reclusive_hive: "Замкнутость"
+  leader_trait_reclusive_machine: "Локальность"
+
+  leader_trait_intolerant_hive: "Нетерпимость"
+  leader_trait_intolerant_machine: "Бескомпромиссность"
+
+  leader_trait_volatile_hive: "Самодурство"
+  leader_trait_volatile_machine: "Глитчинг"
+
+  leader_trait_passive_hive: "Пассивность"
+  leader_trait_passive_machine: "Инертность"
+
+  leader_trait_agrarian_upbringing_2_hive: "$leader_trait_agrarian_upbringing_hive$ II"
+  leader_trait_agrarian_upbringing_2_hive_desc: "$leader_trait_agrarian_upbringing_hive_desc$"
+
+  leader_trait_intellectual_hive: "Многозадачность"
+  leader_trait_intellectual_machine: "Многопоточность"
+
+  leader_trait_courtroom_training_hive: "Риторичность"
+  leader_trait_courtroom_training_machine: "Коммуникативность"
+  leader_trait_courtroom_training_machine_desc: "Этот модуль кратко и органично формулирует речи с учетом коммуникативных стилей, что помогает ему успешнее проводить различного рода дипломатические встречи."
+
+  leader_trait_principled_hive: "Эмиссия"
+  leader_trait_principled_machine: "Резевирование"
+
+  leader_trait_assembler_hive: "Опека"
+
+  leader_trait_geologist_hive: "Геология"
+
+  leader_trait_naturalist_hive: "Гармония"
+
+  leader_trait_polluter_hive: "Загрязнение"
+  leader_trait_polluter_hive_desc: "[owner.GetIndividualName::Этот|||fem:Эта] [owner.GetIndividualName&nom] игнорирует накапливающиеся побочные продукты промышленности, которую курирует, что приводит к  неконтролируемому загрязнению."
+
+  leader_trait_sadistic_hive: "Извращённость"
+  leader_trait_sadistic_hive_desc: "[owner.GetIndividualName::Этот|||fem:Эта] [owner.GetIndividualName&nom] физически [owner.GetIndividualName::неспособен|||fem:неспособна] получать удовлетворение иначе как через стимуляцию болевых рецепторов."
+  leader_trait_sadistic_machine: "Глючность"
+  leader_trait_sadistic_machine_desc: "Этот модуль обладает зависимостью от частой стимуляции датчиков повреждений."
+  # Original was "Masochistic Machinery". You don't need to be a psychologist to know the difference between Sadism and Masochism.
+
+  leader_trait_irenic_machine: "Иренизм"
+
+  leader_trait_cautious_hive: "Осторожность"
+  leader_trait_cautious_machine: "Бдительность"
+
+  leader_trait_watchdog_hive: "Фагоцит"
+
+  leader_trait_unyielding_hive: "Упорство"
+  leader_trait_unyielding_hive_desc: "[owner.GetIndividualName::Этот|||fem:Эта] [owner.GetIndividualName&nom] попросту не [owner.GetIndividualName::способен|||fem:способна] капитулировать."
+  leader_trait_unyielding_machine: "Стойкость"
+
+  leader_trait_overseer_hive: "Надсмотр"
+  leader_trait_overseer_machine: "Алдминистрирование"
+
+  leader_trait_uninspiring_hive: "Жестокость"
+  leader_trait_uninspiring_machine: "Бесчувственность"
+
+
+  # All
+  leader_trait_adaptable: "Адаптивность"
+  leader_trait_stubborn: "Упрямость"
+  leader_trait_resilient: "Гибкость"
+  leader_trait_eager: "Многогранность"
+  leader_trait_arrested_development: "Выгорание"
+  # Admiral
+  leader_trait_nervous: "Нервозность"
+  leader_trait_aggressive: "Агрессивность"
+  leader_trait_cautious: "Осторожность"
+
+  leader_trait_profligate: "Расточительность"
+  leader_trait_slippery: "Предусмотрительность"
+  leader_trait_opinionated: "Категоричность"
+  leader_trait_reckless: "Опрометчивость"
+  leader_trait_hardy: "Суровость"
+
+
+  # Scientist
+  leader_trait_meticulous: "Педантичность"
+  leader_trait_carefree: "Интуитивность"
+  leader_trait_paranoid: "Паранойя"
+  leader_trait_maniacal: "Мания"
+
+  leader_trait_cultural_focus: "Меценатство"
+
+  leader_trait_erudite: "Эрудированность"
+
+  leader_trait_slipshod: "Безответственность"
+
+  leader_trait_restrained: "Забота"
+  leader_trait_destructive: "Безалаберность"
+  leader_trait_destructive_desc: "Этот лидер пренебрегает техническим обслуживанием, а потому техника под его руководством постоянно нуждается в ремонте для поддержания элементарной работоспособности."
+

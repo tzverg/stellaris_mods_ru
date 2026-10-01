@@ -1,0 +1,43 @@
+﻿l_russian:
+
+  leader_trait_nltr_i_dont_want_a_destiny_trait: "Ветеран"
+  leader_trait_nltr_i_dont_want_a_destiny_trait_desc: ""
+  nltr_i_dont_want_a_destiny_trait_effect: "§HВлияние на выбранный признак:§!\n- Этот лидер немедленно получает случайные черты характера в количестве от 2 до 4 штук.\n- После чего эта черта может быть удалена. ($leader_trait_nltr_i_dont_want_a_destiny_trait$)"
+
+  mod_trait_spark_of_genius_counter: "Ученые с чертой «$leader_trait_spark_of_genius$»"
+  mod_trait_maniacal_counter: "Ученые с чертой «$leader_trait_maniacal$»"
+  mod_trait_military_pioneer_counter: "Командиры с чертой «$trait_ruler_military_pioneer$»"
+  mod_trait_logistic_understanding_counter: "Командиры с чертой «$trait_ruler_logistic_understanding$»"
+  mod_trait_armada_logistician_counter: "Командиры с чертой «$leader_trait_armada_logistician$»"
+  mod_trait_great_researcher_counter: "Ученые с чертой «$leader_trait_great_researcher$»"
+
+  leader_trait_council_stacking_effect: "\n§YЭта особенность снижает затраты по всей империи, но теряет эффективность при наложении.§!"
+
+  leader_job_resource_trait_swap_effect: "\n§YХотя этот лидер и не управляет планетой напрямую, он предоставляет множество рабочих мест на своей родной планете.§!"
+  leader_job_resource_trait_swap_effect_alt: "\n§YПри управлении целевой планетой, его команда будет привлечена в качестве местной администрации.§!"
+
+  mod_shipclass_colonizer_build_speed_mult: "Скорость строительства колониального корабля"
+
+  mod_building_speed_per_psionic_pop: "$mod_planet_building_build_speed_mult$ за £pop£ псионических поселений в £empire£ столице сектора"
+  mod_decision_speed_per_psionic_pop: "$mod_planet_decision_enact_speed_mult$ за £pop£ псионических поселений в £empire£ столице сектора"
+
+  leader_trait_prospector_4_effect: "$leader_trait_prospector_base_effect$ §G+67%§!"
+  leader_trait_prospector_5_effect: "$leader_trait_prospector_base_effect$ §G+80%§!"
+
+  leader_trait_academic_minor_artifacts_expert_4_tt: "$leader_trait_academic_minor_artifacts_expert_tt_intro$ §G+$@minor_artifacts_expert_amt_4|0$%§!"
+  leader_trait_academic_minor_artifacts_expert_5_tt: "$leader_trait_academic_minor_artifacts_expert_tt_intro$ §G+$@minor_artifacts_expert_amt_5|0$%§!"
+
+  leader_trait_salvager_effect_4: "$SYSTEM_EFFECTS_TXT$:\n$t$При утилизации/исследовании обломков внутри системы:\n$tt$Шанс на спасение судна: §Y40%§!\n$tt$$salvage_ship_restrictions$"
+  leader_trait_salvager_effect_5: "$SYSTEM_EFFECTS_TXT$:\n$t$При утилизации/исследовании обломков внутри системы:\n$tt$Шанс на спасение судна: §Y50%§!\n$tt$$salvage_ship_restrictions$"
+
+  leader_trait_corsair_5_effect: "$t$$EVERY_ENEMY_SHIP_DESTROYED_TXT$:\n$tt$$r_energy$: §G+$@trait_corsair_5_amt$§!"
+  leader_trait_shipbreaker_5_effect: "$FLEET_EFFECTS_TXT$:\n$t$Все вражеские корабли уничтожены:\n$tt$$r_alloys$: §G+$@trait_shipbreaker_5_amt$§!"
+  leader_trait_juryrigger_5_effect: "$t$Все корабли вражеской империи уничтожены:\n$tt$Случайное судно £military_ship£ §Yфлотилии§! восстанавливает §G+33%§! £ship_stats_hitpoints£ корпуса"
+
+  leader_trait_interrogator_4_effect: "$ARMY_EFFECTS_TXT$:\n$t$При победе в наземном бою в роли атакующей стороны:\n$tt$ $INTEL$ о вражеской империи: §G+40§!"
+  leader_trait_interrogator_5_effect: "$ARMY_EFFECTS_TXT$:\n$t$При победе в наземном бою в роли атакующей стороны:\n$tt$ $INTEL$ о вражеской империи: §G+50§!"
+
+  leader_trait_ambassador_favor_maker_4_effect: "$EMPIRE_EFFECTS_TXT$$TABBED_NEW_LINE$Послы, занятые §Yулучшением отношений§! имеют ежемесячный шанс в §G1.5%§! получить §YБлагосклонность§! в награду за свои услуги"
+  leader_trait_ambassador_favor_maker_5_effect: "$EMPIRE_EFFECTS_TXT$$TABBED_NEW_LINE$Послы, занятые §Yулучшением отношений§! имеют ежемесячный шанс в §G2%§! получить §YБлагосклонность§! в награду за свои услуги"
+
+  mod_trait_bellicose_counter: "Губернаторы с чертой «$leader_trait_bellicose$»"
