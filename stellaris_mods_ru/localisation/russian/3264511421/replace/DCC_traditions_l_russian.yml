@@ -1,0 +1,7 @@
+﻿l_english:
+
+ #######################################
+ # Dux' Crisis Custodian
+ #######################################
+ 
+ ap_defender_of_the_galaxy_modifier_desc: "Урон фракциям кризиса в конце игры: §G+50%§!\n\n$ap_defender_of_the_galaxy_effect_opinion$" # Удалена фраза о том, что это не может быть кризисом.
